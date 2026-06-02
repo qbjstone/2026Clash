@@ -27,749 +27,25 @@ dns:
     - 172.16.0.0/12
     - 192.168.0.0/16
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 🇮🇹 IT 001 | ⚡ 176.00ms
-  port: 22324
-  server: 45.92.70.236
-  type: vmess
-  udp: true
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- alterId: 0
-  cipher: auto
-  name: 🇯🇵 JP 001 | ⚡ 253.00ms
-  port: 49803
-  server: 153.121.73.175
-  type: vmess
-  udp: true
-  uuid: cd3dacbc-2b7b-4718-83ad-ab870f87e12e
-- alterId: 0
-  cipher: auto
-  name: 🇯🇵 JP 002 | ⚡ 253.00ms
-  port: 22324
-  server: 172.104.80.66
-  type: vmess
-  udp: true
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- alterId: 0
-  cipher: auto
-  name: 🇯🇵 JP 003 | ⚡ 256.00ms
-  port: 32221
-  server: 153.121.73.175
-  type: vmess
-  udp: true
-  uuid: b06054ae-f249-438e-998a-8e67bd8df653
-- alterId: 0
-  cipher: auto
-  name: 🇮🇳 IN 001 | ⚡ 322.00ms
-  port: 22324
-  server: 172.232.103.186
-  type: vmess
-  udp: true
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- alterId: 0
-  cipher: auto
-  name: 🇬🇧 GB 001 | ⚡ 124.00ms
-  port: 22324
-  server: 66.163.117.58
-  type: vmess
-  udp: true
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- name: 🇫🇷 FR 001 | ⚡ 148.00ms
-  network: tcp
-  port: 8443
-  server: cdg-1.fromblancwithlove.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 55f7d143-a594-4a91-b030-f227039f85ef
-- name: 🇯🇵 JP 001 | ⚡ 296.00ms
-  password: E_hUHrn0+6VeZO=v9=fLgoPDXZWGfcrejg
-  port: 443
-  server: 172.238.19.11
-  type: trojan
-- name: 🇭🇰 HK 001 | ⚡ 116.00ms
-  network: tcp
-  port: 22761
-  server: 103.143.238.196
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 1e1a6b3b-14b2-4ae4-9aa9-880ba5dff6fa
-- name: 🇬🇧 GB 001 | ⚡ 162.00ms
-  network: tcp
-  port: 8443
-  server: uk1.fromblancwithlove.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 HK 002 | ⚡ 372.00ms
-  port: 22324
-  server: 213.156.141.52
-  type: vmess
-  udp: true
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 HK 003 | ⚡ 384.00ms
-  port: 2510
-  server: world.t.51guangtaobao.com
-  type: vmess
-  udp: true
-  uuid: 1d3d868e-ae7b-3762-b9d9-a7f267494c7e
-- alterId: 2
-  cipher: auto
-  name: 🇲🇾 MY 001 | ⚡ 1262.00ms
-  port: 30808
-  server: v8.hdacd.com
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 2
-  cipher: auto
-  name: 🇭🇰 HK 004 | ⚡ 1668.00ms
-  port: 30807
-  server: v10.hdacd.com
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - cipher: aes-128-gcm
-  name: 🇺🇸 US 001 | ⚡ 2044.00ms
-  password: JVrsLLN1tkN8oXZO
-  port: 13223
-  server: chengbai02.ascwt179.com
-  type: ss
-- alterId: 2
-  cipher: auto
-  name: 🇮🇩 ID 001 | ⚡ 2076.00ms
-  port: 30804
-  server: v4.hdacd.com
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 2
-  cipher: auto
-  name: 🇲🇾 MY 002 | ⚡ 2217.00ms
-  port: 30836
-  server: v36.hdacd.com
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 2
-  cipher: auto
-  name: 🇲🇾 MY 003 | ⚡ 3411.00ms
-  port: 30845
-  server: v45.hdacd.com
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  cipher: auto
-  name: 🇲🇾 MY 001 | ⚡ 303.00ms
-  port: 10000
-  server: 47.250.135.244
-  type: vmess
-  udp: true
-  uuid: aedc66b8-99d7-4a21-8310-61870e7f870d
-- alterId: 2
-  cipher: auto
-  name: 🇮🇩 ID 001 | ⚡ 586.00ms
-  port: 30835
-  server: v35.hdacd.com
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 2
-  cipher: auto
-  name: 🇮🇩 ID 002 | ⚡ 1366.00ms
-  port: 30829
-  server: v29.hdacd.com
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 2
-  cipher: auto
-  name: 🇲🇾 MY 002 | ⚡ 1728.00ms
-  port: 30824
-  server: v24.hdacd.com
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 2
-  cipher: auto
-  name: 🇮🇩 ID 003 | ⚡ 2386.00ms
-  port: 30833
-  server: v33.hdacd.com
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 2
-  cipher: auto
-  name: 🇮🇩 ID 004 | ⚡ 2581.00ms
-  port: 30809
-  server: v9.hdacd.com
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: aes-128-gcm
-  name: 🇺🇸 US 001 | ⚡ 33.00ms
+  name: 🇺🇸 US 001 | ⬇️ 143.29MB/s
   password: shadowsocks
   port: 443
-  server: 37.19.198.236
+  server: 156.146.38.169
   type: ss
 - cipher: aes-128-gcm
-  name: 🇺🇸 US 002 | ⚡ 33.00ms
+  name: 🇺🇸 US 002 | ⬇️ 134.55MB/s
   password: shadowsocks
   port: 443
-  server: 37.19.198.244
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 US 003 | ⚡ 61.00ms
-  password: GyZ5Xo0ht41vYmW3H4
-  port: 816
-  server: 149.28.255.6
-  type: ss
-- cipher: aes-256-cfb
-  name: 🇨🇦 CA 001 | ⚡ 66.00ms
-  password: amazonskr05
-  port: 443
-  server: 35.182.57.53
-  type: ss
-- cipher: rc4-md5
-  name: 🇨🇦 CA 002 | ⚡ 75.00ms
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 137.184.174.93
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 US 004 | ⚡ 109.00ms
-  password: G5p6ww4o67HB
-  port: 8388
-  server: 108.181.118.10
+  server: 156.146.38.167
   type: ss
 - cipher: aes-128-gcm
-  name: 🇨🇦 CA 003 | ⚡ 111.00ms
-  password: shadowsocks
-  port: 443
-  server: 149.22.95.183
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 US 005 | ⚡ 116.00ms
-  password: hCCWOcIsK5wrFz4OX70rWf
-  port: 443
-  server: 216.105.168.18
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 US 006 | ⚡ 118.00ms
-  password: G5p6ww4o67HB
-  port: 8388
-  server: 108.181.0.177
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇬🇧 GB 001 | ⚡ 119.00ms
-  password: 1kVr0KATIJI7mwOF
-  port: 443
-  server: admin.c1.havij.co
-  type: ss
-- cipher: rc4-md5
-  name: 🇬🇧 GB 002 | ⚡ 120.00ms
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 146.70.61.37
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇬🇧 GB 003 | ⚡ 123.00ms
-  password: W74XFALLLuw6m5IA
-  port: 443
-  server: series-a1.samanehha.co
-  type: ss
-- name: 🇺🇸 US 007 | ⚡ 126.00ms
-  password: bX_lNHWoW6ywq82mI=KUr+8i__VSp0Hs_E
-  port: 443
-  server: 172.235.63.252
-  skip-cert-verify: false
-  sni: 172.235.63.252
-  type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 001 | ⚡ 128.00ms
-  password: CJmTCCx7Ltud
-  port: 8388
-  server: 108.181.58.239
-  type: ss
-- cipher: aes-128-gcm
-  name: 🇬🇧 GB 004 | ⚡ 130.00ms
-  password: shadowsocks
-  port: 443
-  server: 141.98.101.182
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 002 | ⚡ 132.00ms
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.179
-  type: ss
-- cipher: aes-128-gcm
-  name: 🇬🇧 GB 005 | ⚡ 133.00ms
-  password: shadowsocks
-  port: 443
-  server: 141.98.101.178
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 003 | ⚡ 133.00ms
-  password: FDeCHSu4lt8qflCS5zDOy8
-  port: 49137
-  server: 195.93.253.245
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 004 | ⚡ 134.00ms
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 193.29.139.235
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇬🇧 GB 006 | ⚡ 135.00ms
-  password: RexnBgU7EV5ADxG
-  port: 7001
-  server: 94.156.250.148
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 005 | ⚡ 135.00ms
-  password: 1RWwXhwfAB5gAEozU4G2Pg
-  port: 8080
-  server: 193.29.139.143
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 006 | ⚡ 137.00ms
-  password: QCXDxuDlTTMD7jtgHUjIoj
-  port: 8080
-  server: 193.29.139.233
-  type: ss
-- cipher: aes-128-gcm
-  name: 🇬🇧 GB 007 | ⚡ 137.00ms
-  password: shadowsocks
-  port: 443
-  server: 141.98.101.179
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 007 | ⚡ 138.00ms
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 82.38.31.35
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 008 | ⚡ 139.00ms
-  password: QCXDxuDlTTMD7jtgHUjIoj
-  port: 8080
-  server: 193.29.139.189
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇩🇪 DE 001 | ⚡ 139.00ms
-  password: RexnBgU7EV5ADxG
-  port: 7001
-  server: 213.202.208.199
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 009 | ⚡ 139.00ms
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.214
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 010 | ⚡ 139.00ms
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.187
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 011 | ⚡ 140.00ms
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.184
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇬🇧 GB 008 | ⚡ 142.00ms
-  password: W74XFALLLuw6m5IA
-  port: 443
-  server: series-a2.samanehha.co
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 012 | ⚡ 142.00ms
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.202
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇬🇧 GB 009 | ⚡ 143.00ms
-  password: W74XFALLLuw6m5IA
-  port: 443
-  server: admin.c1.webramz.co
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 013 | ⚡ 143.00ms
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.210
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 014 | ⚡ 143.00ms
-  password: cvII85TrW6n0OGyfpHVS1u
-  port: 8080
-  server: 193.29.139.179
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 015 | ⚡ 143.00ms
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.217
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 016 | ⚡ 144.00ms
-  password: QCXDxuDlTTMD7jtgHUjIoj
-  port: 8080
-  server: 193.29.139.217
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 017 | ⚡ 144.00ms
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.218
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 018 | ⚡ 145.00ms
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.194
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 019 | ⚡ 145.00ms
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 193.29.139.151
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 020 | ⚡ 146.00ms
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.199
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 021 | ⚡ 147.00ms
-  password: QCXDxuDlTTMD7jtgHUjIoj
-  port: 8080
-  server: 193.29.139.199
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 022 | ⚡ 147.00ms
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.186
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 023 | ⚡ 148.00ms
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 193.29.139.204
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 024 | ⚡ 149.00ms
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.190
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 025 | ⚡ 150.00ms
-  password: 4a2rfixophdjffa8KVA4Aa
-  port: 8080
-  server: 193.29.139.206
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 026 | ⚡ 151.00ms
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 82.38.31.155
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇫🇷 FR 001 | ⚡ 152.00ms
-  password: FjG3IPbny+0ZYU4/p1vULP84GcKpGoZpWKAay16VhIw=
-  port: 2083
-  server: 51.254.128.106
-  type: ss
-- cipher: aes-128-gcm
-  name: 🇬🇧 GB 010 | ⚡ 153.00ms
-  password: shadowsocks
-  port: 443
-  server: 141.98.101.181
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 027 | ⚡ 153.00ms
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.191
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 028 | ⚡ 160.00ms
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.176
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇩🇪 DE 002 | ⚡ 160.00ms
-  password: PWpjPo3tqhPN4yRZ
-  port: 20001
-  server: 8.209.74.72
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 029 | ⚡ 161.00ms
-  password: cvII85TrW6n0OGyfpHVS1u
-  port: 8080
-  server: 193.29.139.157
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇫🇮 FI 001 | ⚡ 161.00ms
-  password: yKVMoB3AwiTEznpnoq2FYR
-  port: 28687
-  server: 193.47.60.186
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 030 | ⚡ 165.00ms
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.205
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 031 | ⚡ 170.00ms
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.208
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 US 008 | ⚡ 170.00ms
-  password: 4e287631dc4fc8fc
-  port: 12012
-  server: 62.146.231.112
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇫🇮 FI 002 | ⚡ 171.00ms
-  password: bZ87amPpdG7KuWM62bKtm1KHoowuVjnV8CKtq653ymHcg2dPYcPJfnaQ61stuAjr2ZiLDaqH56XpkxEYuwDzzRrMWieebWGt
-  port: 55988
-  server: 185.5.38.111
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇩🇪 DE 003 | ⚡ 172.00ms
-  password: 1hhrqrokj3ag
-  port: 8388
-  server: 209.46.102.22
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇴 NO 001 | ⚡ 173.00ms
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-  port: 990
-  server: 185.213.23.63
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇨🇳 TW 001 | ⚡ 198.00ms
-  password: mzeMYBJYp4Bo7nA1qYLvv7QG73igtAA85nt4pr8A9ntx2qhDfYgRtiJ7iH7VrcneQKNmtvpbsvvFKPaUATYELi18iH56Ttr4
-  port: 56594
-  server: download.riferoser.icu
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 032 | ⚡ 204.00ms
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.189
-  type: ss
-- cipher: aes-128-gcm
-  name: 🇺🇸 US 009 | ⚡ 215.00ms
-  password: shadowsocks
-  port: 443
-  server: 173.244.56.6
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 US 010 | ⚡ 247.00ms
-  password: QTmLViU4VEmuwbOxUw4IXd
-  port: 59556
-  server: 107.172.250.161
-  type: ss
-- cipher: aes-128-gcm
-  name: 🇯🇵 JP 001 | ⚡ 250.00ms
-  password: shadowsocks
-  port: 443
-  server: 149.22.87.241
-  type: ss
-- cipher: aes-128-gcm
-  name: 🇯🇵 JP 002 | ⚡ 259.00ms
-  password: shadowsocks
-  port: 443
-  server: 149.22.87.204
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇧🇬 BG 001 | ⚡ 264.00ms
-  password: zDLmeWRsfcFdKT1Tpy02xodEToqCldTxvZcRoPIZZtBdnIEL
-  port: 31348
-  server: 89.44.197.181
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇫🇮 FI 003 | ⚡ 269.00ms
-  password: v2LIewZzNUsIrqODr22FVc
-  port: 34898
-  server: 195.133.2.2
-  type: ss
-- cipher: aes-128-gcm
-  name: 🇯🇵 JP 003 | ⚡ 271.00ms
-  password: shadowsocks
-  port: 443
-  server: 149.22.87.240
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇨🇳 TW 002 | ⚡ 280.00ms
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  port: 50099
-  server: nbmrcg0034686rw.cybervena.com
-  type: ss
-- cipher: aes-256-cfb
-  name: 🇳🇱 NL 033 | ⚡ 294.00ms
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 51.15.23.63
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇯🇵 JP 004 | ⚡ 328.00ms
-  password: XKFKl2rULjIp74
-  port: 8009
-  server: 103.106.228.175
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇨🇳 TW 003 | ⚡ 330.00ms
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  port: 50099
-  server: r3mrcg001286ek2.cybervena.com
-  type: ss
-- cipher: aes-256-cfb
-  name: 🇰🇷 KR 001 | ⚡ 372.00ms
-  password: qwerREWQ@@
-  port: 4652
-  server: 218.237.185.230
-  type: ss
-- cipher: aes-256-cfb
-  name: 🇰🇷 KR 002 | ⚡ 384.00ms
-  password: qwerREWQ@@
-  port: 13979
-  server: 221.139.79.57
-  type: ss
-- cipher: aes-256-cfb
-  name: 🇰🇷 KR 003 | ⚡ 407.00ms
-  password: qwerREWQ@@
-  port: 4652
-  server: p141.panda001.net
-  type: ss
-- cipher: aes-256-cfb
-  name: 🇰🇷 KR 004 | ⚡ 421.00ms
-  password: qwerREWQ@@
-  port: 6123
-  server: 211.178.105.134
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇵🇭 PH 001 | ⚡ 473.00ms
-  password: Ll6cYfXM5DzQbdtMMb72A_jqVnNljU3yqe
-  port: 21273
-  server: 149.104.109.74
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇿🇦 ZA 001 | ⚡ 522.00ms
-  password: aduB9HGxQHjA2SBMRjkHX6
-  port: 443
-  server: 102.37.156.224
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇿🇦 ZA 002 | ⚡ 532.00ms
-  password: Xsy8Ox4yOV3xLlpxtjzs3X
-  port: 16233
-  server: 102.133.165.160
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇰🇷 KR 005 | ⚡ 672.00ms
-  password: RexnBgU7EV5ADxG
-  port: 7001
-  server: 141.164.45.187
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇸🇬 SG 001 | ⚡ 686.00ms
-  password: eLPlIVuRZ6UJyapVDeT++l7fYC0uowXJFlb9qhntAd4=
-  port: 37425
-  server: 154.18.239.126
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 🇰🇷 KR 006 | ⚡ 686.00ms
-  network: ws
-  port: 443
-  server: 152.67.218.38
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: b5e9480a-b7aa-40a4-f9a7-5299b5e363b4
-  ws-opts:
-    path: /
-- cipher: aes-256-gcm
-  name: 🇰🇷 KR 007 | ⚡ 775.00ms
-  password: TEzjfAYq2IjtuoS
-  port: 6679
-  server: 141.164.45.187
-  type: ss
-- cipher: aes-256-cfb
-  name: 🇭🇰 HK 001 | ⚡ 1606.00ms
-  password: qwerREWQ@@
-  port: 41632
-  server: 112.213.102.188
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇦🇹 AT 001 | ⚡ 2319.00ms
-  password: KixLvKzwjekG00rm
-  port: 8080
-  server: 38.180.197.41
-  type: ss
-- name: 🇨🇦 CA 001 | ⚡ 28.00ms
-  network: ws
-  password: cf3d48cf-750c-4f18-89a7-f81d2e153fbe
-  port: '443'
-  server: 188.114.97.6
-  skip-cert-verify: false
-  sni: blog.webex.com.cyylr.eu.cc
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/59.0.3071.115 Safari/537.36
-    path: /in-do
-- cipher: aes-128-gcm
-  name: 🇺🇸 US 001 | ⚡ 32.00ms
-  password: shadowsocks
-  port: 443
-  server: 37.19.198.243
-  type: ss
-- cipher: aes-128-gcm
-  name: 🇺🇸 US 002 | ⚡ 33.00ms
-  password: shadowsocks
-  port: 443
-  server: 37.19.198.160
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇯🇵 JP 001 | ⚡ 43.00ms
-  password: hbGrpfvNrJsUmKmPbR3iY2
-  port: 443
-  server: tinkered-pennies-puppies.freesocks.work
-  type: ss
-- cipher: aes-128-gcm
-  name: 🇺🇸 US 003 | ⚡ 65.00ms
+  name: 🇺🇸 US 003 | ⬇️ 129.81MB/s
   password: shadowsocks
   port: 443
   server: 156.146.38.170
   type: ss
-- name: 🇨🇦 CA 002 | ⚡ 85.00ms
+- name: 🇨🇦 CA 001 | ⬇️ 125.81MB/s
   network: ws
   password: cf3d48cf-750c-4f18-89a7-f81d2e153fbe
   port: '443'
@@ -784,191 +60,34 @@ proxies:
         like Gecko) Chrome/65.0.3325.181 Safari/537.36
     path: /in-do
 - cipher: aes-128-gcm
-  name: 🇺🇸 US 004 | ⚡ 86.00ms
+  name: 🇺🇸 US 004 | ⬇️ 84.49MB/s
   password: shadowsocks
   port: 443
-  server: 156.146.38.168
+  server: 37.19.198.236
+  type: ss
+- cipher: rc4-md5
+  name: 🇨🇦 CA 002 | ⬇️ 79.54MB/s
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 137.184.174.93
   type: ss
 - cipher: aes-128-gcm
-  name: 🇺🇸 US 005 | ⚡ 95.00ms
+  name: 🇺🇸 US 005 | ⬇️ 79.38MB/s
   password: shadowsocks
   port: 443
-  server: 156.146.38.167
-  type: ss
-- cipher: aes-128-gcm
-  name: 🇺🇸 US 006 | ⚡ 110.00ms
-  password: shadowsocks
-  port: 443
-  server: 156.146.38.169
-  type: ss
-- alterId: '0'
-  cipher: auto
-  name: 🇺🇸 US 007 | ⚡ 115.00ms
-  network: tcp
-  port: '180'
-  server: 82.198.246.37
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  xudp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 001 | ⚡ 119.00ms
-  password: CJmTCCx7Ltud
-  port: 8388
-  server: 108.181.126.122
-  type: ss
-- cipher: aes-128-cfb
-  name: 🇳🇱 NL 002 | ⚡ 120.00ms
-  password: shadowsocks
-  port: 443
-  server: 109.201.152.181
+  server: 37.19.198.160
   type: ss
 - alterId: 0
   cipher: auto
-  name: 🇺🇸 US 008 | ⚡ 123.00ms
-  network: tcp
-  port: '180'
-  server: 82.198.246.233
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 US 009 | ⚡ 134.00ms
+  name: 🇺🇸 US 006 | ⬇️ 75.85MB/s
   port: 20001
   server: vpnicp.xyc.hk.cn
   type: vmess
   udp: true
   uuid: 7f5f0705-3dfb-4f56-9657-c95cade2ba83
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 003 | ⚡ 141.00ms
-  password: 4a2rfixophdjffa8KVA4Aa
-  port: 8080
-  server: 193.29.139.157
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 004 | ⚡ 147.00ms
-  password: QCXDxuDlTTMD7jtgHUjIoj
-  port: 8080
-  server: 193.29.139.227
-  type: ss
 - alterId: 0
   cipher: auto
-  name: 🇺🇸 US 010 | ⚡ 150.00ms
-  network: tcp
-  port: '180'
-  server: 82.198.246.250
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 005 | ⚡ 152.00ms
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 82.38.31.149
-  type: ss
-- name: 🇺🇸 US 011 | ⚡ 164.00ms
-  network: tcp
-  port: 443
-  server: proxy.wastech.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 7131f38f-9a4a-4e38-ae1d-aa9e132265ea
-- cipher: aes-128-gcm
-  name: 🇺🇸 US 012 | ⚡ 166.00ms
-  password: shadowsocks
-  port: 443
-  server: 173.244.56.9
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇫🇮 FI 001 | ⚡ 177.00ms
-  password: MZeSTvpl2uoey1R0frhPyJ
-  port: 51544
-  server: 109.107.182.229
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 US 013 | ⚡ 195.00ms
-  password: gqkUCvmeOTghYJXF1YIuk5
-  port: 443
-  server: 71.19.148.74
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇨🇳 TW 001 | ⚡ 287.00ms
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  port: '50099'
-  server: 36.230.8.15
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇸🇬 SG 001 | ⚡ 312.00ms
-  password: vJ4LrBqkqCYgGMO08YmmsMjQ3ZMtJ7Ey6Sxfpe
-  port: 41348
-  server: 5.34.177.228
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 US 014 | ⚡ 320.00ms
-  password: XUMTygEM1jVYIvysXKqA5T
-  port: 443
-  server: hackney-latest-strike.freesocks.work
-  type: ss
-- name: 🇭🇰 HK 001 | ⚡ 612.00ms
-  network: tcp
-  password: BxceQaOe
-  port: '2520'
-  server: 95.40.4.37
-  skip-cert-verify: true
-  sni: 95.40.4.37
-  type: trojan
-  udp: true
-- cipher: aes-256-cfb
-  name: 🇨🇳 TW 002 | ⚡ 1417.00ms
-  password: qwerREWQ@@
-  port: 41632
-  server: 185.189.160.105
-  type: ss
-- alterId: 2
-  cipher: auto
-  name: 🇭🇰 HK 002 | ⚡ 2350.00ms
-  network: tcp
-  port: '30807'
-  server: v10.hdacd.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 US 015 | ⚡ 5536.00ms
-  port: 6004
-  server: gtm-sg-cc54q7d1q01.365cloud0285.com
-  type: vmess
-  udp: true
-  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 US 001 | ⚡ 88.00ms
-  port: 180
-  server: 82.198.246.9
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 US 002 | ⚡ 89.00ms
-  port: 180
-  server: 82.198.246.97
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 US 003 | ⚡ 111.00ms
+  name: 🇺🇸 US 007 | ⬇️ 62.91MB/s
   port: 180
   server: 82.198.246.46
   type: vmess
@@ -976,250 +95,61 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: 🇺🇸 US 001 | ⚡ 4007.00ms
-  port: 6001
-  server: gtm-sg-cc54q7d1q01.365cloud0285.com
-  type: vmess
-  udp: true
-  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
-- name: 🇵🇱 PL 001 | ⚡ 245.00ms
-  password: iGccGWTMHtoXtBhGYK4mogg7iIUhGbcvCf
-  port: 443
-  server: 64.176.65.85
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 US 001 | ⚡ 92.00ms
-  port: 180
-  server: 82.198.246.250
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 US 002 | ⚡ 170.00ms
-  port: 180
-  server: 82.198.246.233
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 🇩🇪 DE 001 | ⚡ 211.00ms
-  password: VPTFm=oZ++SuNT+jMRqGZqrAnWq-r8KJyY
-  port: 443
-  server: 172.104.237.100
-  type: trojan
-- name: 🇩🇪 DE 002 | ⚡ 223.00ms
-  password: r-_YbwF.j0TtHVewoFIppramjAnmSfqYzJ
-  port: 443
-  server: 172.238.120.124
-  type: trojan
-- name: 🇩🇪 DE 003 | ⚡ 223.00ms
-  password: s_WEN9lMmufG+qDIsn-4C7JOVAnDdbS3Ui
-  port: 443
-  server: 172.236.220.10
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: 🇪🇸 ES 001 | ⚡ 237.00ms
-  port: 22324
-  server: 85.90.217.42
-  type: vmess
-  udp: true
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- name: 🇪🇬 EG 001 | ⚡ 350.00ms
-  password: J64JLZPG-rlhq2Wb-8DsmO5s66f9g7v72z
-  port: 443
-  server: 38.60.226.78
-  type: trojan
-- name: 🇦🇪 AE 001 | ⚡ 229.00ms
-  network: tcp
-  port: 443
-  server: 31.59.39.192
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 7a685dc5-f93c-4e19-8b9b-b77998feb042
-- name: 🇺🇸 US 001 | ⚡ 73.00ms
-  password: A3uIh_5NqMg3hFa.gDYWT.afz0UuJ6=VIM
-  port: 443
-  server: 172.237.145.189
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 US 002 | ⚡ 87.00ms
+  name: 🇺🇸 US 008 | ⬇️ 62.66MB/s
   port: 18000
   server: 84.17.41.2
   type: vmess
   udp: true
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 US 009 | ⬇️ 60.86MB/s
+  password: G5p6ww4o67HB
+  port: 8388
+  server: 108.181.0.177
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 🇺🇸 US 003 | ⚡ 92.00ms
-  port: 3593
-  server: 69.12.91.52
+  name: 🇺🇸 US 010 | ⬇️ 59.76MB/s
+  port: 180
+  server: 82.198.246.97
   type: vmess
   udp: true
-  uuid: 1f2d0b2b-e214-4fc1-92cc-1c230be78d7c
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 US 004 | ⚡ 93.00ms
-  port: 22324
-  server: 67.220.72.237
-  type: vmess
-  udp: true
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 US 005 | ⚡ 102.00ms
-  port: 22324
-  server: 216.106.185.141
-  type: vmess
-  udp: true
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 US 006 | ⚡ 108.00ms
-  port: 48111
-  server: 129.146.143.80
-  type: vmess
-  udp: true
-  uuid: d4603cc2-e0ee-4651-83f5-1db5b7168177
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 US 007 | ⚡ 137.00ms
-  port: 13581
-  server: 104.233.214.176
-  type: vmess
-  udp: true
-  uuid: d4d715a6-0a2e-4304-df2f-d5efd85a5a5d
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 US 008 | ⚡ 143.00ms
-  port: 18000
-  server: 169.197.142.22
-  type: vmess
-  udp: true
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 US 009 | ⚡ 188.00ms
-  port: 18000
-  server: 38.114.123.42
-  type: vmess
-  udp: true
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 US 010 | ⚡ 4304.00ms
-  port: 6003
-  server: gtm-sg-cc54q7d1q01.365cloud0285.com
-  type: vmess
-  udp: true
-  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 US 011 | ⚡ 5102.00ms
-  port: 6004
-  server: 155.254.126.249
-  type: vmess
-  udp: true
-  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬 SG 001 | ⚡ 308.00ms
-  port: 18000
-  server: 149.88.23.202
-  type: vmess
-  udp: true
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-- name: 🇷🇺 RU 001 | ⚡ 345.00ms
-  network: tcp
-  port: 8443
-  server: cdn7-39.vk-cdnvideo.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 931729a8-3c20-4841-89a1-f18dc9ce0a6f
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬 SG 002 | ⚡ 364.00ms
-  port: 18000
-  server: 149.88.23.207
-  type: vmess
-  udp: true
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-- name: 🇷🇺 RU 002 | ⚡ 609.00ms
-  network: tcp
-  port: 8443
-  server: cdn3-25.vk-cdnvideo.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 931729a8-3c20-4841-89a1-f18dc9ce0a6f
-- alterId: 0
-  cipher: auto
-  name: 🇨🇦 CA 001 | ⚡ 79.00ms
-  port: 18000
-  server: 134.195.196.211
-  type: vmess
-  udp: true
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-- alterId: 0
-  cipher: auto
-  name: 🇨🇦 CA 002 | ⚡ 81.00ms
-  port: 18000
-  server: 23.162.200.198
-  type: vmess
-  udp: true
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-- name: 🇨🇦 CA 003 | ⚡ 84.00ms
-  password: lTLVIqIvFqp+es9giS.0o77ztLrCQLaxVh
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- cipher: aes-128-gcm
+  name: 🇺🇸 US 011 | ⬇️ 57.24MB/s
+  password: shadowsocks
   port: 443
-  server: 172.105.9.126
-  type: trojan
-- alterId: 1
-  cipher: auto
-  name: 🇧🇷 BR 001 | ⚡ 220.00ms
-  port: 22324
-  server: 172.233.17.76
-  type: vmess
-  udp: true
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  server: 173.244.56.6
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 US 012 | ⬇️ 56.79MB/s
+  password: G5p6ww4o67HB
+  port: 8388
+  server: 108.181.118.10
+  type: ss
+- cipher: aes-128-gcm
+  name: 🇨🇦 CA 003 | ⬇️ 53.87MB/s
+  password: shadowsocks
+  port: 443
+  server: 149.22.95.183
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 🇺🇸 US 001 | ⚡ 92.00ms
-  port: 10086
-  server: 57.151.100.27
+  name: 🇺🇸 US 013 | ⬇️ 53.61MB/s
+  port: 180
+  server: 82.198.246.9
   type: vmess
   udp: true
-  uuid: 550e8400-e29b-41d4-a716-446655440000
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- cipher: aes-128-gcm
+  name: 🇺🇸 US 014 | ⬇️ 42.38MB/s
+  password: shadowsocks
+  port: 443
+  server: 173.244.56.9
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 🇺🇸 US 002 | ⚡ 99.00ms
-  port: 18000
-  server: 38.91.107.49
-  type: vmess
-  udp: true
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 US 003 | ⚡ 132.00ms
-  port: 18000
-  server: 67.220.95.3
-  type: vmess
-  udp: true
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-- alterId: 1
-  cipher: auto
-  name: 🇺🇸 US 004 | ⚡ 136.00ms
-  port: 22324
-  server: 216.106.183.35
-  type: vmess
-  udp: true
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 US 005 | ⚡ 139.00ms
+  name: 🇺🇸 US 015 | ⬇️ 39.86MB/s
   port: 18000
   server: 38.110.1.246
   type: vmess
@@ -1227,7 +157,15 @@ proxies:
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
 - alterId: 0
   cipher: auto
-  name: 🇺🇸 US 006 | ⚡ 141.00ms
+  name: 🇺🇸 US 016 | ⬇️ 34.84MB/s
+  port: 18000
+  server: 38.91.107.49
+  type: vmess
+  udp: true
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 US 017 | ⬇️ 31.27MB/s
   port: 18000
   server: 67.220.85.46
   type: vmess
@@ -1235,13 +173,285 @@ proxies:
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
 - alterId: 0
   cipher: auto
-  name: 🇨🇳 TW 001 | ⚡ 216.00ms
-  port: 35034
-  server: 165.154.195.38
+  name: 🇺🇸 US 018 | ⬇️ 31.06MB/s
+  network: tcp
+  port: '180'
+  server: 82.198.246.233
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 US 019 | ⬇️ 30.93MB/s
+  port: 18000
+  server: 169.197.142.22
   type: vmess
   udp: true
-  uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
-- name: 🇸🇬 SG 001 | ⚡ 282.00ms
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+- cipher: chacha20-ietf-poly1305
+  name: 🇬🇧 GB 001 | ⬇️ 29.99MB/s
+  password: 1kVr0KATIJI7mwOF
+  port: 443
+  server: admin.c1.havij.co
+  type: ss
+- cipher: rc4-md5
+  name: 🇬🇧 GB 002 | ⬇️ 29.37MB/s
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 146.70.61.37
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 US 020 | ⬇️ 28.88MB/s
+  port: 18000
+  server: 67.220.95.3
+  type: vmess
+  udp: true
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+- cipher: aes-128-cfb
+  name: 🇳🇱 NL 001 | ⬇️ 28.83MB/s
+  password: shadowsocks
+  port: 443
+  server: 109.201.152.181
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 NL 002 | ⬇️ 26.79MB/s
+  password: cvII85TrW6n0OGyfpHVS1u
+  port: 8080
+  server: 193.29.139.157
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇫🇷 FR 001 | ⬇️ 26.73MB/s
+  password: 89NQRFg7Pcybkl9FrDxqj5
+  port: '443'
+  server: 193.17.57.155
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 NL 003 | ⬇️ 26.71MB/s
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 193.29.139.204
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 NL 004 | ⬇️ 26.59MB/s
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 193.29.139.151
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 🇨🇦 CA 004 | ⬇️ 26.49MB/s
+  port: 18000
+  server: 23.162.200.198
+  type: vmess
+  udp: true
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 NL 005 | ⬇️ 26.47MB/s
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.217
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 NL 006 | ⬇️ 26.37MB/s
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.218
+  type: ss
+- name: 🇫🇷 FR 002 | ⬇️ 25.94MB/s
+  network: tcp
+  port: 8443
+  server: cdg-1.fromblancwithlove.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 55f7d143-a594-4a91-b030-f227039f85ef
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 NL 007 | ⬇️ 25.92MB/s
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.208
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 NL 008 | ⬇️ 25.83MB/s
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.149
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 US 021 | ⬇️ 24.99MB/s
+  port: 18000
+  server: 38.114.123.42
+  type: vmess
+  udp: true
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 NL 009 | ⬇️ 24.90MB/s
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.194
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 NL 010 | ⬇️ 24.80MB/s
+  password: CJmTCCx7Ltud
+  port: 8388
+  server: 108.181.58.239
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇴 NO 001 | ⬇️ 24.23MB/s
+  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+  port: 990
+  server: 185.213.23.63
+  type: ss
+- cipher: aes-128-gcm
+  name: 🇯🇵 JP 001 | ⬇️ 23.16MB/s
+  password: shadowsocks
+  port: 443
+  server: 149.22.87.241
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇬🇧 GB 003 | ⬇️ 23.02MB/s
+  password: W74XFALLLuw6m5IA
+  port: 443
+  server: series-a1.samanehha.co
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇩🇪 DE 001 | ⬇️ 22.91MB/s
+  password: PWpjPo3tqhPN4yRZ
+  port: 20001
+  server: 8.209.74.72
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇬🇧 GB 004 | ⬇️ 22.80MB/s
+  password: W74XFALLLuw6m5IA
+  port: 443
+  server: admin.c1.webramz.co
+  type: ss
+- cipher: aes-128-gcm
+  name: 🇯🇵 JP 002 | ⬇️ 22.79MB/s
+  password: shadowsocks
+  port: 443
+  server: 149.22.87.204
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 US 022 | ⬇️ 22.73MB/s
+  port: 22324
+  server: 216.106.185.141
+  type: vmess
+  udp: true
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 US 023 | ⬇️ 22.70MB/s
+  port: 22324
+  server: 67.220.72.237
+  type: vmess
+  udp: true
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 NL 011 | ⬇️ 22.08MB/s
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.191
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇯🇵 JP 003 | ⬇️ 21.97MB/s
+  password: XKFKl2rULjIp74
+  port: 8009
+  server: 103.106.228.175
+  type: ss
+- cipher: aes-128-gcm
+  name: 🇯🇵 JP 004 | ⬇️ 21.77MB/s
+  password: shadowsocks
+  port: 443
+  server: 149.22.87.240
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 🇪🇸 ES 001 | ⬇️ 21.70MB/s
+  port: 22324
+  server: 85.90.217.42
+  type: vmess
+  udp: true
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- alterId: 0
+  cipher: auto
+  name: 🇯🇵 JP 005 | ⬇️ 21.26MB/s
+  port: 22324
+  server: 172.104.80.66
+  type: vmess
+  udp: true
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- cipher: chacha20-ietf-poly1305
+  name: 🇨🇳 TW 001 | ⬇️ 20.26MB/s
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  port: 50099
+  server: r3mrcg001269pz2.cybervena.com
+  type: ss
+- name: 🇩🇪 DE 002 | ⬇️ 19.42MB/s
+  password: r-_YbwF.j0TtHVewoFIppramjAnmSfqYzJ
+  port: 443
+  server: 172.238.120.124
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬 SG 001 | ⬇️ 18.82MB/s
+  port: 18000
+  server: 149.88.23.202
+  type: vmess
+  udp: true
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+- cipher: chacha20-ietf-poly1305
+  name: 🇩🇪 DE 003 | ⬇️ 18.56MB/s
+  password: 1hhrqrokj3ag
+  port: 8388
+  server: 209.46.102.22
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇬🇧 GB 005 | ⬇️ 18.54MB/s
+  password: W74XFALLLuw6m5IA
+  port: 443
+  server: series-a2.samanehha.co
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 NL 012 | ⬇️ 17.95MB/s
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.35
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 🇮🇹 IT 001 | ⬇️ 17.90MB/s
+  port: 22324
+  server: 45.92.70.236
+  type: vmess
+  udp: true
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬 SG 002 | ⬇️ 17.78MB/s
+  port: 18000
+  server: 149.88.23.207
+  type: vmess
+  udp: true
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 US 024 | ⬇️ 17.66MB/s
+  password: QTmLViU4VEmuwbOxUw4IXd
+  port: 59556
+  server: 107.172.250.161
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 NL 013 | ⬇️ 15.97MB/s
+  password: QCXDxuDlTTMD7jtgHUjIoj
+  port: 8080
+  server: 193.29.139.233
+  type: ss
+- name: 🇸🇬 SG 003 | ⬇️ 15.75MB/s
   network: tcp
   port: 22539
   server: 159.89.194.243
@@ -1249,392 +459,572 @@ proxies:
   tls: true
   type: vless
   uuid: d6d7e024-0a49-483d-bcd7-048c4d30eca6
+- name: 🇷🇺 RU 001 | ⬇️ 15.69MB/s
+  network: tcp
+  port: 8443
+  server: cdn7-39.vk-cdnvideo.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 931729a8-3c20-4841-89a1-f18dc9ce0a6f
+- name: 🇬🇧 GB 006 | ⬇️ 15.15MB/s
+  network: tcp
+  port: 8443
+  server: uk1.fromblancwithlove.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+- cipher: aes-128-gcm
+  name: 🇬🇧 GB 007 | ⬇️ 14.90MB/s
+  password: shadowsocks
+  port: 443
+  server: 141.98.101.182
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇬🇧 GB 008 | ⬇️ 14.46MB/s
+  password: RexnBgU7EV5ADxG
+  port: 7001
+  server: 94.156.250.148
+  type: ss
+- cipher: aes-128-gcm
+  name: 🇬🇧 GB 009 | ⬇️ 14.20MB/s
+  password: shadowsocks
+  port: 443
+  server: 141.98.101.181
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 🇹🇷 TR 001 | ⚡ 288.00ms
+  name: 🇺🇸 US 025 | ⬇️ 14.00MB/s
+  port: 13581
+  server: 104.233.214.176
+  type: vmess
+  udp: true
+  uuid: d4d715a6-0a2e-4304-df2f-d5efd85a5a5d
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰 HK 001 | ⬇️ 13.74MB/s
   port: 22324
-  server: 5.188.190.252
+  server: 213.156.141.52
   type: vmess
   udp: true
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- alterId: 2
+- name: 🇭🇰 HK 002 | ⬇️ 13.07MB/s
+  network: tcp
+  password: BxceQaOe
+  port: '2520'
+  server: 95.40.4.37
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇸🇬 SG 004 | ⬇️ 12.79MB/s
+  password: vJ4LrBqkqCYgGMO08YmmsMjQ3ZMtJ7Ey6Sxfpe
+  port: 41348
+  server: 5.34.177.228
+  type: ss
+  udp: true
+- alterId: 0
   cipher: auto
-  name: 🇨🇳 TW 002 | ⚡ 1625.00ms
-  port: 30811
-  server: v11.zgtfqs.click
+  name: 🇮🇳 IN 001 | ⬇️ 12.66MB/s
+  port: 22324
+  server: 172.232.103.186
   type: vmess
   udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- cipher: aes-128-gcm
+  name: 🇬🇧 GB 010 | ⬇️ 12.58MB/s
+  password: shadowsocks
+  port: 443
+  server: 141.98.101.178
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 US 026 | ⬇️ 12.07MB/s
+  port: 180
+  server: 82.198.246.250
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 US 027 | ⬇️ 11.26MB/s
+  password: 4e287631dc4fc8fc
+  port: 12012
+  server: 62.146.231.112
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 🇨🇦 CA 005 | ⬇️ 9.17MB/s
+  port: 18000
+  server: 134.195.196.211
+  type: vmess
+  udp: true
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+- alterId: 0
+  cipher: auto
+  name: 🇬🇧 GB 011 | ⬇️ 8.94MB/s
+  port: 22324
+  server: 66.163.117.58
+  type: vmess
+  udp: true
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- alterId: 0
+  cipher: auto
+  name: 🇯🇵 JP 006 | ⬇️ 8.54MB/s
+  port: 32221
+  server: 153.121.73.175
+  type: vmess
+  udp: true
+  uuid: b06054ae-f249-438e-998a-8e67bd8df653
+- name: 🇺🇸 US 028 | ⬇️ 7.88MB/s
+  password: bX_lNHWoW6ywq82mI=KUr+8i__VSp0Hs_E
+  port: 443
+  server: 172.235.63.252
+  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 🇵🇭 PH 001 | ⬇️ 6.78MB/s
+  password: Ll6cYfXM5DzQbdtMMb72A_jqVnNljU3yqe
+  port: 21273
+  server: 149.104.109.74
+  type: ss
+- cipher: aes-128-gcm
+  name: 🇬🇧 GB 012 | ⬇️ 6.27MB/s
+  password: shadowsocks
+  port: 443
+  server: 141.98.101.179
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 US 029 | ⬇️ 6.17MB/s
+  port: 48111
+  server: 129.146.143.80
+  type: vmess
+  udp: true
+  uuid: d4603cc2-e0ee-4651-83f5-1db5b7168177
+- name: 🇺🇸 US 030 | ⬇️ 5.79MB/s
+  password: A3uIh_5NqMg3hFa.gDYWT.afz0UuJ6=VIM
+  port: 443
+  server: 172.237.145.189
+  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 🇨🇳 TW 001 | ⚡ 386.00ms
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  port: 50099
+  server: nbmrcg0034686rw.cybervena.com
+  type: ss
+- name: 🇯🇵 JP 001 | ⚡ 259.00ms
+  password: E_hUHrn0+6VeZO=v9=fLgoPDXZWGfcrejg
+  port: 443
+  server: 172.238.19.11
+  type: trojan
+- cipher: aes-256-cfb
+  name: 🇳🇱 NL 024 | ⚡ 492.00ms
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 51.15.23.63
+  type: ss
+- alterId: 1
+  cipher: auto
+  name: 🇺🇸 US 031 | ⬇️ 3.61MB/s
+  port: 22324
+  server: 216.106.183.35
+  type: vmess
+  udp: true
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 NL 012 | ⚡ 168.00ms
+  password: 4a2rfixophdjffa8KVA4Aa
+  port: 8080
+  server: 193.29.139.206
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 🇨🇳 TW 002 | ⬇️ 3.09MB/s
+  port: 35034
+  server: 165.154.195.38
+  type: vmess
+  udp: true
+  uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 US 006 | ⚡ 116.00ms
+  password: hCCWOcIsK5wrFz4OX70rWf
+  port: 443
+  server: 216.105.168.18
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 🇯🇵 JP 003 | ⚡ 263.00ms
+  port: 49803
+  server: 153.121.73.175
+  type: vmess
+  udp: true
+  uuid: cd3dacbc-2b7b-4718-83ad-ab870f87e12e
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 NL 014 | ⬇️ 2.75MB/s
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.187
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇫🇷 FR 003 | ⬇️ 2.58MB/s
+  password: FjG3IPbny+0ZYU4/p1vULP84GcKpGoZpWKAay16VhIw=
+  port: 2083
+  server: 51.254.128.106
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 NL 015 | ⬇️ 1.82MB/s
+  password: cvII85TrW6n0OGyfpHVS1u
+  port: 8080
+  server: 193.29.139.179
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇭🇰 HK 003 | ⬇️ 1.73MB/s
+  password: qwerREWQ@@
+  port: 41632
+  server: 112.213.102.188
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 NL 009 | ⚡ 155.00ms
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.186
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 NL 003 | ⚡ 147.00ms
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.179
+  type: ss
+- name: 🇭🇰 HK 001 | ⚡ 60.00ms
+  network: tcp
+  port: 22761
+  server: 103.143.238.196
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 1e1a6b3b-14b2-4ae4-9aa9-880ba5dff6fa
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 NL 018 | ⚡ 286.00ms
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.190
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 NL 026 | ⚡ 551.00ms
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.184
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 NL 027 | ⚡ 562.00ms
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.199
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇰🇷 KR 001 | ⚡ 398.00ms
+  password: qwerREWQ@@
+  port: 13979
+  server: 221.139.79.57
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇰🇷 KR 003 | ⚡ 424.00ms
+  password: qwerREWQ@@
+  port: 4652
+  server: p141.panda001.net
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇨🇳 TW 002 | ⚡ 403.00ms
+  password: mzeMYBJYp4Bo7nA1qYLvv7QG73igtAA85nt4pr8A9ntx2qhDfYgRtiJ7iH7VrcneQKNmtvpbsvvFKPaUATYELi18iH56Ttr4
+  port: 56594
+  server: download.riferoser.icu
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 NL 025 | ⚡ 521.00ms
+  password: cvII85TrW6n0OGyfpHVS1u
+  port: 8080
+  server: 193.29.139.189
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇫🇮 FI 001 | ⚡ 373.00ms
+  password: bZ87amPpdG7KuWM62bKtm1KHoowuVjnV8CKtq653ymHcg2dPYcPJfnaQ61stuAjr2ZiLDaqH56XpkxEYuwDzzRrMWieebWGt
+  port: 55988
+  server: 185.5.38.111
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇰🇷 KR 004 | ⚡ 536.00ms
+  password: qwerREWQ@@
+  port: 4652
+  server: 218.237.185.230
+  type: ss
+- name: 🇵🇱 PL 001 | ⚡ 214.00ms
+  password: iGccGWTMHtoXtBhGYK4mogg7iIUhGbcvCf
+  port: 443
+  server: 64.176.65.85
+  type: trojan
+- name: 🇦🇪 AE 001 | ⚡ 196.00ms
+  network: tcp
+  port: 443
+  server: 31.59.39.192
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 7a685dc5-f93c-4e19-8b9b-b77998feb042
+- cipher: aes-256-gcm
+  name: 🇩🇪 DE 003 | ⚡ 1139.00ms
+  password: RexnBgU7EV5ADxG
+  port: 7001
+  server: 213.202.208.199
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇰🇷 KR 007 | ⚡ 746.00ms
+  password: RexnBgU7EV5ADxG
+  port: 7001
+  server: 141.164.45.187
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 NL 017 | ⚡ 261.00ms
+  password: FDeCHSu4lt8qflCS5zDOy8
+  port: 49137
+  server: 195.93.253.245
+  type: ss
 proxy-groups:
 - name: 自动选择
   type: url-test
   proxies:
-  - 🇮🇹 IT 001 | ⚡ 176.00ms
-  - 🇯🇵 JP 001 | ⚡ 253.00ms
-  - 🇯🇵 JP 002 | ⚡ 253.00ms
-  - 🇯🇵 JP 003 | ⚡ 256.00ms
-  - 🇮🇳 IN 001 | ⚡ 322.00ms
-  - 🇬🇧 GB 001 | ⚡ 124.00ms
-  - 🇫🇷 FR 001 | ⚡ 148.00ms
-  - 🇯🇵 JP 001 | ⚡ 296.00ms
-  - 🇭🇰 HK 001 | ⚡ 116.00ms
-  - 🇬🇧 GB 001 | ⚡ 162.00ms
-  - 🇭🇰 HK 002 | ⚡ 372.00ms
-  - 🇭🇰 HK 003 | ⚡ 384.00ms
-  - 🇲🇾 MY 001 | ⚡ 1262.00ms
-  - 🇭🇰 HK 004 | ⚡ 1668.00ms
-  - 🇺🇸 US 001 | ⚡ 2044.00ms
-  - 🇮🇩 ID 001 | ⚡ 2076.00ms
-  - 🇲🇾 MY 002 | ⚡ 2217.00ms
-  - 🇲🇾 MY 003 | ⚡ 3411.00ms
-  - 🇲🇾 MY 001 | ⚡ 303.00ms
-  - 🇮🇩 ID 001 | ⚡ 586.00ms
-  - 🇮🇩 ID 002 | ⚡ 1366.00ms
-  - 🇲🇾 MY 002 | ⚡ 1728.00ms
-  - 🇮🇩 ID 003 | ⚡ 2386.00ms
-  - 🇮🇩 ID 004 | ⚡ 2581.00ms
-  - 🇺🇸 US 001 | ⚡ 33.00ms
-  - 🇺🇸 US 002 | ⚡ 33.00ms
-  - 🇺🇸 US 003 | ⚡ 61.00ms
-  - 🇨🇦 CA 001 | ⚡ 66.00ms
-  - 🇨🇦 CA 002 | ⚡ 75.00ms
-  - 🇺🇸 US 004 | ⚡ 109.00ms
-  - 🇨🇦 CA 003 | ⚡ 111.00ms
-  - 🇺🇸 US 005 | ⚡ 116.00ms
-  - 🇺🇸 US 006 | ⚡ 118.00ms
-  - 🇬🇧 GB 001 | ⚡ 119.00ms
-  - 🇬🇧 GB 002 | ⚡ 120.00ms
-  - 🇬🇧 GB 003 | ⚡ 123.00ms
-  - 🇺🇸 US 007 | ⚡ 126.00ms
-  - 🇳🇱 NL 001 | ⚡ 128.00ms
-  - 🇬🇧 GB 004 | ⚡ 130.00ms
-  - 🇳🇱 NL 002 | ⚡ 132.00ms
-  - 🇬🇧 GB 005 | ⚡ 133.00ms
-  - 🇳🇱 NL 003 | ⚡ 133.00ms
-  - 🇳🇱 NL 004 | ⚡ 134.00ms
-  - 🇬🇧 GB 006 | ⚡ 135.00ms
-  - 🇳🇱 NL 005 | ⚡ 135.00ms
-  - 🇳🇱 NL 006 | ⚡ 137.00ms
-  - 🇬🇧 GB 007 | ⚡ 137.00ms
-  - 🇳🇱 NL 007 | ⚡ 138.00ms
-  - 🇳🇱 NL 008 | ⚡ 139.00ms
-  - 🇩🇪 DE 001 | ⚡ 139.00ms
-  - 🇳🇱 NL 009 | ⚡ 139.00ms
-  - 🇳🇱 NL 010 | ⚡ 139.00ms
-  - 🇳🇱 NL 011 | ⚡ 140.00ms
-  - 🇬🇧 GB 008 | ⚡ 142.00ms
-  - 🇳🇱 NL 012 | ⚡ 142.00ms
-  - 🇬🇧 GB 009 | ⚡ 143.00ms
-  - 🇳🇱 NL 013 | ⚡ 143.00ms
-  - 🇳🇱 NL 014 | ⚡ 143.00ms
-  - 🇳🇱 NL 015 | ⚡ 143.00ms
-  - 🇳🇱 NL 016 | ⚡ 144.00ms
-  - 🇳🇱 NL 017 | ⚡ 144.00ms
-  - 🇳🇱 NL 018 | ⚡ 145.00ms
-  - 🇳🇱 NL 019 | ⚡ 145.00ms
-  - 🇳🇱 NL 020 | ⚡ 146.00ms
-  - 🇳🇱 NL 021 | ⚡ 147.00ms
-  - 🇳🇱 NL 022 | ⚡ 147.00ms
-  - 🇳🇱 NL 023 | ⚡ 148.00ms
-  - 🇳🇱 NL 024 | ⚡ 149.00ms
-  - 🇳🇱 NL 025 | ⚡ 150.00ms
-  - 🇳🇱 NL 026 | ⚡ 151.00ms
-  - 🇫🇷 FR 001 | ⚡ 152.00ms
-  - 🇬🇧 GB 010 | ⚡ 153.00ms
-  - 🇳🇱 NL 027 | ⚡ 153.00ms
-  - 🇳🇱 NL 028 | ⚡ 160.00ms
-  - 🇩🇪 DE 002 | ⚡ 160.00ms
-  - 🇳🇱 NL 029 | ⚡ 161.00ms
-  - 🇫🇮 FI 001 | ⚡ 161.00ms
-  - 🇳🇱 NL 030 | ⚡ 165.00ms
-  - 🇳🇱 NL 031 | ⚡ 170.00ms
-  - 🇺🇸 US 008 | ⚡ 170.00ms
-  - 🇫🇮 FI 002 | ⚡ 171.00ms
-  - 🇩🇪 DE 003 | ⚡ 172.00ms
-  - 🇳🇴 NO 001 | ⚡ 173.00ms
-  - 🇨🇳 TW 001 | ⚡ 198.00ms
-  - 🇳🇱 NL 032 | ⚡ 204.00ms
-  - 🇺🇸 US 009 | ⚡ 215.00ms
-  - 🇺🇸 US 010 | ⚡ 247.00ms
-  - 🇯🇵 JP 001 | ⚡ 250.00ms
-  - 🇯🇵 JP 002 | ⚡ 259.00ms
-  - 🇧🇬 BG 001 | ⚡ 264.00ms
-  - 🇫🇮 FI 003 | ⚡ 269.00ms
-  - 🇯🇵 JP 003 | ⚡ 271.00ms
-  - 🇨🇳 TW 002 | ⚡ 280.00ms
-  - 🇳🇱 NL 033 | ⚡ 294.00ms
-  - 🇯🇵 JP 004 | ⚡ 328.00ms
-  - 🇨🇳 TW 003 | ⚡ 330.00ms
-  - 🇰🇷 KR 001 | ⚡ 372.00ms
-  - 🇰🇷 KR 002 | ⚡ 384.00ms
-  - 🇰🇷 KR 003 | ⚡ 407.00ms
-  - 🇰🇷 KR 004 | ⚡ 421.00ms
-  - 🇵🇭 PH 001 | ⚡ 473.00ms
-  - 🇿🇦 ZA 001 | ⚡ 522.00ms
-  - 🇿🇦 ZA 002 | ⚡ 532.00ms
-  - 🇰🇷 KR 005 | ⚡ 672.00ms
-  - 🇸🇬 SG 001 | ⚡ 686.00ms
-  - 🇰🇷 KR 006 | ⚡ 686.00ms
-  - 🇰🇷 KR 007 | ⚡ 775.00ms
-  - 🇭🇰 HK 001 | ⚡ 1606.00ms
-  - 🇦🇹 AT 001 | ⚡ 2319.00ms
-  - 🇨🇦 CA 001 | ⚡ 28.00ms
-  - 🇺🇸 US 001 | ⚡ 32.00ms
-  - 🇺🇸 US 002 | ⚡ 33.00ms
-  - 🇯🇵 JP 001 | ⚡ 43.00ms
-  - 🇺🇸 US 003 | ⚡ 65.00ms
-  - 🇨🇦 CA 002 | ⚡ 85.00ms
-  - 🇺🇸 US 004 | ⚡ 86.00ms
-  - 🇺🇸 US 005 | ⚡ 95.00ms
-  - 🇺🇸 US 006 | ⚡ 110.00ms
-  - 🇺🇸 US 007 | ⚡ 115.00ms
-  - 🇳🇱 NL 001 | ⚡ 119.00ms
-  - 🇳🇱 NL 002 | ⚡ 120.00ms
-  - 🇺🇸 US 008 | ⚡ 123.00ms
-  - 🇺🇸 US 009 | ⚡ 134.00ms
-  - 🇳🇱 NL 003 | ⚡ 141.00ms
-  - 🇳🇱 NL 004 | ⚡ 147.00ms
-  - 🇺🇸 US 010 | ⚡ 150.00ms
-  - 🇳🇱 NL 005 | ⚡ 152.00ms
-  - 🇺🇸 US 011 | ⚡ 164.00ms
-  - 🇺🇸 US 012 | ⚡ 166.00ms
-  - 🇫🇮 FI 001 | ⚡ 177.00ms
-  - 🇺🇸 US 013 | ⚡ 195.00ms
-  - 🇨🇳 TW 001 | ⚡ 287.00ms
-  - 🇸🇬 SG 001 | ⚡ 312.00ms
-  - 🇺🇸 US 014 | ⚡ 320.00ms
-  - 🇭🇰 HK 001 | ⚡ 612.00ms
-  - 🇨🇳 TW 002 | ⚡ 1417.00ms
-  - 🇭🇰 HK 002 | ⚡ 2350.00ms
-  - 🇺🇸 US 015 | ⚡ 5536.00ms
-  - 🇺🇸 US 001 | ⚡ 88.00ms
-  - 🇺🇸 US 002 | ⚡ 89.00ms
-  - 🇺🇸 US 003 | ⚡ 111.00ms
-  - 🇺🇸 US 001 | ⚡ 4007.00ms
-  - 🇵🇱 PL 001 | ⚡ 245.00ms
-  - 🇺🇸 US 001 | ⚡ 92.00ms
-  - 🇺🇸 US 002 | ⚡ 170.00ms
-  - 🇩🇪 DE 001 | ⚡ 211.00ms
-  - 🇩🇪 DE 002 | ⚡ 223.00ms
-  - 🇩🇪 DE 003 | ⚡ 223.00ms
-  - 🇪🇸 ES 001 | ⚡ 237.00ms
-  - 🇪🇬 EG 001 | ⚡ 350.00ms
-  - 🇦🇪 AE 001 | ⚡ 229.00ms
-  - 🇺🇸 US 001 | ⚡ 73.00ms
-  - 🇺🇸 US 002 | ⚡ 87.00ms
-  - 🇺🇸 US 003 | ⚡ 92.00ms
-  - 🇺🇸 US 004 | ⚡ 93.00ms
-  - 🇺🇸 US 005 | ⚡ 102.00ms
-  - 🇺🇸 US 006 | ⚡ 108.00ms
-  - 🇺🇸 US 007 | ⚡ 137.00ms
-  - 🇺🇸 US 008 | ⚡ 143.00ms
-  - 🇺🇸 US 009 | ⚡ 188.00ms
-  - 🇺🇸 US 010 | ⚡ 4304.00ms
-  - 🇺🇸 US 011 | ⚡ 5102.00ms
-  - 🇸🇬 SG 001 | ⚡ 308.00ms
-  - 🇷🇺 RU 001 | ⚡ 345.00ms
-  - 🇸🇬 SG 002 | ⚡ 364.00ms
-  - 🇷🇺 RU 002 | ⚡ 609.00ms
-  - 🇨🇦 CA 001 | ⚡ 79.00ms
-  - 🇨🇦 CA 002 | ⚡ 81.00ms
-  - 🇨🇦 CA 003 | ⚡ 84.00ms
-  - 🇧🇷 BR 001 | ⚡ 220.00ms
-  - 🇺🇸 US 001 | ⚡ 92.00ms
-  - 🇺🇸 US 002 | ⚡ 99.00ms
-  - 🇺🇸 US 003 | ⚡ 132.00ms
-  - 🇺🇸 US 004 | ⚡ 136.00ms
-  - 🇺🇸 US 005 | ⚡ 139.00ms
-  - 🇺🇸 US 006 | ⚡ 141.00ms
-  - 🇨🇳 TW 001 | ⚡ 216.00ms
-  - 🇸🇬 SG 001 | ⚡ 282.00ms
-  - 🇹🇷 TR 001 | ⚡ 288.00ms
-  - 🇨🇳 TW 002 | ⚡ 1625.00ms
+  - 🇺🇸 US 001 | ⬇️ 143.29MB/s
+  - 🇺🇸 US 002 | ⬇️ 134.55MB/s
+  - 🇺🇸 US 003 | ⬇️ 129.81MB/s
+  - 🇨🇦 CA 001 | ⬇️ 125.81MB/s
+  - 🇺🇸 US 004 | ⬇️ 84.49MB/s
+  - 🇨🇦 CA 002 | ⬇️ 79.54MB/s
+  - 🇺🇸 US 005 | ⬇️ 79.38MB/s
+  - 🇺🇸 US 006 | ⬇️ 75.85MB/s
+  - 🇺🇸 US 007 | ⬇️ 62.91MB/s
+  - 🇺🇸 US 008 | ⬇️ 62.66MB/s
+  - 🇺🇸 US 009 | ⬇️ 60.86MB/s
+  - 🇺🇸 US 010 | ⬇️ 59.76MB/s
+  - 🇺🇸 US 011 | ⬇️ 57.24MB/s
+  - 🇺🇸 US 012 | ⬇️ 56.79MB/s
+  - 🇨🇦 CA 003 | ⬇️ 53.87MB/s
+  - 🇺🇸 US 013 | ⬇️ 53.61MB/s
+  - 🇺🇸 US 014 | ⬇️ 42.38MB/s
+  - 🇺🇸 US 015 | ⬇️ 39.86MB/s
+  - 🇺🇸 US 016 | ⬇️ 34.84MB/s
+  - 🇺🇸 US 017 | ⬇️ 31.27MB/s
+  - 🇺🇸 US 018 | ⬇️ 31.06MB/s
+  - 🇺🇸 US 019 | ⬇️ 30.93MB/s
+  - 🇬🇧 GB 001 | ⬇️ 29.99MB/s
+  - 🇬🇧 GB 002 | ⬇️ 29.37MB/s
+  - 🇺🇸 US 020 | ⬇️ 28.88MB/s
+  - 🇳🇱 NL 001 | ⬇️ 28.83MB/s
+  - 🇳🇱 NL 002 | ⬇️ 26.79MB/s
+  - 🇫🇷 FR 001 | ⬇️ 26.73MB/s
+  - 🇳🇱 NL 003 | ⬇️ 26.71MB/s
+  - 🇳🇱 NL 004 | ⬇️ 26.59MB/s
+  - 🇨🇦 CA 004 | ⬇️ 26.49MB/s
+  - 🇳🇱 NL 005 | ⬇️ 26.47MB/s
+  - 🇳🇱 NL 006 | ⬇️ 26.37MB/s
+  - 🇫🇷 FR 002 | ⬇️ 25.94MB/s
+  - 🇳🇱 NL 007 | ⬇️ 25.92MB/s
+  - 🇳🇱 NL 008 | ⬇️ 25.83MB/s
+  - 🇺🇸 US 021 | ⬇️ 24.99MB/s
+  - 🇳🇱 NL 009 | ⬇️ 24.90MB/s
+  - 🇳🇱 NL 010 | ⬇️ 24.80MB/s
+  - 🇳🇴 NO 001 | ⬇️ 24.23MB/s
+  - 🇯🇵 JP 001 | ⬇️ 23.16MB/s
+  - 🇬🇧 GB 003 | ⬇️ 23.02MB/s
+  - 🇩🇪 DE 001 | ⬇️ 22.91MB/s
+  - 🇬🇧 GB 004 | ⬇️ 22.80MB/s
+  - 🇯🇵 JP 002 | ⬇️ 22.79MB/s
+  - 🇺🇸 US 022 | ⬇️ 22.73MB/s
+  - 🇺🇸 US 023 | ⬇️ 22.70MB/s
+  - 🇳🇱 NL 011 | ⬇️ 22.08MB/s
+  - 🇯🇵 JP 003 | ⬇️ 21.97MB/s
+  - 🇯🇵 JP 004 | ⬇️ 21.77MB/s
+  - 🇪🇸 ES 001 | ⬇️ 21.70MB/s
+  - 🇯🇵 JP 005 | ⬇️ 21.26MB/s
+  - 🇨🇳 TW 001 | ⬇️ 20.26MB/s
+  - 🇩🇪 DE 002 | ⬇️ 19.42MB/s
+  - 🇸🇬 SG 001 | ⬇️ 18.82MB/s
+  - 🇩🇪 DE 003 | ⬇️ 18.56MB/s
+  - 🇬🇧 GB 005 | ⬇️ 18.54MB/s
+  - 🇳🇱 NL 012 | ⬇️ 17.95MB/s
+  - 🇮🇹 IT 001 | ⬇️ 17.90MB/s
+  - 🇸🇬 SG 002 | ⬇️ 17.78MB/s
+  - 🇺🇸 US 024 | ⬇️ 17.66MB/s
+  - 🇳🇱 NL 013 | ⬇️ 15.97MB/s
+  - 🇸🇬 SG 003 | ⬇️ 15.75MB/s
+  - 🇷🇺 RU 001 | ⬇️ 15.69MB/s
+  - 🇬🇧 GB 006 | ⬇️ 15.15MB/s
+  - 🇬🇧 GB 007 | ⬇️ 14.90MB/s
+  - 🇬🇧 GB 008 | ⬇️ 14.46MB/s
+  - 🇬🇧 GB 009 | ⬇️ 14.20MB/s
+  - 🇺🇸 US 025 | ⬇️ 14.00MB/s
+  - 🇭🇰 HK 001 | ⬇️ 13.74MB/s
+  - 🇭🇰 HK 002 | ⬇️ 13.07MB/s
+  - 🇸🇬 SG 004 | ⬇️ 12.79MB/s
+  - 🇮🇳 IN 001 | ⬇️ 12.66MB/s
+  - 🇬🇧 GB 010 | ⬇️ 12.58MB/s
+  - 🇺🇸 US 026 | ⬇️ 12.07MB/s
+  - 🇺🇸 US 027 | ⬇️ 11.26MB/s
+  - 🇨🇦 CA 005 | ⬇️ 9.17MB/s
+  - 🇬🇧 GB 011 | ⬇️ 8.94MB/s
+  - 🇯🇵 JP 006 | ⬇️ 8.54MB/s
+  - 🇺🇸 US 028 | ⬇️ 7.88MB/s
+  - 🇵🇭 PH 001 | ⬇️ 6.78MB/s
+  - 🇬🇧 GB 012 | ⬇️ 6.27MB/s
+  - 🇺🇸 US 029 | ⬇️ 6.17MB/s
+  - 🇺🇸 US 030 | ⬇️ 5.79MB/s
+  - 🇨🇳 TW 001 | ⚡ 386.00ms
+  - 🇯🇵 JP 001 | ⚡ 259.00ms
+  - 🇳🇱 NL 024 | ⚡ 492.00ms
+  - 🇺🇸 US 031 | ⬇️ 3.61MB/s
+  - 🇳🇱 NL 012 | ⚡ 168.00ms
+  - 🇨🇳 TW 002 | ⬇️ 3.09MB/s
+  - 🇺🇸 US 006 | ⚡ 116.00ms
+  - 🇯🇵 JP 003 | ⚡ 263.00ms
+  - 🇳🇱 NL 014 | ⬇️ 2.75MB/s
+  - 🇫🇷 FR 003 | ⬇️ 2.58MB/s
+  - 🇳🇱 NL 015 | ⬇️ 1.82MB/s
+  - 🇭🇰 HK 003 | ⬇️ 1.73MB/s
+  - 🇳🇱 NL 009 | ⚡ 155.00ms
+  - 🇳🇱 NL 003 | ⚡ 147.00ms
+  - 🇭🇰 HK 001 | ⚡ 60.00ms
+  - 🇳🇱 NL 018 | ⚡ 286.00ms
+  - 🇳🇱 NL 026 | ⚡ 551.00ms
+  - 🇳🇱 NL 027 | ⚡ 562.00ms
+  - 🇰🇷 KR 001 | ⚡ 398.00ms
+  - 🇰🇷 KR 003 | ⚡ 424.00ms
+  - 🇨🇳 TW 002 | ⚡ 403.00ms
+  - 🇳🇱 NL 025 | ⚡ 521.00ms
+  - 🇫🇮 FI 001 | ⚡ 373.00ms
+  - 🇰🇷 KR 004 | ⚡ 536.00ms
+  - 🇵🇱 PL 001 | ⚡ 214.00ms
+  - 🇦🇪 AE 001 | ⚡ 196.00ms
+  - 🇩🇪 DE 003 | ⚡ 1139.00ms
+  - 🇰🇷 KR 007 | ⚡ 746.00ms
+  - 🇳🇱 NL 017 | ⚡ 261.00ms
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 50
 - name: 低延迟
   type: url-test
   proxies:
-  - 🇮🇹 IT 001 | ⚡ 176.00ms
-  - 🇯🇵 JP 001 | ⚡ 253.00ms
-  - 🇯🇵 JP 002 | ⚡ 253.00ms
-  - 🇯🇵 JP 003 | ⚡ 256.00ms
-  - 🇮🇳 IN 001 | ⚡ 322.00ms
-  - 🇬🇧 GB 001 | ⚡ 124.00ms
-  - 🇫🇷 FR 001 | ⚡ 148.00ms
-  - 🇯🇵 JP 001 | ⚡ 296.00ms
-  - 🇭🇰 HK 001 | ⚡ 116.00ms
-  - 🇬🇧 GB 001 | ⚡ 162.00ms
-  - 🇭🇰 HK 002 | ⚡ 372.00ms
-  - 🇭🇰 HK 003 | ⚡ 384.00ms
-  - 🇲🇾 MY 001 | ⚡ 1262.00ms
-  - 🇭🇰 HK 004 | ⚡ 1668.00ms
-  - 🇺🇸 US 001 | ⚡ 2044.00ms
-  - 🇮🇩 ID 001 | ⚡ 2076.00ms
-  - 🇲🇾 MY 002 | ⚡ 2217.00ms
-  - 🇲🇾 MY 003 | ⚡ 3411.00ms
-  - 🇲🇾 MY 001 | ⚡ 303.00ms
-  - 🇮🇩 ID 001 | ⚡ 586.00ms
-  - 🇮🇩 ID 002 | ⚡ 1366.00ms
-  - 🇲🇾 MY 002 | ⚡ 1728.00ms
-  - 🇮🇩 ID 003 | ⚡ 2386.00ms
-  - 🇮🇩 ID 004 | ⚡ 2581.00ms
-  - 🇺🇸 US 001 | ⚡ 33.00ms
-  - 🇺🇸 US 002 | ⚡ 33.00ms
-  - 🇺🇸 US 003 | ⚡ 61.00ms
-  - 🇨🇦 CA 001 | ⚡ 66.00ms
-  - 🇨🇦 CA 002 | ⚡ 75.00ms
-  - 🇺🇸 US 004 | ⚡ 109.00ms
-  - 🇨🇦 CA 003 | ⚡ 111.00ms
-  - 🇺🇸 US 005 | ⚡ 116.00ms
-  - 🇺🇸 US 006 | ⚡ 118.00ms
-  - 🇬🇧 GB 001 | ⚡ 119.00ms
-  - 🇬🇧 GB 002 | ⚡ 120.00ms
-  - 🇬🇧 GB 003 | ⚡ 123.00ms
-  - 🇺🇸 US 007 | ⚡ 126.00ms
-  - 🇳🇱 NL 001 | ⚡ 128.00ms
-  - 🇬🇧 GB 004 | ⚡ 130.00ms
-  - 🇳🇱 NL 002 | ⚡ 132.00ms
-  - 🇬🇧 GB 005 | ⚡ 133.00ms
-  - 🇳🇱 NL 003 | ⚡ 133.00ms
-  - 🇳🇱 NL 004 | ⚡ 134.00ms
-  - 🇬🇧 GB 006 | ⚡ 135.00ms
-  - 🇳🇱 NL 005 | ⚡ 135.00ms
-  - 🇳🇱 NL 006 | ⚡ 137.00ms
-  - 🇬🇧 GB 007 | ⚡ 137.00ms
-  - 🇳🇱 NL 007 | ⚡ 138.00ms
-  - 🇳🇱 NL 008 | ⚡ 139.00ms
-  - 🇩🇪 DE 001 | ⚡ 139.00ms
-  - 🇳🇱 NL 009 | ⚡ 139.00ms
-  - 🇳🇱 NL 010 | ⚡ 139.00ms
-  - 🇳🇱 NL 011 | ⚡ 140.00ms
-  - 🇬🇧 GB 008 | ⚡ 142.00ms
-  - 🇳🇱 NL 012 | ⚡ 142.00ms
-  - 🇬🇧 GB 009 | ⚡ 143.00ms
-  - 🇳🇱 NL 013 | ⚡ 143.00ms
-  - 🇳🇱 NL 014 | ⚡ 143.00ms
-  - 🇳🇱 NL 015 | ⚡ 143.00ms
-  - 🇳🇱 NL 016 | ⚡ 144.00ms
-  - 🇳🇱 NL 017 | ⚡ 144.00ms
-  - 🇳🇱 NL 018 | ⚡ 145.00ms
-  - 🇳🇱 NL 019 | ⚡ 145.00ms
-  - 🇳🇱 NL 020 | ⚡ 146.00ms
-  - 🇳🇱 NL 021 | ⚡ 147.00ms
-  - 🇳🇱 NL 022 | ⚡ 147.00ms
-  - 🇳🇱 NL 023 | ⚡ 148.00ms
-  - 🇳🇱 NL 024 | ⚡ 149.00ms
-  - 🇳🇱 NL 025 | ⚡ 150.00ms
-  - 🇳🇱 NL 026 | ⚡ 151.00ms
-  - 🇫🇷 FR 001 | ⚡ 152.00ms
-  - 🇬🇧 GB 010 | ⚡ 153.00ms
-  - 🇳🇱 NL 027 | ⚡ 153.00ms
-  - 🇳🇱 NL 028 | ⚡ 160.00ms
-  - 🇩🇪 DE 002 | ⚡ 160.00ms
-  - 🇳🇱 NL 029 | ⚡ 161.00ms
-  - 🇫🇮 FI 001 | ⚡ 161.00ms
-  - 🇳🇱 NL 030 | ⚡ 165.00ms
-  - 🇳🇱 NL 031 | ⚡ 170.00ms
-  - 🇺🇸 US 008 | ⚡ 170.00ms
-  - 🇫🇮 FI 002 | ⚡ 171.00ms
-  - 🇩🇪 DE 003 | ⚡ 172.00ms
-  - 🇳🇴 NO 001 | ⚡ 173.00ms
-  - 🇨🇳 TW 001 | ⚡ 198.00ms
-  - 🇳🇱 NL 032 | ⚡ 204.00ms
-  - 🇺🇸 US 009 | ⚡ 215.00ms
-  - 🇺🇸 US 010 | ⚡ 247.00ms
-  - 🇯🇵 JP 001 | ⚡ 250.00ms
-  - 🇯🇵 JP 002 | ⚡ 259.00ms
-  - 🇧🇬 BG 001 | ⚡ 264.00ms
-  - 🇫🇮 FI 003 | ⚡ 269.00ms
-  - 🇯🇵 JP 003 | ⚡ 271.00ms
-  - 🇨🇳 TW 002 | ⚡ 280.00ms
-  - 🇳🇱 NL 033 | ⚡ 294.00ms
-  - 🇯🇵 JP 004 | ⚡ 328.00ms
-  - 🇨🇳 TW 003 | ⚡ 330.00ms
-  - 🇰🇷 KR 001 | ⚡ 372.00ms
-  - 🇰🇷 KR 002 | ⚡ 384.00ms
-  - 🇰🇷 KR 003 | ⚡ 407.00ms
-  - 🇰🇷 KR 004 | ⚡ 421.00ms
-  - 🇵🇭 PH 001 | ⚡ 473.00ms
-  - 🇿🇦 ZA 001 | ⚡ 522.00ms
-  - 🇿🇦 ZA 002 | ⚡ 532.00ms
-  - 🇰🇷 KR 005 | ⚡ 672.00ms
-  - 🇸🇬 SG 001 | ⚡ 686.00ms
-  - 🇰🇷 KR 006 | ⚡ 686.00ms
-  - 🇰🇷 KR 007 | ⚡ 775.00ms
-  - 🇭🇰 HK 001 | ⚡ 1606.00ms
-  - 🇦🇹 AT 001 | ⚡ 2319.00ms
-  - 🇨🇦 CA 001 | ⚡ 28.00ms
-  - 🇺🇸 US 001 | ⚡ 32.00ms
-  - 🇺🇸 US 002 | ⚡ 33.00ms
-  - 🇯🇵 JP 001 | ⚡ 43.00ms
-  - 🇺🇸 US 003 | ⚡ 65.00ms
-  - 🇨🇦 CA 002 | ⚡ 85.00ms
-  - 🇺🇸 US 004 | ⚡ 86.00ms
-  - 🇺🇸 US 005 | ⚡ 95.00ms
-  - 🇺🇸 US 006 | ⚡ 110.00ms
-  - 🇺🇸 US 007 | ⚡ 115.00ms
-  - 🇳🇱 NL 001 | ⚡ 119.00ms
-  - 🇳🇱 NL 002 | ⚡ 120.00ms
-  - 🇺🇸 US 008 | ⚡ 123.00ms
-  - 🇺🇸 US 009 | ⚡ 134.00ms
-  - 🇳🇱 NL 003 | ⚡ 141.00ms
-  - 🇳🇱 NL 004 | ⚡ 147.00ms
-  - 🇺🇸 US 010 | ⚡ 150.00ms
-  - 🇳🇱 NL 005 | ⚡ 152.00ms
-  - 🇺🇸 US 011 | ⚡ 164.00ms
-  - 🇺🇸 US 012 | ⚡ 166.00ms
-  - 🇫🇮 FI 001 | ⚡ 177.00ms
-  - 🇺🇸 US 013 | ⚡ 195.00ms
-  - 🇨🇳 TW 001 | ⚡ 287.00ms
-  - 🇸🇬 SG 001 | ⚡ 312.00ms
-  - 🇺🇸 US 014 | ⚡ 320.00ms
-  - 🇭🇰 HK 001 | ⚡ 612.00ms
-  - 🇨🇳 TW 002 | ⚡ 1417.00ms
-  - 🇭🇰 HK 002 | ⚡ 2350.00ms
-  - 🇺🇸 US 015 | ⚡ 5536.00ms
-  - 🇺🇸 US 001 | ⚡ 88.00ms
-  - 🇺🇸 US 002 | ⚡ 89.00ms
-  - 🇺🇸 US 003 | ⚡ 111.00ms
-  - 🇺🇸 US 001 | ⚡ 4007.00ms
-  - 🇵🇱 PL 001 | ⚡ 245.00ms
-  - 🇺🇸 US 001 | ⚡ 92.00ms
-  - 🇺🇸 US 002 | ⚡ 170.00ms
-  - 🇩🇪 DE 001 | ⚡ 211.00ms
-  - 🇩🇪 DE 002 | ⚡ 223.00ms
-  - 🇩🇪 DE 003 | ⚡ 223.00ms
-  - 🇪🇸 ES 001 | ⚡ 237.00ms
-  - 🇪🇬 EG 001 | ⚡ 350.00ms
-  - 🇦🇪 AE 001 | ⚡ 229.00ms
-  - 🇺🇸 US 001 | ⚡ 73.00ms
-  - 🇺🇸 US 002 | ⚡ 87.00ms
-  - 🇺🇸 US 003 | ⚡ 92.00ms
-  - 🇺🇸 US 004 | ⚡ 93.00ms
-  - 🇺🇸 US 005 | ⚡ 102.00ms
-  - 🇺🇸 US 006 | ⚡ 108.00ms
-  - 🇺🇸 US 007 | ⚡ 137.00ms
-  - 🇺🇸 US 008 | ⚡ 143.00ms
-  - 🇺🇸 US 009 | ⚡ 188.00ms
-  - 🇺🇸 US 010 | ⚡ 4304.00ms
-  - 🇺🇸 US 011 | ⚡ 5102.00ms
-  - 🇸🇬 SG 001 | ⚡ 308.00ms
-  - 🇷🇺 RU 001 | ⚡ 345.00ms
-  - 🇸🇬 SG 002 | ⚡ 364.00ms
-  - 🇷🇺 RU 002 | ⚡ 609.00ms
-  - 🇨🇦 CA 001 | ⚡ 79.00ms
-  - 🇨🇦 CA 002 | ⚡ 81.00ms
-  - 🇨🇦 CA 003 | ⚡ 84.00ms
-  - 🇧🇷 BR 001 | ⚡ 220.00ms
-  - 🇺🇸 US 001 | ⚡ 92.00ms
-  - 🇺🇸 US 002 | ⚡ 99.00ms
-  - 🇺🇸 US 003 | ⚡ 132.00ms
-  - 🇺🇸 US 004 | ⚡ 136.00ms
-  - 🇺🇸 US 005 | ⚡ 139.00ms
-  - 🇺🇸 US 006 | ⚡ 141.00ms
-  - 🇨🇳 TW 001 | ⚡ 216.00ms
-  - 🇸🇬 SG 001 | ⚡ 282.00ms
-  - 🇹🇷 TR 001 | ⚡ 288.00ms
-  - 🇨🇳 TW 002 | ⚡ 1625.00ms
+  - 🇺🇸 US 001 | ⬇️ 143.29MB/s
+  - 🇺🇸 US 002 | ⬇️ 134.55MB/s
+  - 🇺🇸 US 003 | ⬇️ 129.81MB/s
+  - 🇨🇦 CA 001 | ⬇️ 125.81MB/s
+  - 🇺🇸 US 004 | ⬇️ 84.49MB/s
+  - 🇨🇦 CA 002 | ⬇️ 79.54MB/s
+  - 🇺🇸 US 005 | ⬇️ 79.38MB/s
+  - 🇺🇸 US 006 | ⬇️ 75.85MB/s
+  - 🇺🇸 US 007 | ⬇️ 62.91MB/s
+  - 🇺🇸 US 008 | ⬇️ 62.66MB/s
+  - 🇺🇸 US 009 | ⬇️ 60.86MB/s
+  - 🇺🇸 US 010 | ⬇️ 59.76MB/s
+  - 🇺🇸 US 011 | ⬇️ 57.24MB/s
+  - 🇺🇸 US 012 | ⬇️ 56.79MB/s
+  - 🇨🇦 CA 003 | ⬇️ 53.87MB/s
+  - 🇺🇸 US 013 | ⬇️ 53.61MB/s
+  - 🇺🇸 US 014 | ⬇️ 42.38MB/s
+  - 🇺🇸 US 015 | ⬇️ 39.86MB/s
+  - 🇺🇸 US 016 | ⬇️ 34.84MB/s
+  - 🇺🇸 US 017 | ⬇️ 31.27MB/s
+  - 🇺🇸 US 018 | ⬇️ 31.06MB/s
+  - 🇺🇸 US 019 | ⬇️ 30.93MB/s
+  - 🇬🇧 GB 001 | ⬇️ 29.99MB/s
+  - 🇬🇧 GB 002 | ⬇️ 29.37MB/s
+  - 🇺🇸 US 020 | ⬇️ 28.88MB/s
+  - 🇳🇱 NL 001 | ⬇️ 28.83MB/s
+  - 🇳🇱 NL 002 | ⬇️ 26.79MB/s
+  - 🇫🇷 FR 001 | ⬇️ 26.73MB/s
+  - 🇳🇱 NL 003 | ⬇️ 26.71MB/s
+  - 🇳🇱 NL 004 | ⬇️ 26.59MB/s
+  - 🇨🇦 CA 004 | ⬇️ 26.49MB/s
+  - 🇳🇱 NL 005 | ⬇️ 26.47MB/s
+  - 🇳🇱 NL 006 | ⬇️ 26.37MB/s
+  - 🇫🇷 FR 002 | ⬇️ 25.94MB/s
+  - 🇳🇱 NL 007 | ⬇️ 25.92MB/s
+  - 🇳🇱 NL 008 | ⬇️ 25.83MB/s
+  - 🇺🇸 US 021 | ⬇️ 24.99MB/s
+  - 🇳🇱 NL 009 | ⬇️ 24.90MB/s
+  - 🇳🇱 NL 010 | ⬇️ 24.80MB/s
+  - 🇳🇴 NO 001 | ⬇️ 24.23MB/s
+  - 🇯🇵 JP 001 | ⬇️ 23.16MB/s
+  - 🇬🇧 GB 003 | ⬇️ 23.02MB/s
+  - 🇩🇪 DE 001 | ⬇️ 22.91MB/s
+  - 🇬🇧 GB 004 | ⬇️ 22.80MB/s
+  - 🇯🇵 JP 002 | ⬇️ 22.79MB/s
+  - 🇺🇸 US 022 | ⬇️ 22.73MB/s
+  - 🇺🇸 US 023 | ⬇️ 22.70MB/s
+  - 🇳🇱 NL 011 | ⬇️ 22.08MB/s
+  - 🇯🇵 JP 003 | ⬇️ 21.97MB/s
+  - 🇯🇵 JP 004 | ⬇️ 21.77MB/s
+  - 🇪🇸 ES 001 | ⬇️ 21.70MB/s
+  - 🇯🇵 JP 005 | ⬇️ 21.26MB/s
+  - 🇨🇳 TW 001 | ⬇️ 20.26MB/s
+  - 🇩🇪 DE 002 | ⬇️ 19.42MB/s
+  - 🇸🇬 SG 001 | ⬇️ 18.82MB/s
+  - 🇩🇪 DE 003 | ⬇️ 18.56MB/s
+  - 🇬🇧 GB 005 | ⬇️ 18.54MB/s
+  - 🇳🇱 NL 012 | ⬇️ 17.95MB/s
+  - 🇮🇹 IT 001 | ⬇️ 17.90MB/s
+  - 🇸🇬 SG 002 | ⬇️ 17.78MB/s
+  - 🇺🇸 US 024 | ⬇️ 17.66MB/s
+  - 🇳🇱 NL 013 | ⬇️ 15.97MB/s
+  - 🇸🇬 SG 003 | ⬇️ 15.75MB/s
+  - 🇷🇺 RU 001 | ⬇️ 15.69MB/s
+  - 🇬🇧 GB 006 | ⬇️ 15.15MB/s
+  - 🇬🇧 GB 007 | ⬇️ 14.90MB/s
+  - 🇬🇧 GB 008 | ⬇️ 14.46MB/s
+  - 🇬🇧 GB 009 | ⬇️ 14.20MB/s
+  - 🇺🇸 US 025 | ⬇️ 14.00MB/s
+  - 🇭🇰 HK 001 | ⬇️ 13.74MB/s
+  - 🇭🇰 HK 002 | ⬇️ 13.07MB/s
+  - 🇸🇬 SG 004 | ⬇️ 12.79MB/s
+  - 🇮🇳 IN 001 | ⬇️ 12.66MB/s
+  - 🇬🇧 GB 010 | ⬇️ 12.58MB/s
+  - 🇺🇸 US 026 | ⬇️ 12.07MB/s
+  - 🇺🇸 US 027 | ⬇️ 11.26MB/s
+  - 🇨🇦 CA 005 | ⬇️ 9.17MB/s
+  - 🇬🇧 GB 011 | ⬇️ 8.94MB/s
+  - 🇯🇵 JP 006 | ⬇️ 8.54MB/s
+  - 🇺🇸 US 028 | ⬇️ 7.88MB/s
+  - 🇵🇭 PH 001 | ⬇️ 6.78MB/s
+  - 🇬🇧 GB 012 | ⬇️ 6.27MB/s
+  - 🇺🇸 US 029 | ⬇️ 6.17MB/s
+  - 🇺🇸 US 030 | ⬇️ 5.79MB/s
+  - 🇨🇳 TW 001 | ⚡ 386.00ms
+  - 🇯🇵 JP 001 | ⚡ 259.00ms
+  - 🇳🇱 NL 024 | ⚡ 492.00ms
+  - 🇺🇸 US 031 | ⬇️ 3.61MB/s
+  - 🇳🇱 NL 012 | ⚡ 168.00ms
+  - 🇨🇳 TW 002 | ⬇️ 3.09MB/s
+  - 🇺🇸 US 006 | ⚡ 116.00ms
+  - 🇯🇵 JP 003 | ⚡ 263.00ms
+  - 🇳🇱 NL 014 | ⬇️ 2.75MB/s
+  - 🇫🇷 FR 003 | ⬇️ 2.58MB/s
+  - 🇳🇱 NL 015 | ⬇️ 1.82MB/s
+  - 🇭🇰 HK 003 | ⬇️ 1.73MB/s
+  - 🇳🇱 NL 009 | ⚡ 155.00ms
+  - 🇳🇱 NL 003 | ⚡ 147.00ms
+  - 🇭🇰 HK 001 | ⚡ 60.00ms
+  - 🇳🇱 NL 018 | ⚡ 286.00ms
+  - 🇳🇱 NL 026 | ⚡ 551.00ms
+  - 🇳🇱 NL 027 | ⚡ 562.00ms
+  - 🇰🇷 KR 001 | ⚡ 398.00ms
+  - 🇰🇷 KR 003 | ⚡ 424.00ms
+  - 🇨🇳 TW 002 | ⚡ 403.00ms
+  - 🇳🇱 NL 025 | ⚡ 521.00ms
+  - 🇫🇮 FI 001 | ⚡ 373.00ms
+  - 🇰🇷 KR 004 | ⚡ 536.00ms
+  - 🇵🇱 PL 001 | ⚡ 214.00ms
+  - 🇦🇪 AE 001 | ⚡ 196.00ms
+  - 🇩🇪 DE 003 | ⚡ 1139.00ms
+  - 🇰🇷 KR 007 | ⚡ 746.00ms
+  - 🇳🇱 NL 017 | ⚡ 261.00ms
   url: http://www.gstatic.com/generate_204
   interval: 180
   tolerance: 30
@@ -1642,186 +1032,119 @@ proxy-groups:
   type: load-balance
   strategy: consistent-hashing
   proxies:
-  - 🇮🇹 IT 001 | ⚡ 176.00ms
-  - 🇯🇵 JP 001 | ⚡ 253.00ms
-  - 🇯🇵 JP 002 | ⚡ 253.00ms
-  - 🇯🇵 JP 003 | ⚡ 256.00ms
-  - 🇮🇳 IN 001 | ⚡ 322.00ms
-  - 🇬🇧 GB 001 | ⚡ 124.00ms
-  - 🇫🇷 FR 001 | ⚡ 148.00ms
-  - 🇯🇵 JP 001 | ⚡ 296.00ms
-  - 🇭🇰 HK 001 | ⚡ 116.00ms
-  - 🇬🇧 GB 001 | ⚡ 162.00ms
-  - 🇭🇰 HK 002 | ⚡ 372.00ms
-  - 🇭🇰 HK 003 | ⚡ 384.00ms
-  - 🇲🇾 MY 001 | ⚡ 1262.00ms
-  - 🇭🇰 HK 004 | ⚡ 1668.00ms
-  - 🇺🇸 US 001 | ⚡ 2044.00ms
-  - 🇮🇩 ID 001 | ⚡ 2076.00ms
-  - 🇲🇾 MY 002 | ⚡ 2217.00ms
-  - 🇲🇾 MY 003 | ⚡ 3411.00ms
-  - 🇲🇾 MY 001 | ⚡ 303.00ms
-  - 🇮🇩 ID 001 | ⚡ 586.00ms
-  - 🇮🇩 ID 002 | ⚡ 1366.00ms
-  - 🇲🇾 MY 002 | ⚡ 1728.00ms
-  - 🇮🇩 ID 003 | ⚡ 2386.00ms
-  - 🇮🇩 ID 004 | ⚡ 2581.00ms
-  - 🇺🇸 US 001 | ⚡ 33.00ms
-  - 🇺🇸 US 002 | ⚡ 33.00ms
-  - 🇺🇸 US 003 | ⚡ 61.00ms
-  - 🇨🇦 CA 001 | ⚡ 66.00ms
-  - 🇨🇦 CA 002 | ⚡ 75.00ms
-  - 🇺🇸 US 004 | ⚡ 109.00ms
-  - 🇨🇦 CA 003 | ⚡ 111.00ms
-  - 🇺🇸 US 005 | ⚡ 116.00ms
-  - 🇺🇸 US 006 | ⚡ 118.00ms
-  - 🇬🇧 GB 001 | ⚡ 119.00ms
-  - 🇬🇧 GB 002 | ⚡ 120.00ms
-  - 🇬🇧 GB 003 | ⚡ 123.00ms
-  - 🇺🇸 US 007 | ⚡ 126.00ms
-  - 🇳🇱 NL 001 | ⚡ 128.00ms
-  - 🇬🇧 GB 004 | ⚡ 130.00ms
-  - 🇳🇱 NL 002 | ⚡ 132.00ms
-  - 🇬🇧 GB 005 | ⚡ 133.00ms
-  - 🇳🇱 NL 003 | ⚡ 133.00ms
-  - 🇳🇱 NL 004 | ⚡ 134.00ms
-  - 🇬🇧 GB 006 | ⚡ 135.00ms
-  - 🇳🇱 NL 005 | ⚡ 135.00ms
-  - 🇳🇱 NL 006 | ⚡ 137.00ms
-  - 🇬🇧 GB 007 | ⚡ 137.00ms
-  - 🇳🇱 NL 007 | ⚡ 138.00ms
-  - 🇳🇱 NL 008 | ⚡ 139.00ms
-  - 🇩🇪 DE 001 | ⚡ 139.00ms
-  - 🇳🇱 NL 009 | ⚡ 139.00ms
-  - 🇳🇱 NL 010 | ⚡ 139.00ms
-  - 🇳🇱 NL 011 | ⚡ 140.00ms
-  - 🇬🇧 GB 008 | ⚡ 142.00ms
-  - 🇳🇱 NL 012 | ⚡ 142.00ms
-  - 🇬🇧 GB 009 | ⚡ 143.00ms
-  - 🇳🇱 NL 013 | ⚡ 143.00ms
-  - 🇳🇱 NL 014 | ⚡ 143.00ms
-  - 🇳🇱 NL 015 | ⚡ 143.00ms
-  - 🇳🇱 NL 016 | ⚡ 144.00ms
-  - 🇳🇱 NL 017 | ⚡ 144.00ms
-  - 🇳🇱 NL 018 | ⚡ 145.00ms
-  - 🇳🇱 NL 019 | ⚡ 145.00ms
-  - 🇳🇱 NL 020 | ⚡ 146.00ms
-  - 🇳🇱 NL 021 | ⚡ 147.00ms
-  - 🇳🇱 NL 022 | ⚡ 147.00ms
-  - 🇳🇱 NL 023 | ⚡ 148.00ms
-  - 🇳🇱 NL 024 | ⚡ 149.00ms
-  - 🇳🇱 NL 025 | ⚡ 150.00ms
-  - 🇳🇱 NL 026 | ⚡ 151.00ms
-  - 🇫🇷 FR 001 | ⚡ 152.00ms
-  - 🇬🇧 GB 010 | ⚡ 153.00ms
-  - 🇳🇱 NL 027 | ⚡ 153.00ms
-  - 🇳🇱 NL 028 | ⚡ 160.00ms
-  - 🇩🇪 DE 002 | ⚡ 160.00ms
-  - 🇳🇱 NL 029 | ⚡ 161.00ms
-  - 🇫🇮 FI 001 | ⚡ 161.00ms
-  - 🇳🇱 NL 030 | ⚡ 165.00ms
-  - 🇳🇱 NL 031 | ⚡ 170.00ms
-  - 🇺🇸 US 008 | ⚡ 170.00ms
-  - 🇫🇮 FI 002 | ⚡ 171.00ms
-  - 🇩🇪 DE 003 | ⚡ 172.00ms
-  - 🇳🇴 NO 001 | ⚡ 173.00ms
-  - 🇨🇳 TW 001 | ⚡ 198.00ms
-  - 🇳🇱 NL 032 | ⚡ 204.00ms
-  - 🇺🇸 US 009 | ⚡ 215.00ms
-  - 🇺🇸 US 010 | ⚡ 247.00ms
-  - 🇯🇵 JP 001 | ⚡ 250.00ms
-  - 🇯🇵 JP 002 | ⚡ 259.00ms
-  - 🇧🇬 BG 001 | ⚡ 264.00ms
-  - 🇫🇮 FI 003 | ⚡ 269.00ms
-  - 🇯🇵 JP 003 | ⚡ 271.00ms
-  - 🇨🇳 TW 002 | ⚡ 280.00ms
-  - 🇳🇱 NL 033 | ⚡ 294.00ms
-  - 🇯🇵 JP 004 | ⚡ 328.00ms
-  - 🇨🇳 TW 003 | ⚡ 330.00ms
-  - 🇰🇷 KR 001 | ⚡ 372.00ms
-  - 🇰🇷 KR 002 | ⚡ 384.00ms
-  - 🇰🇷 KR 003 | ⚡ 407.00ms
-  - 🇰🇷 KR 004 | ⚡ 421.00ms
-  - 🇵🇭 PH 001 | ⚡ 473.00ms
-  - 🇿🇦 ZA 001 | ⚡ 522.00ms
-  - 🇿🇦 ZA 002 | ⚡ 532.00ms
-  - 🇰🇷 KR 005 | ⚡ 672.00ms
-  - 🇸🇬 SG 001 | ⚡ 686.00ms
-  - 🇰🇷 KR 006 | ⚡ 686.00ms
-  - 🇰🇷 KR 007 | ⚡ 775.00ms
-  - 🇭🇰 HK 001 | ⚡ 1606.00ms
-  - 🇦🇹 AT 001 | ⚡ 2319.00ms
-  - 🇨🇦 CA 001 | ⚡ 28.00ms
-  - 🇺🇸 US 001 | ⚡ 32.00ms
-  - 🇺🇸 US 002 | ⚡ 33.00ms
-  - 🇯🇵 JP 001 | ⚡ 43.00ms
-  - 🇺🇸 US 003 | ⚡ 65.00ms
-  - 🇨🇦 CA 002 | ⚡ 85.00ms
-  - 🇺🇸 US 004 | ⚡ 86.00ms
-  - 🇺🇸 US 005 | ⚡ 95.00ms
-  - 🇺🇸 US 006 | ⚡ 110.00ms
-  - 🇺🇸 US 007 | ⚡ 115.00ms
-  - 🇳🇱 NL 001 | ⚡ 119.00ms
-  - 🇳🇱 NL 002 | ⚡ 120.00ms
-  - 🇺🇸 US 008 | ⚡ 123.00ms
-  - 🇺🇸 US 009 | ⚡ 134.00ms
-  - 🇳🇱 NL 003 | ⚡ 141.00ms
-  - 🇳🇱 NL 004 | ⚡ 147.00ms
-  - 🇺🇸 US 010 | ⚡ 150.00ms
-  - 🇳🇱 NL 005 | ⚡ 152.00ms
-  - 🇺🇸 US 011 | ⚡ 164.00ms
-  - 🇺🇸 US 012 | ⚡ 166.00ms
-  - 🇫🇮 FI 001 | ⚡ 177.00ms
-  - 🇺🇸 US 013 | ⚡ 195.00ms
-  - 🇨🇳 TW 001 | ⚡ 287.00ms
-  - 🇸🇬 SG 001 | ⚡ 312.00ms
-  - 🇺🇸 US 014 | ⚡ 320.00ms
-  - 🇭🇰 HK 001 | ⚡ 612.00ms
-  - 🇨🇳 TW 002 | ⚡ 1417.00ms
-  - 🇭🇰 HK 002 | ⚡ 2350.00ms
-  - 🇺🇸 US 015 | ⚡ 5536.00ms
-  - 🇺🇸 US 001 | ⚡ 88.00ms
-  - 🇺🇸 US 002 | ⚡ 89.00ms
-  - 🇺🇸 US 003 | ⚡ 111.00ms
-  - 🇺🇸 US 001 | ⚡ 4007.00ms
-  - 🇵🇱 PL 001 | ⚡ 245.00ms
-  - 🇺🇸 US 001 | ⚡ 92.00ms
-  - 🇺🇸 US 002 | ⚡ 170.00ms
-  - 🇩🇪 DE 001 | ⚡ 211.00ms
-  - 🇩🇪 DE 002 | ⚡ 223.00ms
-  - 🇩🇪 DE 003 | ⚡ 223.00ms
-  - 🇪🇸 ES 001 | ⚡ 237.00ms
-  - 🇪🇬 EG 001 | ⚡ 350.00ms
-  - 🇦🇪 AE 001 | ⚡ 229.00ms
-  - 🇺🇸 US 001 | ⚡ 73.00ms
-  - 🇺🇸 US 002 | ⚡ 87.00ms
-  - 🇺🇸 US 003 | ⚡ 92.00ms
-  - 🇺🇸 US 004 | ⚡ 93.00ms
-  - 🇺🇸 US 005 | ⚡ 102.00ms
-  - 🇺🇸 US 006 | ⚡ 108.00ms
-  - 🇺🇸 US 007 | ⚡ 137.00ms
-  - 🇺🇸 US 008 | ⚡ 143.00ms
-  - 🇺🇸 US 009 | ⚡ 188.00ms
-  - 🇺🇸 US 010 | ⚡ 4304.00ms
-  - 🇺🇸 US 011 | ⚡ 5102.00ms
-  - 🇸🇬 SG 001 | ⚡ 308.00ms
-  - 🇷🇺 RU 001 | ⚡ 345.00ms
-  - 🇸🇬 SG 002 | ⚡ 364.00ms
-  - 🇷🇺 RU 002 | ⚡ 609.00ms
-  - 🇨🇦 CA 001 | ⚡ 79.00ms
-  - 🇨🇦 CA 002 | ⚡ 81.00ms
-  - 🇨🇦 CA 003 | ⚡ 84.00ms
-  - 🇧🇷 BR 001 | ⚡ 220.00ms
-  - 🇺🇸 US 001 | ⚡ 92.00ms
-  - 🇺🇸 US 002 | ⚡ 99.00ms
-  - 🇺🇸 US 003 | ⚡ 132.00ms
-  - 🇺🇸 US 004 | ⚡ 136.00ms
-  - 🇺🇸 US 005 | ⚡ 139.00ms
-  - 🇺🇸 US 006 | ⚡ 141.00ms
-  - 🇨🇳 TW 001 | ⚡ 216.00ms
-  - 🇸🇬 SG 001 | ⚡ 282.00ms
-  - 🇹🇷 TR 001 | ⚡ 288.00ms
-  - 🇨🇳 TW 002 | ⚡ 1625.00ms
+  - 🇺🇸 US 001 | ⬇️ 143.29MB/s
+  - 🇺🇸 US 002 | ⬇️ 134.55MB/s
+  - 🇺🇸 US 003 | ⬇️ 129.81MB/s
+  - 🇨🇦 CA 001 | ⬇️ 125.81MB/s
+  - 🇺🇸 US 004 | ⬇️ 84.49MB/s
+  - 🇨🇦 CA 002 | ⬇️ 79.54MB/s
+  - 🇺🇸 US 005 | ⬇️ 79.38MB/s
+  - 🇺🇸 US 006 | ⬇️ 75.85MB/s
+  - 🇺🇸 US 007 | ⬇️ 62.91MB/s
+  - 🇺🇸 US 008 | ⬇️ 62.66MB/s
+  - 🇺🇸 US 009 | ⬇️ 60.86MB/s
+  - 🇺🇸 US 010 | ⬇️ 59.76MB/s
+  - 🇺🇸 US 011 | ⬇️ 57.24MB/s
+  - 🇺🇸 US 012 | ⬇️ 56.79MB/s
+  - 🇨🇦 CA 003 | ⬇️ 53.87MB/s
+  - 🇺🇸 US 013 | ⬇️ 53.61MB/s
+  - 🇺🇸 US 014 | ⬇️ 42.38MB/s
+  - 🇺🇸 US 015 | ⬇️ 39.86MB/s
+  - 🇺🇸 US 016 | ⬇️ 34.84MB/s
+  - 🇺🇸 US 017 | ⬇️ 31.27MB/s
+  - 🇺🇸 US 018 | ⬇️ 31.06MB/s
+  - 🇺🇸 US 019 | ⬇️ 30.93MB/s
+  - 🇬🇧 GB 001 | ⬇️ 29.99MB/s
+  - 🇬🇧 GB 002 | ⬇️ 29.37MB/s
+  - 🇺🇸 US 020 | ⬇️ 28.88MB/s
+  - 🇳🇱 NL 001 | ⬇️ 28.83MB/s
+  - 🇳🇱 NL 002 | ⬇️ 26.79MB/s
+  - 🇫🇷 FR 001 | ⬇️ 26.73MB/s
+  - 🇳🇱 NL 003 | ⬇️ 26.71MB/s
+  - 🇳🇱 NL 004 | ⬇️ 26.59MB/s
+  - 🇨🇦 CA 004 | ⬇️ 26.49MB/s
+  - 🇳🇱 NL 005 | ⬇️ 26.47MB/s
+  - 🇳🇱 NL 006 | ⬇️ 26.37MB/s
+  - 🇫🇷 FR 002 | ⬇️ 25.94MB/s
+  - 🇳🇱 NL 007 | ⬇️ 25.92MB/s
+  - 🇳🇱 NL 008 | ⬇️ 25.83MB/s
+  - 🇺🇸 US 021 | ⬇️ 24.99MB/s
+  - 🇳🇱 NL 009 | ⬇️ 24.90MB/s
+  - 🇳🇱 NL 010 | ⬇️ 24.80MB/s
+  - 🇳🇴 NO 001 | ⬇️ 24.23MB/s
+  - 🇯🇵 JP 001 | ⬇️ 23.16MB/s
+  - 🇬🇧 GB 003 | ⬇️ 23.02MB/s
+  - 🇩🇪 DE 001 | ⬇️ 22.91MB/s
+  - 🇬🇧 GB 004 | ⬇️ 22.80MB/s
+  - 🇯🇵 JP 002 | ⬇️ 22.79MB/s
+  - 🇺🇸 US 022 | ⬇️ 22.73MB/s
+  - 🇺🇸 US 023 | ⬇️ 22.70MB/s
+  - 🇳🇱 NL 011 | ⬇️ 22.08MB/s
+  - 🇯🇵 JP 003 | ⬇️ 21.97MB/s
+  - 🇯🇵 JP 004 | ⬇️ 21.77MB/s
+  - 🇪🇸 ES 001 | ⬇️ 21.70MB/s
+  - 🇯🇵 JP 005 | ⬇️ 21.26MB/s
+  - 🇨🇳 TW 001 | ⬇️ 20.26MB/s
+  - 🇩🇪 DE 002 | ⬇️ 19.42MB/s
+  - 🇸🇬 SG 001 | ⬇️ 18.82MB/s
+  - 🇩🇪 DE 003 | ⬇️ 18.56MB/s
+  - 🇬🇧 GB 005 | ⬇️ 18.54MB/s
+  - 🇳🇱 NL 012 | ⬇️ 17.95MB/s
+  - 🇮🇹 IT 001 | ⬇️ 17.90MB/s
+  - 🇸🇬 SG 002 | ⬇️ 17.78MB/s
+  - 🇺🇸 US 024 | ⬇️ 17.66MB/s
+  - 🇳🇱 NL 013 | ⬇️ 15.97MB/s
+  - 🇸🇬 SG 003 | ⬇️ 15.75MB/s
+  - 🇷🇺 RU 001 | ⬇️ 15.69MB/s
+  - 🇬🇧 GB 006 | ⬇️ 15.15MB/s
+  - 🇬🇧 GB 007 | ⬇️ 14.90MB/s
+  - 🇬🇧 GB 008 | ⬇️ 14.46MB/s
+  - 🇬🇧 GB 009 | ⬇️ 14.20MB/s
+  - 🇺🇸 US 025 | ⬇️ 14.00MB/s
+  - 🇭🇰 HK 001 | ⬇️ 13.74MB/s
+  - 🇭🇰 HK 002 | ⬇️ 13.07MB/s
+  - 🇸🇬 SG 004 | ⬇️ 12.79MB/s
+  - 🇮🇳 IN 001 | ⬇️ 12.66MB/s
+  - 🇬🇧 GB 010 | ⬇️ 12.58MB/s
+  - 🇺🇸 US 026 | ⬇️ 12.07MB/s
+  - 🇺🇸 US 027 | ⬇️ 11.26MB/s
+  - 🇨🇦 CA 005 | ⬇️ 9.17MB/s
+  - 🇬🇧 GB 011 | ⬇️ 8.94MB/s
+  - 🇯🇵 JP 006 | ⬇️ 8.54MB/s
+  - 🇺🇸 US 028 | ⬇️ 7.88MB/s
+  - 🇵🇭 PH 001 | ⬇️ 6.78MB/s
+  - 🇬🇧 GB 012 | ⬇️ 6.27MB/s
+  - 🇺🇸 US 029 | ⬇️ 6.17MB/s
+  - 🇺🇸 US 030 | ⬇️ 5.79MB/s
+  - 🇨🇳 TW 001 | ⚡ 386.00ms
+  - 🇯🇵 JP 001 | ⚡ 259.00ms
+  - 🇳🇱 NL 024 | ⚡ 492.00ms
+  - 🇺🇸 US 031 | ⬇️ 3.61MB/s
+  - 🇳🇱 NL 012 | ⚡ 168.00ms
+  - 🇨🇳 TW 002 | ⬇️ 3.09MB/s
+  - 🇺🇸 US 006 | ⚡ 116.00ms
+  - 🇯🇵 JP 003 | ⚡ 263.00ms
+  - 🇳🇱 NL 014 | ⬇️ 2.75MB/s
+  - 🇫🇷 FR 003 | ⬇️ 2.58MB/s
+  - 🇳🇱 NL 015 | ⬇️ 1.82MB/s
+  - 🇭🇰 HK 003 | ⬇️ 1.73MB/s
+  - 🇳🇱 NL 009 | ⚡ 155.00ms
+  - 🇳🇱 NL 003 | ⚡ 147.00ms
+  - 🇭🇰 HK 001 | ⚡ 60.00ms
+  - 🇳🇱 NL 018 | ⚡ 286.00ms
+  - 🇳🇱 NL 026 | ⚡ 551.00ms
+  - 🇳🇱 NL 027 | ⚡ 562.00ms
+  - 🇰🇷 KR 001 | ⚡ 398.00ms
+  - 🇰🇷 KR 003 | ⚡ 424.00ms
+  - 🇨🇳 TW 002 | ⚡ 403.00ms
+  - 🇳🇱 NL 025 | ⚡ 521.00ms
+  - 🇫🇮 FI 001 | ⚡ 373.00ms
+  - 🇰🇷 KR 004 | ⚡ 536.00ms
+  - 🇵🇱 PL 001 | ⚡ 214.00ms
+  - 🇦🇪 AE 001 | ⚡ 196.00ms
+  - 🇩🇪 DE 003 | ⚡ 1139.00ms
+  - 🇰🇷 KR 007 | ⚡ 746.00ms
+  - 🇳🇱 NL 017 | ⚡ 261.00ms
 - name: 故障转移
   type: fallback
   proxies:
@@ -1831,288 +1154,193 @@ proxy-groups:
 - name: 手动选择
   type: select
   proxies:
-  - 🇮🇹 IT 001 | ⚡ 176.00ms
-  - 🇯🇵 JP 001 | ⚡ 253.00ms
-  - 🇯🇵 JP 002 | ⚡ 253.00ms
-  - 🇯🇵 JP 003 | ⚡ 256.00ms
-  - 🇮🇳 IN 001 | ⚡ 322.00ms
-  - 🇬🇧 GB 001 | ⚡ 124.00ms
-  - 🇫🇷 FR 001 | ⚡ 148.00ms
-  - 🇯🇵 JP 001 | ⚡ 296.00ms
-  - 🇭🇰 HK 001 | ⚡ 116.00ms
-  - 🇬🇧 GB 001 | ⚡ 162.00ms
-  - 🇭🇰 HK 002 | ⚡ 372.00ms
-  - 🇭🇰 HK 003 | ⚡ 384.00ms
-  - 🇲🇾 MY 001 | ⚡ 1262.00ms
-  - 🇭🇰 HK 004 | ⚡ 1668.00ms
-  - 🇺🇸 US 001 | ⚡ 2044.00ms
-  - 🇮🇩 ID 001 | ⚡ 2076.00ms
-  - 🇲🇾 MY 002 | ⚡ 2217.00ms
-  - 🇲🇾 MY 003 | ⚡ 3411.00ms
-  - 🇲🇾 MY 001 | ⚡ 303.00ms
-  - 🇮🇩 ID 001 | ⚡ 586.00ms
-  - 🇮🇩 ID 002 | ⚡ 1366.00ms
-  - 🇲🇾 MY 002 | ⚡ 1728.00ms
-  - 🇮🇩 ID 003 | ⚡ 2386.00ms
-  - 🇮🇩 ID 004 | ⚡ 2581.00ms
-  - 🇺🇸 US 001 | ⚡ 33.00ms
-  - 🇺🇸 US 002 | ⚡ 33.00ms
-  - 🇺🇸 US 003 | ⚡ 61.00ms
-  - 🇨🇦 CA 001 | ⚡ 66.00ms
-  - 🇨🇦 CA 002 | ⚡ 75.00ms
-  - 🇺🇸 US 004 | ⚡ 109.00ms
-  - 🇨🇦 CA 003 | ⚡ 111.00ms
-  - 🇺🇸 US 005 | ⚡ 116.00ms
-  - 🇺🇸 US 006 | ⚡ 118.00ms
-  - 🇬🇧 GB 001 | ⚡ 119.00ms
-  - 🇬🇧 GB 002 | ⚡ 120.00ms
-  - 🇬🇧 GB 003 | ⚡ 123.00ms
-  - 🇺🇸 US 007 | ⚡ 126.00ms
-  - 🇳🇱 NL 001 | ⚡ 128.00ms
-  - 🇬🇧 GB 004 | ⚡ 130.00ms
-  - 🇳🇱 NL 002 | ⚡ 132.00ms
-  - 🇬🇧 GB 005 | ⚡ 133.00ms
-  - 🇳🇱 NL 003 | ⚡ 133.00ms
-  - 🇳🇱 NL 004 | ⚡ 134.00ms
-  - 🇬🇧 GB 006 | ⚡ 135.00ms
-  - 🇳🇱 NL 005 | ⚡ 135.00ms
-  - 🇳🇱 NL 006 | ⚡ 137.00ms
-  - 🇬🇧 GB 007 | ⚡ 137.00ms
-  - 🇳🇱 NL 007 | ⚡ 138.00ms
-  - 🇳🇱 NL 008 | ⚡ 139.00ms
-  - 🇩🇪 DE 001 | ⚡ 139.00ms
-  - 🇳🇱 NL 009 | ⚡ 139.00ms
-  - 🇳🇱 NL 010 | ⚡ 139.00ms
-  - 🇳🇱 NL 011 | ⚡ 140.00ms
-  - 🇬🇧 GB 008 | ⚡ 142.00ms
-  - 🇳🇱 NL 012 | ⚡ 142.00ms
-  - 🇬🇧 GB 009 | ⚡ 143.00ms
-  - 🇳🇱 NL 013 | ⚡ 143.00ms
-  - 🇳🇱 NL 014 | ⚡ 143.00ms
-  - 🇳🇱 NL 015 | ⚡ 143.00ms
-  - 🇳🇱 NL 016 | ⚡ 144.00ms
-  - 🇳🇱 NL 017 | ⚡ 144.00ms
-  - 🇳🇱 NL 018 | ⚡ 145.00ms
-  - 🇳🇱 NL 019 | ⚡ 145.00ms
-  - 🇳🇱 NL 020 | ⚡ 146.00ms
-  - 🇳🇱 NL 021 | ⚡ 147.00ms
-  - 🇳🇱 NL 022 | ⚡ 147.00ms
-  - 🇳🇱 NL 023 | ⚡ 148.00ms
-  - 🇳🇱 NL 024 | ⚡ 149.00ms
-  - 🇳🇱 NL 025 | ⚡ 150.00ms
-  - 🇳🇱 NL 026 | ⚡ 151.00ms
-  - 🇫🇷 FR 001 | ⚡ 152.00ms
-  - 🇬🇧 GB 010 | ⚡ 153.00ms
-  - 🇳🇱 NL 027 | ⚡ 153.00ms
-  - 🇳🇱 NL 028 | ⚡ 160.00ms
-  - 🇩🇪 DE 002 | ⚡ 160.00ms
-  - 🇳🇱 NL 029 | ⚡ 161.00ms
-  - 🇫🇮 FI 001 | ⚡ 161.00ms
-  - 🇳🇱 NL 030 | ⚡ 165.00ms
-  - 🇳🇱 NL 031 | ⚡ 170.00ms
-  - 🇺🇸 US 008 | ⚡ 170.00ms
-  - 🇫🇮 FI 002 | ⚡ 171.00ms
-  - 🇩🇪 DE 003 | ⚡ 172.00ms
-  - 🇳🇴 NO 001 | ⚡ 173.00ms
-  - 🇨🇳 TW 001 | ⚡ 198.00ms
-  - 🇳🇱 NL 032 | ⚡ 204.00ms
-  - 🇺🇸 US 009 | ⚡ 215.00ms
-  - 🇺🇸 US 010 | ⚡ 247.00ms
-  - 🇯🇵 JP 001 | ⚡ 250.00ms
-  - 🇯🇵 JP 002 | ⚡ 259.00ms
-  - 🇧🇬 BG 001 | ⚡ 264.00ms
-  - 🇫🇮 FI 003 | ⚡ 269.00ms
-  - 🇯🇵 JP 003 | ⚡ 271.00ms
-  - 🇨🇳 TW 002 | ⚡ 280.00ms
-  - 🇳🇱 NL 033 | ⚡ 294.00ms
-  - 🇯🇵 JP 004 | ⚡ 328.00ms
-  - 🇨🇳 TW 003 | ⚡ 330.00ms
-  - 🇰🇷 KR 001 | ⚡ 372.00ms
-  - 🇰🇷 KR 002 | ⚡ 384.00ms
-  - 🇰🇷 KR 003 | ⚡ 407.00ms
-  - 🇰🇷 KR 004 | ⚡ 421.00ms
-  - 🇵🇭 PH 001 | ⚡ 473.00ms
-  - 🇿🇦 ZA 001 | ⚡ 522.00ms
-  - 🇿🇦 ZA 002 | ⚡ 532.00ms
-  - 🇰🇷 KR 005 | ⚡ 672.00ms
-  - 🇸🇬 SG 001 | ⚡ 686.00ms
-  - 🇰🇷 KR 006 | ⚡ 686.00ms
-  - 🇰🇷 KR 007 | ⚡ 775.00ms
-  - 🇭🇰 HK 001 | ⚡ 1606.00ms
-  - 🇦🇹 AT 001 | ⚡ 2319.00ms
-  - 🇨🇦 CA 001 | ⚡ 28.00ms
-  - 🇺🇸 US 001 | ⚡ 32.00ms
-  - 🇺🇸 US 002 | ⚡ 33.00ms
-  - 🇯🇵 JP 001 | ⚡ 43.00ms
-  - 🇺🇸 US 003 | ⚡ 65.00ms
-  - 🇨🇦 CA 002 | ⚡ 85.00ms
-  - 🇺🇸 US 004 | ⚡ 86.00ms
-  - 🇺🇸 US 005 | ⚡ 95.00ms
-  - 🇺🇸 US 006 | ⚡ 110.00ms
-  - 🇺🇸 US 007 | ⚡ 115.00ms
-  - 🇳🇱 NL 001 | ⚡ 119.00ms
-  - 🇳🇱 NL 002 | ⚡ 120.00ms
-  - 🇺🇸 US 008 | ⚡ 123.00ms
-  - 🇺🇸 US 009 | ⚡ 134.00ms
-  - 🇳🇱 NL 003 | ⚡ 141.00ms
-  - 🇳🇱 NL 004 | ⚡ 147.00ms
-  - 🇺🇸 US 010 | ⚡ 150.00ms
-  - 🇳🇱 NL 005 | ⚡ 152.00ms
-  - 🇺🇸 US 011 | ⚡ 164.00ms
-  - 🇺🇸 US 012 | ⚡ 166.00ms
-  - 🇫🇮 FI 001 | ⚡ 177.00ms
-  - 🇺🇸 US 013 | ⚡ 195.00ms
-  - 🇨🇳 TW 001 | ⚡ 287.00ms
-  - 🇸🇬 SG 001 | ⚡ 312.00ms
-  - 🇺🇸 US 014 | ⚡ 320.00ms
-  - 🇭🇰 HK 001 | ⚡ 612.00ms
-  - 🇨🇳 TW 002 | ⚡ 1417.00ms
-  - 🇭🇰 HK 002 | ⚡ 2350.00ms
-  - 🇺🇸 US 015 | ⚡ 5536.00ms
-  - 🇺🇸 US 001 | ⚡ 88.00ms
-  - 🇺🇸 US 002 | ⚡ 89.00ms
-  - 🇺🇸 US 003 | ⚡ 111.00ms
-  - 🇺🇸 US 001 | ⚡ 4007.00ms
-  - 🇵🇱 PL 001 | ⚡ 245.00ms
-  - 🇺🇸 US 001 | ⚡ 92.00ms
-  - 🇺🇸 US 002 | ⚡ 170.00ms
-  - 🇩🇪 DE 001 | ⚡ 211.00ms
-  - 🇩🇪 DE 002 | ⚡ 223.00ms
-  - 🇩🇪 DE 003 | ⚡ 223.00ms
-  - 🇪🇸 ES 001 | ⚡ 237.00ms
-  - 🇪🇬 EG 001 | ⚡ 350.00ms
-  - 🇦🇪 AE 001 | ⚡ 229.00ms
-  - 🇺🇸 US 001 | ⚡ 73.00ms
-  - 🇺🇸 US 002 | ⚡ 87.00ms
-  - 🇺🇸 US 003 | ⚡ 92.00ms
-  - 🇺🇸 US 004 | ⚡ 93.00ms
-  - 🇺🇸 US 005 | ⚡ 102.00ms
-  - 🇺🇸 US 006 | ⚡ 108.00ms
-  - 🇺🇸 US 007 | ⚡ 137.00ms
-  - 🇺🇸 US 008 | ⚡ 143.00ms
-  - 🇺🇸 US 009 | ⚡ 188.00ms
-  - 🇺🇸 US 010 | ⚡ 4304.00ms
-  - 🇺🇸 US 011 | ⚡ 5102.00ms
-  - 🇸🇬 SG 001 | ⚡ 308.00ms
-  - 🇷🇺 RU 001 | ⚡ 345.00ms
-  - 🇸🇬 SG 002 | ⚡ 364.00ms
-  - 🇷🇺 RU 002 | ⚡ 609.00ms
-  - 🇨🇦 CA 001 | ⚡ 79.00ms
-  - 🇨🇦 CA 002 | ⚡ 81.00ms
-  - 🇨🇦 CA 003 | ⚡ 84.00ms
-  - 🇧🇷 BR 001 | ⚡ 220.00ms
-  - 🇺🇸 US 001 | ⚡ 92.00ms
-  - 🇺🇸 US 002 | ⚡ 99.00ms
-  - 🇺🇸 US 003 | ⚡ 132.00ms
-  - 🇺🇸 US 004 | ⚡ 136.00ms
-  - 🇺🇸 US 005 | ⚡ 139.00ms
-  - 🇺🇸 US 006 | ⚡ 141.00ms
-  - 🇨🇳 TW 001 | ⚡ 216.00ms
-  - 🇸🇬 SG 001 | ⚡ 282.00ms
-  - 🇹🇷 TR 001 | ⚡ 288.00ms
-  - 🇨🇳 TW 002 | ⚡ 1625.00ms
+  - 🇺🇸 US 001 | ⬇️ 143.29MB/s
+  - 🇺🇸 US 002 | ⬇️ 134.55MB/s
+  - 🇺🇸 US 003 | ⬇️ 129.81MB/s
+  - 🇨🇦 CA 001 | ⬇️ 125.81MB/s
+  - 🇺🇸 US 004 | ⬇️ 84.49MB/s
+  - 🇨🇦 CA 002 | ⬇️ 79.54MB/s
+  - 🇺🇸 US 005 | ⬇️ 79.38MB/s
+  - 🇺🇸 US 006 | ⬇️ 75.85MB/s
+  - 🇺🇸 US 007 | ⬇️ 62.91MB/s
+  - 🇺🇸 US 008 | ⬇️ 62.66MB/s
+  - 🇺🇸 US 009 | ⬇️ 60.86MB/s
+  - 🇺🇸 US 010 | ⬇️ 59.76MB/s
+  - 🇺🇸 US 011 | ⬇️ 57.24MB/s
+  - 🇺🇸 US 012 | ⬇️ 56.79MB/s
+  - 🇨🇦 CA 003 | ⬇️ 53.87MB/s
+  - 🇺🇸 US 013 | ⬇️ 53.61MB/s
+  - 🇺🇸 US 014 | ⬇️ 42.38MB/s
+  - 🇺🇸 US 015 | ⬇️ 39.86MB/s
+  - 🇺🇸 US 016 | ⬇️ 34.84MB/s
+  - 🇺🇸 US 017 | ⬇️ 31.27MB/s
+  - 🇺🇸 US 018 | ⬇️ 31.06MB/s
+  - 🇺🇸 US 019 | ⬇️ 30.93MB/s
+  - 🇬🇧 GB 001 | ⬇️ 29.99MB/s
+  - 🇬🇧 GB 002 | ⬇️ 29.37MB/s
+  - 🇺🇸 US 020 | ⬇️ 28.88MB/s
+  - 🇳🇱 NL 001 | ⬇️ 28.83MB/s
+  - 🇳🇱 NL 002 | ⬇️ 26.79MB/s
+  - 🇫🇷 FR 001 | ⬇️ 26.73MB/s
+  - 🇳🇱 NL 003 | ⬇️ 26.71MB/s
+  - 🇳🇱 NL 004 | ⬇️ 26.59MB/s
+  - 🇨🇦 CA 004 | ⬇️ 26.49MB/s
+  - 🇳🇱 NL 005 | ⬇️ 26.47MB/s
+  - 🇳🇱 NL 006 | ⬇️ 26.37MB/s
+  - 🇫🇷 FR 002 | ⬇️ 25.94MB/s
+  - 🇳🇱 NL 007 | ⬇️ 25.92MB/s
+  - 🇳🇱 NL 008 | ⬇️ 25.83MB/s
+  - 🇺🇸 US 021 | ⬇️ 24.99MB/s
+  - 🇳🇱 NL 009 | ⬇️ 24.90MB/s
+  - 🇳🇱 NL 010 | ⬇️ 24.80MB/s
+  - 🇳🇴 NO 001 | ⬇️ 24.23MB/s
+  - 🇯🇵 JP 001 | ⬇️ 23.16MB/s
+  - 🇬🇧 GB 003 | ⬇️ 23.02MB/s
+  - 🇩🇪 DE 001 | ⬇️ 22.91MB/s
+  - 🇬🇧 GB 004 | ⬇️ 22.80MB/s
+  - 🇯🇵 JP 002 | ⬇️ 22.79MB/s
+  - 🇺🇸 US 022 | ⬇️ 22.73MB/s
+  - 🇺🇸 US 023 | ⬇️ 22.70MB/s
+  - 🇳🇱 NL 011 | ⬇️ 22.08MB/s
+  - 🇯🇵 JP 003 | ⬇️ 21.97MB/s
+  - 🇯🇵 JP 004 | ⬇️ 21.77MB/s
+  - 🇪🇸 ES 001 | ⬇️ 21.70MB/s
+  - 🇯🇵 JP 005 | ⬇️ 21.26MB/s
+  - 🇨🇳 TW 001 | ⬇️ 20.26MB/s
+  - 🇩🇪 DE 002 | ⬇️ 19.42MB/s
+  - 🇸🇬 SG 001 | ⬇️ 18.82MB/s
+  - 🇩🇪 DE 003 | ⬇️ 18.56MB/s
+  - 🇬🇧 GB 005 | ⬇️ 18.54MB/s
+  - 🇳🇱 NL 012 | ⬇️ 17.95MB/s
+  - 🇮🇹 IT 001 | ⬇️ 17.90MB/s
+  - 🇸🇬 SG 002 | ⬇️ 17.78MB/s
+  - 🇺🇸 US 024 | ⬇️ 17.66MB/s
+  - 🇳🇱 NL 013 | ⬇️ 15.97MB/s
+  - 🇸🇬 SG 003 | ⬇️ 15.75MB/s
+  - 🇷🇺 RU 001 | ⬇️ 15.69MB/s
+  - 🇬🇧 GB 006 | ⬇️ 15.15MB/s
+  - 🇬🇧 GB 007 | ⬇️ 14.90MB/s
+  - 🇬🇧 GB 008 | ⬇️ 14.46MB/s
+  - 🇬🇧 GB 009 | ⬇️ 14.20MB/s
+  - 🇺🇸 US 025 | ⬇️ 14.00MB/s
+  - 🇭🇰 HK 001 | ⬇️ 13.74MB/s
+  - 🇭🇰 HK 002 | ⬇️ 13.07MB/s
+  - 🇸🇬 SG 004 | ⬇️ 12.79MB/s
+  - 🇮🇳 IN 001 | ⬇️ 12.66MB/s
+  - 🇬🇧 GB 010 | ⬇️ 12.58MB/s
+  - 🇺🇸 US 026 | ⬇️ 12.07MB/s
+  - 🇺🇸 US 027 | ⬇️ 11.26MB/s
+  - 🇨🇦 CA 005 | ⬇️ 9.17MB/s
+  - 🇬🇧 GB 011 | ⬇️ 8.94MB/s
+  - 🇯🇵 JP 006 | ⬇️ 8.54MB/s
+  - 🇺🇸 US 028 | ⬇️ 7.88MB/s
+  - 🇵🇭 PH 001 | ⬇️ 6.78MB/s
+  - 🇬🇧 GB 012 | ⬇️ 6.27MB/s
+  - 🇺🇸 US 029 | ⬇️ 6.17MB/s
+  - 🇺🇸 US 030 | ⬇️ 5.79MB/s
+  - 🇨🇳 TW 001 | ⚡ 386.00ms
+  - 🇯🇵 JP 001 | ⚡ 259.00ms
+  - 🇳🇱 NL 024 | ⚡ 492.00ms
+  - 🇺🇸 US 031 | ⬇️ 3.61MB/s
+  - 🇳🇱 NL 012 | ⚡ 168.00ms
+  - 🇨🇳 TW 002 | ⬇️ 3.09MB/s
+  - 🇺🇸 US 006 | ⚡ 116.00ms
+  - 🇯🇵 JP 003 | ⚡ 263.00ms
+  - 🇳🇱 NL 014 | ⬇️ 2.75MB/s
+  - 🇫🇷 FR 003 | ⬇️ 2.58MB/s
+  - 🇳🇱 NL 015 | ⬇️ 1.82MB/s
+  - 🇭🇰 HK 003 | ⬇️ 1.73MB/s
+  - 🇳🇱 NL 009 | ⚡ 155.00ms
+  - 🇳🇱 NL 003 | ⚡ 147.00ms
+  - 🇭🇰 HK 001 | ⚡ 60.00ms
+  - 🇳🇱 NL 018 | ⚡ 286.00ms
+  - 🇳🇱 NL 026 | ⚡ 551.00ms
+  - 🇳🇱 NL 027 | ⚡ 562.00ms
+  - 🇰🇷 KR 001 | ⚡ 398.00ms
+  - 🇰🇷 KR 003 | ⚡ 424.00ms
+  - 🇨🇳 TW 002 | ⚡ 403.00ms
+  - 🇳🇱 NL 025 | ⚡ 521.00ms
+  - 🇫🇮 FI 001 | ⚡ 373.00ms
+  - 🇰🇷 KR 004 | ⚡ 536.00ms
+  - 🇵🇱 PL 001 | ⚡ 214.00ms
+  - 🇦🇪 AE 001 | ⚡ 196.00ms
+  - 🇩🇪 DE 003 | ⚡ 1139.00ms
+  - 🇰🇷 KR 007 | ⚡ 746.00ms
+  - 🇳🇱 NL 017 | ⚡ 261.00ms
 - name: 香港
   type: select
   proxies:
-  - 🇭🇰 HK 001 | ⚡ 116.00ms
-  - 🇭🇰 HK 002 | ⚡ 372.00ms
-  - 🇭🇰 HK 003 | ⚡ 384.00ms
-  - 🇭🇰 HK 004 | ⚡ 1668.00ms
-  - 🇭🇰 HK 001 | ⚡ 1606.00ms
-  - 🇭🇰 HK 001 | ⚡ 612.00ms
-  - 🇭🇰 HK 002 | ⚡ 2350.00ms
+  - 🇭🇰 HK 001 | ⬇️ 13.74MB/s
+  - 🇭🇰 HK 002 | ⬇️ 13.07MB/s
+  - 🇭🇰 HK 003 | ⬇️ 1.73MB/s
+  - 🇭🇰 HK 001 | ⚡ 60.00ms
 - name: 日本
   type: select
   proxies:
-  - 🇯🇵 JP 001 | ⚡ 253.00ms
-  - 🇯🇵 JP 002 | ⚡ 253.00ms
-  - 🇯🇵 JP 003 | ⚡ 256.00ms
-  - 🇯🇵 JP 001 | ⚡ 296.00ms
-  - 🇯🇵 JP 001 | ⚡ 250.00ms
-  - 🇯🇵 JP 002 | ⚡ 259.00ms
-  - 🇯🇵 JP 003 | ⚡ 271.00ms
-  - 🇯🇵 JP 004 | ⚡ 328.00ms
-  - 🇯🇵 JP 001 | ⚡ 43.00ms
+  - 🇯🇵 JP 001 | ⬇️ 23.16MB/s
+  - 🇯🇵 JP 002 | ⬇️ 22.79MB/s
+  - 🇯🇵 JP 003 | ⬇️ 21.97MB/s
+  - 🇯🇵 JP 004 | ⬇️ 21.77MB/s
+  - 🇯🇵 JP 005 | ⬇️ 21.26MB/s
+  - 🇯🇵 JP 006 | ⬇️ 8.54MB/s
+  - 🇯🇵 JP 001 | ⚡ 259.00ms
+  - 🇯🇵 JP 003 | ⚡ 263.00ms
 - name: 美国
   type: select
   proxies:
-  - 🇺🇸 US 001 | ⚡ 2044.00ms
-  - 🇺🇸 US 001 | ⚡ 33.00ms
-  - 🇺🇸 US 002 | ⚡ 33.00ms
-  - 🇺🇸 US 003 | ⚡ 61.00ms
-  - 🇺🇸 US 004 | ⚡ 109.00ms
-  - 🇺🇸 US 005 | ⚡ 116.00ms
-  - 🇺🇸 US 006 | ⚡ 118.00ms
-  - 🇺🇸 US 007 | ⚡ 126.00ms
-  - 🇺🇸 US 008 | ⚡ 170.00ms
-  - 🇺🇸 US 009 | ⚡ 215.00ms
-  - 🇺🇸 US 010 | ⚡ 247.00ms
-  - 🇺🇸 US 001 | ⚡ 32.00ms
-  - 🇺🇸 US 002 | ⚡ 33.00ms
-  - 🇺🇸 US 003 | ⚡ 65.00ms
-  - 🇺🇸 US 004 | ⚡ 86.00ms
-  - 🇺🇸 US 005 | ⚡ 95.00ms
-  - 🇺🇸 US 006 | ⚡ 110.00ms
-  - 🇺🇸 US 007 | ⚡ 115.00ms
-  - 🇺🇸 US 008 | ⚡ 123.00ms
-  - 🇺🇸 US 009 | ⚡ 134.00ms
-  - 🇺🇸 US 010 | ⚡ 150.00ms
-  - 🇺🇸 US 011 | ⚡ 164.00ms
-  - 🇺🇸 US 012 | ⚡ 166.00ms
-  - 🇺🇸 US 013 | ⚡ 195.00ms
-  - 🇺🇸 US 014 | ⚡ 320.00ms
-  - 🇺🇸 US 015 | ⚡ 5536.00ms
-  - 🇺🇸 US 001 | ⚡ 88.00ms
-  - 🇺🇸 US 002 | ⚡ 89.00ms
-  - 🇺🇸 US 003 | ⚡ 111.00ms
-  - 🇺🇸 US 001 | ⚡ 4007.00ms
-  - 🇺🇸 US 001 | ⚡ 92.00ms
-  - 🇺🇸 US 002 | ⚡ 170.00ms
-  - 🇺🇸 US 001 | ⚡ 73.00ms
-  - 🇺🇸 US 002 | ⚡ 87.00ms
-  - 🇺🇸 US 003 | ⚡ 92.00ms
-  - 🇺🇸 US 004 | ⚡ 93.00ms
-  - 🇺🇸 US 005 | ⚡ 102.00ms
-  - 🇺🇸 US 006 | ⚡ 108.00ms
-  - 🇺🇸 US 007 | ⚡ 137.00ms
-  - 🇺🇸 US 008 | ⚡ 143.00ms
-  - 🇺🇸 US 009 | ⚡ 188.00ms
-  - 🇺🇸 US 010 | ⚡ 4304.00ms
-  - 🇺🇸 US 011 | ⚡ 5102.00ms
-  - 🇺🇸 US 001 | ⚡ 92.00ms
-  - 🇺🇸 US 002 | ⚡ 99.00ms
-  - 🇺🇸 US 003 | ⚡ 132.00ms
-  - 🇺🇸 US 004 | ⚡ 136.00ms
-  - 🇺🇸 US 005 | ⚡ 139.00ms
-  - 🇺🇸 US 006 | ⚡ 141.00ms
+  - 🇺🇸 US 001 | ⬇️ 143.29MB/s
+  - 🇺🇸 US 002 | ⬇️ 134.55MB/s
+  - 🇺🇸 US 003 | ⬇️ 129.81MB/s
+  - 🇺🇸 US 004 | ⬇️ 84.49MB/s
+  - 🇺🇸 US 005 | ⬇️ 79.38MB/s
+  - 🇺🇸 US 006 | ⬇️ 75.85MB/s
+  - 🇺🇸 US 007 | ⬇️ 62.91MB/s
+  - 🇺🇸 US 008 | ⬇️ 62.66MB/s
+  - 🇺🇸 US 009 | ⬇️ 60.86MB/s
+  - 🇺🇸 US 010 | ⬇️ 59.76MB/s
+  - 🇺🇸 US 011 | ⬇️ 57.24MB/s
+  - 🇺🇸 US 012 | ⬇️ 56.79MB/s
+  - 🇺🇸 US 013 | ⬇️ 53.61MB/s
+  - 🇺🇸 US 014 | ⬇️ 42.38MB/s
+  - 🇺🇸 US 015 | ⬇️ 39.86MB/s
+  - 🇺🇸 US 016 | ⬇️ 34.84MB/s
+  - 🇺🇸 US 017 | ⬇️ 31.27MB/s
+  - 🇺🇸 US 018 | ⬇️ 31.06MB/s
+  - 🇺🇸 US 019 | ⬇️ 30.93MB/s
+  - 🇺🇸 US 020 | ⬇️ 28.88MB/s
+  - 🇺🇸 US 021 | ⬇️ 24.99MB/s
+  - 🇺🇸 US 022 | ⬇️ 22.73MB/s
+  - 🇺🇸 US 023 | ⬇️ 22.70MB/s
+  - 🇺🇸 US 024 | ⬇️ 17.66MB/s
+  - 🇺🇸 US 025 | ⬇️ 14.00MB/s
+  - 🇺🇸 US 026 | ⬇️ 12.07MB/s
+  - 🇺🇸 US 027 | ⬇️ 11.26MB/s
+  - 🇺🇸 US 028 | ⬇️ 7.88MB/s
+  - 🇺🇸 US 029 | ⬇️ 6.17MB/s
+  - 🇺🇸 US 030 | ⬇️ 5.79MB/s
+  - 🇺🇸 US 031 | ⬇️ 3.61MB/s
+  - 🇺🇸 US 006 | ⚡ 116.00ms
 - name: 新加坡
   type: select
   proxies:
-  - 🇸🇬 SG 001 | ⚡ 686.00ms
-  - 🇸🇬 SG 001 | ⚡ 312.00ms
-  - 🇸🇬 SG 001 | ⚡ 308.00ms
-  - 🇸🇬 SG 002 | ⚡ 364.00ms
-  - 🇸🇬 SG 001 | ⚡ 282.00ms
+  - 🇸🇬 SG 001 | ⬇️ 18.82MB/s
+  - 🇸🇬 SG 002 | ⬇️ 17.78MB/s
+  - 🇸🇬 SG 003 | ⬇️ 15.75MB/s
+  - 🇸🇬 SG 004 | ⬇️ 12.79MB/s
 - name: 台湾
   type: select
   proxies:
-  - 🇨🇳 TW 001 | ⚡ 198.00ms
-  - 🇨🇳 TW 002 | ⚡ 280.00ms
-  - 🇨🇳 TW 003 | ⚡ 330.00ms
-  - 🇨🇳 TW 001 | ⚡ 287.00ms
-  - 🇨🇳 TW 002 | ⚡ 1417.00ms
-  - 🇨🇳 TW 001 | ⚡ 216.00ms
-  - 🇨🇳 TW 002 | ⚡ 1625.00ms
+  - 🇨🇳 TW 001 | ⬇️ 20.26MB/s
+  - 🇨🇳 TW 001 | ⚡ 386.00ms
+  - 🇨🇳 TW 002 | ⬇️ 3.09MB/s
+  - 🇨🇳 TW 002 | ⚡ 403.00ms
 - name: 韩国
   type: select
   proxies:
-  - 🇰🇷 KR 001 | ⚡ 372.00ms
-  - 🇰🇷 KR 002 | ⚡ 384.00ms
-  - 🇰🇷 KR 003 | ⚡ 407.00ms
-  - 🇰🇷 KR 004 | ⚡ 421.00ms
-  - 🇰🇷 KR 005 | ⚡ 672.00ms
-  - 🇰🇷 KR 006 | ⚡ 686.00ms
-  - 🇰🇷 KR 007 | ⚡ 775.00ms
+  - 🇰🇷 KR 001 | ⚡ 398.00ms
+  - 🇰🇷 KR 003 | ⚡ 424.00ms
+  - 🇰🇷 KR 004 | ⚡ 536.00ms
+  - 🇰🇷 KR 007 | ⚡ 746.00ms
 - name: 色情
   type: select
   proxies:
