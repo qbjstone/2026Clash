@@ -28,7 +28,7 @@ dns:
     - 192.168.0.0/16
 proxies:
 - client-fingerprint: chrome
-  name: 🇨🇦 CA 001 | ⬇️ 133.83MB/s
+  name: 🇨🇦 CA 001 | ⬇️ 100.78MB/s
   network: ws
   port: 443
   server: icy-morning-df86.alisooltaniiii2024ali.workers.dev
@@ -42,23 +42,23 @@ proxies:
   ws-opts:
     headers:
       Host: icy-morning-df86.alisooltaniiii2024ali.workers.dev
-- name: 🇺🇸 US 001 | ⬇️ 123.75MB/s
+- client-fingerprint: chrome
+  name: 🇨🇦 CA 002 | ⬇️ 89.89MB/s
   network: ws
-  port: 2087
-  server: 154.197.64.127
-  servername: tel-bobbyv2.alvlirm2023.workers.dev
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
+  port: 443
+  server: www.shopify.com
+  sni: tjsp.hhxaf.cc.cd
+  type: trojan
   udp: true
-  uuid: 8525fe74-67e6-4a55-8a26-95f227bd1384
   ws-opts:
     headers:
-      Host: tel-bobbyv2.alvlirm2023.workers.dev
-    path: /proxyip=147.90.26.66,31.56.48.183,51.91.248.253,104.252.30.243,51.91.248.99,51.91.249.22,51.91.251.37,173.212.218.109
+      Host: tjsp.hhxaf.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/70.0.3538.102 Safari/537.36
+    path: /
 - client-fingerprint: chrome
-  name: 🇨🇦 CA 002 | ⬇️ 117.64MB/s
+  name: 🇨🇦 CA 003 | ⬇️ 89.03MB/s
   network: ws
   port: 2096
   server: 162.159.40.181
@@ -73,37 +73,7 @@ proxies:
     headers:
       Host: sp.linuxdododo.ccwu.cc
     path: /proxyip=ProxyIP.JP.cmliussss.net
-- name: 🇨🇦 CA 003 | ⬇️ 104.30MB/s
-  network: ws
-  port: 443
-  server: 162.159.13.71
-  servername: nbhhh.mrcool.kdns.fr
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 659a9075-d5ab-4fd2-bf34-b37043fae832
-  ws-opts:
-    headers:
-      Host: nbhhh.mrcool.kdns.fr
-    path: /
-- name: 🇬🇧 GB 001 | ⬇️ 102.17MB/s
-  network: ws
-  port: 443
-  server: 91.193.58.77
-  servername: unnes.ac.id.yxls.eu.cc
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0ac0a6f0-d3f0-47f1-8de4-ce785e515a5c
-  ws-opts:
-    headers:
-      Host: unnes.ac.id.yxls.eu.cc
-    path: /ca-cl
-- name: 🇨🇦 CA 004 | ⬇️ 101.30MB/s
+- name: 🇨🇦 CA 004 | ⬇️ 83.58MB/s
   network: ws
   port: 443
   server: 162.159.19.67
@@ -118,22 +88,45 @@ proxies:
     headers:
       Host: nbhhh.mrcool.kdns.fr
     path: /
-- client-fingerprint: chrome
-  name: 🇨🇦 CA 005 | ⬇️ 95.27MB/s
+- name: 🇬🇧 GB 001 | ⬇️ 79.75MB/s
   network: ws
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
   port: 443
-  server: www.shopify.com
-  sni: tjsp.hhxaf.cc.cd
-  type: trojan
+  server: 91.193.58.77
+  servername: unnes.ac.id.yxls.eu.cc
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
   udp: true
+  uuid: 0ac0a6f0-d3f0-47f1-8de4-ce785e515a5c
   ws-opts:
     headers:
-      Host: tjsp.hhxaf.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/70.0.3538.102 Safari/537.36
+      Host: unnes.ac.id.yxls.eu.cc
+    path: /ca-cl
+- name: 🇨🇦 CA 005 | ⬇️ 76.97MB/s
+  network: ws
+  port: 443
+  server: 162.159.13.71
+  servername: nbhhh.mrcool.kdns.fr
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 659a9075-d5ab-4fd2-bf34-b37043fae832
+  ws-opts:
+    headers:
+      Host: nbhhh.mrcool.kdns.fr
     path: /
-- name: 🇨🇦 CA 006 | ⬇️ 94.94MB/s
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 US 001 | ⬇️ 63.82MB/s
+  port: 18000
+  server: 84.17.41.2
+  type: vmess
+  udp: true
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+- name: 🇨🇦 CA 006 | ⬇️ 55.75MB/s
   network: ws
   port: 443
   server: 108.162.194.135
@@ -150,56 +143,36 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇺🇸 US 002 | ⬇️ 61.69MB/s
-  port: 18000
-  server: 84.17.41.2
-  type: vmess
-  udp: true
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 US 003 | ⬇️ 48.80MB/s
-  network: tcp
+  name: 🇺🇸 US 002 | ⬇️ 45.47MB/s
   port: 18000
   server: 38.110.1.246
-  skip-cert-verify: true
   type: vmess
+  udp: true
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
 - alterId: 0
   cipher: auto
-  name: 🇺🇸 US 004 | ⬇️ 41.50MB/s
-  port: 180
-  server: 82.198.246.97
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 US 005 | ⬇️ 40.94MB/s
-  port: 180
-  server: 82.198.246.37
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 US 006 | ⬇️ 40.64MB/s
+  name: 🇺🇸 US 003 | ⬇️ 43.75MB/s
   port: 180
   server: 82.198.246.9
   type: vmess
   udp: true
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- http-opts:
+    method: GET
+    path:
+    - /@monacoVPN@monacoVPN@monacoVPN@monacoVPN
+  name: 🇨🇦 CA 007 | ⬇️ 43.51MB/s
+  network: http
+  port: 22
+  server: 172.65.111.43
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vless
+  uuid: 8a38623a-3e7f-5598-bdc9-894cbad4c5b6
 - alterId: 0
   cipher: auto
-  name: 🇺🇸 US 007 | ⬇️ 39.94MB/s
-  port: 180
-  server: 82.198.246.233
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 US 008 | ⬇️ 39.89MB/s
+  name: 🇺🇸 US 004 | ⬇️ 42.92MB/s
   port: 180
   server: 82.198.246.250
   type: vmess
@@ -207,187 +180,81 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: 🇺🇸 US 009 | ⬇️ 35.47MB/s
+  name: 🇺🇸 US 005 | ⬇️ 42.21MB/s
+  port: 180
+  server: 82.198.246.233
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 US 006 | ⬇️ 42.08MB/s
+  port: 180
+  server: 82.198.246.37
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 US 007 | ⬇️ 41.48MB/s
   port: 18000
   server: 67.220.85.46
   type: vmess
   udp: true
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇺🇸 US 010 | ⬇️ 35.22MB/s
-  network: ws
-  port: 443
-  server: fast.cd-tur4.ir
-  servername: default.ssl.fastly.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: d27a232b-de94-4204-9bae-b0c243c6b93c
-  ws-opts:
-    headers:
-      Host: newip.global.ssl.fastly.neT.
-      User-Agent: Mozilla/5.0 (Linux; Android 7.1; Mi A1 Build/N2G47H) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile Safari/537.36
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  name: 🇺🇸 US 011 | ⬇️ 33.94MB/s
-  network: ws
-  port: 443
-  server: 159.112.235.52
-  servername: octopusss.net
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 073d1d50-8478-47bf-a828-7a1b381931d5
-  ws-opts:
-    headers:
-      Host: octopusss.net
-    path: /odiyfws
 - alterId: 0
   cipher: auto
-  name: 🇨🇦 CA 007 | ⬇️ 33.49MB/s
+  name: 🇺🇸 US 008 | ⬇️ 36.29MB/s
+  port: 18000
+  server: 38.91.107.49
+  type: vmess
+  udp: true
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+- alterId: 0
+  cipher: auto
+  name: 🇨🇦 CA 008 | ⬇️ 35.17MB/s
   port: 18000
   server: 134.195.196.211
   type: vmess
   udp: true
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-- client-fingerprint: chrome
-  name: 🇨🇦 CA 008 | ⬇️ 32.49MB/s
-  network: ws
+- name: 🇺🇸 US 009 | ⬇️ 31.50MB/s
+  password: O4O8.Ew+ujFX6GJBQ=xQr.heGwux0GYHqk
   port: 443
-  server: 173.245.58.75
-  servername: terazhediii.info
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: b2f6aa3a-2550-4a1c-b2c0-1c94b1207217
-  ws-opts:
-    headers:
-      Host: terazhediii.info
-    path: /hdgrbws
+  server: 45.61.52.243
+  type: trojan
 - alterId: 0
   cipher: auto
-  name: 🇺🇸 US 012 | ⬇️ 32.02MB/s
-  port: 18000
-  server: 38.114.123.42
-  type: vmess
-  udp: true
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 US 013 | ⬇️ 31.19MB/s
+  name: 🇺🇸 US 010 | ⬇️ 31.48MB/s
   port: 18000
   server: 67.220.95.3
   type: vmess
   udp: true
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-- name: 🇨🇦 CA 009 | ⬇️ 29.33MB/s
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 US 011 | ⬇️ 29.01MB/s
+  port: 18000
+  server: 38.114.123.42
+  type: vmess
+  udp: true
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+- name: 🇨🇦 CA 009 | ⬇️ 27.24MB/s
   network: ws
-  port: 443
-  server: 172.64.32.75
-  servername: amoosamiii.net
-  skip-cert-verify: false
-  tfo: false
-  tls: true
+  port: 80
+  server: 151.101.124.151
+  skip-cert-verify: true
+  tls: false
   type: vless
   udp: true
-  uuid: 4f013568-a58b-4b04-b5dd-4d52bf1c33a4
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
   ws-opts:
     headers:
-      Host: amoosamiii.net
-    path: /poiuyws
-- name: 🇨🇦 CA 010 | ⬇️ 29.09MB/s
-  network: ws
-  port: 443
-  server: elliot.ns.cloudflare.com
-  servername: octopusss5.info
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: c35050ce-01ab-45a9-91b8-54cec637d0a8
-  ws-opts:
-    headers:
-      Host: octopusss5.info
-    path: /udfyfws
-- name: 🇸🇨 SC 001 | ⬇️ 28.74MB/s
-  network: ws
-  port: 443
-  server: 45.130.125.126
-  servername: vangoghhh.info
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 14b59caf-a196-4ec2-8c70-c7b388062f5b
-  ws-opts:
-    headers:
-      Host: vangoghhh.info
-    path: /rdfgtws
-- name: 🇬🇧 GB 002 | ⬇️ 28.06MB/s
-  password: kflYwtj8VD7Pd4V9ixedIxEDsac4QQXvbP
-  port: 443
-  server: 45.77.227.183
-  type: trojan
-- client-fingerprint: chrome
-  name: 🇨🇦 CA 011 | ⬇️ 28.00MB/s
-  network: ws
-  port: 443
-  server: 173.245.59.162
-  servername: octopusss5.info
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: c35050ce-01ab-45a9-91b8-54cec637d0a8
-  ws-opts:
-    headers:
-      Host: octopusss5.info
-    path: /udfyfws
-- client-fingerprint: chrome
-  name: 🇨🇦 CA 012 | ⬇️ 27.84MB/s
-  network: ws
-  port: 443
-  server: 108.162.192.75
-  servername: shegeftihaaa.net
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7e544a9d-7667-413b-bbb0-b3bb1aac6d77
-  ws-opts:
-    headers:
-      Host: shegeftihaaa.net
-    path: /rsedgws
-- client-fingerprint: chrome
-  name: 🇨🇦 CA 013 | ⬇️ 27.64MB/s
-  network: ws
-  port: 443
-  server: 104.26.12.222
-  servername: octopusss5.info
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: c35050ce-01ab-45a9-91b8-54cec637d0a8
-  ws-opts:
-    headers:
-      Host: octopusss5.info
-    path: /udfyfws
+      Host: max-gb1.global.ssl.fastly.net
+    path: /?https:/t.me/WangCai2🇨🇳
 - client-fingerprint: chrome
   encryption: none
-  name: 🇺🇸 US 014 | ⬇️ 27.58MB/s
+  name: 🇺🇸 US 012 | ⬇️ 27.11MB/s
   network: ws
   port: 443
   server: 141.193.213.20
@@ -404,25 +271,10 @@ proxies:
     path: /poiuyws
   xudp: true
 - client-fingerprint: chrome
-  name: 🇨🇦 CA 014 | ⬇️ 27.55MB/s
+  name: 🇨🇦 CA 010 | ⬇️ 26.85MB/s
   network: ws
   port: 443
-  server: 108.162.193.162
-  servername: octopusss5.info
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: c35050ce-01ab-45a9-91b8-54cec637d0a8
-  ws-opts:
-    headers:
-      Host: octopusss5.info
-    path: /udfyfws
-- name: 🇨🇦 CA 015 | ⬇️ 27.27MB/s
-  network: ws
-  port: 443
-  server: www.speedtest.org
+  server: 108.162.192.75
   servername: shegeftihaaa.net
   skip-cert-verify: false
   tfo: false
@@ -435,24 +287,8 @@ proxies:
       Host: shegeftihaaa.net
     path: /rsedgws
 - client-fingerprint: chrome
-  name: 🇨🇦 CA 016 | ⬇️ 27.24MB/s
-  network: ws
-  port: 443
-  server: betty.ns.cloudflare.com
-  servername: amoosamiii.net
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4f013568-a58b-4b04-b5dd-4d52bf1c33a4
-  ws-opts:
-    headers:
-      Host: amoosamiii.net
-    path: /poiuyws
-- client-fingerprint: chrome
   encryption: none
-  name: 🇺🇸 US 015 | ⬇️ 27.24MB/s
+  name: 🇺🇸 US 013 | ⬇️ 26.83MB/s
   network: ws
   port: 443
   server: news.microsoft.com
@@ -468,106 +304,37 @@ proxies:
         Chrome/41.0.2228.0 Safari/537.36
     path: /poiuyws
   xudp: true
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 US 016 | ⬇️ 25.69MB/s
-  port: 18000
-  server: 38.91.107.49
-  type: vmess
-  udp: true
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-- name: 🇸🇨 SC 002 | ⬇️ 25.53MB/s
-  network: ws
-  port: 2053
-  server: 45.130.125.158
-  servername: po.fastbrokencompony.com
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: e7961655-9674-4cbd-a36f-ec0d5d7d660c
-  ws-opts:
-    headers:
-      Host: po.fastbrokencompony.com
-    path: /
-- client-fingerprint: chrome
-  name: 🇨🇦 CA 017 | ⬇️ 25.53MB/s
-  network: ws
-  port: 2053
-  server: po.fastbrokencompony.com
-  servername: po.fastbrokencompony.com
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: e7961655-9674-4cbd-a36f-ec0d5d7d660c
-  ws-opts:
-    headers:
-      Host: po.fastbrokencompony.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇨🇦 CA 018 | ⬇️ 25.08MB/s
+- name: 🇸🇨 SC 001 | ⬇️ 26.71MB/s
   network: ws
   port: 443
-  server: 104.18.19.99
-  skip-cert-verify: true
+  server: 45.130.125.126
+  servername: vangoghhh.info
+  skip-cert-verify: false
+  tfo: false
   tls: true
-  type: vmess
-  uuid: b4a65611-4969-42b2-bc74-5768b940bd9e
+  type: vless
+  udp: true
+  uuid: 14b59caf-a196-4ec2-8c70-c7b388062f5b
   ws-opts:
     headers:
-      Host: vyvzyhgz.com
-    path: /
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 001 | ⬇️ 24.90MB/s
-  password: QCXDxuDlTTMD7jtgHUjIoj
-  port: 8080
-  server: 193.29.139.233
-  type: ss
-- name: 🇧🇪 BE 001 | ⬇️ 24.42MB/s
+      Host: vangoghhh.info
+    path: /rdfgtws
+- encryption: none
+  name: 🇳🇱 NL 001 | ⬇️ 26.53MB/s
   network: ws
   port: 80
-  server: 151.101.9.151
-  skip-cert-verify: true
-  tls: false
+  server: 151.101.38.151
   type: vless
   udp: true
   uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
   ws-opts:
     headers:
       Host: max-gb1.global.ssl.fastly.net
-    path: /?https:/t.me/WangCai2🇨🇳
-- name: 🇦🇹 AT 001 | ⬇️ 23.46MB/s
-  password: VGBzLm49=M_i02Az30tIeonkQw180t-edg
-  port: 443
-  server: 185.126.236.190
-  type: trojan
-- client-fingerprint: chrome
-  name: 🇸🇨 SC 003 | ⬇️ 23.28MB/s
-  network: ws
-  port: 8443
-  server: 45.130.125.114
-  servername: srv75.perfectbulk.info
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f3b8c2a1-9d4e-4b7f-a6c5-2e8d1f0b4a93
-  ws-opts:
-    headers:
-      Host: srv75.perfectbulk.info
-    path: /
-- cipher: chacha20-ietf-poly1305
-  name: 🇫🇮 FI 001 | ⬇️ 23.05MB/s
-  password: yKVMoB3AwiTEznpnoq2FYR
-  port: 28687
-  server: 193.47.60.186
-  type: ss
-- name: 🇨🇦 CA 019 | ⬇️ 23.01MB/s
+      User-Agent: Mozilla/5.0 (Windows NT 5.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/46.0.2490.80 Safari/537.36
+    path: /?ed=2560
+  xudp: true
+- name: 🇨🇦 CA 011 | ⬇️ 26.46MB/s
   network: ws
   port: 443
   server: 172.64.147.236
@@ -582,71 +349,184 @@ proxies:
     headers:
       Host: octopusss5.info
     path: /udfyfws
-- name: 🇩🇪 DE 001 | ⬇️ 22.82MB/s
-  password: aR9EJWEB2Jp3m6xKJK=Ct7kLyqFSU-iDBR
+- client-fingerprint: chrome
+  name: 🇨🇦 CA 012 | ⬇️ 26.45MB/s
+  network: ws
   port: 443
-  server: 92.119.35.127
-  type: trojan
-- name: 🇩🇪 DE 002 | ⬇️ 22.72MB/s
-  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
-  port: 443
-  server: 185.137.157.149
-  type: trojan
-- name: 🇩🇪 DE 003 | ⬇️ 22.71MB/s
-  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
-  port: 443
-  server: 185.137.157.138
-  type: trojan
-- name: 🇩🇪 DE 004 | ⬇️ 22.65MB/s
-  password: urhj8z8R8nBovrNsYzXhL35jLGC5ruguRh
-  port: 443
-  server: 92.119.35.119
-  type: trojan
-- name: 🇫🇷 FR 001 | ⬇️ 22.60MB/s
-  network: tcp
-  port: 8443
-  server: cdg-1.fromblancwithlove.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 55f7d143-a594-4a91-b030-f227039f85ef
-- name: 🇩🇪 DE 005 | ⬇️ 22.57MB/s
-  password: urhj8z8R8nBovrNsYzXhL35jLGC5ruguRh
-  port: 443
-  server: 92.119.35.97
-  type: trojan
-- name: 🇩🇪 DE 006 | ⬇️ 22.26MB/s
-  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
-  port: 443
-  server: 185.137.157.151
-  type: trojan
-- name: 🇩🇪 DE 007 | ⬇️ 22.15MB/s
-  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
-  port: 443
-  server: 185.137.157.142
-  type: trojan
-- name: 🇩🇪 DE 008 | ⬇️ 22.07MB/s
-  password: aR9EJWEB2Jp3m6xKJK=Ct7kLyqFSU-iDBR
-  port: 443
-  server: 92.119.35.130
-  type: trojan
-- http-opts:
-    method: GET
-    path:
-    - /@monacoVPN@monacoVPN@monacoVPN@monacoVPN
-  name: 🇨🇦 CA 020 | ⬇️ 21.72MB/s
-  network: http
-  port: 22
-  server: 172.65.111.43
+  server: 104.26.12.222
+  servername: octopusss5.info
   skip-cert-verify: false
   tfo: false
-  tls: false
+  tls: true
   type: vless
-  uuid: 8a38623a-3e7f-5598-bdc9-894cbad4c5b6
-- name: 🇬🇧 GB 003 | ⬇️ 21.65MB/s
+  udp: true
+  uuid: c35050ce-01ab-45a9-91b8-54cec637d0a8
+  ws-opts:
+    headers:
+      Host: octopusss5.info
+    path: /udfyfws
+- name: 🇨🇷 CR 001 | ⬇️ 26.38MB/s
+  network: ws
+  port: 443
+  server: elliot.ns.cloudflare.com
+  servername: octopusss5.info
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: c35050ce-01ab-45a9-91b8-54cec637d0a8
+  ws-opts:
+    headers:
+      Host: octopusss5.info
+    path: /udfyfws
+- client-fingerprint: chrome
+  name: 🇨🇦 CA 013 | ⬇️ 26.32MB/s
+  network: ws
+  port: 443
+  server: 108.162.193.162
+  servername: octopusss5.info
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: c35050ce-01ab-45a9-91b8-54cec637d0a8
+  ws-opts:
+    headers:
+      Host: octopusss5.info
+    path: /udfyfws
+- client-fingerprint: chrome
+  name: 🇨🇦 CA 014 | ⬇️ 26.23MB/s
+  network: ws
+  port: 443
+  server: 173.245.59.162
+  servername: octopusss5.info
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: c35050ce-01ab-45a9-91b8-54cec637d0a8
+  ws-opts:
+    headers:
+      Host: octopusss5.info
+    path: /udfyfws
+- client-fingerprint: chrome
+  name: 🇺🇸 US 014 | ⬇️ 26.04MB/s
+  network: ws
+  port: 443
+  server: 159.112.235.52
+  servername: octopusss.net
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 073d1d50-8478-47bf-a828-7a1b381931d5
+  ws-opts:
+    headers:
+      Host: octopusss.net
+    path: /odiyfws
+- name: 🇨🇦 CA 015 | ⬇️ 25.73MB/s
+  network: ws
+  port: 443
+  server: www.speedtest.org
+  servername: shegeftihaaa.net
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7e544a9d-7667-413b-bbb0-b3bb1aac6d77
+  ws-opts:
+    headers:
+      Host: shegeftihaaa.net
+    path: /rsedgws
+- name: 🇨🇦 CA 016 | ⬇️ 25.61MB/s
+  network: ws
+  port: 443
+  server: 172.64.32.75
+  servername: amoosamiii.net
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4f013568-a58b-4b04-b5dd-4d52bf1c33a4
+  ws-opts:
+    headers:
+      Host: amoosamiii.net
+    path: /poiuyws
+- name: 🇬🇧 GB 002 | ⬇️ 25.46MB/s
+  password: kflYwtj8VD7Pd4V9ixedIxEDsac4QQXvbP
+  port: 443
+  server: 45.77.227.183
+  type: trojan
+- cipher: rc4-md5
+  name: 🇬🇧 GB 003 | ⬇️ 25.03MB/s
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 146.70.61.37
+  type: ss
+- encryption: none
+  name: 🇨🇦 CA 017 | ⬇️ 24.59MB/s
   network: ws
   port: 80
-  server: 151.101.61.151
+  server: de1-14.466688.xyz
+  type: vless
+  udp: true
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  ws-opts:
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/51.0.2704.63 Safari/537.36
+    path: /?ed=8888&https:/t.me/daily_free_vpn
+  xudp: true
+- encryption: none
+  name: 🇺🇸 US 015 | ⬇️ 23.84MB/s
+  network: ws
+  port: 80
+  server: 151.101.57.151
+  type: vless
+  udp: true
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  ws-opts:
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/56.0.2924.87 Safari/537.36
+    path: /?ed=2560
+  xudp: true
+- alterId: 0
+  cipher: auto
+  name: 🇯🇵 JP 001 | ⬇️ 23.81MB/s
+  port: 22324
+  server: 172.104.80.66
+  type: vmess
+  udp: true
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- encryption: none
+  name: 🇺🇸 US 016 | ⬇️ 23.77MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 80
+  server: 151.101.110.151
+  skip-cert-verify: false
+  type: vless
+  udp: true
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+    max-early-data: 2560
+    path: /?https:/t.me/WangCai2🇨🇳
+- name: 🇺🇸 US 017 | ⬇️ 23.73MB/s
+  network: ws
+  port: 80
+  server: 151.101.46.151
   skip-cert-verify: true
   tls: false
   type: vless
@@ -656,21 +536,66 @@ proxies:
     headers:
       Host: max-gb1.global.ssl.fastly.net
     path: /?https:/t.me/WangCai2🇨🇳
-- name: 🇩🇪 DE 009 | ⬇️ 21.51MB/s
-  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
-  port: 443
-  server: 185.137.157.156
-  type: trojan
 - alterId: 0
   cipher: auto
-  name: 🇺🇸 US 017 | ⬇️ 21.11MB/s
-  port: 18000
-  server: 169.197.142.22
+  name: 🇨🇦 CA 018 | ⬇️ 23.26MB/s
+  network: ws
+  port: 443
+  server: 104.18.19.99
+  skip-cert-verify: true
+  tls: true
   type: vmess
-  udp: true
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  uuid: b4a65611-4969-42b2-bc74-5768b940bd9e
+  ws-opts:
+    headers:
+      Host: vyvzyhgz.com
+    path: /
 - encryption: none
-  name: 🇬🇧 GB 004 | ⬇️ 20.97MB/s
+  name: 🇺🇸 US 018 | ⬇️ 23.10MB/s
+  network: ws
+  port: 80
+  server: 151.101.109.223
+  type: vless
+  udp: true
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  ws-opts:
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/56.0.2924.87 Safari/537.36
+    path: /
+  xudp: true
+- client-fingerprint: chrome
+  name: 🇨🇦 CA 019 | ⬇️ 23.08MB/s
+  network: ws
+  port: 443
+  server: betty.ns.cloudflare.com
+  servername: amoosamiii.net
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4f013568-a58b-4b04-b5dd-4d52bf1c33a4
+  ws-opts:
+    headers:
+      Host: amoosamiii.net
+    path: /poiuyws
+- name: 🇮🇹 IT 001 | ⬇️ 22.49MB/s
+  password: zK=0KfL3IG+sNNZL-J7d0Nonu4wFBx8MOy
+  port: 443
+  server: 172.235.229.227
+  type: trojan
+- name: 🇫🇷 FR 001 | ⬇️ 22.45MB/s
+  network: tcp
+  port: 8443
+  server: cdg-1.fromblancwithlove.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 55f7d143-a594-4a91-b030-f227039f85ef
+- encryption: none
+  name: 🇬🇧 GB 004 | ⬇️ 22.02MB/s
   network: ws
   port: 80
   server: 151.101.190.151
@@ -684,28 +609,10 @@ proxies:
         like Gecko) Chrome/67.0.3396.99 Safari/537.36
     path: /?https:/t.me/WangCai2🇨🇳
   xudp: true
-- name: 🇮🇹 IT 001 | ⬇️ 20.90MB/s
-  password: zK=0KfL3IG+sNNZL-J7d0Nonu4wFBx8MOy
-  port: 443
-  server: 172.235.229.227
-  type: trojan
-- name: 🇩🇪 DE 010 | ⬇️ 20.82MB/s
-  password: urhj8z8R8nBovrNsYzXhL35jLGC5ruguRh
-  port: 443
-  server: 92.119.35.71
-  type: trojan
-- alterId: 1
-  cipher: auto
-  name: 🇯🇵 JP 001 | ⬇️ 20.27MB/s
-  port: 22324
-  server: 172.104.80.66
-  type: vmess
-  udp: true
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- name: 🇧🇪 BE 002 | ⬇️ 20.02MB/s
+- name: 🇺🇸 US 019 | ⬇️ 21.75MB/s
   network: ws
   port: 80
-  server: 151.101.8.151
+  server: 151.101.160.151
   skip-cert-verify: true
   tls: false
   type: vless
@@ -715,40 +622,135 @@ proxies:
     headers:
       Host: max-gb1.global.ssl.fastly.net
     path: /?https:/t.me/WangCai2🇨🇳
-- name: 🇩🇪 DE 011 | ⬇️ 19.85MB/s
+- name: 🇩🇪 DE 001 | ⬇️ 21.42MB/s
   password: urhj8z8R8nBovrNsYzXhL35jLGC5ruguRh
   port: 443
-  server: 92.119.35.87
+  server: 92.119.35.131
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 US 018 | ⬇️ 19.79MB/s
-  port: 22324
-  server: 216.106.183.35
-  type: vmess
-  udp: true
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- name: 🇩🇪 DE 002 | ⬇️ 21.02MB/s
+  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
+  port: 443
+  server: 185.137.157.145
+  type: trojan
 - encryption: none
-  name: 🇪🇸 ES 001 | ⬇️ 19.06MB/s
+  name: 🇺🇸 US 020 | ⬇️ 20.73MB/s
   network: ws
   port: 80
-  server: de1-40.466688.xyz
+  server: 151.101.196.151
   type: vless
   udp: true
   uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
   ws-opts:
     headers:
       Host: max-gb1.global.ssl.fastly.net
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/69.0.3497.100 Safari/537.36
-    path: /?ed=8888&https:/t.me/daily_free_vpn
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.67 Safari/537.36
+    path: /?https:/t.me/WangCai2🇨🇳
   xudp: true
-- name: 🇺🇸 US 019 | ⬇️ 18.01MB/s
-  password: O4O8.Ew+ujFX6GJBQ=xQr.heGwux0GYHqk
+- name: 🇩🇪 DE 003 | ⬇️ 20.59MB/s
+  password: urhj8z8R8nBovrNsYzXhL35jLGC5ruguRh
   port: 443
-  server: 207.126.167.150
+  server: 92.119.35.119
   type: trojan
-- name: 🇫🇮 FI 002 | ⬇️ 17.28MB/s
+- encryption: none
+  name: 🇺🇸 US 021 | ⬇️ 20.29MB/s
+  network: ws
+  port: 80
+  server: 151.101.100.151
+  type: vless
+  udp: true
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  ws-opts:
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/67.0.3396.87 Safari/537.36
+    path: /?ed=2560&https:/t.me/WangCai2🇨🇳
+  xudp: true
+- name: 🇨🇦 CA 020 | ⬇️ 20.29MB/s
+  network: ws
+  port: 80
+  server: 151.101.64.151
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  ws-opts:
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+    path: /
+- name: 🇬🇧 GB 005 | ⬇️ 19.57MB/s
+  network: ws
+  port: 80
+  server: 151.101.61.151
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  ws-opts:
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+    path: /?https:/t.me/WangCai2🇨🇳
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 US 022 | ⬇️ 19.43MB/s
+  port: 180
+  server: 82.198.246.97
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 US 023 | ⬇️ 19.09MB/s
+  port: 22324
+  server: 216.106.185.141
+  type: vmess
+  udp: true
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬 SG 001 | ⬇️ 18.97MB/s
+  port: 18000
+  server: 149.88.23.202
+  type: vmess
+  udp: true
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+- encryption: none
+  name: 🇺🇸 US 024 | ⬇️ 18.62MB/s
+  network: ws
+  port: 80
+  server: 151.101.97.151
+  type: vless
+  udp: true
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  ws-opts:
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-J500M Build/MMB29M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /?https:/t.me/WangCai2🇨🇳
+  xudp: true
+- name: 🇺🇸 US 025 | ⬇️ 18.48MB/s
+  network: ws
+  port: 80
+  server: 151.101.48.151
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  ws-opts:
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+    path: /?https:/t.me/WangCai2🇨🇳
+- name: 🇩🇪 DE 004 | ⬇️ 18.17MB/s
+  password: aR9EJWEB2Jp3m6xKJK=Ct7kLyqFSU-iDBR
+  port: 443
+  server: 92.119.35.117
+  type: trojan
+- name: 🇫🇮 FI 001 | ⬇️ 18.14MB/s
   network: ws
   port: 80
   server: 151.101.245.151
@@ -761,8 +763,199 @@ proxies:
     headers:
       Host: max-gb1.global.ssl.fastly.net
     path: /?https:/t.me/WangCai2🇨🇳
+- name: 🇺🇸 US 026 | ⬇️ 16.83MB/s
+  network: ws
+  port: 80
+  server: 151.101.74.151
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  ws-opts:
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+    path: /
+- name: 🇬🇧 GB 006 | ⬇️ 16.56MB/s
+  network: ws
+  port: 80
+  server: 151.101.188.151
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  ws-opts:
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+    path: /?https:/t.me/WangCai2🇨🇳
 - encryption: none
-  name: 🇫🇷 FR 002 | ⬇️ 16.08MB/s
+  name: 🇳🇴 NO 001 | ⬇️ 16.29MB/s
+  network: ws
+  port: 80
+  server: de1-9.466688.xyz
+  type: vless
+  udp: true
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  ws-opts:
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/31.0.1650.57 Safari/537.36
+    path: /?ed=8888&https:/t.me/daily_free_vpn
+  xudp: true
+- name: 🇩🇪 DE 005 | ⬇️ 15.77MB/s
+  network: ws
+  port: 80
+  server: 151.101.7.151
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  ws-opts:
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+    path: /?https:/t.me/WangCai2🇨🇳
+- name: 🇨🇦 CA 021 | ⬇️ 15.45MB/s
+  network: ws
+  port: 80
+  server: 151.101.139.151
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  ws-opts:
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+    path: /?https:/t.me/WangCai2🇨🇳
+- name: 🇺🇸 US 027 | ⬇️ 15.07MB/s
+  network: ws
+  port: 80
+  server: 151.101.58.151
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  ws-opts:
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+    path: /?https:/t.me/WangCai2🇨🇳
+- encryption: none
+  name: 🇺🇸 US 028 | ⬇️ 14.93MB/s
+  network: ws
+  port: 80
+  server: 151.101.103.151
+  type: vless
+  udp: true
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  ws-opts:
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/66.0.3359.181 Safari/537.36
+    path: /?ed=2560
+  xudp: true
+- name: 🇺🇸 US 029 | ⬇️ 14.63MB/s
+  network: ws
+  port: 80
+  server: 151.101.114.151
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  ws-opts:
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+    path: /?https:/t.me/WangCai2🇨🇳
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇺🇸 US 030 | ⬇️ 14.46MB/s
+  network: ws
+  port: 443
+  server: fast.cd-tur4.ir
+  servername: default.ssl.fastly.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: d27a232b-de94-4204-9bae-b0c243c6b93c
+  ws-opts:
+    headers:
+      Host: newip.global.ssl.fastly.neT.
+      User-Agent: Mozilla/5.0 (Linux; Android 7.1; Mi A1 Build/N2G47H) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile Safari/537.36
+    path: /
+  xudp: true
+- name: 🇨🇦 CA 022 | ⬇️ 14.24MB/s
+  network: ws
+  port: 80
+  server: 199.232.197.131
+  servername: max-gb1.global.ssl.fastly.net
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  ws-opts:
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+    path: /
+- encryption: none
+  name: 🇺🇸 US 031 | ⬇️ 13.59MB/s
+  network: ws
+  port: 80
+  server: 151.101.22.151
+  type: vless
+  udp: true
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  ws-opts:
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.113 Safari/537.36
+    path: /?https:/t.me/WangCai2🇨🇳
+  xudp: true
+- name: 🇩🇪 DE 006 | ⬇️ 13.19MB/s
+  password: LYaEYwjN8LjWTRJdCCTzW7V6gK7atJVu
+  port: 9443
+  server: de-1.hysteria.ltd
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 US 032 | ⬇️ 13.09MB/s
+  port: 22324
+  server: 216.106.183.35
+  type: vmess
+  udp: true
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- encryption: none
+  name: 🇺🇸 US 033 | ⬇️ 12.59MB/s
+  network: ws
+  port: 80
+  server: 151.101.153.151
+  type: vless
+  udp: true
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  ws-opts:
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+      User-Agent: Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/55.0.2883.87 Safari/537.36
+    path: /?https:/t.me/WangCai2🇨🇳
+  xudp: true
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 US 034 | ⬇️ 11.29MB/s
+  port: 13581
+  server: 104.233.214.176
+  type: vmess
+  udp: true
+  uuid: d4d715a6-0a2e-4304-df2f-d5efd85a5a5d
+- encryption: none
+  name: 🇫🇷 FR 002 | ⬇️ 9.67MB/s
   network: ws
   port: 80
   server: 151.101.120.151
@@ -778,41 +971,23 @@ proxies:
   xudp: true
 - alterId: 0
   cipher: auto
-  name: 🇸🇬 SG 001 | ⬇️ 16.02MB/s
-  network: tcp
-  port: 18000
-  server: 149.88.23.202
-  skip-cert-verify: true
+  name: 🇯🇵 JP 002 | ⬇️ 9.45MB/s
+  port: 49803
+  server: 153.121.73.175
   type: vmess
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-- name: 🇪🇸 ES 002 | ⬇️ 15.19MB/s
-  network: ws
-  port: 80
-  server: 151.101.134.151
-  skip-cert-verify: true
-  tls: false
-  type: vless
   udp: true
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-  ws-opts:
-    headers:
-      Host: max-gb1.global.ssl.fastly.net
-    path: /?https:/t.me/WangCai2🇨🇳
-- name: 🇳🇴 NO 001 | ⬇️ 14.96MB/s
-  network: ws
-  port: 80
-  server: 151.101.239.151
+  uuid: cd3dacbc-2b7b-4718-83ad-ab870f87e12e
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 US 035 | ⬇️ 9.45MB/s
+  password: hbGrpfvNrJsUmKmPbR3iY2
+  port: 443
+  server: tinkered-pennies-puppies.freesocks.work
   skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-  ws-opts:
-    headers:
-      Host: max-gb1.global.ssl.fastly.net
-    path: /?https:/t.me/WangCai2🇨🇳
+  tls: true
+  type: ss
 - encryption: none
-  name: 🇺🇸 US 020 | ⬇️ 10.75MB/s
+  name: 🇺🇸 US 036 | ⬇️ 9.01MB/s
   network: ws
   port: 80
   server: 151.101.101.151
@@ -826,285 +1001,16 @@ proxies:
         (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
     path: /?ed=2560&https:/t.me/WangCai2🇨🇳
   xudp: true
-- name: 🇧🇪 BE 003 | ⬇️ 10.52MB/s
-  network: ws
-  port: 80
-  server: 151.101.10.151
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-  ws-opts:
-    headers:
-      Host: max-gb1.global.ssl.fastly.net
-    path: /?https:/t.me/WangCai2🇨🇳
-- name: 🇬🇧 GB 005 | ⬇️ 10.43MB/s
-  network: ws
-  port: 80
-  server: 151.101.60.151
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-  ws-opts:
-    headers:
-      Host: max-gb1.global.ssl.fastly.net
-    path: /?https:/t.me/WangCai2🇨🇳
-- name: 🇯🇵 JP 002 | ⬇️ 9.79MB/s
+- name: 🇯🇵 JP 003 | ⬇️ 7.80MB/s
   password: T9qoEuuxUEa9Dk3KxnTWrs6J8ilng9sCIf
   port: 443
-  server: 103.125.216.18
+  server: 103.125.216.11
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 US 021 | ⬇️ 9.53MB/s
-  port: 180
-  server: 82.198.246.214
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: 🇯🇵 JP 003 | ⬇️ 8.89MB/s
-  port: 49803
-  server: 153.121.73.175
-  type: vmess
-  udp: true
-  uuid: cd3dacbc-2b7b-4718-83ad-ab870f87e12e
-- name: 🇫🇷 FR 003 | ⬇️ 8.59MB/s
-  password: hCunaKqdEJDBO+3jCrJUSMevXOw9Q_r4Ey
-  port: 443
-  server: 38.60.136.156
-  type: trojan
-- name: 🇨🇦 CA 021 | ⬇️ 8.48MB/s
-  network: ws
-  port: 80
-  server: 151.101.139.151
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-  ws-opts:
-    headers:
-      Host: max-gb1.global.ssl.fastly.net
-    path: /?https:/t.me/WangCai2🇨🇳
-- name: 🇺🇸 US 022 | ⬇️ 7.92MB/s
-  network: ws
-  port: 80
-  server: 151.101.46.151
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-  ws-opts:
-    headers:
-      Host: max-gb1.global.ssl.fastly.net
-    path: /?https:/t.me/WangCai2🇨🇳
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 US 023 | ⬇️ 7.78MB/s
-  port: 22324
-  server: 216.106.185.141
-  type: vmess
-  udp: true
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- name: 🇺🇸 US 024 | ⬇️ 7.73MB/s
-  network: ws
-  port: 80
-  server: 151.101.17.151
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-  ws-opts:
-    headers:
-      Host: max-gb1.global.ssl.fastly.net
-    path: /
-- name: 🇨🇦 CA 022 | ⬇️ 7.50MB/s
-  network: ws
-  port: 80
-  server: 199.232.197.131
-  servername: max-gb1.global.ssl.fastly.net
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-  ws-opts:
-    headers:
-      Host: max-gb1.global.ssl.fastly.net
-    path: /
-- name: 🇨🇦 CA 023 | ⬇️ 7.42MB/s
-  network: ws
-  port: 80
-  server: 151.101.125.151
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-  ws-opts:
-    headers:
-      Host: max-gb1.global.ssl.fastly.net
-    path: /?https:/t.me/WangCai2🇨🇳
 - encryption: none
-  name: 🇺🇸 US 025 | ⬇️ 7.26MB/s
+  name: 🇺🇸 US 037 | ⬇️ 6.82MB/s
   network: ws
   port: 80
-  server: 151.101.33.151
-  type: vless
-  udp: true
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-  ws-opts:
-    headers:
-      Host: max-gb1.global.ssl.fastly.net
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/67.0.3396.87 Safari/537.36
-    path: /
-  xudp: true
-- encryption: none
-  name: 🇺🇸 US 026 | ⬇️ 6.93MB/s
-  network: ws
-  port: 80
-  server: 151.101.57.151
-  type: vless
-  udp: true
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-  ws-opts:
-    headers:
-      Host: max-gb1.global.ssl.fastly.net
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/56.0.2924.87 Safari/537.36
-    path: /?ed=2560
-  xudp: true
-- encryption: none
-  name: 🇨🇦 CA 024 | ⬇️ 6.89MB/s
-  network: ws
-  port: 80
-  server: de1-14.466688.xyz
-  type: vless
-  udp: true
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-  ws-opts:
-    headers:
-      Host: max-gb1.global.ssl.fastly.net
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/51.0.2704.63 Safari/537.36
-    path: /?ed=8888&https:/t.me/daily_free_vpn
-  xudp: true
-- encryption: none
-  name: 🇨🇦 CA 025 | ⬇️ 6.65MB/s
-  network: ws
-  port: 80
-  server: 151.101.137.151
-  type: vless
-  udp: true
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-  ws-opts:
-    headers:
-      Host: max-gb1.global.ssl.fastly.net
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/56.0.2924.87 Safari/537.36
-    path: /?https:/t.me/WangCai2🇨🇳
-  xudp: true
-- name: 🇺🇸 US 027 | ⬇️ 6.56MB/s
-  network: ws
-  port: 80
-  server: 151.101.58.151
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-  ws-opts:
-    headers:
-      Host: max-gb1.global.ssl.fastly.net
-    path: /?https:/t.me/WangCai2🇨🇳
-- name: 🇨🇦 CA 026 | ⬇️ 6.55MB/s
-  network: ws
-  port: 80
-  server: 151.101.126.151
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-  ws-opts:
-    headers:
-      Host: max-gb1.global.ssl.fastly.net
-    path: /?https:/t.me/WangCai2🇨🇳
-- encryption: none
-  name: 🇺🇸 US 028 | ⬇️ 6.34MB/s
-  network: ws
-  port: 80
-  server: 151.101.111.151
-  type: vless
-  udp: true
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-  ws-opts:
-    headers:
-      Host: max-gb1.global.ssl.fastly.net
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/62.0.3202.89 Safari/537.36
-    path: /
-  xudp: true
-- cc: 4
-  delay: 405
-  encryption: none
-  name: 🇺🇸 US 029 | ⬇️ 6.33MB/s
-  network: ws
-  port: 80
-  server: 167.82.0.1
-  speed: 2.5
-  type: vless
-  udp: true
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-  vv: 260624.0926
-  ws-opts:
-    headers:
-      Host: max-gb1.global.ssl.fastly.net
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/54.0.2840.71 Safari/537.36
-    path: /
-  xudp: true
-- encryption: none
-  name: 🇺🇸 US 030 | ⬇️ 6.17MB/s
-  network: ws
-  port: 80
-  server: 151.101.97.151
-  type: vless
-  udp: true
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-  ws-opts:
-    headers:
-      Host: max-gb1.global.ssl.fastly.net
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-J500M Build/MMB29M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /?https:/t.me/WangCai2🇨🇳
-  xudp: true
-- name: 🇨🇦 CA 027 | ⬇️ 6.05MB/s
-  network: ws
-  port: 80
-  server: 151.101.64.151
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-  ws-opts:
-    headers:
-      Host: max-gb1.global.ssl.fastly.net
-    path: /
-- encryption: none
-  name: 🇺🇸 US 031 | ⬇️ 6.04MB/s
-  network: ws
-  port: 80
-  server: 151.101.118.151
+  server: 151.101.255.151
   type: vless
   udp: true
   uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
@@ -1112,488 +1018,244 @@ proxies:
     headers:
       Host: max-gb1.global.ssl.fastly.net
       User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/54.0.2840.99 Safari/537.36
-    path: /?ed=2560
+        Gecko) Chrome/39.0.2171.95 Safari/537.36
+    path: /?https:/t.me/WangCai2🇨🇳
   xudp: true
+- name: 🇫🇷 FR 003 | ⬇️ 6.70MB/s
+  password: hCunaKqdEJDBO+3jCrJUSMevXOw9Q_r4Ey
+  port: 443
+  server: 38.60.136.156
+  type: trojan
 - alterId: 0
   cipher: auto
-  name: 🇺🇸 US 032 | ⬇️ 5.66MB/s
-  network: tcp
+  name: 🇺🇸 US 038 | ⬇️ 6.06MB/s
   port: 48111
   server: 129.146.143.80
-  skip-cert-verify: true
   type: vmess
+  udp: true
   uuid: d4603cc2-e0ee-4651-83f5-1db5b7168177
-- encryption: none
-  name: 🇨🇦 CA 028 | ⬇️ 5.65MB/s
-  network: ws
-  port: 80
-  server: 151.101.194.219
-  type: vless
-  udp: true
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-  ws-opts:
-    headers:
-      Host: max-gb1.global.ssl.fastly.net
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/56.0.2924.87 Safari/537.36
-    path: /
-  xudp: true
-- encryption: none
-  name: 🇺🇸 US 033 | ⬇️ 5.55MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 80
-  server: 151.101.110.151
-  skip-cert-verify: false
-  type: vless
-  udp: true
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: max-gb1.global.ssl.fastly.net
-    max-early-data: 2560
-    path: /?https:/t.me/WangCai2🇨🇳
-- encryption: none
-  name: 🇳🇱 NL 002 | ⬇️ 5.48MB/s
-  network: ws
-  port: 80
-  server: 151.101.38.151
-  type: vless
-  udp: true
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-  ws-opts:
-    headers:
-      Host: max-gb1.global.ssl.fastly.net
-      User-Agent: Mozilla/5.0 (Windows NT 5.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/46.0.2490.80 Safari/537.36
-    path: /?ed=2560
-  xudp: true
-- name: 🇺🇸 US 034 | ⬇️ 4.92MB/s
-  network: ws
-  port: 80
-  server: 151.101.162.151
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-  ws-opts:
-    headers:
-      Host: max-gb1.global.ssl.fastly.net
-    path: /?https:/t.me/WangCai2🇨🇳
-- encryption: none
-  name: 🇨🇦 CA 029 | ⬇️ 4.87MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 80
-  server: 151.101.2.151
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-  ws-opts:
-    headers:
-      Host: max-gb1.global.ssl.fastly.net
-    path: /
-- encryption: none
-  name: 🇺🇸 US 035 | ⬇️ 4.79MB/s
-  network: ws
-  port: 80
-  server: 151.101.109.151
-  type: vless
-  udp: true
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-  ws-opts:
-    headers:
-      Host: max-gb1.global.ssl.fastly.net
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.90 Safari/537.36
-    path: /?https:/t.me/WangCai2🇨🇳
-  xudp: true
-- encryption: none
-  name: 🇺🇸 US 036 | ⬇️ 4.79MB/s
-  network: ws
-  port: 80
-  server: 151.101.155.151
-  type: vless
-  udp: true
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-  ws-opts:
-    headers:
-      Host: max-gb1.global.ssl.fastly.net
-      User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.30 (KHTML, like Gecko)
-        Slackware/Chrome/12.0.742.100 Safari/534.30
-    path: /?https:/t.me/WangCai2🇨🇳
-  xudp: true
-- encryption: none
-  name: 🇺🇸 US 037 | ⬇️ 4.70MB/s
-  network: ws
-  port: 80
-  server: 151.101.109.223
-  type: vless
-  udp: true
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-  ws-opts:
-    headers:
-      Host: max-gb1.global.ssl.fastly.net
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/56.0.2924.87 Safari/537.36
-    path: /
-  xudp: true
-- name: 🇺🇸 US 038 | ⬇️ 4.54MB/s
-  network: ws
-  port: 80
-  server: 151.101.48.151
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-  ws-opts:
-    headers:
-      Host: max-gb1.global.ssl.fastly.net
-    path: /?https:/t.me/WangCai2🇨🇳
-- encryption: none
-  name: 🇺🇸 US 039 | ⬇️ 4.51MB/s
-  network: ws
-  port: 80
-  server: 151.101.153.151
-  type: vless
-  udp: true
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-  ws-opts:
-    headers:
-      Host: max-gb1.global.ssl.fastly.net
-      User-Agent: Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/55.0.2883.87 Safari/537.36
-    path: /?https:/t.me/WangCai2🇨🇳
-  xudp: true
-- encryption: none
-  name: 🇺🇸 US 040 | ⬇️ 4.35MB/s
-  network: ws
-  port: 80
-  server: 151.101.51.151
-  type: vless
-  udp: true
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-  ws-opts:
-    headers:
-      Host: max-gb1.global.ssl.fastly.net
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/70.0.3538.102 Safari/537.36
-    path: /?ed=2560&https:/t.me/WangCai2🇨🇳
-  xudp: true
-- client-fingerprint: chrome
-  name: 🇸🇨 SC 004 | ⬇️ 4.05MB/s
-  network: ws
-  port: 443
-  server: 45.130.125.112
-  servername: speed.thctech.ir
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7c7c2a41-bf8c-4dcc-8cca-5e6776da616c
-  ws-opts:
-    headers:
-      Host: speed.thctech.ir
-    path: /ws?ed=2580
-- name: 🇺🇸 US 041 | ⬇️ 3.55MB/s
-  network: ws
-  port: 80
-  server: 151.101.74.151
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-  ws-opts:
-    headers:
-      Host: max-gb1.global.ssl.fastly.net
-    path: /
-- name: 🇭🇰 HK 001 | ⬇️ 2.75MB/s
-  network: ws
-  port: 80
-  server: 151.101.78.151
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-  ws-opts:
-    headers:
-      Host: max-gb1.global.ssl.fastly.net
-    path: /?https:/t.me/WangCai2🇨🇳
 - alterId: 0
   cipher: auto
-  name: 🇺🇸 US 042 | ⬇️ 1.69MB/s
-  port: 30022
-  server: 186.244.208.78
+  name: 🇰🇷 KR 001 | ⬇️ 4.37MB/s
+  port: 8888
+  server: 146.56.112.110
   type: vmess
   udp: true
-  uuid: b7d93549-0f3f-4af2-9f4d-4340867a23b4
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 US 043 | ⬇️ 1.61MB/s
-  password: hbGrpfvNrJsUmKmPbR3iY2
-  port: 443
-  server: tinkered-pennies-puppies.freesocks.work
+  uuid: e7c302f3-90d6-42dd-9d7d-94a3683a3707
+- name: 🇺🇸 US 039 | ⬇️ 3.76MB/s
+  network: ws
+  port: 80
+  server: 151.101.55.151
   skip-cert-verify: true
-  tls: true
-  type: ss
-- name: 🇨🇿 CZ 001 | ⬇️ 1.53MB/s
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  ws-opts:
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+    path: /?https:/t.me/WangCai2🇨🇳
+- name: 🇨🇿 CZ 001 | ⬇️ 1.25MB/s
   password: LYaEYwjN8LjWTRJdCCTzW7V6gK7atJVu
   port: 443
   server: ch-2.bexum.fun
   type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 🇨🇳 TW 001 | ⬇️ 1.03MB/s
-  password: q2jToxsx4vTevqrFiLGuwRx96SXM3C96id1MWpnSECHq3MaTWnEV76aN5PYEigRfqf7rxAcuAMWUzYNxrYRG6QhMcYw5QnqL
-  port: 56594
-  server: download.riferoser.icu
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 US 011 | ⚡ 455.00ms
+  port: 22324
+  server: 67.220.72.237
+  type: vmess
+  udp: true
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
 proxy-groups:
 - name: 自动选择
   type: url-test
   proxies:
-  - 🇨🇦 CA 001 | ⬇️ 133.83MB/s
-  - 🇺🇸 US 001 | ⬇️ 123.75MB/s
-  - 🇨🇦 CA 002 | ⬇️ 117.64MB/s
-  - 🇨🇦 CA 003 | ⬇️ 104.30MB/s
-  - 🇬🇧 GB 001 | ⬇️ 102.17MB/s
-  - 🇨🇦 CA 004 | ⬇️ 101.30MB/s
-  - 🇨🇦 CA 005 | ⬇️ 95.27MB/s
-  - 🇨🇦 CA 006 | ⬇️ 94.94MB/s
-  - 🇺🇸 US 002 | ⬇️ 61.69MB/s
-  - 🇺🇸 US 003 | ⬇️ 48.80MB/s
-  - 🇺🇸 US 004 | ⬇️ 41.50MB/s
-  - 🇺🇸 US 005 | ⬇️ 40.94MB/s
-  - 🇺🇸 US 006 | ⬇️ 40.64MB/s
-  - 🇺🇸 US 007 | ⬇️ 39.94MB/s
-  - 🇺🇸 US 008 | ⬇️ 39.89MB/s
-  - 🇺🇸 US 009 | ⬇️ 35.47MB/s
-  - 🇺🇸 US 010 | ⬇️ 35.22MB/s
-  - 🇺🇸 US 011 | ⬇️ 33.94MB/s
-  - 🇨🇦 CA 007 | ⬇️ 33.49MB/s
-  - 🇨🇦 CA 008 | ⬇️ 32.49MB/s
-  - 🇺🇸 US 012 | ⬇️ 32.02MB/s
-  - 🇺🇸 US 013 | ⬇️ 31.19MB/s
-  - 🇨🇦 CA 009 | ⬇️ 29.33MB/s
-  - 🇨🇦 CA 010 | ⬇️ 29.09MB/s
-  - 🇸🇨 SC 001 | ⬇️ 28.74MB/s
-  - 🇬🇧 GB 002 | ⬇️ 28.06MB/s
-  - 🇨🇦 CA 011 | ⬇️ 28.00MB/s
-  - 🇨🇦 CA 012 | ⬇️ 27.84MB/s
-  - 🇨🇦 CA 013 | ⬇️ 27.64MB/s
-  - 🇺🇸 US 014 | ⬇️ 27.58MB/s
-  - 🇨🇦 CA 014 | ⬇️ 27.55MB/s
-  - 🇨🇦 CA 015 | ⬇️ 27.27MB/s
-  - 🇨🇦 CA 016 | ⬇️ 27.24MB/s
-  - 🇺🇸 US 015 | ⬇️ 27.24MB/s
-  - 🇺🇸 US 016 | ⬇️ 25.69MB/s
-  - 🇸🇨 SC 002 | ⬇️ 25.53MB/s
-  - 🇨🇦 CA 017 | ⬇️ 25.53MB/s
-  - 🇨🇦 CA 018 | ⬇️ 25.08MB/s
-  - 🇳🇱 NL 001 | ⬇️ 24.90MB/s
-  - 🇧🇪 BE 001 | ⬇️ 24.42MB/s
-  - 🇦🇹 AT 001 | ⬇️ 23.46MB/s
-  - 🇸🇨 SC 003 | ⬇️ 23.28MB/s
-  - 🇫🇮 FI 001 | ⬇️ 23.05MB/s
-  - 🇨🇦 CA 019 | ⬇️ 23.01MB/s
-  - 🇩🇪 DE 001 | ⬇️ 22.82MB/s
-  - 🇩🇪 DE 002 | ⬇️ 22.72MB/s
-  - 🇩🇪 DE 003 | ⬇️ 22.71MB/s
-  - 🇩🇪 DE 004 | ⬇️ 22.65MB/s
-  - 🇫🇷 FR 001 | ⬇️ 22.60MB/s
-  - 🇩🇪 DE 005 | ⬇️ 22.57MB/s
-  - 🇩🇪 DE 006 | ⬇️ 22.26MB/s
-  - 🇩🇪 DE 007 | ⬇️ 22.15MB/s
-  - 🇩🇪 DE 008 | ⬇️ 22.07MB/s
-  - 🇨🇦 CA 020 | ⬇️ 21.72MB/s
-  - 🇬🇧 GB 003 | ⬇️ 21.65MB/s
-  - 🇩🇪 DE 009 | ⬇️ 21.51MB/s
-  - 🇺🇸 US 017 | ⬇️ 21.11MB/s
-  - 🇬🇧 GB 004 | ⬇️ 20.97MB/s
-  - 🇮🇹 IT 001 | ⬇️ 20.90MB/s
-  - 🇩🇪 DE 010 | ⬇️ 20.82MB/s
-  - 🇯🇵 JP 001 | ⬇️ 20.27MB/s
-  - 🇧🇪 BE 002 | ⬇️ 20.02MB/s
-  - 🇩🇪 DE 011 | ⬇️ 19.85MB/s
-  - 🇺🇸 US 018 | ⬇️ 19.79MB/s
-  - 🇪🇸 ES 001 | ⬇️ 19.06MB/s
-  - 🇺🇸 US 019 | ⬇️ 18.01MB/s
-  - 🇫🇮 FI 002 | ⬇️ 17.28MB/s
-  - 🇫🇷 FR 002 | ⬇️ 16.08MB/s
-  - 🇸🇬 SG 001 | ⬇️ 16.02MB/s
-  - 🇪🇸 ES 002 | ⬇️ 15.19MB/s
-  - 🇳🇴 NO 001 | ⬇️ 14.96MB/s
-  - 🇺🇸 US 020 | ⬇️ 10.75MB/s
-  - 🇧🇪 BE 003 | ⬇️ 10.52MB/s
-  - 🇬🇧 GB 005 | ⬇️ 10.43MB/s
-  - 🇯🇵 JP 002 | ⬇️ 9.79MB/s
-  - 🇺🇸 US 021 | ⬇️ 9.53MB/s
-  - 🇯🇵 JP 003 | ⬇️ 8.89MB/s
-  - 🇫🇷 FR 003 | ⬇️ 8.59MB/s
-  - 🇨🇦 CA 021 | ⬇️ 8.48MB/s
-  - 🇺🇸 US 022 | ⬇️ 7.92MB/s
-  - 🇺🇸 US 023 | ⬇️ 7.78MB/s
-  - 🇺🇸 US 024 | ⬇️ 7.73MB/s
-  - 🇨🇦 CA 022 | ⬇️ 7.50MB/s
-  - 🇨🇦 CA 023 | ⬇️ 7.42MB/s
-  - 🇺🇸 US 025 | ⬇️ 7.26MB/s
-  - 🇺🇸 US 026 | ⬇️ 6.93MB/s
-  - 🇨🇦 CA 024 | ⬇️ 6.89MB/s
-  - 🇨🇦 CA 025 | ⬇️ 6.65MB/s
-  - 🇺🇸 US 027 | ⬇️ 6.56MB/s
-  - 🇨🇦 CA 026 | ⬇️ 6.55MB/s
-  - 🇺🇸 US 028 | ⬇️ 6.34MB/s
-  - 🇺🇸 US 029 | ⬇️ 6.33MB/s
-  - 🇺🇸 US 030 | ⬇️ 6.17MB/s
-  - 🇨🇦 CA 027 | ⬇️ 6.05MB/s
-  - 🇺🇸 US 031 | ⬇️ 6.04MB/s
-  - 🇺🇸 US 032 | ⬇️ 5.66MB/s
-  - 🇨🇦 CA 028 | ⬇️ 5.65MB/s
-  - 🇺🇸 US 033 | ⬇️ 5.55MB/s
-  - 🇳🇱 NL 002 | ⬇️ 5.48MB/s
-  - 🇺🇸 US 034 | ⬇️ 4.92MB/s
-  - 🇨🇦 CA 029 | ⬇️ 4.87MB/s
-  - 🇺🇸 US 035 | ⬇️ 4.79MB/s
-  - 🇺🇸 US 036 | ⬇️ 4.79MB/s
-  - 🇺🇸 US 037 | ⬇️ 4.70MB/s
-  - 🇺🇸 US 038 | ⬇️ 4.54MB/s
-  - 🇺🇸 US 039 | ⬇️ 4.51MB/s
-  - 🇺🇸 US 040 | ⬇️ 4.35MB/s
-  - 🇸🇨 SC 004 | ⬇️ 4.05MB/s
-  - 🇺🇸 US 041 | ⬇️ 3.55MB/s
-  - 🇭🇰 HK 001 | ⬇️ 2.75MB/s
-  - 🇺🇸 US 042 | ⬇️ 1.69MB/s
-  - 🇺🇸 US 043 | ⬇️ 1.61MB/s
-  - 🇨🇿 CZ 001 | ⬇️ 1.53MB/s
-  - 🇨🇳 TW 001 | ⬇️ 1.03MB/s
+  - 🇨🇦 CA 001 | ⬇️ 100.78MB/s
+  - 🇨🇦 CA 002 | ⬇️ 89.89MB/s
+  - 🇨🇦 CA 003 | ⬇️ 89.03MB/s
+  - 🇨🇦 CA 004 | ⬇️ 83.58MB/s
+  - 🇬🇧 GB 001 | ⬇️ 79.75MB/s
+  - 🇨🇦 CA 005 | ⬇️ 76.97MB/s
+  - 🇺🇸 US 001 | ⬇️ 63.82MB/s
+  - 🇨🇦 CA 006 | ⬇️ 55.75MB/s
+  - 🇺🇸 US 002 | ⬇️ 45.47MB/s
+  - 🇺🇸 US 003 | ⬇️ 43.75MB/s
+  - 🇨🇦 CA 007 | ⬇️ 43.51MB/s
+  - 🇺🇸 US 004 | ⬇️ 42.92MB/s
+  - 🇺🇸 US 005 | ⬇️ 42.21MB/s
+  - 🇺🇸 US 006 | ⬇️ 42.08MB/s
+  - 🇺🇸 US 007 | ⬇️ 41.48MB/s
+  - 🇺🇸 US 008 | ⬇️ 36.29MB/s
+  - 🇨🇦 CA 008 | ⬇️ 35.17MB/s
+  - 🇺🇸 US 009 | ⬇️ 31.50MB/s
+  - 🇺🇸 US 010 | ⬇️ 31.48MB/s
+  - 🇺🇸 US 011 | ⬇️ 29.01MB/s
+  - 🇨🇦 CA 009 | ⬇️ 27.24MB/s
+  - 🇺🇸 US 012 | ⬇️ 27.11MB/s
+  - 🇨🇦 CA 010 | ⬇️ 26.85MB/s
+  - 🇺🇸 US 013 | ⬇️ 26.83MB/s
+  - 🇸🇨 SC 001 | ⬇️ 26.71MB/s
+  - 🇳🇱 NL 001 | ⬇️ 26.53MB/s
+  - 🇨🇦 CA 011 | ⬇️ 26.46MB/s
+  - 🇨🇦 CA 012 | ⬇️ 26.45MB/s
+  - 🇨🇷 CR 001 | ⬇️ 26.38MB/s
+  - 🇨🇦 CA 013 | ⬇️ 26.32MB/s
+  - 🇨🇦 CA 014 | ⬇️ 26.23MB/s
+  - 🇺🇸 US 014 | ⬇️ 26.04MB/s
+  - 🇨🇦 CA 015 | ⬇️ 25.73MB/s
+  - 🇨🇦 CA 016 | ⬇️ 25.61MB/s
+  - 🇬🇧 GB 002 | ⬇️ 25.46MB/s
+  - 🇬🇧 GB 003 | ⬇️ 25.03MB/s
+  - 🇨🇦 CA 017 | ⬇️ 24.59MB/s
+  - 🇺🇸 US 015 | ⬇️ 23.84MB/s
+  - 🇯🇵 JP 001 | ⬇️ 23.81MB/s
+  - 🇺🇸 US 016 | ⬇️ 23.77MB/s
+  - 🇺🇸 US 017 | ⬇️ 23.73MB/s
+  - 🇨🇦 CA 018 | ⬇️ 23.26MB/s
+  - 🇺🇸 US 018 | ⬇️ 23.10MB/s
+  - 🇨🇦 CA 019 | ⬇️ 23.08MB/s
+  - 🇮🇹 IT 001 | ⬇️ 22.49MB/s
+  - 🇫🇷 FR 001 | ⬇️ 22.45MB/s
+  - 🇬🇧 GB 004 | ⬇️ 22.02MB/s
+  - 🇺🇸 US 019 | ⬇️ 21.75MB/s
+  - 🇩🇪 DE 001 | ⬇️ 21.42MB/s
+  - 🇩🇪 DE 002 | ⬇️ 21.02MB/s
+  - 🇺🇸 US 020 | ⬇️ 20.73MB/s
+  - 🇩🇪 DE 003 | ⬇️ 20.59MB/s
+  - 🇺🇸 US 021 | ⬇️ 20.29MB/s
+  - 🇨🇦 CA 020 | ⬇️ 20.29MB/s
+  - 🇬🇧 GB 005 | ⬇️ 19.57MB/s
+  - 🇺🇸 US 022 | ⬇️ 19.43MB/s
+  - 🇺🇸 US 023 | ⬇️ 19.09MB/s
+  - 🇸🇬 SG 001 | ⬇️ 18.97MB/s
+  - 🇺🇸 US 024 | ⬇️ 18.62MB/s
+  - 🇺🇸 US 025 | ⬇️ 18.48MB/s
+  - 🇩🇪 DE 004 | ⬇️ 18.17MB/s
+  - 🇫🇮 FI 001 | ⬇️ 18.14MB/s
+  - 🇺🇸 US 026 | ⬇️ 16.83MB/s
+  - 🇬🇧 GB 006 | ⬇️ 16.56MB/s
+  - 🇳🇴 NO 001 | ⬇️ 16.29MB/s
+  - 🇩🇪 DE 005 | ⬇️ 15.77MB/s
+  - 🇨🇦 CA 021 | ⬇️ 15.45MB/s
+  - 🇺🇸 US 027 | ⬇️ 15.07MB/s
+  - 🇺🇸 US 028 | ⬇️ 14.93MB/s
+  - 🇺🇸 US 029 | ⬇️ 14.63MB/s
+  - 🇺🇸 US 030 | ⬇️ 14.46MB/s
+  - 🇨🇦 CA 022 | ⬇️ 14.24MB/s
+  - 🇺🇸 US 031 | ⬇️ 13.59MB/s
+  - 🇩🇪 DE 006 | ⬇️ 13.19MB/s
+  - 🇺🇸 US 032 | ⬇️ 13.09MB/s
+  - 🇺🇸 US 033 | ⬇️ 12.59MB/s
+  - 🇺🇸 US 034 | ⬇️ 11.29MB/s
+  - 🇫🇷 FR 002 | ⬇️ 9.67MB/s
+  - 🇯🇵 JP 002 | ⬇️ 9.45MB/s
+  - 🇺🇸 US 035 | ⬇️ 9.45MB/s
+  - 🇺🇸 US 036 | ⬇️ 9.01MB/s
+  - 🇯🇵 JP 003 | ⬇️ 7.80MB/s
+  - 🇺🇸 US 037 | ⬇️ 6.82MB/s
+  - 🇫🇷 FR 003 | ⬇️ 6.70MB/s
+  - 🇺🇸 US 038 | ⬇️ 6.06MB/s
+  - 🇰🇷 KR 001 | ⬇️ 4.37MB/s
+  - 🇺🇸 US 039 | ⬇️ 3.76MB/s
+  - 🇨🇿 CZ 001 | ⬇️ 1.25MB/s
+  - 🇺🇸 US 011 | ⚡ 455.00ms
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 50
 - name: 低延迟
   type: url-test
   proxies:
-  - 🇨🇦 CA 001 | ⬇️ 133.83MB/s
-  - 🇺🇸 US 001 | ⬇️ 123.75MB/s
-  - 🇨🇦 CA 002 | ⬇️ 117.64MB/s
-  - 🇨🇦 CA 003 | ⬇️ 104.30MB/s
-  - 🇬🇧 GB 001 | ⬇️ 102.17MB/s
-  - 🇨🇦 CA 004 | ⬇️ 101.30MB/s
-  - 🇨🇦 CA 005 | ⬇️ 95.27MB/s
-  - 🇨🇦 CA 006 | ⬇️ 94.94MB/s
-  - 🇺🇸 US 002 | ⬇️ 61.69MB/s
-  - 🇺🇸 US 003 | ⬇️ 48.80MB/s
-  - 🇺🇸 US 004 | ⬇️ 41.50MB/s
-  - 🇺🇸 US 005 | ⬇️ 40.94MB/s
-  - 🇺🇸 US 006 | ⬇️ 40.64MB/s
-  - 🇺🇸 US 007 | ⬇️ 39.94MB/s
-  - 🇺🇸 US 008 | ⬇️ 39.89MB/s
-  - 🇺🇸 US 009 | ⬇️ 35.47MB/s
-  - 🇺🇸 US 010 | ⬇️ 35.22MB/s
-  - 🇺🇸 US 011 | ⬇️ 33.94MB/s
-  - 🇨🇦 CA 007 | ⬇️ 33.49MB/s
-  - 🇨🇦 CA 008 | ⬇️ 32.49MB/s
-  - 🇺🇸 US 012 | ⬇️ 32.02MB/s
-  - 🇺🇸 US 013 | ⬇️ 31.19MB/s
-  - 🇨🇦 CA 009 | ⬇️ 29.33MB/s
-  - 🇨🇦 CA 010 | ⬇️ 29.09MB/s
-  - 🇸🇨 SC 001 | ⬇️ 28.74MB/s
-  - 🇬🇧 GB 002 | ⬇️ 28.06MB/s
-  - 🇨🇦 CA 011 | ⬇️ 28.00MB/s
-  - 🇨🇦 CA 012 | ⬇️ 27.84MB/s
-  - 🇨🇦 CA 013 | ⬇️ 27.64MB/s
-  - 🇺🇸 US 014 | ⬇️ 27.58MB/s
-  - 🇨🇦 CA 014 | ⬇️ 27.55MB/s
-  - 🇨🇦 CA 015 | ⬇️ 27.27MB/s
-  - 🇨🇦 CA 016 | ⬇️ 27.24MB/s
-  - 🇺🇸 US 015 | ⬇️ 27.24MB/s
-  - 🇺🇸 US 016 | ⬇️ 25.69MB/s
-  - 🇸🇨 SC 002 | ⬇️ 25.53MB/s
-  - 🇨🇦 CA 017 | ⬇️ 25.53MB/s
-  - 🇨🇦 CA 018 | ⬇️ 25.08MB/s
-  - 🇳🇱 NL 001 | ⬇️ 24.90MB/s
-  - 🇧🇪 BE 001 | ⬇️ 24.42MB/s
-  - 🇦🇹 AT 001 | ⬇️ 23.46MB/s
-  - 🇸🇨 SC 003 | ⬇️ 23.28MB/s
-  - 🇫🇮 FI 001 | ⬇️ 23.05MB/s
-  - 🇨🇦 CA 019 | ⬇️ 23.01MB/s
-  - 🇩🇪 DE 001 | ⬇️ 22.82MB/s
-  - 🇩🇪 DE 002 | ⬇️ 22.72MB/s
-  - 🇩🇪 DE 003 | ⬇️ 22.71MB/s
-  - 🇩🇪 DE 004 | ⬇️ 22.65MB/s
-  - 🇫🇷 FR 001 | ⬇️ 22.60MB/s
-  - 🇩🇪 DE 005 | ⬇️ 22.57MB/s
-  - 🇩🇪 DE 006 | ⬇️ 22.26MB/s
-  - 🇩🇪 DE 007 | ⬇️ 22.15MB/s
-  - 🇩🇪 DE 008 | ⬇️ 22.07MB/s
-  - 🇨🇦 CA 020 | ⬇️ 21.72MB/s
-  - 🇬🇧 GB 003 | ⬇️ 21.65MB/s
-  - 🇩🇪 DE 009 | ⬇️ 21.51MB/s
-  - 🇺🇸 US 017 | ⬇️ 21.11MB/s
-  - 🇬🇧 GB 004 | ⬇️ 20.97MB/s
-  - 🇮🇹 IT 001 | ⬇️ 20.90MB/s
-  - 🇩🇪 DE 010 | ⬇️ 20.82MB/s
-  - 🇯🇵 JP 001 | ⬇️ 20.27MB/s
-  - 🇧🇪 BE 002 | ⬇️ 20.02MB/s
-  - 🇩🇪 DE 011 | ⬇️ 19.85MB/s
-  - 🇺🇸 US 018 | ⬇️ 19.79MB/s
-  - 🇪🇸 ES 001 | ⬇️ 19.06MB/s
-  - 🇺🇸 US 019 | ⬇️ 18.01MB/s
-  - 🇫🇮 FI 002 | ⬇️ 17.28MB/s
-  - 🇫🇷 FR 002 | ⬇️ 16.08MB/s
-  - 🇸🇬 SG 001 | ⬇️ 16.02MB/s
-  - 🇪🇸 ES 002 | ⬇️ 15.19MB/s
-  - 🇳🇴 NO 001 | ⬇️ 14.96MB/s
-  - 🇺🇸 US 020 | ⬇️ 10.75MB/s
-  - 🇧🇪 BE 003 | ⬇️ 10.52MB/s
-  - 🇬🇧 GB 005 | ⬇️ 10.43MB/s
-  - 🇯🇵 JP 002 | ⬇️ 9.79MB/s
-  - 🇺🇸 US 021 | ⬇️ 9.53MB/s
-  - 🇯🇵 JP 003 | ⬇️ 8.89MB/s
-  - 🇫🇷 FR 003 | ⬇️ 8.59MB/s
-  - 🇨🇦 CA 021 | ⬇️ 8.48MB/s
-  - 🇺🇸 US 022 | ⬇️ 7.92MB/s
-  - 🇺🇸 US 023 | ⬇️ 7.78MB/s
-  - 🇺🇸 US 024 | ⬇️ 7.73MB/s
-  - 🇨🇦 CA 022 | ⬇️ 7.50MB/s
-  - 🇨🇦 CA 023 | ⬇️ 7.42MB/s
-  - 🇺🇸 US 025 | ⬇️ 7.26MB/s
-  - 🇺🇸 US 026 | ⬇️ 6.93MB/s
-  - 🇨🇦 CA 024 | ⬇️ 6.89MB/s
-  - 🇨🇦 CA 025 | ⬇️ 6.65MB/s
-  - 🇺🇸 US 027 | ⬇️ 6.56MB/s
-  - 🇨🇦 CA 026 | ⬇️ 6.55MB/s
-  - 🇺🇸 US 028 | ⬇️ 6.34MB/s
-  - 🇺🇸 US 029 | ⬇️ 6.33MB/s
-  - 🇺🇸 US 030 | ⬇️ 6.17MB/s
-  - 🇨🇦 CA 027 | ⬇️ 6.05MB/s
-  - 🇺🇸 US 031 | ⬇️ 6.04MB/s
-  - 🇺🇸 US 032 | ⬇️ 5.66MB/s
-  - 🇨🇦 CA 028 | ⬇️ 5.65MB/s
-  - 🇺🇸 US 033 | ⬇️ 5.55MB/s
-  - 🇳🇱 NL 002 | ⬇️ 5.48MB/s
-  - 🇺🇸 US 034 | ⬇️ 4.92MB/s
-  - 🇨🇦 CA 029 | ⬇️ 4.87MB/s
-  - 🇺🇸 US 035 | ⬇️ 4.79MB/s
-  - 🇺🇸 US 036 | ⬇️ 4.79MB/s
-  - 🇺🇸 US 037 | ⬇️ 4.70MB/s
-  - 🇺🇸 US 038 | ⬇️ 4.54MB/s
-  - 🇺🇸 US 039 | ⬇️ 4.51MB/s
-  - 🇺🇸 US 040 | ⬇️ 4.35MB/s
-  - 🇸🇨 SC 004 | ⬇️ 4.05MB/s
-  - 🇺🇸 US 041 | ⬇️ 3.55MB/s
-  - 🇭🇰 HK 001 | ⬇️ 2.75MB/s
-  - 🇺🇸 US 042 | ⬇️ 1.69MB/s
-  - 🇺🇸 US 043 | ⬇️ 1.61MB/s
-  - 🇨🇿 CZ 001 | ⬇️ 1.53MB/s
-  - 🇨🇳 TW 001 | ⬇️ 1.03MB/s
+  - 🇨🇦 CA 001 | ⬇️ 100.78MB/s
+  - 🇨🇦 CA 002 | ⬇️ 89.89MB/s
+  - 🇨🇦 CA 003 | ⬇️ 89.03MB/s
+  - 🇨🇦 CA 004 | ⬇️ 83.58MB/s
+  - 🇬🇧 GB 001 | ⬇️ 79.75MB/s
+  - 🇨🇦 CA 005 | ⬇️ 76.97MB/s
+  - 🇺🇸 US 001 | ⬇️ 63.82MB/s
+  - 🇨🇦 CA 006 | ⬇️ 55.75MB/s
+  - 🇺🇸 US 002 | ⬇️ 45.47MB/s
+  - 🇺🇸 US 003 | ⬇️ 43.75MB/s
+  - 🇨🇦 CA 007 | ⬇️ 43.51MB/s
+  - 🇺🇸 US 004 | ⬇️ 42.92MB/s
+  - 🇺🇸 US 005 | ⬇️ 42.21MB/s
+  - 🇺🇸 US 006 | ⬇️ 42.08MB/s
+  - 🇺🇸 US 007 | ⬇️ 41.48MB/s
+  - 🇺🇸 US 008 | ⬇️ 36.29MB/s
+  - 🇨🇦 CA 008 | ⬇️ 35.17MB/s
+  - 🇺🇸 US 009 | ⬇️ 31.50MB/s
+  - 🇺🇸 US 010 | ⬇️ 31.48MB/s
+  - 🇺🇸 US 011 | ⬇️ 29.01MB/s
+  - 🇨🇦 CA 009 | ⬇️ 27.24MB/s
+  - 🇺🇸 US 012 | ⬇️ 27.11MB/s
+  - 🇨🇦 CA 010 | ⬇️ 26.85MB/s
+  - 🇺🇸 US 013 | ⬇️ 26.83MB/s
+  - 🇸🇨 SC 001 | ⬇️ 26.71MB/s
+  - 🇳🇱 NL 001 | ⬇️ 26.53MB/s
+  - 🇨🇦 CA 011 | ⬇️ 26.46MB/s
+  - 🇨🇦 CA 012 | ⬇️ 26.45MB/s
+  - 🇨🇷 CR 001 | ⬇️ 26.38MB/s
+  - 🇨🇦 CA 013 | ⬇️ 26.32MB/s
+  - 🇨🇦 CA 014 | ⬇️ 26.23MB/s
+  - 🇺🇸 US 014 | ⬇️ 26.04MB/s
+  - 🇨🇦 CA 015 | ⬇️ 25.73MB/s
+  - 🇨🇦 CA 016 | ⬇️ 25.61MB/s
+  - 🇬🇧 GB 002 | ⬇️ 25.46MB/s
+  - 🇬🇧 GB 003 | ⬇️ 25.03MB/s
+  - 🇨🇦 CA 017 | ⬇️ 24.59MB/s
+  - 🇺🇸 US 015 | ⬇️ 23.84MB/s
+  - 🇯🇵 JP 001 | ⬇️ 23.81MB/s
+  - 🇺🇸 US 016 | ⬇️ 23.77MB/s
+  - 🇺🇸 US 017 | ⬇️ 23.73MB/s
+  - 🇨🇦 CA 018 | ⬇️ 23.26MB/s
+  - 🇺🇸 US 018 | ⬇️ 23.10MB/s
+  - 🇨🇦 CA 019 | ⬇️ 23.08MB/s
+  - 🇮🇹 IT 001 | ⬇️ 22.49MB/s
+  - 🇫🇷 FR 001 | ⬇️ 22.45MB/s
+  - 🇬🇧 GB 004 | ⬇️ 22.02MB/s
+  - 🇺🇸 US 019 | ⬇️ 21.75MB/s
+  - 🇩🇪 DE 001 | ⬇️ 21.42MB/s
+  - 🇩🇪 DE 002 | ⬇️ 21.02MB/s
+  - 🇺🇸 US 020 | ⬇️ 20.73MB/s
+  - 🇩🇪 DE 003 | ⬇️ 20.59MB/s
+  - 🇺🇸 US 021 | ⬇️ 20.29MB/s
+  - 🇨🇦 CA 020 | ⬇️ 20.29MB/s
+  - 🇬🇧 GB 005 | ⬇️ 19.57MB/s
+  - 🇺🇸 US 022 | ⬇️ 19.43MB/s
+  - 🇺🇸 US 023 | ⬇️ 19.09MB/s
+  - 🇸🇬 SG 001 | ⬇️ 18.97MB/s
+  - 🇺🇸 US 024 | ⬇️ 18.62MB/s
+  - 🇺🇸 US 025 | ⬇️ 18.48MB/s
+  - 🇩🇪 DE 004 | ⬇️ 18.17MB/s
+  - 🇫🇮 FI 001 | ⬇️ 18.14MB/s
+  - 🇺🇸 US 026 | ⬇️ 16.83MB/s
+  - 🇬🇧 GB 006 | ⬇️ 16.56MB/s
+  - 🇳🇴 NO 001 | ⬇️ 16.29MB/s
+  - 🇩🇪 DE 005 | ⬇️ 15.77MB/s
+  - 🇨🇦 CA 021 | ⬇️ 15.45MB/s
+  - 🇺🇸 US 027 | ⬇️ 15.07MB/s
+  - 🇺🇸 US 028 | ⬇️ 14.93MB/s
+  - 🇺🇸 US 029 | ⬇️ 14.63MB/s
+  - 🇺🇸 US 030 | ⬇️ 14.46MB/s
+  - 🇨🇦 CA 022 | ⬇️ 14.24MB/s
+  - 🇺🇸 US 031 | ⬇️ 13.59MB/s
+  - 🇩🇪 DE 006 | ⬇️ 13.19MB/s
+  - 🇺🇸 US 032 | ⬇️ 13.09MB/s
+  - 🇺🇸 US 033 | ⬇️ 12.59MB/s
+  - 🇺🇸 US 034 | ⬇️ 11.29MB/s
+  - 🇫🇷 FR 002 | ⬇️ 9.67MB/s
+  - 🇯🇵 JP 002 | ⬇️ 9.45MB/s
+  - 🇺🇸 US 035 | ⬇️ 9.45MB/s
+  - 🇺🇸 US 036 | ⬇️ 9.01MB/s
+  - 🇯🇵 JP 003 | ⬇️ 7.80MB/s
+  - 🇺🇸 US 037 | ⬇️ 6.82MB/s
+  - 🇫🇷 FR 003 | ⬇️ 6.70MB/s
+  - 🇺🇸 US 038 | ⬇️ 6.06MB/s
+  - 🇰🇷 KR 001 | ⬇️ 4.37MB/s
+  - 🇺🇸 US 039 | ⬇️ 3.76MB/s
+  - 🇨🇿 CZ 001 | ⬇️ 1.25MB/s
+  - 🇺🇸 US 011 | ⚡ 455.00ms
   url: http://www.gstatic.com/generate_204
   interval: 180
   tolerance: 30
@@ -1601,120 +1263,95 @@ proxy-groups:
   type: load-balance
   strategy: consistent-hashing
   proxies:
-  - 🇨🇦 CA 001 | ⬇️ 133.83MB/s
-  - 🇺🇸 US 001 | ⬇️ 123.75MB/s
-  - 🇨🇦 CA 002 | ⬇️ 117.64MB/s
-  - 🇨🇦 CA 003 | ⬇️ 104.30MB/s
-  - 🇬🇧 GB 001 | ⬇️ 102.17MB/s
-  - 🇨🇦 CA 004 | ⬇️ 101.30MB/s
-  - 🇨🇦 CA 005 | ⬇️ 95.27MB/s
-  - 🇨🇦 CA 006 | ⬇️ 94.94MB/s
-  - 🇺🇸 US 002 | ⬇️ 61.69MB/s
-  - 🇺🇸 US 003 | ⬇️ 48.80MB/s
-  - 🇺🇸 US 004 | ⬇️ 41.50MB/s
-  - 🇺🇸 US 005 | ⬇️ 40.94MB/s
-  - 🇺🇸 US 006 | ⬇️ 40.64MB/s
-  - 🇺🇸 US 007 | ⬇️ 39.94MB/s
-  - 🇺🇸 US 008 | ⬇️ 39.89MB/s
-  - 🇺🇸 US 009 | ⬇️ 35.47MB/s
-  - 🇺🇸 US 010 | ⬇️ 35.22MB/s
-  - 🇺🇸 US 011 | ⬇️ 33.94MB/s
-  - 🇨🇦 CA 007 | ⬇️ 33.49MB/s
-  - 🇨🇦 CA 008 | ⬇️ 32.49MB/s
-  - 🇺🇸 US 012 | ⬇️ 32.02MB/s
-  - 🇺🇸 US 013 | ⬇️ 31.19MB/s
-  - 🇨🇦 CA 009 | ⬇️ 29.33MB/s
-  - 🇨🇦 CA 010 | ⬇️ 29.09MB/s
-  - 🇸🇨 SC 001 | ⬇️ 28.74MB/s
-  - 🇬🇧 GB 002 | ⬇️ 28.06MB/s
-  - 🇨🇦 CA 011 | ⬇️ 28.00MB/s
-  - 🇨🇦 CA 012 | ⬇️ 27.84MB/s
-  - 🇨🇦 CA 013 | ⬇️ 27.64MB/s
-  - 🇺🇸 US 014 | ⬇️ 27.58MB/s
-  - 🇨🇦 CA 014 | ⬇️ 27.55MB/s
-  - 🇨🇦 CA 015 | ⬇️ 27.27MB/s
-  - 🇨🇦 CA 016 | ⬇️ 27.24MB/s
-  - 🇺🇸 US 015 | ⬇️ 27.24MB/s
-  - 🇺🇸 US 016 | ⬇️ 25.69MB/s
-  - 🇸🇨 SC 002 | ⬇️ 25.53MB/s
-  - 🇨🇦 CA 017 | ⬇️ 25.53MB/s
-  - 🇨🇦 CA 018 | ⬇️ 25.08MB/s
-  - 🇳🇱 NL 001 | ⬇️ 24.90MB/s
-  - 🇧🇪 BE 001 | ⬇️ 24.42MB/s
-  - 🇦🇹 AT 001 | ⬇️ 23.46MB/s
-  - 🇸🇨 SC 003 | ⬇️ 23.28MB/s
-  - 🇫🇮 FI 001 | ⬇️ 23.05MB/s
-  - 🇨🇦 CA 019 | ⬇️ 23.01MB/s
-  - 🇩🇪 DE 001 | ⬇️ 22.82MB/s
-  - 🇩🇪 DE 002 | ⬇️ 22.72MB/s
-  - 🇩🇪 DE 003 | ⬇️ 22.71MB/s
-  - 🇩🇪 DE 004 | ⬇️ 22.65MB/s
-  - 🇫🇷 FR 001 | ⬇️ 22.60MB/s
-  - 🇩🇪 DE 005 | ⬇️ 22.57MB/s
-  - 🇩🇪 DE 006 | ⬇️ 22.26MB/s
-  - 🇩🇪 DE 007 | ⬇️ 22.15MB/s
-  - 🇩🇪 DE 008 | ⬇️ 22.07MB/s
-  - 🇨🇦 CA 020 | ⬇️ 21.72MB/s
-  - 🇬🇧 GB 003 | ⬇️ 21.65MB/s
-  - 🇩🇪 DE 009 | ⬇️ 21.51MB/s
-  - 🇺🇸 US 017 | ⬇️ 21.11MB/s
-  - 🇬🇧 GB 004 | ⬇️ 20.97MB/s
-  - 🇮🇹 IT 001 | ⬇️ 20.90MB/s
-  - 🇩🇪 DE 010 | ⬇️ 20.82MB/s
-  - 🇯🇵 JP 001 | ⬇️ 20.27MB/s
-  - 🇧🇪 BE 002 | ⬇️ 20.02MB/s
-  - 🇩🇪 DE 011 | ⬇️ 19.85MB/s
-  - 🇺🇸 US 018 | ⬇️ 19.79MB/s
-  - 🇪🇸 ES 001 | ⬇️ 19.06MB/s
-  - 🇺🇸 US 019 | ⬇️ 18.01MB/s
-  - 🇫🇮 FI 002 | ⬇️ 17.28MB/s
-  - 🇫🇷 FR 002 | ⬇️ 16.08MB/s
-  - 🇸🇬 SG 001 | ⬇️ 16.02MB/s
-  - 🇪🇸 ES 002 | ⬇️ 15.19MB/s
-  - 🇳🇴 NO 001 | ⬇️ 14.96MB/s
-  - 🇺🇸 US 020 | ⬇️ 10.75MB/s
-  - 🇧🇪 BE 003 | ⬇️ 10.52MB/s
-  - 🇬🇧 GB 005 | ⬇️ 10.43MB/s
-  - 🇯🇵 JP 002 | ⬇️ 9.79MB/s
-  - 🇺🇸 US 021 | ⬇️ 9.53MB/s
-  - 🇯🇵 JP 003 | ⬇️ 8.89MB/s
-  - 🇫🇷 FR 003 | ⬇️ 8.59MB/s
-  - 🇨🇦 CA 021 | ⬇️ 8.48MB/s
-  - 🇺🇸 US 022 | ⬇️ 7.92MB/s
-  - 🇺🇸 US 023 | ⬇️ 7.78MB/s
-  - 🇺🇸 US 024 | ⬇️ 7.73MB/s
-  - 🇨🇦 CA 022 | ⬇️ 7.50MB/s
-  - 🇨🇦 CA 023 | ⬇️ 7.42MB/s
-  - 🇺🇸 US 025 | ⬇️ 7.26MB/s
-  - 🇺🇸 US 026 | ⬇️ 6.93MB/s
-  - 🇨🇦 CA 024 | ⬇️ 6.89MB/s
-  - 🇨🇦 CA 025 | ⬇️ 6.65MB/s
-  - 🇺🇸 US 027 | ⬇️ 6.56MB/s
-  - 🇨🇦 CA 026 | ⬇️ 6.55MB/s
-  - 🇺🇸 US 028 | ⬇️ 6.34MB/s
-  - 🇺🇸 US 029 | ⬇️ 6.33MB/s
-  - 🇺🇸 US 030 | ⬇️ 6.17MB/s
-  - 🇨🇦 CA 027 | ⬇️ 6.05MB/s
-  - 🇺🇸 US 031 | ⬇️ 6.04MB/s
-  - 🇺🇸 US 032 | ⬇️ 5.66MB/s
-  - 🇨🇦 CA 028 | ⬇️ 5.65MB/s
-  - 🇺🇸 US 033 | ⬇️ 5.55MB/s
-  - 🇳🇱 NL 002 | ⬇️ 5.48MB/s
-  - 🇺🇸 US 034 | ⬇️ 4.92MB/s
-  - 🇨🇦 CA 029 | ⬇️ 4.87MB/s
-  - 🇺🇸 US 035 | ⬇️ 4.79MB/s
-  - 🇺🇸 US 036 | ⬇️ 4.79MB/s
-  - 🇺🇸 US 037 | ⬇️ 4.70MB/s
-  - 🇺🇸 US 038 | ⬇️ 4.54MB/s
-  - 🇺🇸 US 039 | ⬇️ 4.51MB/s
-  - 🇺🇸 US 040 | ⬇️ 4.35MB/s
-  - 🇸🇨 SC 004 | ⬇️ 4.05MB/s
-  - 🇺🇸 US 041 | ⬇️ 3.55MB/s
-  - 🇭🇰 HK 001 | ⬇️ 2.75MB/s
-  - 🇺🇸 US 042 | ⬇️ 1.69MB/s
-  - 🇺🇸 US 043 | ⬇️ 1.61MB/s
-  - 🇨🇿 CZ 001 | ⬇️ 1.53MB/s
-  - 🇨🇳 TW 001 | ⬇️ 1.03MB/s
+  - 🇨🇦 CA 001 | ⬇️ 100.78MB/s
+  - 🇨🇦 CA 002 | ⬇️ 89.89MB/s
+  - 🇨🇦 CA 003 | ⬇️ 89.03MB/s
+  - 🇨🇦 CA 004 | ⬇️ 83.58MB/s
+  - 🇬🇧 GB 001 | ⬇️ 79.75MB/s
+  - 🇨🇦 CA 005 | ⬇️ 76.97MB/s
+  - 🇺🇸 US 001 | ⬇️ 63.82MB/s
+  - 🇨🇦 CA 006 | ⬇️ 55.75MB/s
+  - 🇺🇸 US 002 | ⬇️ 45.47MB/s
+  - 🇺🇸 US 003 | ⬇️ 43.75MB/s
+  - 🇨🇦 CA 007 | ⬇️ 43.51MB/s
+  - 🇺🇸 US 004 | ⬇️ 42.92MB/s
+  - 🇺🇸 US 005 | ⬇️ 42.21MB/s
+  - 🇺🇸 US 006 | ⬇️ 42.08MB/s
+  - 🇺🇸 US 007 | ⬇️ 41.48MB/s
+  - 🇺🇸 US 008 | ⬇️ 36.29MB/s
+  - 🇨🇦 CA 008 | ⬇️ 35.17MB/s
+  - 🇺🇸 US 009 | ⬇️ 31.50MB/s
+  - 🇺🇸 US 010 | ⬇️ 31.48MB/s
+  - 🇺🇸 US 011 | ⬇️ 29.01MB/s
+  - 🇨🇦 CA 009 | ⬇️ 27.24MB/s
+  - 🇺🇸 US 012 | ⬇️ 27.11MB/s
+  - 🇨🇦 CA 010 | ⬇️ 26.85MB/s
+  - 🇺🇸 US 013 | ⬇️ 26.83MB/s
+  - 🇸🇨 SC 001 | ⬇️ 26.71MB/s
+  - 🇳🇱 NL 001 | ⬇️ 26.53MB/s
+  - 🇨🇦 CA 011 | ⬇️ 26.46MB/s
+  - 🇨🇦 CA 012 | ⬇️ 26.45MB/s
+  - 🇨🇷 CR 001 | ⬇️ 26.38MB/s
+  - 🇨🇦 CA 013 | ⬇️ 26.32MB/s
+  - 🇨🇦 CA 014 | ⬇️ 26.23MB/s
+  - 🇺🇸 US 014 | ⬇️ 26.04MB/s
+  - 🇨🇦 CA 015 | ⬇️ 25.73MB/s
+  - 🇨🇦 CA 016 | ⬇️ 25.61MB/s
+  - 🇬🇧 GB 002 | ⬇️ 25.46MB/s
+  - 🇬🇧 GB 003 | ⬇️ 25.03MB/s
+  - 🇨🇦 CA 017 | ⬇️ 24.59MB/s
+  - 🇺🇸 US 015 | ⬇️ 23.84MB/s
+  - 🇯🇵 JP 001 | ⬇️ 23.81MB/s
+  - 🇺🇸 US 016 | ⬇️ 23.77MB/s
+  - 🇺🇸 US 017 | ⬇️ 23.73MB/s
+  - 🇨🇦 CA 018 | ⬇️ 23.26MB/s
+  - 🇺🇸 US 018 | ⬇️ 23.10MB/s
+  - 🇨🇦 CA 019 | ⬇️ 23.08MB/s
+  - 🇮🇹 IT 001 | ⬇️ 22.49MB/s
+  - 🇫🇷 FR 001 | ⬇️ 22.45MB/s
+  - 🇬🇧 GB 004 | ⬇️ 22.02MB/s
+  - 🇺🇸 US 019 | ⬇️ 21.75MB/s
+  - 🇩🇪 DE 001 | ⬇️ 21.42MB/s
+  - 🇩🇪 DE 002 | ⬇️ 21.02MB/s
+  - 🇺🇸 US 020 | ⬇️ 20.73MB/s
+  - 🇩🇪 DE 003 | ⬇️ 20.59MB/s
+  - 🇺🇸 US 021 | ⬇️ 20.29MB/s
+  - 🇨🇦 CA 020 | ⬇️ 20.29MB/s
+  - 🇬🇧 GB 005 | ⬇️ 19.57MB/s
+  - 🇺🇸 US 022 | ⬇️ 19.43MB/s
+  - 🇺🇸 US 023 | ⬇️ 19.09MB/s
+  - 🇸🇬 SG 001 | ⬇️ 18.97MB/s
+  - 🇺🇸 US 024 | ⬇️ 18.62MB/s
+  - 🇺🇸 US 025 | ⬇️ 18.48MB/s
+  - 🇩🇪 DE 004 | ⬇️ 18.17MB/s
+  - 🇫🇮 FI 001 | ⬇️ 18.14MB/s
+  - 🇺🇸 US 026 | ⬇️ 16.83MB/s
+  - 🇬🇧 GB 006 | ⬇️ 16.56MB/s
+  - 🇳🇴 NO 001 | ⬇️ 16.29MB/s
+  - 🇩🇪 DE 005 | ⬇️ 15.77MB/s
+  - 🇨🇦 CA 021 | ⬇️ 15.45MB/s
+  - 🇺🇸 US 027 | ⬇️ 15.07MB/s
+  - 🇺🇸 US 028 | ⬇️ 14.93MB/s
+  - 🇺🇸 US 029 | ⬇️ 14.63MB/s
+  - 🇺🇸 US 030 | ⬇️ 14.46MB/s
+  - 🇨🇦 CA 022 | ⬇️ 14.24MB/s
+  - 🇺🇸 US 031 | ⬇️ 13.59MB/s
+  - 🇩🇪 DE 006 | ⬇️ 13.19MB/s
+  - 🇺🇸 US 032 | ⬇️ 13.09MB/s
+  - 🇺🇸 US 033 | ⬇️ 12.59MB/s
+  - 🇺🇸 US 034 | ⬇️ 11.29MB/s
+  - 🇫🇷 FR 002 | ⬇️ 9.67MB/s
+  - 🇯🇵 JP 002 | ⬇️ 9.45MB/s
+  - 🇺🇸 US 035 | ⬇️ 9.45MB/s
+  - 🇺🇸 US 036 | ⬇️ 9.01MB/s
+  - 🇯🇵 JP 003 | ⬇️ 7.80MB/s
+  - 🇺🇸 US 037 | ⬇️ 6.82MB/s
+  - 🇫🇷 FR 003 | ⬇️ 6.70MB/s
+  - 🇺🇸 US 038 | ⬇️ 6.06MB/s
+  - 🇰🇷 KR 001 | ⬇️ 4.37MB/s
+  - 🇺🇸 US 039 | ⬇️ 3.76MB/s
+  - 🇨🇿 CZ 001 | ⬇️ 1.25MB/s
+  - 🇺🇸 US 011 | ⚡ 455.00ms
 - name: 故障转移
   type: fallback
   proxies:
@@ -1724,188 +1361,160 @@ proxy-groups:
 - name: 手动选择
   type: select
   proxies:
-  - 🇨🇦 CA 001 | ⬇️ 133.83MB/s
-  - 🇺🇸 US 001 | ⬇️ 123.75MB/s
-  - 🇨🇦 CA 002 | ⬇️ 117.64MB/s
-  - 🇨🇦 CA 003 | ⬇️ 104.30MB/s
-  - 🇬🇧 GB 001 | ⬇️ 102.17MB/s
-  - 🇨🇦 CA 004 | ⬇️ 101.30MB/s
-  - 🇨🇦 CA 005 | ⬇️ 95.27MB/s
-  - 🇨🇦 CA 006 | ⬇️ 94.94MB/s
-  - 🇺🇸 US 002 | ⬇️ 61.69MB/s
-  - 🇺🇸 US 003 | ⬇️ 48.80MB/s
-  - 🇺🇸 US 004 | ⬇️ 41.50MB/s
-  - 🇺🇸 US 005 | ⬇️ 40.94MB/s
-  - 🇺🇸 US 006 | ⬇️ 40.64MB/s
-  - 🇺🇸 US 007 | ⬇️ 39.94MB/s
-  - 🇺🇸 US 008 | ⬇️ 39.89MB/s
-  - 🇺🇸 US 009 | ⬇️ 35.47MB/s
-  - 🇺🇸 US 010 | ⬇️ 35.22MB/s
-  - 🇺🇸 US 011 | ⬇️ 33.94MB/s
-  - 🇨🇦 CA 007 | ⬇️ 33.49MB/s
-  - 🇨🇦 CA 008 | ⬇️ 32.49MB/s
-  - 🇺🇸 US 012 | ⬇️ 32.02MB/s
-  - 🇺🇸 US 013 | ⬇️ 31.19MB/s
-  - 🇨🇦 CA 009 | ⬇️ 29.33MB/s
-  - 🇨🇦 CA 010 | ⬇️ 29.09MB/s
-  - 🇸🇨 SC 001 | ⬇️ 28.74MB/s
-  - 🇬🇧 GB 002 | ⬇️ 28.06MB/s
-  - 🇨🇦 CA 011 | ⬇️ 28.00MB/s
-  - 🇨🇦 CA 012 | ⬇️ 27.84MB/s
-  - 🇨🇦 CA 013 | ⬇️ 27.64MB/s
-  - 🇺🇸 US 014 | ⬇️ 27.58MB/s
-  - 🇨🇦 CA 014 | ⬇️ 27.55MB/s
-  - 🇨🇦 CA 015 | ⬇️ 27.27MB/s
-  - 🇨🇦 CA 016 | ⬇️ 27.24MB/s
-  - 🇺🇸 US 015 | ⬇️ 27.24MB/s
-  - 🇺🇸 US 016 | ⬇️ 25.69MB/s
-  - 🇸🇨 SC 002 | ⬇️ 25.53MB/s
-  - 🇨🇦 CA 017 | ⬇️ 25.53MB/s
-  - 🇨🇦 CA 018 | ⬇️ 25.08MB/s
-  - 🇳🇱 NL 001 | ⬇️ 24.90MB/s
-  - 🇧🇪 BE 001 | ⬇️ 24.42MB/s
-  - 🇦🇹 AT 001 | ⬇️ 23.46MB/s
-  - 🇸🇨 SC 003 | ⬇️ 23.28MB/s
-  - 🇫🇮 FI 001 | ⬇️ 23.05MB/s
-  - 🇨🇦 CA 019 | ⬇️ 23.01MB/s
-  - 🇩🇪 DE 001 | ⬇️ 22.82MB/s
-  - 🇩🇪 DE 002 | ⬇️ 22.72MB/s
-  - 🇩🇪 DE 003 | ⬇️ 22.71MB/s
-  - 🇩🇪 DE 004 | ⬇️ 22.65MB/s
-  - 🇫🇷 FR 001 | ⬇️ 22.60MB/s
-  - 🇩🇪 DE 005 | ⬇️ 22.57MB/s
-  - 🇩🇪 DE 006 | ⬇️ 22.26MB/s
-  - 🇩🇪 DE 007 | ⬇️ 22.15MB/s
-  - 🇩🇪 DE 008 | ⬇️ 22.07MB/s
-  - 🇨🇦 CA 020 | ⬇️ 21.72MB/s
-  - 🇬🇧 GB 003 | ⬇️ 21.65MB/s
-  - 🇩🇪 DE 009 | ⬇️ 21.51MB/s
-  - 🇺🇸 US 017 | ⬇️ 21.11MB/s
-  - 🇬🇧 GB 004 | ⬇️ 20.97MB/s
-  - 🇮🇹 IT 001 | ⬇️ 20.90MB/s
-  - 🇩🇪 DE 010 | ⬇️ 20.82MB/s
-  - 🇯🇵 JP 001 | ⬇️ 20.27MB/s
-  - 🇧🇪 BE 002 | ⬇️ 20.02MB/s
-  - 🇩🇪 DE 011 | ⬇️ 19.85MB/s
-  - 🇺🇸 US 018 | ⬇️ 19.79MB/s
-  - 🇪🇸 ES 001 | ⬇️ 19.06MB/s
-  - 🇺🇸 US 019 | ⬇️ 18.01MB/s
-  - 🇫🇮 FI 002 | ⬇️ 17.28MB/s
-  - 🇫🇷 FR 002 | ⬇️ 16.08MB/s
-  - 🇸🇬 SG 001 | ⬇️ 16.02MB/s
-  - 🇪🇸 ES 002 | ⬇️ 15.19MB/s
-  - 🇳🇴 NO 001 | ⬇️ 14.96MB/s
-  - 🇺🇸 US 020 | ⬇️ 10.75MB/s
-  - 🇧🇪 BE 003 | ⬇️ 10.52MB/s
-  - 🇬🇧 GB 005 | ⬇️ 10.43MB/s
-  - 🇯🇵 JP 002 | ⬇️ 9.79MB/s
-  - 🇺🇸 US 021 | ⬇️ 9.53MB/s
-  - 🇯🇵 JP 003 | ⬇️ 8.89MB/s
-  - 🇫🇷 FR 003 | ⬇️ 8.59MB/s
-  - 🇨🇦 CA 021 | ⬇️ 8.48MB/s
-  - 🇺🇸 US 022 | ⬇️ 7.92MB/s
-  - 🇺🇸 US 023 | ⬇️ 7.78MB/s
-  - 🇺🇸 US 024 | ⬇️ 7.73MB/s
-  - 🇨🇦 CA 022 | ⬇️ 7.50MB/s
-  - 🇨🇦 CA 023 | ⬇️ 7.42MB/s
-  - 🇺🇸 US 025 | ⬇️ 7.26MB/s
-  - 🇺🇸 US 026 | ⬇️ 6.93MB/s
-  - 🇨🇦 CA 024 | ⬇️ 6.89MB/s
-  - 🇨🇦 CA 025 | ⬇️ 6.65MB/s
-  - 🇺🇸 US 027 | ⬇️ 6.56MB/s
-  - 🇨🇦 CA 026 | ⬇️ 6.55MB/s
-  - 🇺🇸 US 028 | ⬇️ 6.34MB/s
-  - 🇺🇸 US 029 | ⬇️ 6.33MB/s
-  - 🇺🇸 US 030 | ⬇️ 6.17MB/s
-  - 🇨🇦 CA 027 | ⬇️ 6.05MB/s
-  - 🇺🇸 US 031 | ⬇️ 6.04MB/s
-  - 🇺🇸 US 032 | ⬇️ 5.66MB/s
-  - 🇨🇦 CA 028 | ⬇️ 5.65MB/s
-  - 🇺🇸 US 033 | ⬇️ 5.55MB/s
-  - 🇳🇱 NL 002 | ⬇️ 5.48MB/s
-  - 🇺🇸 US 034 | ⬇️ 4.92MB/s
-  - 🇨🇦 CA 029 | ⬇️ 4.87MB/s
-  - 🇺🇸 US 035 | ⬇️ 4.79MB/s
-  - 🇺🇸 US 036 | ⬇️ 4.79MB/s
-  - 🇺🇸 US 037 | ⬇️ 4.70MB/s
-  - 🇺🇸 US 038 | ⬇️ 4.54MB/s
-  - 🇺🇸 US 039 | ⬇️ 4.51MB/s
-  - 🇺🇸 US 040 | ⬇️ 4.35MB/s
-  - 🇸🇨 SC 004 | ⬇️ 4.05MB/s
-  - 🇺🇸 US 041 | ⬇️ 3.55MB/s
-  - 🇭🇰 HK 001 | ⬇️ 2.75MB/s
-  - 🇺🇸 US 042 | ⬇️ 1.69MB/s
-  - 🇺🇸 US 043 | ⬇️ 1.61MB/s
-  - 🇨🇿 CZ 001 | ⬇️ 1.53MB/s
-  - 🇨🇳 TW 001 | ⬇️ 1.03MB/s
+  - 🇨🇦 CA 001 | ⬇️ 100.78MB/s
+  - 🇨🇦 CA 002 | ⬇️ 89.89MB/s
+  - 🇨🇦 CA 003 | ⬇️ 89.03MB/s
+  - 🇨🇦 CA 004 | ⬇️ 83.58MB/s
+  - 🇬🇧 GB 001 | ⬇️ 79.75MB/s
+  - 🇨🇦 CA 005 | ⬇️ 76.97MB/s
+  - 🇺🇸 US 001 | ⬇️ 63.82MB/s
+  - 🇨🇦 CA 006 | ⬇️ 55.75MB/s
+  - 🇺🇸 US 002 | ⬇️ 45.47MB/s
+  - 🇺🇸 US 003 | ⬇️ 43.75MB/s
+  - 🇨🇦 CA 007 | ⬇️ 43.51MB/s
+  - 🇺🇸 US 004 | ⬇️ 42.92MB/s
+  - 🇺🇸 US 005 | ⬇️ 42.21MB/s
+  - 🇺🇸 US 006 | ⬇️ 42.08MB/s
+  - 🇺🇸 US 007 | ⬇️ 41.48MB/s
+  - 🇺🇸 US 008 | ⬇️ 36.29MB/s
+  - 🇨🇦 CA 008 | ⬇️ 35.17MB/s
+  - 🇺🇸 US 009 | ⬇️ 31.50MB/s
+  - 🇺🇸 US 010 | ⬇️ 31.48MB/s
+  - 🇺🇸 US 011 | ⬇️ 29.01MB/s
+  - 🇨🇦 CA 009 | ⬇️ 27.24MB/s
+  - 🇺🇸 US 012 | ⬇️ 27.11MB/s
+  - 🇨🇦 CA 010 | ⬇️ 26.85MB/s
+  - 🇺🇸 US 013 | ⬇️ 26.83MB/s
+  - 🇸🇨 SC 001 | ⬇️ 26.71MB/s
+  - 🇳🇱 NL 001 | ⬇️ 26.53MB/s
+  - 🇨🇦 CA 011 | ⬇️ 26.46MB/s
+  - 🇨🇦 CA 012 | ⬇️ 26.45MB/s
+  - 🇨🇷 CR 001 | ⬇️ 26.38MB/s
+  - 🇨🇦 CA 013 | ⬇️ 26.32MB/s
+  - 🇨🇦 CA 014 | ⬇️ 26.23MB/s
+  - 🇺🇸 US 014 | ⬇️ 26.04MB/s
+  - 🇨🇦 CA 015 | ⬇️ 25.73MB/s
+  - 🇨🇦 CA 016 | ⬇️ 25.61MB/s
+  - 🇬🇧 GB 002 | ⬇️ 25.46MB/s
+  - 🇬🇧 GB 003 | ⬇️ 25.03MB/s
+  - 🇨🇦 CA 017 | ⬇️ 24.59MB/s
+  - 🇺🇸 US 015 | ⬇️ 23.84MB/s
+  - 🇯🇵 JP 001 | ⬇️ 23.81MB/s
+  - 🇺🇸 US 016 | ⬇️ 23.77MB/s
+  - 🇺🇸 US 017 | ⬇️ 23.73MB/s
+  - 🇨🇦 CA 018 | ⬇️ 23.26MB/s
+  - 🇺🇸 US 018 | ⬇️ 23.10MB/s
+  - 🇨🇦 CA 019 | ⬇️ 23.08MB/s
+  - 🇮🇹 IT 001 | ⬇️ 22.49MB/s
+  - 🇫🇷 FR 001 | ⬇️ 22.45MB/s
+  - 🇬🇧 GB 004 | ⬇️ 22.02MB/s
+  - 🇺🇸 US 019 | ⬇️ 21.75MB/s
+  - 🇩🇪 DE 001 | ⬇️ 21.42MB/s
+  - 🇩🇪 DE 002 | ⬇️ 21.02MB/s
+  - 🇺🇸 US 020 | ⬇️ 20.73MB/s
+  - 🇩🇪 DE 003 | ⬇️ 20.59MB/s
+  - 🇺🇸 US 021 | ⬇️ 20.29MB/s
+  - 🇨🇦 CA 020 | ⬇️ 20.29MB/s
+  - 🇬🇧 GB 005 | ⬇️ 19.57MB/s
+  - 🇺🇸 US 022 | ⬇️ 19.43MB/s
+  - 🇺🇸 US 023 | ⬇️ 19.09MB/s
+  - 🇸🇬 SG 001 | ⬇️ 18.97MB/s
+  - 🇺🇸 US 024 | ⬇️ 18.62MB/s
+  - 🇺🇸 US 025 | ⬇️ 18.48MB/s
+  - 🇩🇪 DE 004 | ⬇️ 18.17MB/s
+  - 🇫🇮 FI 001 | ⬇️ 18.14MB/s
+  - 🇺🇸 US 026 | ⬇️ 16.83MB/s
+  - 🇬🇧 GB 006 | ⬇️ 16.56MB/s
+  - 🇳🇴 NO 001 | ⬇️ 16.29MB/s
+  - 🇩🇪 DE 005 | ⬇️ 15.77MB/s
+  - 🇨🇦 CA 021 | ⬇️ 15.45MB/s
+  - 🇺🇸 US 027 | ⬇️ 15.07MB/s
+  - 🇺🇸 US 028 | ⬇️ 14.93MB/s
+  - 🇺🇸 US 029 | ⬇️ 14.63MB/s
+  - 🇺🇸 US 030 | ⬇️ 14.46MB/s
+  - 🇨🇦 CA 022 | ⬇️ 14.24MB/s
+  - 🇺🇸 US 031 | ⬇️ 13.59MB/s
+  - 🇩🇪 DE 006 | ⬇️ 13.19MB/s
+  - 🇺🇸 US 032 | ⬇️ 13.09MB/s
+  - 🇺🇸 US 033 | ⬇️ 12.59MB/s
+  - 🇺🇸 US 034 | ⬇️ 11.29MB/s
+  - 🇫🇷 FR 002 | ⬇️ 9.67MB/s
+  - 🇯🇵 JP 002 | ⬇️ 9.45MB/s
+  - 🇺🇸 US 035 | ⬇️ 9.45MB/s
+  - 🇺🇸 US 036 | ⬇️ 9.01MB/s
+  - 🇯🇵 JP 003 | ⬇️ 7.80MB/s
+  - 🇺🇸 US 037 | ⬇️ 6.82MB/s
+  - 🇫🇷 FR 003 | ⬇️ 6.70MB/s
+  - 🇺🇸 US 038 | ⬇️ 6.06MB/s
+  - 🇰🇷 KR 001 | ⬇️ 4.37MB/s
+  - 🇺🇸 US 039 | ⬇️ 3.76MB/s
+  - 🇨🇿 CZ 001 | ⬇️ 1.25MB/s
+  - 🇺🇸 US 011 | ⚡ 455.00ms
 - name: 香港
   type: select
   proxies:
-  - 🇭🇰 HK 001 | ⬇️ 2.75MB/s
+  - DIRECT
 - name: 日本
   type: select
   proxies:
-  - 🇯🇵 JP 001 | ⬇️ 20.27MB/s
-  - 🇯🇵 JP 002 | ⬇️ 9.79MB/s
-  - 🇯🇵 JP 003 | ⬇️ 8.89MB/s
+  - 🇯🇵 JP 001 | ⬇️ 23.81MB/s
+  - 🇯🇵 JP 002 | ⬇️ 9.45MB/s
+  - 🇯🇵 JP 003 | ⬇️ 7.80MB/s
 - name: 美国
   type: select
   proxies:
-  - 🇺🇸 US 001 | ⬇️ 123.75MB/s
-  - 🇺🇸 US 002 | ⬇️ 61.69MB/s
-  - 🇺🇸 US 003 | ⬇️ 48.80MB/s
-  - 🇺🇸 US 004 | ⬇️ 41.50MB/s
-  - 🇺🇸 US 005 | ⬇️ 40.94MB/s
-  - 🇺🇸 US 006 | ⬇️ 40.64MB/s
-  - 🇺🇸 US 007 | ⬇️ 39.94MB/s
-  - 🇺🇸 US 008 | ⬇️ 39.89MB/s
-  - 🇺🇸 US 009 | ⬇️ 35.47MB/s
-  - 🇺🇸 US 010 | ⬇️ 35.22MB/s
-  - 🇺🇸 US 011 | ⬇️ 33.94MB/s
-  - 🇺🇸 US 012 | ⬇️ 32.02MB/s
-  - 🇺🇸 US 013 | ⬇️ 31.19MB/s
-  - 🇺🇸 US 014 | ⬇️ 27.58MB/s
-  - 🇺🇸 US 015 | ⬇️ 27.24MB/s
-  - 🇺🇸 US 016 | ⬇️ 25.69MB/s
-  - 🇺🇸 US 017 | ⬇️ 21.11MB/s
-  - 🇺🇸 US 018 | ⬇️ 19.79MB/s
-  - 🇺🇸 US 019 | ⬇️ 18.01MB/s
-  - 🇺🇸 US 020 | ⬇️ 10.75MB/s
-  - 🇺🇸 US 021 | ⬇️ 9.53MB/s
-  - 🇺🇸 US 022 | ⬇️ 7.92MB/s
-  - 🇺🇸 US 023 | ⬇️ 7.78MB/s
-  - 🇺🇸 US 024 | ⬇️ 7.73MB/s
-  - 🇺🇸 US 025 | ⬇️ 7.26MB/s
-  - 🇺🇸 US 026 | ⬇️ 6.93MB/s
-  - 🇺🇸 US 027 | ⬇️ 6.56MB/s
-  - 🇺🇸 US 028 | ⬇️ 6.34MB/s
-  - 🇺🇸 US 029 | ⬇️ 6.33MB/s
-  - 🇺🇸 US 030 | ⬇️ 6.17MB/s
-  - 🇺🇸 US 031 | ⬇️ 6.04MB/s
-  - 🇺🇸 US 032 | ⬇️ 5.66MB/s
-  - 🇺🇸 US 033 | ⬇️ 5.55MB/s
-  - 🇺🇸 US 034 | ⬇️ 4.92MB/s
-  - 🇺🇸 US 035 | ⬇️ 4.79MB/s
-  - 🇺🇸 US 036 | ⬇️ 4.79MB/s
-  - 🇺🇸 US 037 | ⬇️ 4.70MB/s
-  - 🇺🇸 US 038 | ⬇️ 4.54MB/s
-  - 🇺🇸 US 039 | ⬇️ 4.51MB/s
-  - 🇺🇸 US 040 | ⬇️ 4.35MB/s
-  - 🇺🇸 US 041 | ⬇️ 3.55MB/s
-  - 🇺🇸 US 042 | ⬇️ 1.69MB/s
-  - 🇺🇸 US 043 | ⬇️ 1.61MB/s
+  - 🇺🇸 US 001 | ⬇️ 63.82MB/s
+  - 🇺🇸 US 002 | ⬇️ 45.47MB/s
+  - 🇺🇸 US 003 | ⬇️ 43.75MB/s
+  - 🇺🇸 US 004 | ⬇️ 42.92MB/s
+  - 🇺🇸 US 005 | ⬇️ 42.21MB/s
+  - 🇺🇸 US 006 | ⬇️ 42.08MB/s
+  - 🇺🇸 US 007 | ⬇️ 41.48MB/s
+  - 🇺🇸 US 008 | ⬇️ 36.29MB/s
+  - 🇺🇸 US 009 | ⬇️ 31.50MB/s
+  - 🇺🇸 US 010 | ⬇️ 31.48MB/s
+  - 🇺🇸 US 011 | ⬇️ 29.01MB/s
+  - 🇺🇸 US 012 | ⬇️ 27.11MB/s
+  - 🇺🇸 US 013 | ⬇️ 26.83MB/s
+  - 🇺🇸 US 014 | ⬇️ 26.04MB/s
+  - 🇺🇸 US 015 | ⬇️ 23.84MB/s
+  - 🇺🇸 US 016 | ⬇️ 23.77MB/s
+  - 🇺🇸 US 017 | ⬇️ 23.73MB/s
+  - 🇺🇸 US 018 | ⬇️ 23.10MB/s
+  - 🇺🇸 US 019 | ⬇️ 21.75MB/s
+  - 🇺🇸 US 020 | ⬇️ 20.73MB/s
+  - 🇺🇸 US 021 | ⬇️ 20.29MB/s
+  - 🇺🇸 US 022 | ⬇️ 19.43MB/s
+  - 🇺🇸 US 023 | ⬇️ 19.09MB/s
+  - 🇺🇸 US 024 | ⬇️ 18.62MB/s
+  - 🇺🇸 US 025 | ⬇️ 18.48MB/s
+  - 🇺🇸 US 026 | ⬇️ 16.83MB/s
+  - 🇺🇸 US 027 | ⬇️ 15.07MB/s
+  - 🇺🇸 US 028 | ⬇️ 14.93MB/s
+  - 🇺🇸 US 029 | ⬇️ 14.63MB/s
+  - 🇺🇸 US 030 | ⬇️ 14.46MB/s
+  - 🇺🇸 US 031 | ⬇️ 13.59MB/s
+  - 🇺🇸 US 032 | ⬇️ 13.09MB/s
+  - 🇺🇸 US 033 | ⬇️ 12.59MB/s
+  - 🇺🇸 US 034 | ⬇️ 11.29MB/s
+  - 🇺🇸 US 035 | ⬇️ 9.45MB/s
+  - 🇺🇸 US 036 | ⬇️ 9.01MB/s
+  - 🇺🇸 US 037 | ⬇️ 6.82MB/s
+  - 🇺🇸 US 038 | ⬇️ 6.06MB/s
+  - 🇺🇸 US 039 | ⬇️ 3.76MB/s
+  - 🇺🇸 US 011 | ⚡ 455.00ms
 - name: 新加坡
   type: select
   proxies:
-  - 🇸🇬 SG 001 | ⬇️ 16.02MB/s
+  - 🇸🇬 SG 001 | ⬇️ 18.97MB/s
 - name: 台湾
   type: select
   proxies:
-  - 🇨🇳 TW 001 | ⬇️ 1.03MB/s
+  - DIRECT
 - name: 韩国
   type: select
   proxies:
-  - DIRECT
+  - 🇰🇷 KR 001 | ⬇️ 4.37MB/s
 - name: 色情
   type: select
   proxies:
