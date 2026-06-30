@@ -28,53 +28,8 @@ dns:
     - 192.168.0.0/16
 proxies:
 - client-fingerprint: chrome
-  name: 🇨🇦 CA 001 | ⬇️ 286.61MB/s
-  network: ws
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
-  port: 443
-  server: store.ubi.com
-  sni: hhcm.hhxaf.cc.cd
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: hhcm.hhxaf.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/50.0.2661.94 Safari/537.36
-    path: /
-- client-fingerprint: chrome
   encryption: none
-  name: 🇨🇦 CA 002 | ⬇️ 282.48MB/s
-  network: ws
-  port: 443
-  server: cf1.466688.xyz
-  servername: cfoo-146.pages.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: b08562b0-dbc0-47d1-860d-9435133b25c9
-  ws-opts:
-    headers:
-      Host: cfoo-146.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/51.0.2704.63 Safari/537.36
-    path: /QiangLieTuiJian?ed=2560
-  xudp: true
-- name: 🇨🇦 CA 003 | ⬇️ 282.12MB/s
-  network: ws
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
-  port: 443
-  server: saas.sin.fan
-  skip-cert-verify: false
-  sni: hhcm.hhxaf.cc.cd
-  type: trojan
-  ws-opts:
-    headers:
-      Host: hhcm.hhxaf.cc.cd
-    path: /
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇨🇦 CA 004 | ⬇️ 277.60MB/s
+  name: 🇨🇦 CA 001 | ⬇️ 237.04MB/s
   network: ws
   port: 443
   server: cf7.466688.xyz
@@ -91,23 +46,8 @@ proxies:
     path: /QiangLieTuiJian?ed=2560
   xudp: true
 - client-fingerprint: chrome
-  name: 🇨🇦 CA 005 | ⬇️ 274.23MB/s
-  network: ws
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
-  port: 443
-  server: 162.159.36.20
-  sni: hhcm.hhxaf.cc.cd
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: hhcm.hhxaf.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/41.0.2272.76 Safari/537.36
-    path: /
-- client-fingerprint: chrome
   encryption: none
-  name: 🇨🇦 CA 006 | ⬇️ 271.72MB/s
+  name: 🇨🇦 CA 002 | ⬇️ 226.51MB/s
   network: ws
   port: 443
   server: cf6.466688.xyz
@@ -123,7 +63,198 @@ proxies:
         like Gecko) Chrome/58.0.3029.110 Safari/537.36
     path: /QiangLieTuiJian?ed=2560
   xudp: true
-- name: 🇦🇪 AE 001 | ⬇️ 223.23MB/s
+- client-fingerprint: chrome
+  name: 🇨🇦 CA 003 | ⬇️ 226.18MB/s
+  network: ws
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
+  port: 443
+  server: 162.159.36.20
+  sni: hhcm.hhxaf.cc.cd
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: hhcm.hhxaf.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/41.0.2272.76 Safari/537.36
+    path: /
+- client-fingerprint: chrome
+  name: 🇨🇦 CA 004 | ⬇️ 225.18MB/s
+  network: ws
+  port: 443
+  server: icy-morning-df86.alisooltaniiii2024ali.workers.dev
+  servername: icy-morning-df86.alisooltaniiii2024ali.workers.dev
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7ba17ba6-8d1d-4968-882b-f5a3b43eb51d
+  ws-opts:
+    headers:
+      Host: icy-morning-df86.alisooltaniiii2024ali.workers.dev
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇨🇦 CA 005 | ⬇️ 217.96MB/s
+  network: ws
+  port: 443
+  server: 172.67.195.229
+  servername: rapid-hat-441d.platovpn.workers.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: 00e94078-bb1e-49aa-8567-e1b3b2843150
+  ws-opts:
+    headers:
+      Host: rapid-hat-441d.platovpn.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/49.0.2623.112 Safari/537.36
+    path: /
+  xudp: true
+- name: 🇵🇹 PT 001 | ⬇️ 217.25MB/s
+  network: ws
+  port: 8443
+  server: 156.243.83.52
+  servername: weathered-brook-18b6.alvlirm741.workers.dev
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8525fe74-67e6-4a55-8a26-95f227bd1384
+  ws-opts:
+    headers:
+      Host: weathered-brook-18b6.alvlirm741.workers.dev
+    path: /proxyip=212.193.35.100,185.218.0.16,83.147.255.88,138.124.255.49,185.147.26.135,79.174.80.62,185.72.145.79,82.146.38.33
+- name: 🇨🇦 CA 006 | ⬇️ 213.66MB/s
+  network: ws
+  port: 443
+  server: 173.245.59.35
+  servername: ld.235231.xyz
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 65d3f9b3-d289-4a8e-9c87-90bba156de30
+  ws-opts:
+    headers:
+      Host: ld.235231.xyz
+    path: /
+- client-fingerprint: chrome
+  name: 🇨🇦 CA 007 | ⬇️ 210.82MB/s
+  network: ws
+  port: 2083
+  server: 104.20.32.49
+  servername: gentle-dream-6aa3.soh8khan13.workers.dev
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3bad1d20-8601-49be-86a2-2141d21dec99
+  ws-opts:
+    headers:
+      Host: gentle-dream-6aa3.soh8khan13.workers.dev
+    path: /
+- client-fingerprint: chrome
+  name: 🇨🇦 CA 008 | ⬇️ 206.13MB/s
+  network: ws
+  port: 443
+  server: www.shopify.com
+  servername: gddy.hhlfy.de5.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5b9fa73b-b549-480b-add9-c45e650d236f
+  ws-opts:
+    headers:
+      Host: gddy.hhlfy.de5.net
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/41.0.2272.76 Safari/537.36
+    path: /fp=chrome
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇨🇦 CA 009 | ⬇️ 204.41MB/s
+  network: ws
+  port: 443
+  server: cf1.466688.xyz
+  servername: cfoo-146.pages.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: b08562b0-dbc0-47d1-860d-9435133b25c9
+  ws-opts:
+    headers:
+      Host: cfoo-146.pages.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/51.0.2704.63 Safari/537.36
+    path: /QiangLieTuiJian?ed=2560
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇨🇦 CA 010 | ⬇️ 202.65MB/s
+  network: ws
+  port: 443
+  server: 162.159.13.71
+  servername: nbhhh.mrcool.kdns.fr
+  tls: true
+  type: vless
+  udp: true
+  uuid: 659a9075-d5ab-4fd2-bf34-b37043fae832
+  ws-opts:
+    headers:
+      Host: nbhhh.mrcool.kdns.fr
+      User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/70.0.3538.67 Safari/537.36
+    path: /
+  xudp: true
+- client-fingerprint: chrome
+  name: 🇺🇸 US 001 | ⬇️ 200.71MB/s
+  network: ws
+  port: 2087
+  server: 147.185.161.152
+  servername: weathered-brook-18b6.alvlirm741.workers.dev
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8525fe74-67e6-4a55-8a26-95f227bd1384
+  ws-opts:
+    headers:
+      Host: weathered-brook-18b6.alvlirm741.workers.dev
+    path: /proxyip=212.193.35.100,185.218.0.16,83.147.255.88,138.124.255.49,185.147.26.135,79.174.80.62,185.72.145.79,82.146.38.33
+- name: 🇨🇦 CA 011 | ⬇️ 200.00MB/s
+  network: ws
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
+  port: 443
+  server: saas.sin.fan
+  skip-cert-verify: false
+  sni: hhcm.hhxaf.cc.cd
+  type: trojan
+  ws-opts:
+    headers:
+      Host: hhcm.hhxaf.cc.cd
+    path: /
+- client-fingerprint: chrome
+  name: 🇨🇦 CA 012 | ⬇️ 199.90MB/s
+  network: ws
+  port: 2083
+  server: 188.114.98.0
+  servername: old-sky-2b90.seyowkclient.workers.dev
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 273e9057-8167-4d17-8de3-d44c82037cda
+  ws-opts:
+    headers:
+      Host: old-sky-2b90.seyowkclient.workers.dev
+    path: /
+- name: 🇦🇪 AE 001 | ⬇️ 198.13MB/s
   network: ws
   password: MITIVPN
   port: 443
@@ -136,35 +267,52 @@ proxies:
     headers:
       Host: 95r.ir
     path: /MiTiVPN=Usa
-- client-fingerprint: chrome
-  name: 🇨🇦 CA 007 | ⬇️ 220.38MB/s
+- name: 🇳🇱 NL 001 | ⬇️ 197.71MB/s
   network: ws
-  password: 86957ec0-b213-433b-a43b-51f2175e0ec3
+  password: 6c862415-30d2-4813-8e49-42e99a0bd415
   port: 443
-  server: 104.16.72.70
+  server: 188.164.248.122
+  skip-cert-verify: false
   sni: space.byu.id.yxls.eu.cc
   type: trojan
-  udp: true
   ws-opts:
     headers:
       Host: space.byu.id.yxls.eu.cc
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/64.0.3282.186 Safari/537.36
-    path: /au-do
-- name: 🏳️ IR 001 | ⬇️ 219.90MB/s
+    path: /us-gllc
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇨🇦 CA 013 | ⬇️ 196.65MB/s
   network: ws
-  password: MiTiVPN
   port: 443
-  server: 45.131.4.118
-  skip-cert-verify: false
-  sni: 95r.ir
+  server: 104.21.75.46
+  servername: bold-term-2b48.stary3989.workers.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: 690b6997-198a-49d2-8cef-e4c70efc2288
+  ws-opts:
+    headers:
+      Host: bold-term-2b48.stary3989.workers.dev
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; TRT-LX3 Build/HUAWEITRT-LX3) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /
+  xudp: true
+- client-fingerprint: chrome
+  name: 🇨🇦 CA 014 | ⬇️ 196.53MB/s
+  network: ws
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
+  port: 443
+  server: store.ubi.com
+  sni: hhcm.hhxaf.cc.cd
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: 95r.ir
-    path: /MiTiVPN=Se
-- name: 🇬🇧 GB 001 | ⬇️ 219.10MB/s
+      Host: hhcm.hhxaf.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/50.0.2661.94 Safari/537.36
+    path: /
+- name: 🇬🇧 GB 001 | ⬇️ 194.90MB/s
   network: ws
   password: MITIVPN
   port: 443
@@ -177,101 +325,8 @@ proxies:
     headers:
       Host: 95r.ir
     path: /MiTiVPN=De
-- name: 🇺🇸 US 001 | ⬇️ 210.95MB/s
-  network: ws
-  password: f922fa0f-3311-4368-85ff-cf65e727c854
-  port: 443
-  server: 141.193.213.30
-  skip-cert-verify: false
-  sni: space.byu.id.yxls.eu.cc
-  type: trojan
-  ws-opts:
-    headers:
-      Host: space.byu.id.yxls.eu.cc
-    path: /br-orcl
 - client-fingerprint: chrome
-  name: 🇨🇦 CA 008 | ⬇️ 202.45MB/s
-  network: ws
-  port: 2096
-  server: 104.16.72.101
-  servername: sp.linuxdododo.ccwu.cc
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06b65903-406d-4a41-8400-6fd5c0ee7798
-  ws-opts:
-    headers:
-      Host: sp.linuxdododo.ccwu.cc
-    path: /proxyip
-- client-fingerprint: chrome
-  name: 🇨🇦 CA 009 | ⬇️ 202.10MB/s
-  network: ws
-  port: 443
-  server: 162.159.19.67
-  servername: nbhhh.mrcool.kdns.fr
-  tls: true
-  type: vless
-  udp: true
-  uuid: 659a9075-d5ab-4fd2-bf34-b37043fae832
-  ws-opts:
-    headers:
-      Host: nbhhh.mrcool.kdns.fr
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/36.0.1985.143 Safari/537.36
-    path: /proxyip=dc844a1f.tp15333.ip.090227.xyzfp=chrome
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇺🇸 US 002 | ⬇️ 200.80MB/s
-  network: ws
-  port: 443
-  server: blog.webex.com
-  servername: blog.webex.com.yxls.eu.cc
-  tls: true
-  type: vless
-  udp: true
-  uuid: 57d22829-187c-4f83-b757-d6e367ca6de8
-  ws-opts:
-    headers:
-      Host: blog.webex.com.yxls.eu.cc
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; de-DE) AppleWebKit/534.17
-        (KHTML, like Gecko) Chrome/10.0.649.0 Safari/534.17
-    path: /au-mt
-  xudp: true
-- name: 🇨🇦 CA 010 | ⬇️ 200.67MB/s
-  network: ws
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
-  port: 443
-  server: 104.18.42.163
-  skip-cert-verify: false
-  sni: tjsp.hhxaf.cc.cd
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tjsp.hhxaf.cc.cd
-    path: /
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇨🇦 CA 011 | ⬇️ 199.29MB/s
-  network: ws
-  port: 443
-  server: 108.162.194.135
-  servername: nbhhh.mrcool.kdns.fr
-  tls: true
-  type: vless
-  udp: true
-  uuid: 659a9075-d5ab-4fd2-bf34-b37043fae832
-  ws-opts:
-    headers:
-      Host: nbhhh.mrcool.kdns.fr
-      User-Agent: Mozilla/5.0 (Windows NT 5.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/46.0.2490.80 Safari/537.36
-    path: /proxyip=dc844a1f.tp15333.ip.090227.xyz
-  xudp: true
-- client-fingerprint: chrome
-  name: 🇨🇦 CA 012 | ⬇️ 197.13MB/s
+  name: 🇨🇦 CA 015 | ⬇️ 194.54MB/s
   network: ws
   password: 86957ec0-b213-433b-a43b-51f2175e0ec3
   port: 443
@@ -285,9 +340,33 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
         Chrome/69.0.3497.100 Safari/537.36
     path: /au-do
+- name: 🇨🇦 CA 016 | ⬇️ 194.32MB/s
+  network: ws
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
+  port: 443
+  server: 104.18.42.163
+  skip-cert-verify: false
+  sni: tjsp.hhxaf.cc.cd
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tjsp.hhxaf.cc.cd
+    path: /
+- name: 🇺🇸 US 002 | ⬇️ 192.79MB/s
+  network: ws
+  password: f922fa0f-3311-4368-85ff-cf65e727c854
+  port: 443
+  server: 141.193.213.30
+  skip-cert-verify: false
+  sni: space.byu.id.yxls.eu.cc
+  type: trojan
+  ws-opts:
+    headers:
+      Host: space.byu.id.yxls.eu.cc
+    path: /br-orcl
 - client-fingerprint: chrome
   encryption: none
-  name: 🇨🇦 CA 013 | ⬇️ 195.70MB/s
+  name: 🇨🇦 CA 017 | ⬇️ 189.87MB/s
   network: ws
   port: 443
   server: youxuan.cf.090227.xyz
@@ -305,10 +384,28 @@ proxies:
   xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: 🇨🇦 CA 014 | ⬇️ 192.25MB/s
+  name: 🇨🇦 CA 018 | ⬇️ 181.58MB/s
   network: ws
   port: 443
-  server: 162.159.13.71
+  server: 104.17.121.98
+  servername: unnes.ac.id.yxls.eu.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0ac0a6f0-d3f0-47f1-8de4-ce785e515a5c
+  ws-opts:
+    headers:
+      Host: unnes.ac.id.yxls.eu.cc
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.10
+        (KHTML, like Gecko) Chrome/8.0.552.237 Safari/534.10
+    path: /ca-cl
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇨🇦 CA 019 | ⬇️ 180.46MB/s
+  network: ws
+  port: 443
+  server: 108.162.194.135
   servername: nbhhh.mrcool.kdns.fr
   tls: true
   type: vless
@@ -317,12 +414,453 @@ proxies:
   ws-opts:
     headers:
       Host: nbhhh.mrcool.kdns.fr
+      User-Agent: Mozilla/5.0 (Windows NT 5.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/46.0.2490.80 Safari/537.36
+    path: /proxyip=dc844a1f.tp15333.ip.090227.xyz
+  xudp: true
+- client-fingerprint: chrome
+  name: 🇨🇦 CA 020 | ⬇️ 179.21MB/s
+  network: ws
+  port: 2096
+  server: 162.159.40.181
+  servername: sp.linuxdododo.ccwu.cc
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06b65903-406d-4a41-8400-6fd5c0ee7798
+  ws-opts:
+    headers:
+      Host: sp.linuxdododo.ccwu.cc
+    path: /proxyip=ProxyIP.JP.cmliussss.net
+- client-fingerprint: chrome
+  name: 🇨🇦 CA 021 | ⬇️ 177.24MB/s
+  network: ws
+  port: 2096
+  server: 104.16.72.101
+  servername: sp.linuxdododo.ccwu.cc
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06b65903-406d-4a41-8400-6fd5c0ee7798
+  ws-opts:
+    headers:
+      Host: sp.linuxdododo.ccwu.cc
+    path: /proxyip
+- client-fingerprint: chrome
+  name: 🇨🇦 CA 022 | ⬇️ 174.70MB/s
+  network: ws
+  port: 443
+  server: adf.ly
+  servername: rayan-007.parvin.dpdns.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1679af35-6dd6-4c09-ae3b-18f239217f3e
+  ws-opts:
+    headers:
+      Host: rayan-007.parvin.dpdns.org
+    path: /?ed=2560
+- name: 🏳️ IR 001 | ⬇️ 173.19MB/s
+  network: ws
+  password: MiTiVPN
+  port: 443
+  server: 45.131.4.118
+  skip-cert-verify: false
+  sni: 95r.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: 95r.ir
+    path: /MiTiVPN=Se
+- client-fingerprint: chrome
+  name: 🇨🇦 CA 023 | ⬇️ 170.56MB/s
+  network: ws
+  port: 2096
+  server: 104.18.47.140
+  servername: sp.linuxdododo.ccwu.cc
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06b65903-406d-4a41-8400-6fd5c0ee7798
+  ws-opts:
+    headers:
+      Host: sp.linuxdododo.ccwu.cc
+    path: /proxyip=ProxyIP.JP.cmliussss.netfp=chrome
+- cc: -2
+  delay: 149
+  encryption: none
+  name: 🇨🇦 CA 024 | ⬇️ 166.42MB/s
+  network: ws
+  port: 2086
+  server: www.speedtest.net
+  speed: 1.2
+  type: vless
+  udp: true
+  uuid: bba14c1d-f08c-4c9a-ac87-cf85d38d8aff
+  vv: 260624.1527
+  ws-opts:
+    headers:
+      Host: tight-thunder-ce8e.hamid-r-aliakbari1379-0f0.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/69.0.3497.100 Safari/537.36
+    path: /eyJqdW5rIjoiRGtvTEVIeGU4cXFaTVVZIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMmEwMjo4OTg6MTQ2OjY0OjpdIl19?ed=2560
+  xudp: true
+- client-fingerprint: chrome
+  name: 🇨🇦 CA 025 | ⬇️ 166.18MB/s
+  network: ws
+  password: 86957ec0-b213-433b-a43b-51f2175e0ec3
+  port: 443
+  server: 104.16.72.70
+  sni: space.byu.id.yxls.eu.cc
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: space.byu.id.yxls.eu.cc
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/64.0.3282.186 Safari/537.36
+    path: /au-do
+- client-fingerprint: chrome
+  name: 🇨🇦 CA 026 | ⬇️ 162.48MB/s
+  network: ws
+  port: 443
+  server: 172.64.35.120
+  sni: 2026062622.yzqiang6.de5.net
+  tls: true
+  type: vless
+  udp: false
+  uuid: b940be1b-3998-45d2-bf7b-06e7b6c4987a
+  ws-opts:
+    headers:
+      Host: 2026062622.yzqiang6.de5.net
+    path: /?ed=2048
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇨🇦 CA 027 | ⬇️ 159.91MB/s
+  network: ws
+  port: 443
+  server: 172.64.149.209
+  servername: t1s1.rittbo.kdns.fr
+  tls: true
+  type: vless
+  udp: true
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  ws-opts:
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+      User-Agent: Mozilla/5.0 (Unknown; Linux) AppleWebKit/538.1 (KHTML, like Gecko)
+        Chrome/v1.0.0 Safari/538.1
+    path: /
+  xudp: true
+- name: 🇨🇦 CA 028 | ⬇️ 159.25MB/s
+  network: ws
+  port: 8880
+  server: skk.moe
+  type: vless
+  udp: true
+  uuid: 3adac494-0eb1-4d89-a187-b2181691444d
+  ws-opts:
+    headers:
+      Host: tiny-lake-bbf1.369-766.workers.dev
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532G Build/MMB29T) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/63.0.3239.83 Mobile Safari/537.36
+    path: /pyip=ProxyIP.SG.CMLiussss.net
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇬🇧 GB 002 | ⬇️ 156.96MB/s
+  network: ws
+  port: 443
+  server: 91.193.58.77
+  servername: unnes.ac.id.yxls.eu.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0ac0a6f0-d3f0-47f1-8de4-ce785e515a5c
+  ws-opts:
+    headers:
+      Host: unnes.ac.id.yxls.eu.cc
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/55.0.2883.87 Safari/537.36
+    path: /ca-cl
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇨🇦 CA 029 | ⬇️ 156.78MB/s
+  network: ws
+  port: 443
+  server: server3.pegibol940.workers.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5da16620-0386-4da3-a252-12a6380ed1a6
+  ws-opts:
+    headers:
+      Host: server3.pegibol940.workers.dev
       User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/70.0.3538.67 Safari/537.36
+        Chrome/70.0.3538.102 Safari/537.36
+    path: /eyJqdW5rIjoiUHRlMEpuSzRFY1EyeUUwIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMmEwMjo4OTg6MTQ2OjY0OjpdIiwiWzI2MDI6ZmM1OTpiMDo2NDo6XSIsIlsyNjAyOmZjNTk6MTE6NjQ6Ol0iXX0=
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇨🇦 CA 030 | ⬇️ 155.58MB/s
+  network: ws
+  port: 443
+  server: 104.18.41.190
+  servername: t1s1.rittbo.kdns.fr
+  tls: true
+  type: vless
+  udp: true
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  ws-opts:
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.101 Safari/537.36
     path: /
   xudp: true
 - client-fingerprint: chrome
-  name: 🇨🇦 CA 015 | ⬇️ 188.30MB/s
+  name: 🇨🇦 CA 031 | ⬇️ 155.47MB/s
+  network: ws
+  port: 443
+  server: cnamefuckxxs.yuchen.icu
+  sni: 2026062822.smjh.de5.net
+  tls: true
+  type: vless
+  udp: false
+  uuid: b940be1b-3998-45d2-bf7b-06e7b6c4987a
+  ws-opts:
+    headers:
+      Host: 2026062822.smjh.de5.net
+    path: /?ed=2048
+- name: 🇨🇦 CA 032 | ⬇️ 150.78MB/s
+  network: ws
+  port: 8880
+  server: www.baipiao.eu.org
+  type: vless
+  udp: true
+  uuid: d829cf8d-0a32-4e60-bcc3-a03fb4658ea4
+  ws-opts:
+    headers:
+      Host: shy-wind-a26f.182-104.workers.dev
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; Moto G (5) Build/NPPS25.137-93-14)
+        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /pyip=ProxyIP.KR.CMLiussss.net
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇨🇦 CA 033 | ⬇️ 150.76MB/s
+  network: ws
+  port: 443
+  server: cloudflare.czkcdn.cn
+  servername: t1s1.rittbo.kdns.fr
+  tls: true
+  type: vless
+  udp: true
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  ws-opts:
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/49.0.2623.110 Safari/537.36
+    path: /
+  xudp: true
+- name: 🇨🇦 CA 034 | ⬇️ 150.46MB/s
+  network: ws
+  port: 8880
+  server: 104.16.8.66
+  type: vless
+  udp: true
+  uuid: 2145ee90-d933-4975-b4fe-8fa5365937f0
+  ws-opts:
+    headers:
+      Host: long-breeze-5552.250-271.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/66.0.3359.181 Safari/537.36
+    path: /pyip=ProxyIP.US.CMLiussss.net
+  xudp: true
+- client-fingerprint: chrome
+  name: 🇨🇦 CA 035 | ⬇️ 149.79MB/s
+  network: ws
+  port: 443
+  server: 104.21.52.77
+  servername: delicate-grass-7a09.hsuegdbxjdirfh.workers.dev
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 59dd07bb-04ea-442b-8d9e-ac52b63e9010
+  ws-opts:
+    headers:
+      Host: delicate-grass-7a09.hsuegdbxjdirfh.workers.dev
+    path: /eyJqdW5rIjoiUkI0M1BUNkdOckQiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119?ed=2560
+- client-fingerprint: chrome
+  name: 🇨🇦 CA 036 | ⬇️ 148.81MB/s
+  network: ws
+  port: 443
+  server: 104.16.0.54
+  sni: 2026062622.yzqiang6.de5.net
+  tls: true
+  type: vless
+  udp: false
+  uuid: b940be1b-3998-45d2-bf7b-06e7b6c4987a
+  ws-opts:
+    headers:
+      Host: 2026062622.yzqiang6.de5.net
+    path: /?ed=2048
+- name: 🇨🇦 CA 037 | ⬇️ 148.60MB/s
+  network: ws
+  port: 8880
+  server: 104.16.106.213
+  type: vless
+  udp: true
+  uuid: 7121d0be-40f5-4eda-b3d1-1556e71ea4fa
+  ws-opts:
+    headers:
+      Host: shrill-recipe-0c1d.404-a1d.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/54.0.2840.99 Safari/537.36
+    path: /pyip=ProxyIP.JP.CMLiussss.net
+  xudp: true
+- client-fingerprint: chrome
+  name: 🇨🇦 CA 038 | ⬇️ 147.76MB/s
+  network: ws
+  port: 2087
+  server: 104.21.82.201
+  servername: v2ngfast-mnbjhv.akbarbikar.workers.dev
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4454f3d1-6359-401b-b10c-81d0b3f0b7c2
+  ws-opts:
+    headers:
+      Host: v2ngfast-mnbjhv.akbarbikar.workers.dev
+    path: /eyJqdW5rIjoiY0lZS1FrazRnIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==?ed=2560
+- client-fingerprint: chrome
+  name: 🇨🇦 CA 039 | ⬇️ 147.60MB/s
+  network: ws
+  port: 443
+  server: 162.159.43.143
+  sni: 2026062622.smjh.de5.net
+  tls: true
+  type: vless
+  udp: false
+  uuid: b940be1b-3998-45d2-bf7b-06e7b6c4987a
+  ws-opts:
+    headers:
+      Host: 2026062622.smjh.de5.net
+    path: /?ed=2048
+- client-fingerprint: chrome
+  name: 🇨🇦 CA 040 | ⬇️ 145.13MB/s
+  network: ws
+  port: 443
+  server: 162.159.19.67
+  servername: nbhhh.mrcool.kdns.fr
+  tls: true
+  type: vless
+  udp: true
+  uuid: 659a9075-d5ab-4fd2-bf34-b37043fae832
+  ws-opts:
+    headers:
+      Host: nbhhh.mrcool.kdns.fr
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/36.0.1985.143 Safari/537.36
+    path: /proxyip=dc844a1f.tp15333.ip.090227.xyzfp=chrome
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇺🇸 US 003 | ⬇️ 143.62MB/s
+  network: ws
+  port: 443
+  server: blog.webex.com
+  servername: blog.webex.com.yxls.eu.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: 57d22829-187c-4f83-b757-d6e367ca6de8
+  ws-opts:
+    headers:
+      Host: blog.webex.com.yxls.eu.cc
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; de-DE) AppleWebKit/534.17
+        (KHTML, like Gecko) Chrome/10.0.649.0 Safari/534.17
+    path: /au-mt
+  xudp: true
+- client-fingerprint: chrome
+  name: 🇺🇸 US 004 | ⬇️ 143.41MB/s
+  network: ws
+  port: 8443
+  server: 162.159.38.119
+  servername: tiny-shadow-2432.quillypanel26.workers.dev
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e1b81abf-2c98-487a-9b4d-e678f718f4b9
+  ws-opts:
+    headers:
+      Host: tiny-shadow-2432.quillypanel26.workers.dev
+    path: /eyJqdW5rIjoiSVIwdkdQSmhrT0xRNyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJlZml4IiwicGFuZWxJUHMiOlsiWzJhMDI6ODk4OjE0Njo2NDo6XSJdfQ==?ed=2560
+- client-fingerprint: chrome
+  name: 🇨🇦 CA 041 | ⬇️ 143.18MB/s
+  network: ws
+  port: 443
+  server: 104.16.1.237
+  sni: 2026062822.smjh.de5.net
+  tls: true
+  type: vless
+  udp: false
+  uuid: b940be1b-3998-45d2-bf7b-06e7b6c4987a
+  ws-opts:
+    headers:
+      Host: 2026062822.smjh.de5.net
+    path: /?ed=2048
+- client-fingerprint: chrome
+  name: 🇨🇦 CA 042 | ⬇️ 136.71MB/s
+  network: ws
+  port: 443
+  security: tls
+  server: 172.64.146.116
+  servername: support.zoom.us.blackshadow.dpdns.org
+  tls: true
+  type: vless
+  uuid: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
+  ws-opts:
+    headers:
+      Host: support.zoom.us.blackshadow.dpdns.org
+    path: /44.209.52.7-443
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇨🇦 CA 043 | ⬇️ 136.29MB/s
+  network: ws
+  port: 443
+  server: yx.cloudflare.182682.xyz
+  servername: t1s1.rittbo.kdns.fr
+  tls: true
+  type: vless
+  udp: true
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  ws-opts:
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.90 Safari/537.36
+    path: /
+  xudp: true
+- client-fingerprint: chrome
+  name: 🇨🇦 CA 044 | ⬇️ 135.21MB/s
   network: ws
   port: 8443
   server: 104.20.2.221
@@ -340,125 +878,7 @@ proxies:
     path: /
 - client-fingerprint: chrome
   encryption: none
-  name: 🇨🇦 CA 016 | ⬇️ 183.15MB/s
-  network: ws
-  port: 443
-  server: 104.17.121.98
-  servername: unnes.ac.id.yxls.eu.cc
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0ac0a6f0-d3f0-47f1-8de4-ce785e515a5c
-  ws-opts:
-    headers:
-      Host: unnes.ac.id.yxls.eu.cc
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.10
-        (KHTML, like Gecko) Chrome/8.0.552.237 Safari/534.10
-    path: /ca-cl
-  xudp: true
-- client-fingerprint: chrome
-  name: 🇨🇦 CA 017 | ⬇️ 177.21MB/s
-  network: ws
-  port: 2096
-  server: 104.18.47.140
-  servername: sp.linuxdododo.ccwu.cc
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06b65903-406d-4a41-8400-6fd5c0ee7798
-  ws-opts:
-    headers:
-      Host: sp.linuxdododo.ccwu.cc
-    path: /proxyip=ProxyIP.JP.cmliussss.netfp=chrome
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇨🇦 CA 018 | ⬇️ 170.54MB/s
-  network: ws
-  port: 443
-  server: yx.cloudflare.182682.xyz
-  servername: t1s1.rittbo.kdns.fr
-  tls: true
-  type: vless
-  udp: true
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-  ws-opts:
-    headers:
-      Host: t1s1.rittbo.kdns.fr
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.90 Safari/537.36
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇨🇦 CA 019 | ⬇️ 169.54MB/s
-  network: ws
-  port: 443
-  server: cloudflare.czkcdn.cn
-  servername: t1s1.rittbo.kdns.fr
-  tls: true
-  type: vless
-  udp: true
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-  ws-opts:
-    headers:
-      Host: t1s1.rittbo.kdns.fr
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/49.0.2623.110 Safari/537.36
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇨🇦 CA 020 | ⬇️ 168.34MB/s
-  network: ws
-  port: 443
-  server: 172.64.149.209
-  servername: t1s1.rittbo.kdns.fr
-  tls: true
-  type: vless
-  udp: true
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-  ws-opts:
-    headers:
-      Host: t1s1.rittbo.kdns.fr
-      User-Agent: Mozilla/5.0 (Unknown; Linux) AppleWebKit/538.1 (KHTML, like Gecko)
-        Chrome/v1.0.0 Safari/538.1
-    path: /
-  xudp: true
-- name: 🇳🇱 NL 001 | ⬇️ 165.37MB/s
-  network: ws
-  password: 6c862415-30d2-4813-8e49-42e99a0bd415
-  port: 443
-  server: 188.164.248.122
-  skip-cert-verify: false
-  sni: space.byu.id.yxls.eu.cc
-  type: trojan
-  ws-opts:
-    headers:
-      Host: space.byu.id.yxls.eu.cc
-    path: /us-gllc
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇨🇦 CA 021 | ⬇️ 156.56MB/s
-  network: ws
-  port: 443
-  server: nexusmods.com
-  servername: t1s1.rittbo.kdns.fr
-  tls: true
-  type: vless
-  udp: true
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-  ws-opts:
-    headers:
-      Host: t1s1.rittbo.kdns.fr
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/57.0.2987.133 Safari/537.36
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇨🇦 CA 022 | ⬇️ 150.60MB/s
+  name: 🇨🇦 CA 045 | ⬇️ 134.91MB/s
   network: ws
   port: 443
   server: 104.21.47.19
@@ -477,41 +897,25 @@ proxies:
     path: /
   xudp: true
 - client-fingerprint: chrome
-  name: 🇨🇦 CA 023 | ⬇️ 148.20MB/s
+  name: 🇨🇦 CA 046 | ⬇️ 134.66MB/s
   network: ws
-  port: 2096
-  server: 162.159.40.181
-  servername: sp.linuxdododo.ccwu.cc
-  skip-cert-verify: true
-  tfo: false
+  port: 443
+  server: 104.16.1.202
+  sni: 2026062622.yja.de5.net
   tls: true
   type: vless
-  udp: true
-  uuid: 06b65903-406d-4a41-8400-6fd5c0ee7798
+  udp: false
+  uuid: b940be1b-3998-45d2-bf7b-06e7b6c4987a
   ws-opts:
     headers:
-      Host: sp.linuxdododo.ccwu.cc
-    path: /proxyip=ProxyIP.JP.cmliussss.net
-- name: 🇨🇦 CA 024 | ⬇️ 144.50MB/s
-  network: ws
-  password: Mitivpn
-  port: 443
-  server: 151.101.193.242
-  skip-cert-verify: true
-  sni: cdn.gamingdll.ir
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: cdn.gamingdll.ir
-    path: /de=mitivpn
+      Host: 2026062622.yja.de5.net
+    path: /?ed=2048
 - client-fingerprint: chrome
   encryption: none
-  name: 🇨🇦 CA 025 | ⬇️ 135.72MB/s
+  name: 🇨🇦 CA 047 | ⬇️ 125.91MB/s
   network: ws
   port: 443
-  server: 104.18.41.190
+  server: nexusmods.com
   servername: t1s1.rittbo.kdns.fr
   tls: true
   type: vless
@@ -520,61 +924,142 @@ proxies:
   ws-opts:
     headers:
       Host: t1s1.rittbo.kdns.fr
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.101 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/57.0.2987.133 Safari/537.36
     path: /
   xudp: true
-- name: 🇺🇸 US 003 | ⬇️ 132.33MB/s
+- client-fingerprint: chrome
+  name: 🇨🇦 CA 048 | ⬇️ 122.29MB/s
   network: ws
-  password: Mitivpn
   port: 443
-  server: 151.101.110.219
-  skip-cert-verify: true
-  sni: ssl.fastly.com
+  server: 104.16.0.73
+  sni: 2026062622.yja.de5.net
   tls: true
-  type: trojan
-  udp: true
+  type: vless
+  udp: false
+  uuid: b940be1b-3998-45d2-bf7b-06e7b6c4987a
   ws-opts:
     headers:
-      Host: 3-mitivpn.global.ssl.fastly.net
-    path: /de=mitivpn
-- name: 🇺🇸 US 004 | ⬇️ 121.41MB/s
+      Host: 2026062622.yja.de5.net
+    path: /?ed=2048
+- name: 🇨🇦 CA 049 | ⬇️ 121.00MB/s
   network: ws
-  password: Mitivpn
-  port: 443
-  server: 151.101.56.6
-  skip-cert-verify: true
-  sni: ssl.fastly.com
-  tls: true
-  type: trojan
+  port: 8880
+  server: 104.16.107.139
+  type: vless
   udp: true
+  uuid: 9be3bb59-c281-4fee-ae3d-7cf6c4b47eb4
   ws-opts:
     headers:
-      Host: 4-4-3-mitivpn.global.ssl.fastly.net
-    path: /de=mitivpn
-- name: 🇨🇦 CA 026 | ⬇️ 105.27MB/s
+      Host: late-mountain-6801.355.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/66.0.3359.181 Safari/537.36
+    path: /pyip=ProxyIP.JP.CMLiussss.net
+  xudp: true
+- client-fingerprint: chrome
+  name: 🇨🇦 CA 050 | ⬇️ 119.19MB/s
   network: ws
-  password: Mitivpn
-  port: 443
-  server: iranpoems.ir
+  port: 2096
+  server: 104.17.62.253
+  servername: shiny-waterfall-8ffa.alinejatidev.workers.dev
   skip-cert-verify: false
-  sni: www.gamingdll.ir
-  type: trojan
+  tfo: false
+  tls: true
+  type: vless
   udp: true
+  uuid: 8822e683-fdf3-43f2-870d-10d1945baba0
   ws-opts:
     headers:
-      Host: www.gamingdll.ir
-    path: /usa=mitivpn
-- name: 🇺🇸 US 005 | ⬇️ 101.06MB/s
-  password: 9794d18f-9280-3553-a7a5-a23da75aca76
+      Host: shiny-waterfall-8ffa.alinejatidev.workers.dev
+    path: /
+- name: 🇵🇱 PL 001 | ⬇️ 114.06MB/s
+  network: ws
+  port: 8880
+  server: 185.193.30.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime09.workers.dev
+- name: 🇨🇦 CA 051 | ⬇️ 111.80MB/s
+  network: ws
+  port: 8880
+  server: 162.159.156.214
+  type: vless
+  udp: true
+  uuid: 565326ee-c588-4843-9472-a051578ab1ae
+  ws-opts:
+    headers:
+      Host: lucky-cell-e8c5.490-f12.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.90 Safari/537.36
+    path: /pyip=ProxyIP.KR.CMLiussss.net
+  xudp: true
+- client-fingerprint: chrome
+  name: 🇨🇦 CA 052 | ⬇️ 111.23MB/s
+  network: ws
   port: 443
-  server: s554.okgfw.top
-  skip-cert-verify: true
+  server: 104.16.0.23
+  sni: 2026062622.yzqiang6.de5.net
   tls: true
-  type: hysteria2
+  type: vless
+  udp: false
+  uuid: b940be1b-3998-45d2-bf7b-06e7b6c4987a
+  ws-opts:
+    headers:
+      Host: 2026062622.yzqiang6.de5.net
+    path: /?ed=2048
+- name: 🇨🇦 CA 053 | ⬇️ 99.81MB/s
+  network: ws
+  port: 8880
+  server: log.bpminecraft.com
+  type: vless
+  udp: true
+  uuid: d25ba473-5b05-48bb-b048-e82844e2ae39
+  ws-opts:
+    headers:
+      Host: misty-recipe-be74.271.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/53.0.2785.143 Safari/537.36
+    path: /pyip=ProxyIP.JP.CMLiussss.net
+  xudp: true
+- client-fingerprint: chrome
+  name: 🇨🇦 CA 054 | ⬇️ 76.47MB/s
+  network: ws
+  port: 443
+  server: nahan-core.fatitelegram.workers.dev
+  servername: nahan-core.fatitelegram.workers.dev
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 73796e63-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: nahan-core.fatitelegram.workers.dev
+    path: /sync
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇺🇸 US 005 | ⬇️ 66.78MB/s
+  network: ws
+  port: 443
+  server: 141.193.213.10
+  servername: nova-river-portal-b162.alireza57290.workers.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: e18cdfef-c81f-4199-8b2d-afcaf9f21cd0
+  ws-opts:
+    headers:
+      Host: nova-river-portal-b162.alireza57290.workers.dev
+      User-Agent: Mozilla/5.0 (Linux; Android 7.1.2; Redmi 4X Build/N2G47H) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
+    path: /
+  xudp: true
 - alterId: 0
   cipher: auto
-  name: 🇺🇸 US 006 | ⬇️ 67.97MB/s
+  name: 🇺🇸 US 006 | ⬇️ 59.22MB/s
   port: 18000
   server: 67.220.85.46
   type: vmess
@@ -582,17 +1067,49 @@ proxies:
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
 - alterId: 0
   cipher: auto
-  name: 🇺🇸 US 007 | ⬇️ 52.57MB/s
+  name: 🇺🇸 US 007 | ⬇️ 58.37MB/s
   port: 18000
   server: 38.110.1.246
   type: vmess
   udp: true
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 US 008 | ⬇️ 51.61MB/s
+  port: 180
+  server: 82.198.246.9
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 US 009 | ⬇️ 51.43MB/s
+  port: 180
+  server: 82.198.246.97
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 US 010 | ⬇️ 51.22MB/s
+  port: 180
+  server: 82.198.246.233
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 US 011 | ⬇️ 50.28MB/s
+  port: 180
+  server: 82.198.246.37
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - http-opts:
     method: GET
     path:
     - /@monacoVPN@monacoVPN@monacoVPN@monacoVPN
-  name: 🇨🇦 CA 027 | ⬇️ 50.38MB/s
+  name: 🇨🇦 CA 055 | ⬇️ 49.93MB/s
   network: http
   port: 22
   server: 172.65.111.43
@@ -603,196 +1120,52 @@ proxies:
   uuid: 8a38623a-3e7f-5598-bdc9-894cbad4c5b6
 - alterId: 0
   cipher: auto
-  name: 🇺🇸 US 008 | ⬇️ 45.01MB/s
+  name: 🇺🇸 US 012 | ⬇️ 46.18MB/s
   port: 18000
   server: 84.17.41.2
   type: vmess
   udp: true
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
 - client-fingerprint: chrome
-  name: 🇬🇧 GB 002 | ⬇️ 44.68MB/s
+  encryption: none
+  name: 🇨🇦 CA 056 | ⬇️ 45.47MB/s
   network: ws
-  password: humanity
   port: 443
-  server: 91.193.58.77
-  sni: www.calmloud.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.calmloud.com
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/62.0.3202.89 Safari/537.36
-    path: /assignment
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 US 009 | ⬇️ 44.36MB/s
-  port: 180
-  server: 82.198.246.97
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- allowInsecure: '1'
-  name: 🇺🇸 US 010 | ⬇️ 44.26MB/s
-  network: ws
-  password: humanity
-  port: 443
-  server: 141.193.213.11
-  skip-cert-verify: true
-  sni: www.calmloud.com
+  server: 108.162.192.75
+  servername: octopusss.net
   tls: true
-  type: trojan
+  type: vless
+  udp: true
+  uuid: 073d1d50-8478-47bf-a828-7a1b381931d5
   ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: www.calmloud.com
-    path: /assignment
-- client-fingerprint: chrome
-  name: 🇸🇨 SC 001 | ⬇️ 43.91MB/s
-  network: ws
-  password: humanity
-  port: 443
-  server: 45.130.125.32
-  sni: www.calmloud.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.calmloud.com
-      User-Agent: Mozilla/5.0 (Linux; Android 7.1.2; Redmi 4X Build/N2G47H) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
-    path: /assignment
-- client-fingerprint: chrome
-  name: 🇺🇸 US 011 | ⬇️ 43.34MB/s
-  network: ws
-  password: humanity
-  port: 443
-  server: 141.193.213.21
-  sni: www.calmloud.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.calmloud.com
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; Redmi 4A Build/MMB29M; wv) AppleWebKit/537.36
-        (KHTML, like Gecko) Version/4.0 Chrome/60.0.3112.116 Mobile Safari/537.36
-    path: /assignment
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 US 012 | ⬇️ 42.88MB/s
-  port: 180
-  server: 82.198.246.233
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- client-fingerprint: chrome
-  name: 🇸🇨 SC 002 | ⬇️ 42.58MB/s
-  network: ws
-  password: humanity
-  port: 443
-  server: 45.130.125.96
-  sni: www.calmloud.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.calmloud.com
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.77 Safari/537.36
-    path: /assignment
-- client-fingerprint: chrome
-  name: 🇨🇦 CA 028 | ⬇️ 41.85MB/s
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.17.131.88
-  sni: www.gossipglove.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.gossipglove.com
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/43.0.2357.65 Safari/537.36
-    path: /assignment
-- alterId: 0
-  cipher: auto
-  name: 🇨🇦 CA 029 | ⬇️ 41.83MB/s
-  port: 18000
-  server: 134.195.196.211
-  type: vmess
-  udp: true
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 US 013 | ⬇️ 41.78MB/s
-  port: 180
-  server: 82.198.246.250
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- client-fingerprint: chrome
-  name: 🇸🇨 SC 003 | ⬇️ 41.20MB/s
-  network: ws
-  password: humanity
-  port: 443
-  server: 45.130.125.160
-  sni: www.calmlunch.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.calmlunch.com
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.102 Safari/537.36
-    path: /assignment
-- client-fingerprint: chrome
-  name: 🇪🇸 ES 001 | ⬇️ 41.16MB/s
-  network: ws
-  password: humanity
-  port: 443
-  server: 185.18.250.245
-  skip-cert-verify: true
-  sni: www.calmlunch.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.calmlunch.com
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610M) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
-    path: /assignment
-- client-fingerprint: chrome
-  name: 🇨🇦 CA 030 | ⬇️ 41.08MB/s
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.225
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
+      Host: octopusss.net
       User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/56.0.2924.87 Safari/537.36
-    path: /assignment
+        Chrome/70.0.3538.110 Safari/537.36
+    max-early-data: 2048
+    path: /odiyfws
+  xudp: true
 - client-fingerprint: chrome
-  name: 🇨🇦 CA 031 | ⬇️ 40.37MB/s
+  encryption: none
+  name: 🇨🇷 CR 001 | ⬇️ 44.32MB/s
   network: ws
-  password: humanity
   port: 443
-  server: 172.64.152.23
-  sni: www.calmlunch.com
-  type: trojan
+  server: love.ns.cloudflare.com
+  servername: imblo.fastcitylab-byte.info
+  tls: true
+  type: vless
   udp: true
+  uuid: 8ad6f598-cd8d-4fca-848e-05fc9be15ff3
   ws-opts:
     headers:
-      Host: www.calmlunch.com
-      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.90 Safari/537.36
-    path: /assignment
+      Host: imblo.fastcitylab-byte.info
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.102 Safari/537.36
+    path: /sea
+  xudp: true
 - client-fingerprint: chrome
-  name: 🇸🇨 SC 004 | ⬇️ 40.32MB/s
+  name: 🇸🇨 SC 001 | ⬇️ 42.87MB/s
   network: ws
   password: humanity
   port: 443
@@ -806,16 +1179,38 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 5.1; WOW64) AppleWebKit/537.36 (KHTML, like
         Gecko) Chrome/46.0.2490.80 Safari/537.36
     path: /assignment
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 US 014 | ⬇️ 40.26MB/s
-  port: 180
-  server: 82.198.246.9
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - client-fingerprint: chrome
-  name: 🇨🇦 CA 032 | ⬇️ 40.05MB/s
+  name: 🇨🇦 CA 057 | ⬇️ 42.42MB/s
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.17.121.43
+  sni: www.calmlunch.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.calmlunch.com
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-J500M Build/MMB29M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
+  name: 🇨🇦 CA 058 | ⬇️ 42.12MB/s
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.71.213
+  sni: www.calmlunch.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.calmlunch.com
+      User-Agent: Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/55.0.2883.87 Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
+  name: 🇨🇦 CA 059 | ⬇️ 41.96MB/s
   network: ws
   password: humanity
   port: 443
@@ -830,31 +1225,8 @@ proxies:
         like Gecko) Chrome/60.0.3112.101 Safari/537.36
     path: /assignment
 - client-fingerprint: chrome
-  name: 🇨🇦 CA 033 | ⬇️ 39.84MB/s
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.71.213
-  sni: www.calmlunch.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.calmlunch.com
-      User-Agent: Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/55.0.2883.87 Safari/537.36
-    path: /assignment
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 US 015 | ⬇️ 39.74MB/s
-  port: 180
-  server: 82.198.246.37
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- client-fingerprint: chrome
   encryption: none
-  name: 🇨🇦 CA 034 | ⬇️ 39.67MB/s
+  name: 🇨🇦 CA 060 | ⬇️ 41.71MB/s
   network: ws
   port: 443
   server: 172.67.74.2
@@ -873,444 +1245,82 @@ proxies:
     path: /rsedgws
   xudp: true
 - client-fingerprint: chrome
-  name: 🇨🇦 CA 035 | ⬇️ 39.51MB/s
+  name: 🇸🇨 SC 002 | ⬇️ 40.76MB/s
   network: ws
   password: humanity
   port: 443
-  server: 104.17.121.43
+  server: 45.130.125.160
   sni: www.calmlunch.com
   type: trojan
   udp: true
   ws-opts:
     headers:
       Host: www.calmlunch.com
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-J500M Build/MMB29M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /assignment
-- name: 🇨🇦 CA 036 | ⬇️ 39.47MB/s
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.21.40.34
-  skip-cert-verify: false
-  sni: www.multiplydose.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.multiplydose.com
-    path: /assignment
-- client-fingerprint: chrome
-  name: 🇨🇦 CA 037 | ⬇️ 39.36MB/s
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.204
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
       User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/67.0.3396.99 Safari/537.36
-    path: /assignment
-- client-fingerprint: chrome
-  name: 🇨🇦 CA 038 | ⬇️ 39.06MB/s
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.210
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/70.0.3538.67 Safari/537.36
-    path: /assignment
-- client-fingerprint: chrome
-  name: 🇨🇦 CA 039 | ⬇️ 39.03MB/s
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.174.36
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-      User-Agent: Mozilla/5.0 (Linux; Android 5.1; A37f Build/LMY47V) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/43.0.2357.93 Mobile Safari/537.36
-    path: /assignment
-- client-fingerprint: chrome
-  name: 🇨🇦 CA 040 | ⬇️ 38.88MB/s
-  network: ws
-  password: humanity
-  port: 443
-  server: 172.66.47.69
-  sni: www.multiplydose.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.multiplydose.com
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/55.0.2883.87 Safari/537.36
-    path: /assignment
-- client-fingerprint: chrome
-  name: 🇨🇦 CA 041 | ⬇️ 38.76MB/s
-  network: ws
-  password: humanity
-  port: 443
-  server: 172.64.147.166
-  sni: www.multiplydose.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.multiplydose.com
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/41.0.2228.0 Safari/537.36
-    path: /assignment
-- name: 🇨🇦 CA 042 | ⬇️ 38.68MB/s
-  network: ws
-  password: humanity
-  port: 443
-  server: 172.66.44.211
-  skip-cert-verify: false
-  sni: www.multiplydose.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.multiplydose.com
-    path: /assignment
-- client-fingerprint: chrome
-  name: 🇨🇦 CA 043 | ⬇️ 38.58MB/s
-  network: ws
-  password: humanity
-  port: 443
-  server: 162.159.17.189
-  skip-cert-verify: true
-  sni: www.multiplydose.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.multiplydose.com
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532G Build/MMB29T) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/63.0.3239.83 Mobile Safari/537.36
-    path: /assignment
-- client-fingerprint: chrome
-  name: 🇨🇦 CA 044 | ⬇️ 38.53MB/s
-  network: ws
-  password: humanity
-  port: 443
-  server: 188.114.97.6
-  sni: www.calmlunch.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.calmlunch.com
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/63.0.3239.84 Safari/537.36
-    path: /assignment
-- client-fingerprint: chrome
-  name: 🇨🇦 CA 045 | ⬇️ 38.47MB/s
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.174.117
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-      User-Agent: Mozilla/5.0 (Linux; Android 5.1; A37f Build/LMY47V) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/43.0.2357.93 Mobile Safari/537.36
-    path: /assignment
-- client-fingerprint: chrome
-  name: 🇺🇸 US 016 | ⬇️ 38.35MB/s
-  network: ws
-  password: humanity
-  port: 443
-  server: 8.6.112.0
-  sni: www.multiplydose.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.multiplydose.com
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
         like Gecko) Chrome/70.0.3538.102 Safari/537.36
     path: /assignment
-- client-fingerprint: chrome
-  name: 🇨🇦 CA 046 | ⬇️ 38.25MB/s
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.19.208.184
-  sni: www.multiplydose.com
-  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 US 013 | ⬇️ 40.34MB/s
+  port: 18000
+  server: 38.91.107.49
+  type: vmess
   udp: true
-  ws-opts:
-    headers:
-      Host: www.multiplydose.com
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/52.0.2743.116 Safari/537.36
-    path: /assignment
-- client-fingerprint: chrome
-  name: 🇨🇦 CA 047 | ⬇️ 38.23MB/s
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.208
-  sni: www.ignitelimit.com
-  type: trojan
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 US 014 | ⬇️ 38.92MB/s
+  port: 180
+  server: 82.198.246.250
+  type: vmess
   udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-      User-Agent: Mozilla/5.0 (Windows NT 5.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/46.0.2490.80 Safari/537.36
-    path: /assignment
-- client-fingerprint: chrome
-  name: 🇨🇦 CA 048 | ⬇️ 37.90MB/s
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.97
-  sni: www.ignitelimit.com
-  type: trojan
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 US 015 | ⬇️ 38.74MB/s
+  port: 18000
+  server: 67.220.95.3
+  type: vmess
   udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/55.0.2883.87 Safari/537.36
-    path: /assignment
-- client-fingerprint: chrome
-  name: 🇸🇨 SC 005 | ⬇️ 37.87MB/s
-  network: ws
-  password: humanity
-  port: 443
-  server: 45.130.125.126
-  sni: www.multiplydose.com
-  type: trojan
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+- alterId: 0
+  cipher: auto
+  name: 🇨🇦 CA 061 | ⬇️ 37.65MB/s
+  port: 18000
+  server: 23.162.200.198
+  type: vmess
   udp: true
-  ws-opts:
-    headers:
-      Host: www.multiplydose.com
-      User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; SM-J111M Build/LMY47V) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /assignment
-- client-fingerprint: chrome
-  name: 🇩🇪 DE 001 | ⬇️ 37.72MB/s
-  network: ws
-  password: humanity
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 US 016 | ⬇️ 37.59MB/s
+  network: tcp
   port: 443
-  server: 141.101.90.101
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/56.0.2924.87 Safari/537.36
-    path: /assignment
-- client-fingerprint: chrome
-  name: 🇨🇦 CA 049 | ⬇️ 37.46MB/s
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.219
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/39.0.2171.95 Safari/537.36
-    path: /assignment
-- client-fingerprint: chrome
-  name: 🇨🇦 CA 050 | ⬇️ 37.04MB/s
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.174.71
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/36.0.1985.143 Safari/537.36
-    path: /assignment
-- client-fingerprint: chrome
-  name: 🇨🇦 CA 051 | ⬇️ 36.77MB/s
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.187
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/55.0.2883.87 Safari/537.36
-    path: /assignment
+  server: 165.140.216.141
+  skip-cert-verify: true
+  type: vmess
+  uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d
 - client-fingerprint: chrome
   encryption: none
-  name: 🇺🇸 US 017 | ⬇️ 36.16MB/s
+  name: 🇨🇦 CA 062 | ⬇️ 37.43MB/s
   network: ws
   port: 443
-  server: 141.193.213.20
-  servername: amoosamiii.net
+  server: www.speedtest.net
+  servername: octopusss.net
   tls: true
   type: vless
   udp: true
-  uuid: 4f013568-a58b-4b04-b5dd-4d52bf1c33a4
+  uuid: 073d1d50-8478-47bf-a828-7a1b381931d5
   ws-opts:
     headers:
-      Host: amoosamiii.net
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/70.0.3538.67 Safari/537.36
-    path: /poiuyws
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇨🇦 CA 052 | ⬇️ 36.07MB/s
-  network: ws
-  port: 443
-  server: 173.245.59.162
-  servername: octopusss5.info
-  tls: true
-  type: vless
-  udp: true
-  uuid: c35050ce-01ab-45a9-91b8-54cec637d0a8
-  ws-opts:
-    headers:
-      Host: octopusss5.info
+      Host: octopusss.net
       User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/50.0.2661.102 Safari/537.36
-    path: /udfyfws
+        like Gecko) Chrome/49.0.2623.87 Safari/537.36
+    path: /odiyfws
   xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: 🇨🇦 CA 053 | ⬇️ 35.90MB/s
-  network: ws
-  port: 443
-  server: 172.64.147.236
-  servername: octopusss5.info
-  tls: true
-  type: vless
-  udp: true
-  uuid: c35050ce-01ab-45a9-91b8-54cec637d0a8
-  ws-opts:
-    headers:
-      Host: octopusss5.info
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/47.0.2526.111 Safari/537.36
-    path: /udfyfws
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇨🇦 CA 054 | ⬇️ 35.74MB/s
-  network: ws
-  port: 443
-  server: 104.26.12.222
-  servername: octopusss5.info
-  tls: true
-  type: vless
-  udp: true
-  uuid: c35050ce-01ab-45a9-91b8-54cec637d0a8
-  ws-opts:
-    headers:
-      Host: octopusss5.info
-      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; FIG-LX3) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
-    path: /udfyfws
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇨🇦 CA 055 | ⬇️ 35.69MB/s
-  network: ws
-  port: 443
-  server: 173.245.58.75
-  servername: amoosamiii.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4f013568-a58b-4b04-b5dd-4d52bf1c33a4
-  ws-opts:
-    headers:
-      Host: amoosamiii.net
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/70.0.3538.102 Safari/537.36
-    path: /poiuyws
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇺🇸 US 018 | ⬇️ 35.64MB/s
-  network: ws
-  port: 443
-  server: news.microsoft.com
-  servername: amoosamiii.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4f013568-a58b-4b04-b5dd-4d52bf1c33a4
-  ws-opts:
-    headers:
-      Host: amoosamiii.net
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/41.0.2272.118 Safari/537.36
-    path: /poiuyws
-  xudp: true
-- name: 🇨🇦 CA 056 | ⬇️ 35.55MB/s
-  network: ws
-  port: 443
-  server: 104.26.15.137
-  servername: shegeftihaaa.net
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7e544a9d-7667-413b-bbb0-b3bb1aac6d77
-  ws-opts:
-    headers:
-      Host: shegeftihaaa.net
-    path: /rsedgws
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇨🇦 CA 057 | ⬇️ 35.55MB/s
-  network: ws
-  port: 443
-  server: www.speedtest.org
-  servername: shegeftihaaa.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7e544a9d-7667-413b-bbb0-b3bb1aac6d77
-  ws-opts:
-    headers:
-      Host: shegeftihaaa.net
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; BLL-L22 Build/HUAWEIBLL-L22) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36
-    path: /rsedgws
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇺🇸 US 019 | ⬇️ 35.45MB/s
+  name: 🇺🇸 US 017 | ⬇️ 37.39MB/s
   network: ws
   port: 443
   server: 8.47.69.0
@@ -1329,28 +1339,10 @@ proxies:
   xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: 🇨🇦 CA 058 | ⬇️ 35.07MB/s
+  name: 🇨🇦 CA 063 | ⬇️ 37.27MB/s
   network: ws
   port: 443
-  server: 172.64.33.162
-  servername: octopusss5.info
-  tls: true
-  type: vless
-  udp: true
-  uuid: c35050ce-01ab-45a9-91b8-54cec637d0a8
-  ws-opts:
-    headers:
-      Host: octopusss5.info
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/67.0.3396.99 Safari/537.36
-    path: /udfyfws
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇨🇦 CA 059 | ⬇️ 35.00MB/s
-  network: ws
-  port: 443
-  server: 104.26.14.137
+  server: www.speedtest.org
   servername: shegeftihaaa.net
   tls: true
   type: vless
@@ -1359,197 +1351,13 @@ proxies:
   ws-opts:
     headers:
       Host: shegeftihaaa.net
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/70.0.3538.77 Safari/537.36
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; BLL-L22 Build/HUAWEIBLL-L22) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36
     path: /rsedgws
   xudp: true
-- name: 🇫🇷 FR 001 | ⬇️ 34.61MB/s
-  network: tcp
-  port: 8443
-  server: cdg-1.fromblancwithlove.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 55f7d143-a594-4a91-b030-f227039f85ef
-- client-fingerprint: chrome
-  name: 🇨🇦 CA 060 | ⬇️ 34.53MB/s
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.174.44
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/65.0.3325.181 Safari/537.36
-    path: /assignment
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 US 020 | ⬇️ 34.49MB/s
-  port: 18000
-  server: 38.91.107.49
-  type: vmess
-  udp: true
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-- client-fingerprint: chrome
-  name: 🇨🇦 CA 061 | ⬇️ 33.72MB/s
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.174.46
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/49.0.2623.87 Safari/537.36
-    path: /assignment
-- client-fingerprint: chrome
-  name: 🇨🇦 CA 062 | ⬇️ 32.52MB/s
-  network: ws
-  port: 2053
-  server: po.fastbrokencompony.com
-  servername: po.fastbrokencompony.com
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: e7961655-9674-4cbd-a36f-ec0d5d7d660c
-  ws-opts:
-    headers:
-      Host: po.fastbrokencompony.com
-    path: /
-- name: 🇸🇨 SC 006 | ⬇️ 32.39MB/s
-  network: ws
-  port: 2053
-  server: 45.130.125.158
-  servername: po.fastbrokencompony.com
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: e7961655-9674-4cbd-a36f-ec0d5d7d660c
-  ws-opts:
-    headers:
-      Host: po.fastbrokencompony.com
-    path: /
-- cipher: chacha20-ietf-poly1305
-  name: 🇩🇪 DE 002 | ⬇️ 31.71MB/s
-  password: 453u6Gcei04NyXbrWLKa0M
-  port: 443
-  server: 5.230.184.16
-  type: ss
-- name: 🇩🇪 DE 003 | ⬇️ 30.70MB/s
-  password: LYaEYwjN8LjWTRJdCCTzW7V6gK7atJVu
-  port: 9443
-  server: de-1.hysteria.ltd
-  type: trojan
 - client-fingerprint: chrome
   encryption: none
-  name: 🇨🇷 CR 001 | ⬇️ 30.66MB/s
-  network: ws
-  port: 443
-  server: love.ns.cloudflare.com
-  servername: imblo.fastcitylab-byte.info
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8ad6f598-cd8d-4fca-848e-05fc9be15ff3
-  ws-opts:
-    headers:
-      Host: imblo.fastcitylab-byte.info
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.102 Safari/537.36
-    path: /sea
-  xudp: true
-- name: 🇩🇪 DE 004 | ⬇️ 30.01MB/s
-  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
-  port: 443
-  server: 185.137.157.140
-  type: trojan
-- name: 🇩🇪 DE 005 | ⬇️ 29.94MB/s
-  password: urhj8z8R8nBovrNsYzXhL35jLGC5ruguRh
-  port: 443
-  server: 92.119.35.105
-  type: trojan
-- name: 🇩🇪 DE 006 | ⬇️ 29.93MB/s
-  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
-  port: 443
-  server: 185.137.157.142
-  type: trojan
-- name: 🇩🇪 DE 007 | ⬇️ 29.91MB/s
-  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
-  port: 443
-  server: 185.137.157.156
-  type: trojan
-- name: 🇩🇪 DE 008 | ⬇️ 29.85MB/s
-  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
-  port: 443
-  server: 185.137.157.128
-  type: trojan
-- name: 🇩🇪 DE 009 | ⬇️ 29.76MB/s
-  password: aR9EJWEB2Jp3m6xKJK=Ct7kLyqFSU-iDBR
-  port: 443
-  server: 92.119.35.117
-  type: trojan
-- name: 🇩🇪 DE 010 | ⬇️ 29.67MB/s
-  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
-  port: 443
-  server: 185.137.157.138
-  type: trojan
-- name: 🇩🇪 DE 011 | ⬇️ 29.58MB/s
-  password: urhj8z8R8nBovrNsYzXhL35jLGC5ruguRh
-  port: 443
-  server: 92.119.35.119
-  type: trojan
-- name: 🇩🇪 DE 012 | ⬇️ 29.52MB/s
-  password: urhj8z8R8nBovrNsYzXhL35jLGC5ruguRh
-  port: 443
-  server: 92.119.35.93
-  type: trojan
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇨🇦 CA 063 | ⬇️ 29.47MB/s
-  network: ws
-  port: 443
-  server: elliot.ns.cloudflare.com
-  servername: octopusss5.info
-  tls: true
-  type: vless
-  udp: true
-  uuid: c35050ce-01ab-45a9-91b8-54cec637d0a8
-  ws-opts:
-    headers:
-      Host: octopusss5.info
-      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36
-    path: /udfyfws
-  xudp: true
-- name: 🇩🇪 DE 013 | ⬇️ 29.42MB/s
-  password: urhj8z8R8nBovrNsYzXhL35jLGC5ruguRh
-  port: 443
-  server: 92.119.35.87
-  type: trojan
-- name: 🇩🇪 DE 014 | ⬇️ 29.40MB/s
-  password: urhj8z8R8nBovrNsYzXhL35jLGC5ruguRh
-  port: 443
-  server: 92.119.35.85
-  type: trojan
-- name: 🇩🇪 DE 015 | ⬇️ 29.38MB/s
-  password: urhj8z8R8nBovrNsYzXhL35jLGC5ruguRh
-  port: 443
-  server: 92.119.35.131
-  type: trojan
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇨🇦 CA 064 | ⬇️ 29.18MB/s
+  name: 🇨🇦 CA 064 | ⬇️ 37.08MB/s
   network: ws
   port: 443
   server: betty.ns.cloudflare.com
@@ -1565,19 +1373,180 @@ proxies:
         Gecko) Chrome/40.0.2214.111 Safari/537.36
     path: /rsedgws
   xudp: true
-- name: 🇩🇪 DE 016 | ⬇️ 28.76MB/s
-  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
+- name: 🇨🇦 CA 065 | ⬇️ 36.96MB/s
+  network: ws
   port: 443
-  server: 185.137.157.149
-  type: trojan
-- cipher: aes-256-gcm
-  name: 🇬🇧 GB 003 | ⬇️ 28.61MB/s
-  password: RexnBgU7EV5ADxG
-  port: 7001
-  server: 94.156.250.148
-  type: ss
+  server: 104.26.15.137
+  servername: shegeftihaaa.net
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7e544a9d-7667-413b-bbb0-b3bb1aac6d77
+  ws-opts:
+    headers:
+      Host: shegeftihaaa.net
+    path: /rsedgws
 - client-fingerprint: chrome
-  name: 🇸🇨 SC 007 | ⬇️ 28.57MB/s
+  encryption: none
+  name: 🇺🇸 US 018 | ⬇️ 36.54MB/s
+  network: ws
+  port: 443
+  server: news.microsoft.com
+  servername: amoosamiii.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4f013568-a58b-4b04-b5dd-4d52bf1c33a4
+  ws-opts:
+    headers:
+      Host: amoosamiii.net
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/41.0.2272.118 Safari/537.36
+    path: /poiuyws
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇨🇦 CA 066 | ⬇️ 36.39MB/s
+  network: ws
+  port: 443
+  server: 173.245.58.75
+  servername: amoosamiii.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4f013568-a58b-4b04-b5dd-4d52bf1c33a4
+  ws-opts:
+    headers:
+      Host: amoosamiii.net
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/70.0.3538.102 Safari/537.36
+    path: /poiuyws
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇺🇸 US 019 | ⬇️ 36.12MB/s
+  network: ws
+  port: 443
+  server: 141.193.213.20
+  servername: amoosamiii.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4f013568-a58b-4b04-b5dd-4d52bf1c33a4
+  ws-opts:
+    headers:
+      Host: amoosamiii.net
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/70.0.3538.67 Safari/537.36
+    path: /poiuyws
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇨🇦 CA 067 | ⬇️ 35.74MB/s
+  network: ws
+  port: 443
+  server: 172.64.32.75
+  servername: octopusss.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 073d1d50-8478-47bf-a828-7a1b381931d5
+  ws-opts:
+    headers:
+      Host: octopusss.net
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/63.0.3239.84 Safari/537.36
+    path: /odiyfws
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇨🇦 CA 068 | ⬇️ 34.38MB/s
+  network: ws
+  port: 443
+  server: 104.26.14.137
+  servername: shegeftihaaa.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7e544a9d-7667-413b-bbb0-b3bb1aac6d77
+  ws-opts:
+    headers:
+      Host: shegeftihaaa.net
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/70.0.3538.77 Safari/537.36
+    path: /rsedgws
+  xudp: true
+- name: 🇸🇨 SC 003 | ⬇️ 32.28MB/s
+  network: ws
+  port: 2053
+  server: 45.130.125.158
+  servername: po.fastbrokencompony.com
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e7961655-9674-4cbd-a36f-ec0d5d7d660c
+  ws-opts:
+    headers:
+      Host: po.fastbrokencompony.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇨🇦 CA 069 | ⬇️ 31.58MB/s
+  port: 18000
+  server: 134.195.196.211
+  type: vmess
+  udp: true
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+- client-fingerprint: chrome
+  name: 🇨🇦 CA 070 | ⬇️ 30.81MB/s
+  network: ws
+  port: 2053
+  server: po.fastbrokencompony.com
+  servername: po.fastbrokencompony.com
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e7961655-9674-4cbd-a36f-ec0d5d7d660c
+  ws-opts:
+    headers:
+      Host: po.fastbrokencompony.com
+    path: /
+- name: 🇩🇪 DE 001 | ⬇️ 29.93MB/s
+  password: urhj8z8R8nBovrNsYzXhL35jLGC5ruguRh
+  port: 443
+  server: 92.119.35.131
+  type: trojan
+- name: 🇩🇪 DE 002 | ⬇️ 29.89MB/s
+  password: urhj8z8R8nBovrNsYzXhL35jLGC5ruguRh
+  port: 443
+  server: 92.119.35.93
+  type: trojan
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇺🇸 US 020 | ⬇️ 29.89MB/s
+  network: ws
+  port: 443
+  server: 159.112.235.52
+  servername: octopusss.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 073d1d50-8478-47bf-a828-7a1b381931d5
+  ws-opts:
+    headers:
+      Host: octopusss.net
+      User-Agent: Mozilla/5.0 (X11; U; Linux i586; en-US) AppleWebKit/533.2 (KHTML,
+        like Gecko) Chrome/5.0.342.1 Safari/533.2
+    path: /odiyfws
+  xudp: true
+- client-fingerprint: chrome
+  name: 🇸🇨 SC 004 | ⬇️ 29.42MB/s
   network: ws
   port: 8443
   server: 45.130.125.158
@@ -1592,140 +1561,36 @@ proxies:
     headers:
       Host: srv03.perfectbulk.info
     path: /
-- name: 🇩🇪 DE 017 | ⬇️ 28.00MB/s
+- name: 🇩🇪 DE 003 | ⬇️ 29.29MB/s
   password: urhj8z8R8nBovrNsYzXhL35jLGC5ruguRh
   port: 443
-  server: 92.119.35.97
-  type: trojan
-- name: 🇩🇪 DE 018 | ⬇️ 27.86MB/s
-  password: urhj8z8R8nBovrNsYzXhL35jLGC5ruguRh
-  port: 443
-  server: 92.119.35.71
+  server: 92.119.35.105
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 🇪🇸 ES 002 | ⬇️ 27.53MB/s
-  port: 22324
-  server: 85.90.217.42
-  type: vmess
-  udp: true
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- name: 🇩🇪 DE 019 | ⬇️ 26.20MB/s
-  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
-  port: 443
-  server: 185.137.157.145
-  type: trojan
-- alterId: 1
-  cipher: auto
-  name: 🇺🇸 US 021 | ⬇️ 22.52MB/s
-  port: 22324
-  server: 216.106.183.35
-  type: vmess
-  udp: true
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 US 009 | ⚡ 401.00ms
+  name: 🇺🇸 US 021 | ⬇️ 29.25MB/s
   port: 18000
   server: 169.197.142.22
   type: vmess
   udp: true
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-- name: 🇯🇵 JP 004 | ⚡ 677.00ms
-  password: tsuchiya
+- name: 🇩🇪 DE 004 | ⬇️ 28.79MB/s
+  password: urhj8z8R8nBovrNsYzXhL35jLGC5ruguRh
   port: 443
-  server: aa.ccmusic.jp
+  server: 92.119.35.85
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 US 006 | ⚡ 222.00ms
-  port: 18000
-  server: 67.220.95.3
-  type: vmess
-  udp: true
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-- alterId: 0
-  cipher: auto
-  name: 🇯🇵 JP 001 | ⬇️ 17.29MB/s
-  port: 22324
-  server: 172.104.80.66
-  type: vmess
-  udp: true
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- name: 🇯🇵 JP 006 | ⚡ 722.00ms
-  password: T9qoEuuxUEa9Dk3KxnTWrs6J8ilng9sCIf
+- name: 🇩🇪 DE 005 | ⬇️ 26.82MB/s
+  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
   port: 443
-  server: 103.125.216.68
+  server: 185.137.157.156
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬 SG 001 | ⚡ 404.00ms
-  port: 18000
-  server: 149.88.23.207
-  type: vmess
-  udp: true
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬 SG 002 | ⚡ 429.00ms
-  port: 18000
-  server: 149.88.23.202
-  type: vmess
-  udp: true
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-- name: 🇯🇵 JP 005 | ⚡ 710.00ms
-  password: T9qoEuuxUEa9Dk3KxnTWrs6J8ilng9sCIf
+- name: 🇩🇪 DE 006 | ⬇️ 26.63MB/s
+  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
   port: 443
-  server: 103.125.216.11
+  server: 185.137.157.142
   type: trojan
-- name: 🇩🇪 DE 006 | ⚡ 641.00ms
-  password: aR9EJWEB2Jp3m6xKJK=Ct7kLyqFSU-iDBR
-  port: 443
-  server: 92.119.35.120
-  type: trojan
-- name: 🇩🇪 DE 020 | ⬇️ 12.93MB/s
-  password: aR9EJWEB2Jp3m6xKJK=Ct7kLyqFSU-iDBR
-  port: 443
-  server: 92.119.35.125
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: 🇲🇾 MY 001 | ⬇️ 12.86MB/s
-  port: 10000
-  server: 47.250.135.244
-  type: vmess
-  udp: true
-  uuid: aedc66b8-99d7-4a21-8310-61870e7f870d
 - client-fingerprint: chrome
-  encryption: none
-  name: 🇨🇦 CA 065 | ⬇️ 11.48MB/s
-  network: ws
-  port: 2086
-  server: 108.162.194.165
-  skip-cert-verify: false
-  type: vless
-  uuid: a0fe052d-6ca1-4a9c-b626-7ecf78f386cb
-  ws-opts:
-    headers:
-      Host: arshia.lezzatArshia.ir
-    path: /
-    v2ray-http-upgrade: true
-    v2ray-http-upgrade-fast-open: true
-- name: 🇯🇵 JP 007 | ⚡ 782.00ms
-  password: T9qoEuuxUEa9Dk3KxnTWrs6J8ilng9sCIf
-  port: 443
-  server: 103.125.216.18
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: 🇬🇧 GB 004 | ⬇️ 11.10MB/s
-  port: 22324
-  server: 66.163.117.58
-  type: vmess
-  udp: true
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- client-fingerprint: chrome
-  name: 🇸🇨 SC 008 | ⬇️ 9.98MB/s
+  name: 🇸🇨 SC 005 | ⬇️ 26.18MB/s
   network: ws
   port: 8443
   server: 45.130.125.114
@@ -1740,7 +1605,338 @@ proxies:
     headers:
       Host: srv75.perfectbulk.info
     path: /
-- name: 🇫🇷 FR 002 | ⬇️ 9.27MB/s
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 US 022 | ⬇️ 26.16MB/s
+  port: 18000
+  server: 38.114.123.42
+  type: vmess
+  udp: true
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+- name: 🇩🇪 DE 007 | ⬇️ 25.76MB/s
+  password: LYaEYwjN8LjWTRJdCCTzW7V6gK7atJVu
+  port: 9443
+  server: de-1.hysteria.ltd
+  type: trojan
+- name: 🇩🇪 DE 008 | ⬇️ 25.00MB/s
+  password: urhj8z8R8nBovrNsYzXhL35jLGC5ruguRh
+  port: 443
+  server: 92.119.35.87
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 🇪🇸 ES 001 | ⬇️ 24.71MB/s
+  port: 22324
+  server: 85.90.217.42
+  type: vmess
+  udp: true
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- name: 🇩🇪 DE 009 | ⬇️ 24.54MB/s
+  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
+  port: 443
+  server: 185.137.157.138
+  type: trojan
+- name: 🇨🇭 CH 001 | ⚡ 381.00ms
+  password: SoftNetConnect
+  port: 42549
+  server: 83.228.251.69
+  type: trojan
+- name: 🇩🇪 DE 010 | ⬇️ 22.52MB/s
+  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
+  port: 443
+  server: 185.137.157.135
+  type: trojan
+- name: 🇨🇦 CA 071 | ⬇️ 21.67MB/s
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.21.40.34
+  skip-cert-verify: false
+  sni: www.multiplydose.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.multiplydose.com
+    path: /assignment
+- allowInsecure: '1'
+  name: 🇺🇸 US 023 | ⬇️ 21.57MB/s
+  network: ws
+  password: humanity
+  port: 443
+  server: 141.193.213.11
+  skip-cert-verify: true
+  sni: www.calmloud.com
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.calmloud.com
+    path: /assignment
+- name: 🇩🇪 DE 011 | ⬇️ 20.53MB/s
+  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
+  port: 443
+  server: 185.137.157.140
+  type: trojan
+- name: 🇩🇪 DE 012 | ⬇️ 19.53MB/s
+  password: urhj8z8R8nBovrNsYzXhL35jLGC5ruguRh
+  port: 443
+  server: 92.119.35.97
+  type: trojan
+- name: 🇩🇪 DE 013 | ⬇️ 19.40MB/s
+  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
+  port: 443
+  server: 185.137.157.145
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 🇯🇵 JP 001 | ⚡ 336.00ms
+  port: 22324
+  server: 172.104.80.66
+  type: vmess
+  udp: true
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬 SG 002 | ⚡ 453.00ms
+  port: 18000
+  server: 149.88.23.207
+  type: vmess
+  udp: true
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬 SG 003 | ⚡ 455.00ms
+  port: 18000
+  server: 149.88.23.202
+  type: vmess
+  udp: true
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+- client-fingerprint: chrome
+  name: 🇨🇦 CA 054 | ⚡ 276.00ms
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.19.208.184
+  sni: www.multiplydose.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.multiplydose.com
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/52.0.2743.116 Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
+  name: 🇨🇦 CA 072 | ⬇️ 12.91MB/s
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.210
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/70.0.3538.67 Safari/537.36
+    path: /assignment
+- name: 🇯🇵 JP 001 | ⬇️ 12.59MB/s
+  password: T9qoEuuxUEa9Dk3KxnTWrs6J8ilng9sCIf
+  port: 443
+  server: 103.125.216.18
+  type: trojan
+- name: 🇨🇦 CA 073 | ⬇️ 11.49MB/s
+  network: ws
+  password: humanity
+  port: 443
+  server: 172.66.44.211
+  skip-cert-verify: false
+  sni: www.multiplydose.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.multiplydose.com
+    path: /assignment
+- client-fingerprint: chrome
+  name: 🇨🇦 CA 074 | ⬇️ 11.43MB/s
+  network: ws
+  password: humanity
+  port: 443
+  server: 162.159.17.189
+  skip-cert-verify: true
+  sni: www.multiplydose.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.multiplydose.com
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532G Build/MMB29T) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/63.0.3239.83 Mobile Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
+  name: 🇨🇦 CA 075 | ⬇️ 11.37MB/s
+  network: ws
+  password: humanity
+  port: 443
+  server: 188.114.96.3
+  sni: www.calmlunch.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.calmlunch.com
+      User-Agent: Mozilla/5.0 (Unknown; Linux) AppleWebKit/538.1 (KHTML, like Gecko)
+        Chrome/v1.0.0 Safari/538.1
+    path: /assignment
+- client-fingerprint: chrome
+  name: 🇺🇸 US 024 | ⬇️ 11.07MB/s
+  network: ws
+  password: humanity
+  port: 443
+  server: 141.193.213.21
+  sni: www.calmloud.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.calmloud.com
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; Redmi 4A Build/MMB29M; wv) AppleWebKit/537.36
+        (KHTML, like Gecko) Version/4.0 Chrome/60.0.3112.116 Mobile Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
+  name: 🇨🇦 CA 058 | ⚡ 280.00ms
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.36
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+      User-Agent: Mozilla/5.0 (Linux; Android 5.1; A37f Build/LMY47V) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/43.0.2357.93 Mobile Safari/537.36
+    path: /assignment
+- alterId: 1
+  cipher: auto
+  name: 🇺🇸 US 025 | ⬇️ 10.23MB/s
+  port: 22324
+  server: 216.106.183.35
+  type: vmess
+  udp: true
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- client-fingerprint: chrome
+  name: 🇩🇪 DE 014 | ⬇️ 10.18MB/s
+  network: ws
+  password: humanity
+  port: 443
+  server: 141.101.90.101
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/56.0.2924.87 Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
+  name: 🇨🇦 CA 076 | ⬇️ 9.56MB/s
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.17.131.88
+  sni: www.gossipglove.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.gossipglove.com
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/43.0.2357.65 Safari/537.36
+    path: /assignment
+- name: 🇫🇷 FR 001 | ⬇️ 9.43MB/s
+  password: hCunaKqdEJDBO+3jCrJUSMevXOw9Q_r4Ey
+  port: 443
+  server: 38.60.136.156
+  type: trojan
+- client-fingerprint: chrome
+  name: 🇺🇸 US 010 | ⚡ 289.00ms
+  network: ws
+  password: humanity
+  port: 443
+  server: 8.6.112.0
+  sni: www.multiplydose.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.multiplydose.com
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.102 Safari/537.36
+    path: /assignment
+- alterId: 0
+  cipher: auto
+  name: 🇯🇵 JP 003 | ⚡ 353.00ms
+  port: 32221
+  server: 153.121.73.175
+  type: vmess
+  udp: true
+  uuid: b06054ae-f249-438e-998a-8e67bd8df653
+- client-fingerprint: chrome
+  name: 🇨🇦 CA 012 | ⚡ 311.00ms
+  network: ws
+  password: humanity
+  port: 443
+  server: 172.64.152.23
+  sni: www.calmlunch.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.calmlunch.com
+      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.90 Safari/537.36
+    path: /assignment
+- alterId: 0
+  cipher: auto
+  name: 🇯🇵 JP 002 | ⚡ 343.00ms
+  port: 49803
+  server: 153.121.73.175
+  type: vmess
+  udp: true
+  uuid: cd3dacbc-2b7b-4718-83ad-ab870f87e12e
+- name: 🇰🇷 KR 001 | ⚡ 949.00ms
+  network: ws
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
+  port: 443
+  server: 211.49.57.175
+  skip-cert-verify: false
+  sni: hhcm.hhxaf.cc.cd
+  type: trojan
+  ws-opts:
+    headers:
+      Host: hhcm.hhxaf.cc.cd
+    path: /
+- client-fingerprint: chrome
+  name: 🇪🇸 ES 001 | ⚡ 271.00ms
+  network: ws
+  password: humanity
+  port: 443
+  server: 185.18.250.245
+  skip-cert-verify: true
+  sni: www.calmlunch.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.calmlunch.com
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610M) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
+    path: /assignment
+- name: 🇫🇷 FR 002 | ⬇️ 6.70MB/s
   network: tcp
   port: 8443
   server: 137.74.119.18
@@ -1748,52 +1944,23 @@ proxies:
   tls: true
   type: vless
   uuid: 9479aaaf-3057-4bac-ad58-efa2a6abff73
-- name: 🇫🇷 FR 002 | ⚡ 353.00ms
-  password: hCunaKqdEJDBO+3jCrJUSMevXOw9Q_r4Ey
-  port: 443
-  server: 38.60.136.156
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: 🇯🇵 JP 001 | ⚡ 458.00ms
-  port: 49803
-  server: 153.121.73.175
-  type: vmess
-  udp: true
-  uuid: cd3dacbc-2b7b-4718-83ad-ab870f87e12e
-- alterId: 0
-  cipher: auto
-  name: 🇯🇵 JP 002 | ⬇️ 8.78MB/s
-  port: 32221
-  server: 153.121.73.175
-  type: vmess
-  udp: true
-  uuid: b06054ae-f249-438e-998a-8e67bd8df653
 - client-fingerprint: chrome
-  encryption: none
-  name: 🇨🇦 CA 019 | ⚡ 256.00ms
+  name: 🇨🇦 CA 077 | ⬇️ 6.50MB/s
   network: ws
+  password: humanity
   port: 443
-  server: www.speedtest.net
-  servername: octopusss.net
-  tls: true
-  type: vless
+  server: 104.16.174.71
+  sni: www.ignitelimit.com
+  type: trojan
   udp: true
-  uuid: 073d1d50-8478-47bf-a828-7a1b381931d5
   ws-opts:
     headers:
-      Host: octopusss.net
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/49.0.2623.87 Safari/537.36
-    path: /odiyfws
-  xudp: true
-- name: 🇻🇳 VN 001 | ⬇️ 6.27MB/s
-  password: NAdtbpuyJXPH=CfKmdBqD2YVbzdvwAtuxw
-  port: 443
-  server: 38.60.252.118
-  type: trojan
+      Host: www.ignitelimit.com
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/36.0.1985.143 Safari/537.36
+    path: /assignment
 - client-fingerprint: chrome
-  name: 🇨🇦 CA 066 | ⬇️ 5.84MB/s
+  name: 🇨🇦 CA 070 | ⚡ 346.00ms
   network: ws
   password: humanity
   port: 443
@@ -1808,367 +1975,527 @@ proxies:
         wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84
         Mobile Safari/537.36
     path: /assignment
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 US 022 | ⬇️ 5.43MB/s
-  password: hbGrpfvNrJsUmKmPbR3iY2
+- client-fingerprint: chrome
+  name: 🇨🇦 CA 010 | ⚡ 299.00ms
+  network: ws
+  password: humanity
   port: 443
-  server: tinkered-pennies-puppies.freesocks.work
-  skip-cert-verify: true
-  tls: true
-  type: ss
+  server: 172.66.47.69
+  sni: www.multiplydose.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.multiplydose.com
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/55.0.2883.87 Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
+  name: 🇸🇨 SC 002 | ⚡ 270.00ms
+  network: ws
+  password: humanity
+  port: 443
+  server: 45.130.125.126
+  sni: www.multiplydose.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.multiplydose.com
+      User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; SM-J111M Build/LMY47V) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /assignment
+- name: 🇰🇷 KR 001 | ⬇️ 5.30MB/s
+  network: ws
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
+  port: 443
+  server: 211.49.57.179
+  skip-cert-verify: false
+  sni: tjsp.hhxaf.cc.cd
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tjsp.hhxaf.cc.cd
+    path: /
+- client-fingerprint: chrome
+  name: 🇨🇦 CA 078 | ⬇️ 5.16MB/s
+  network: ws
+  password: humanity
+  port: 443
+  server: 188.114.97.6
+  sni: www.calmlunch.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.calmlunch.com
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/63.0.3239.84 Safari/537.36
+    path: /assignment
 - alterId: 0
   cipher: auto
-  name: 🇺🇸 US 023 | ⬇️ 5.43MB/s
-  port: 48111
-  server: 129.146.143.80
+  name: 🇰🇷 KR 001 | ⚡ 495.00ms
+  port: 8888
+  server: 146.56.112.110
   type: vmess
   udp: true
-  uuid: d4603cc2-e0ee-4651-83f5-1db5b7168177
+  uuid: e7c302f3-90d6-42dd-9d7d-94a3683a3707
 - alterId: 0
   cipher: auto
-  name: 🇰🇷 KR 001 | ⚡ 637.00ms
+  name: 🇬🇧 GB 001 | ⚡ 479.00ms
+  port: 22324
+  server: 66.163.117.58
+  type: vmess
+  udp: true
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- alterId: 0
+  cipher: auto
+  name: 🇰🇷 KR 001 | ⚡ 631.00ms
   network: tcp
   port: 443
   server: 140.238.2.250
   skip-cert-verify: true
   type: vmess
   uuid: 41a7089a-040b-4538-8b8d-010902405bde
-- name: 🇷🇺 RU 002 | ⚡ 2424.00ms
-  password: c059a786-3a03-4300-9ace-4f9cda0f360c
-  port: 8450
-  server: wlte8.nimarko.org
-  skip-cert-verify: true
-  tls: true
-  type: hysteria2
-- name: 🇩🇪 DE 014 | ⚡ 5024.00ms
-  password: aR9EJWEB2Jp3m6xKJK=Ct7kLyqFSU-iDBR
+- client-fingerprint: chrome
+  name: 🇨🇦 CA 011 | ⚡ 300.00ms
+  network: ws
+  password: humanity
   port: 443
-  server: 92.119.35.127
+  server: 172.64.147.166
+  sni: www.multiplydose.com
   type: trojan
-- name: 🇩🇪 DE 021 | ⬇️ 1.14MB/s
-  password: aR9EJWEB2Jp3m6xKJK=Ct7kLyqFSU-iDBR
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.multiplydose.com
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/41.0.2228.0 Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
+  name: 🇨🇦 CA 048 | ⚡ 264.00ms
+  network: ws
+  password: humanity
   port: 443
-  server: 92.119.35.130
+  server: 104.18.152.225
+  sni: www.ignitelimit.com
   type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/56.0.2924.87 Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
+  name: 🇨🇦 CA 050 | ⚡ 269.00ms
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.187
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/55.0.2883.87 Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
+  name: 🇨🇦 CA 044 | ⚡ 251.00ms
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.204
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/67.0.3396.99 Safari/537.36
+    path: /assignment
 - alterId: 0
   cipher: auto
-  name: 🇺🇸 US 011 | ⚡ 1654.00ms
-  port: 22324
-  server: 67.220.72.237
+  name: 🇺🇸 US 002 | ⚡ 131.00ms
+  port: 48111
+  server: 129.146.143.80
   type: vmess
   udp: true
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  uuid: d4603cc2-e0ee-4651-83f5-1db5b7168177
+- client-fingerprint: chrome
+  name: 🇸🇨 SC 001 | ⚡ 253.00ms
+  network: ws
+  password: humanity
+  port: 443
+  server: 45.130.125.96
+  sni: www.calmloud.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.calmloud.com
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.77 Safari/537.36
+    path: /assignment
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 US 003 | ⚡ 99.00ms
+  password: hbGrpfvNrJsUmKmPbR3iY2
+  port: 443
+  server: tinkered-pennies-puppies.freesocks.work
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- client-fingerprint: chrome
+  name: 🇨🇦 CA 043 | ⚡ 248.00ms
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.117
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+      User-Agent: Mozilla/5.0 (Linux; Android 5.1; A37f Build/LMY47V) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/43.0.2357.93 Mobile Safari/537.36
+    path: /assignment
 proxy-groups:
 - name: 自动选择
   type: url-test
   proxies:
-  - 🇨🇦 CA 001 | ⬇️ 286.61MB/s
-  - 🇨🇦 CA 002 | ⬇️ 282.48MB/s
-  - 🇨🇦 CA 003 | ⬇️ 282.12MB/s
-  - 🇨🇦 CA 004 | ⬇️ 277.60MB/s
-  - 🇨🇦 CA 005 | ⬇️ 274.23MB/s
-  - 🇨🇦 CA 006 | ⬇️ 271.72MB/s
-  - 🇦🇪 AE 001 | ⬇️ 223.23MB/s
-  - 🇨🇦 CA 007 | ⬇️ 220.38MB/s
-  - 🏳️ IR 001 | ⬇️ 219.90MB/s
-  - 🇬🇧 GB 001 | ⬇️ 219.10MB/s
-  - 🇺🇸 US 001 | ⬇️ 210.95MB/s
-  - 🇨🇦 CA 008 | ⬇️ 202.45MB/s
-  - 🇨🇦 CA 009 | ⬇️ 202.10MB/s
-  - 🇺🇸 US 002 | ⬇️ 200.80MB/s
-  - 🇨🇦 CA 010 | ⬇️ 200.67MB/s
-  - 🇨🇦 CA 011 | ⬇️ 199.29MB/s
-  - 🇨🇦 CA 012 | ⬇️ 197.13MB/s
-  - 🇨🇦 CA 013 | ⬇️ 195.70MB/s
-  - 🇨🇦 CA 014 | ⬇️ 192.25MB/s
-  - 🇨🇦 CA 015 | ⬇️ 188.30MB/s
-  - 🇨🇦 CA 016 | ⬇️ 183.15MB/s
-  - 🇨🇦 CA 017 | ⬇️ 177.21MB/s
-  - 🇨🇦 CA 018 | ⬇️ 170.54MB/s
-  - 🇨🇦 CA 019 | ⬇️ 169.54MB/s
-  - 🇨🇦 CA 020 | ⬇️ 168.34MB/s
-  - 🇳🇱 NL 001 | ⬇️ 165.37MB/s
-  - 🇨🇦 CA 021 | ⬇️ 156.56MB/s
-  - 🇨🇦 CA 022 | ⬇️ 150.60MB/s
-  - 🇨🇦 CA 023 | ⬇️ 148.20MB/s
-  - 🇨🇦 CA 024 | ⬇️ 144.50MB/s
-  - 🇨🇦 CA 025 | ⬇️ 135.72MB/s
-  - 🇺🇸 US 003 | ⬇️ 132.33MB/s
-  - 🇺🇸 US 004 | ⬇️ 121.41MB/s
-  - 🇨🇦 CA 026 | ⬇️ 105.27MB/s
-  - 🇺🇸 US 005 | ⬇️ 101.06MB/s
-  - 🇺🇸 US 006 | ⬇️ 67.97MB/s
-  - 🇺🇸 US 007 | ⬇️ 52.57MB/s
-  - 🇨🇦 CA 027 | ⬇️ 50.38MB/s
-  - 🇺🇸 US 008 | ⬇️ 45.01MB/s
-  - 🇬🇧 GB 002 | ⬇️ 44.68MB/s
-  - 🇺🇸 US 009 | ⬇️ 44.36MB/s
-  - 🇺🇸 US 010 | ⬇️ 44.26MB/s
-  - 🇸🇨 SC 001 | ⬇️ 43.91MB/s
-  - 🇺🇸 US 011 | ⬇️ 43.34MB/s
-  - 🇺🇸 US 012 | ⬇️ 42.88MB/s
-  - 🇸🇨 SC 002 | ⬇️ 42.58MB/s
-  - 🇨🇦 CA 028 | ⬇️ 41.85MB/s
-  - 🇨🇦 CA 029 | ⬇️ 41.83MB/s
-  - 🇺🇸 US 013 | ⬇️ 41.78MB/s
-  - 🇸🇨 SC 003 | ⬇️ 41.20MB/s
-  - 🇪🇸 ES 001 | ⬇️ 41.16MB/s
-  - 🇨🇦 CA 030 | ⬇️ 41.08MB/s
-  - 🇨🇦 CA 031 | ⬇️ 40.37MB/s
-  - 🇸🇨 SC 004 | ⬇️ 40.32MB/s
-  - 🇺🇸 US 014 | ⬇️ 40.26MB/s
-  - 🇨🇦 CA 032 | ⬇️ 40.05MB/s
-  - 🇨🇦 CA 033 | ⬇️ 39.84MB/s
-  - 🇺🇸 US 015 | ⬇️ 39.74MB/s
-  - 🇨🇦 CA 034 | ⬇️ 39.67MB/s
-  - 🇨🇦 CA 035 | ⬇️ 39.51MB/s
-  - 🇨🇦 CA 036 | ⬇️ 39.47MB/s
-  - 🇨🇦 CA 037 | ⬇️ 39.36MB/s
-  - 🇨🇦 CA 038 | ⬇️ 39.06MB/s
-  - 🇨🇦 CA 039 | ⬇️ 39.03MB/s
-  - 🇨🇦 CA 040 | ⬇️ 38.88MB/s
-  - 🇨🇦 CA 041 | ⬇️ 38.76MB/s
-  - 🇨🇦 CA 042 | ⬇️ 38.68MB/s
-  - 🇨🇦 CA 043 | ⬇️ 38.58MB/s
-  - 🇨🇦 CA 044 | ⬇️ 38.53MB/s
-  - 🇨🇦 CA 045 | ⬇️ 38.47MB/s
-  - 🇺🇸 US 016 | ⬇️ 38.35MB/s
-  - 🇨🇦 CA 046 | ⬇️ 38.25MB/s
-  - 🇨🇦 CA 047 | ⬇️ 38.23MB/s
-  - 🇨🇦 CA 048 | ⬇️ 37.90MB/s
-  - 🇸🇨 SC 005 | ⬇️ 37.87MB/s
-  - 🇩🇪 DE 001 | ⬇️ 37.72MB/s
-  - 🇨🇦 CA 049 | ⬇️ 37.46MB/s
-  - 🇨🇦 CA 050 | ⬇️ 37.04MB/s
-  - 🇨🇦 CA 051 | ⬇️ 36.77MB/s
-  - 🇺🇸 US 017 | ⬇️ 36.16MB/s
-  - 🇨🇦 CA 052 | ⬇️ 36.07MB/s
-  - 🇨🇦 CA 053 | ⬇️ 35.90MB/s
-  - 🇨🇦 CA 054 | ⬇️ 35.74MB/s
-  - 🇨🇦 CA 055 | ⬇️ 35.69MB/s
-  - 🇺🇸 US 018 | ⬇️ 35.64MB/s
-  - 🇨🇦 CA 056 | ⬇️ 35.55MB/s
-  - 🇨🇦 CA 057 | ⬇️ 35.55MB/s
-  - 🇺🇸 US 019 | ⬇️ 35.45MB/s
-  - 🇨🇦 CA 058 | ⬇️ 35.07MB/s
-  - 🇨🇦 CA 059 | ⬇️ 35.00MB/s
-  - 🇫🇷 FR 001 | ⬇️ 34.61MB/s
-  - 🇨🇦 CA 060 | ⬇️ 34.53MB/s
-  - 🇺🇸 US 020 | ⬇️ 34.49MB/s
-  - 🇨🇦 CA 061 | ⬇️ 33.72MB/s
-  - 🇨🇦 CA 062 | ⬇️ 32.52MB/s
-  - 🇸🇨 SC 006 | ⬇️ 32.39MB/s
-  - 🇩🇪 DE 002 | ⬇️ 31.71MB/s
-  - 🇩🇪 DE 003 | ⬇️ 30.70MB/s
-  - 🇨🇷 CR 001 | ⬇️ 30.66MB/s
-  - 🇩🇪 DE 004 | ⬇️ 30.01MB/s
-  - 🇩🇪 DE 005 | ⬇️ 29.94MB/s
-  - 🇩🇪 DE 006 | ⬇️ 29.93MB/s
-  - 🇩🇪 DE 007 | ⬇️ 29.91MB/s
-  - 🇩🇪 DE 008 | ⬇️ 29.85MB/s
-  - 🇩🇪 DE 009 | ⬇️ 29.76MB/s
-  - 🇩🇪 DE 010 | ⬇️ 29.67MB/s
-  - 🇩🇪 DE 011 | ⬇️ 29.58MB/s
-  - 🇩🇪 DE 012 | ⬇️ 29.52MB/s
-  - 🇨🇦 CA 063 | ⬇️ 29.47MB/s
-  - 🇩🇪 DE 013 | ⬇️ 29.42MB/s
-  - 🇩🇪 DE 014 | ⬇️ 29.40MB/s
-  - 🇩🇪 DE 015 | ⬇️ 29.38MB/s
-  - 🇨🇦 CA 064 | ⬇️ 29.18MB/s
-  - 🇩🇪 DE 016 | ⬇️ 28.76MB/s
-  - 🇬🇧 GB 003 | ⬇️ 28.61MB/s
-  - 🇸🇨 SC 007 | ⬇️ 28.57MB/s
-  - 🇩🇪 DE 017 | ⬇️ 28.00MB/s
-  - 🇩🇪 DE 018 | ⬇️ 27.86MB/s
-  - 🇪🇸 ES 002 | ⬇️ 27.53MB/s
-  - 🇩🇪 DE 019 | ⬇️ 26.20MB/s
-  - 🇺🇸 US 021 | ⬇️ 22.52MB/s
-  - 🇺🇸 US 009 | ⚡ 401.00ms
-  - 🇯🇵 JP 004 | ⚡ 677.00ms
-  - 🇺🇸 US 006 | ⚡ 222.00ms
-  - 🇯🇵 JP 001 | ⬇️ 17.29MB/s
-  - 🇯🇵 JP 006 | ⚡ 722.00ms
-  - 🇸🇬 SG 001 | ⚡ 404.00ms
-  - 🇸🇬 SG 002 | ⚡ 429.00ms
-  - 🇯🇵 JP 005 | ⚡ 710.00ms
-  - 🇩🇪 DE 006 | ⚡ 641.00ms
-  - 🇩🇪 DE 020 | ⬇️ 12.93MB/s
-  - 🇲🇾 MY 001 | ⬇️ 12.86MB/s
-  - 🇨🇦 CA 065 | ⬇️ 11.48MB/s
-  - 🇯🇵 JP 007 | ⚡ 782.00ms
-  - 🇬🇧 GB 004 | ⬇️ 11.10MB/s
-  - 🇸🇨 SC 008 | ⬇️ 9.98MB/s
-  - 🇫🇷 FR 002 | ⬇️ 9.27MB/s
-  - 🇫🇷 FR 002 | ⚡ 353.00ms
-  - 🇯🇵 JP 001 | ⚡ 458.00ms
-  - 🇯🇵 JP 002 | ⬇️ 8.78MB/s
-  - 🇨🇦 CA 019 | ⚡ 256.00ms
-  - 🇻🇳 VN 001 | ⬇️ 6.27MB/s
-  - 🇨🇦 CA 066 | ⬇️ 5.84MB/s
-  - 🇺🇸 US 022 | ⬇️ 5.43MB/s
-  - 🇺🇸 US 023 | ⬇️ 5.43MB/s
-  - 🇰🇷 KR 001 | ⚡ 637.00ms
-  - 🇷🇺 RU 002 | ⚡ 2424.00ms
-  - 🇩🇪 DE 014 | ⚡ 5024.00ms
-  - 🇩🇪 DE 021 | ⬇️ 1.14MB/s
-  - 🇺🇸 US 011 | ⚡ 1654.00ms
+  - 🇨🇦 CA 001 | ⬇️ 237.04MB/s
+  - 🇨🇦 CA 002 | ⬇️ 226.51MB/s
+  - 🇨🇦 CA 003 | ⬇️ 226.18MB/s
+  - 🇨🇦 CA 004 | ⬇️ 225.18MB/s
+  - 🇨🇦 CA 005 | ⬇️ 217.96MB/s
+  - 🇵🇹 PT 001 | ⬇️ 217.25MB/s
+  - 🇨🇦 CA 006 | ⬇️ 213.66MB/s
+  - 🇨🇦 CA 007 | ⬇️ 210.82MB/s
+  - 🇨🇦 CA 008 | ⬇️ 206.13MB/s
+  - 🇨🇦 CA 009 | ⬇️ 204.41MB/s
+  - 🇨🇦 CA 010 | ⬇️ 202.65MB/s
+  - 🇺🇸 US 001 | ⬇️ 200.71MB/s
+  - 🇨🇦 CA 011 | ⬇️ 200.00MB/s
+  - 🇨🇦 CA 012 | ⬇️ 199.90MB/s
+  - 🇦🇪 AE 001 | ⬇️ 198.13MB/s
+  - 🇳🇱 NL 001 | ⬇️ 197.71MB/s
+  - 🇨🇦 CA 013 | ⬇️ 196.65MB/s
+  - 🇨🇦 CA 014 | ⬇️ 196.53MB/s
+  - 🇬🇧 GB 001 | ⬇️ 194.90MB/s
+  - 🇨🇦 CA 015 | ⬇️ 194.54MB/s
+  - 🇨🇦 CA 016 | ⬇️ 194.32MB/s
+  - 🇺🇸 US 002 | ⬇️ 192.79MB/s
+  - 🇨🇦 CA 017 | ⬇️ 189.87MB/s
+  - 🇨🇦 CA 018 | ⬇️ 181.58MB/s
+  - 🇨🇦 CA 019 | ⬇️ 180.46MB/s
+  - 🇨🇦 CA 020 | ⬇️ 179.21MB/s
+  - 🇨🇦 CA 021 | ⬇️ 177.24MB/s
+  - 🇨🇦 CA 022 | ⬇️ 174.70MB/s
+  - 🏳️ IR 001 | ⬇️ 173.19MB/s
+  - 🇨🇦 CA 023 | ⬇️ 170.56MB/s
+  - 🇨🇦 CA 024 | ⬇️ 166.42MB/s
+  - 🇨🇦 CA 025 | ⬇️ 166.18MB/s
+  - 🇨🇦 CA 026 | ⬇️ 162.48MB/s
+  - 🇨🇦 CA 027 | ⬇️ 159.91MB/s
+  - 🇨🇦 CA 028 | ⬇️ 159.25MB/s
+  - 🇬🇧 GB 002 | ⬇️ 156.96MB/s
+  - 🇨🇦 CA 029 | ⬇️ 156.78MB/s
+  - 🇨🇦 CA 030 | ⬇️ 155.58MB/s
+  - 🇨🇦 CA 031 | ⬇️ 155.47MB/s
+  - 🇨🇦 CA 032 | ⬇️ 150.78MB/s
+  - 🇨🇦 CA 033 | ⬇️ 150.76MB/s
+  - 🇨🇦 CA 034 | ⬇️ 150.46MB/s
+  - 🇨🇦 CA 035 | ⬇️ 149.79MB/s
+  - 🇨🇦 CA 036 | ⬇️ 148.81MB/s
+  - 🇨🇦 CA 037 | ⬇️ 148.60MB/s
+  - 🇨🇦 CA 038 | ⬇️ 147.76MB/s
+  - 🇨🇦 CA 039 | ⬇️ 147.60MB/s
+  - 🇨🇦 CA 040 | ⬇️ 145.13MB/s
+  - 🇺🇸 US 003 | ⬇️ 143.62MB/s
+  - 🇺🇸 US 004 | ⬇️ 143.41MB/s
+  - 🇨🇦 CA 041 | ⬇️ 143.18MB/s
+  - 🇨🇦 CA 042 | ⬇️ 136.71MB/s
+  - 🇨🇦 CA 043 | ⬇️ 136.29MB/s
+  - 🇨🇦 CA 044 | ⬇️ 135.21MB/s
+  - 🇨🇦 CA 045 | ⬇️ 134.91MB/s
+  - 🇨🇦 CA 046 | ⬇️ 134.66MB/s
+  - 🇨🇦 CA 047 | ⬇️ 125.91MB/s
+  - 🇨🇦 CA 048 | ⬇️ 122.29MB/s
+  - 🇨🇦 CA 049 | ⬇️ 121.00MB/s
+  - 🇨🇦 CA 050 | ⬇️ 119.19MB/s
+  - 🇵🇱 PL 001 | ⬇️ 114.06MB/s
+  - 🇨🇦 CA 051 | ⬇️ 111.80MB/s
+  - 🇨🇦 CA 052 | ⬇️ 111.23MB/s
+  - 🇨🇦 CA 053 | ⬇️ 99.81MB/s
+  - 🇨🇦 CA 054 | ⬇️ 76.47MB/s
+  - 🇺🇸 US 005 | ⬇️ 66.78MB/s
+  - 🇺🇸 US 006 | ⬇️ 59.22MB/s
+  - 🇺🇸 US 007 | ⬇️ 58.37MB/s
+  - 🇺🇸 US 008 | ⬇️ 51.61MB/s
+  - 🇺🇸 US 009 | ⬇️ 51.43MB/s
+  - 🇺🇸 US 010 | ⬇️ 51.22MB/s
+  - 🇺🇸 US 011 | ⬇️ 50.28MB/s
+  - 🇨🇦 CA 055 | ⬇️ 49.93MB/s
+  - 🇺🇸 US 012 | ⬇️ 46.18MB/s
+  - 🇨🇦 CA 056 | ⬇️ 45.47MB/s
+  - 🇨🇷 CR 001 | ⬇️ 44.32MB/s
+  - 🇸🇨 SC 001 | ⬇️ 42.87MB/s
+  - 🇨🇦 CA 057 | ⬇️ 42.42MB/s
+  - 🇨🇦 CA 058 | ⬇️ 42.12MB/s
+  - 🇨🇦 CA 059 | ⬇️ 41.96MB/s
+  - 🇨🇦 CA 060 | ⬇️ 41.71MB/s
+  - 🇸🇨 SC 002 | ⬇️ 40.76MB/s
+  - 🇺🇸 US 013 | ⬇️ 40.34MB/s
+  - 🇺🇸 US 014 | ⬇️ 38.92MB/s
+  - 🇺🇸 US 015 | ⬇️ 38.74MB/s
+  - 🇨🇦 CA 061 | ⬇️ 37.65MB/s
+  - 🇺🇸 US 016 | ⬇️ 37.59MB/s
+  - 🇨🇦 CA 062 | ⬇️ 37.43MB/s
+  - 🇺🇸 US 017 | ⬇️ 37.39MB/s
+  - 🇨🇦 CA 063 | ⬇️ 37.27MB/s
+  - 🇨🇦 CA 064 | ⬇️ 37.08MB/s
+  - 🇨🇦 CA 065 | ⬇️ 36.96MB/s
+  - 🇺🇸 US 018 | ⬇️ 36.54MB/s
+  - 🇨🇦 CA 066 | ⬇️ 36.39MB/s
+  - 🇺🇸 US 019 | ⬇️ 36.12MB/s
+  - 🇨🇦 CA 067 | ⬇️ 35.74MB/s
+  - 🇨🇦 CA 068 | ⬇️ 34.38MB/s
+  - 🇸🇨 SC 003 | ⬇️ 32.28MB/s
+  - 🇨🇦 CA 069 | ⬇️ 31.58MB/s
+  - 🇨🇦 CA 070 | ⬇️ 30.81MB/s
+  - 🇩🇪 DE 001 | ⬇️ 29.93MB/s
+  - 🇩🇪 DE 002 | ⬇️ 29.89MB/s
+  - 🇺🇸 US 020 | ⬇️ 29.89MB/s
+  - 🇸🇨 SC 004 | ⬇️ 29.42MB/s
+  - 🇩🇪 DE 003 | ⬇️ 29.29MB/s
+  - 🇺🇸 US 021 | ⬇️ 29.25MB/s
+  - 🇩🇪 DE 004 | ⬇️ 28.79MB/s
+  - 🇩🇪 DE 005 | ⬇️ 26.82MB/s
+  - 🇩🇪 DE 006 | ⬇️ 26.63MB/s
+  - 🇸🇨 SC 005 | ⬇️ 26.18MB/s
+  - 🇺🇸 US 022 | ⬇️ 26.16MB/s
+  - 🇩🇪 DE 007 | ⬇️ 25.76MB/s
+  - 🇩🇪 DE 008 | ⬇️ 25.00MB/s
+  - 🇪🇸 ES 001 | ⬇️ 24.71MB/s
+  - 🇩🇪 DE 009 | ⬇️ 24.54MB/s
+  - 🇨🇭 CH 001 | ⚡ 381.00ms
+  - 🇩🇪 DE 010 | ⬇️ 22.52MB/s
+  - 🇨🇦 CA 071 | ⬇️ 21.67MB/s
+  - 🇺🇸 US 023 | ⬇️ 21.57MB/s
+  - 🇩🇪 DE 011 | ⬇️ 20.53MB/s
+  - 🇩🇪 DE 012 | ⬇️ 19.53MB/s
+  - 🇩🇪 DE 013 | ⬇️ 19.40MB/s
+  - 🇯🇵 JP 001 | ⚡ 336.00ms
+  - 🇸🇬 SG 002 | ⚡ 453.00ms
+  - 🇸🇬 SG 003 | ⚡ 455.00ms
+  - 🇨🇦 CA 054 | ⚡ 276.00ms
+  - 🇨🇦 CA 072 | ⬇️ 12.91MB/s
+  - 🇯🇵 JP 001 | ⬇️ 12.59MB/s
+  - 🇨🇦 CA 073 | ⬇️ 11.49MB/s
+  - 🇨🇦 CA 074 | ⬇️ 11.43MB/s
+  - 🇨🇦 CA 075 | ⬇️ 11.37MB/s
+  - 🇺🇸 US 024 | ⬇️ 11.07MB/s
+  - 🇨🇦 CA 058 | ⚡ 280.00ms
+  - 🇺🇸 US 025 | ⬇️ 10.23MB/s
+  - 🇩🇪 DE 014 | ⬇️ 10.18MB/s
+  - 🇨🇦 CA 076 | ⬇️ 9.56MB/s
+  - 🇫🇷 FR 001 | ⬇️ 9.43MB/s
+  - 🇺🇸 US 010 | ⚡ 289.00ms
+  - 🇯🇵 JP 003 | ⚡ 353.00ms
+  - 🇨🇦 CA 012 | ⚡ 311.00ms
+  - 🇯🇵 JP 002 | ⚡ 343.00ms
+  - 🇰🇷 KR 001 | ⚡ 949.00ms
+  - 🇪🇸 ES 001 | ⚡ 271.00ms
+  - 🇫🇷 FR 002 | ⬇️ 6.70MB/s
+  - 🇨🇦 CA 077 | ⬇️ 6.50MB/s
+  - 🇨🇦 CA 070 | ⚡ 346.00ms
+  - 🇨🇦 CA 010 | ⚡ 299.00ms
+  - 🇸🇨 SC 002 | ⚡ 270.00ms
+  - 🇰🇷 KR 001 | ⬇️ 5.30MB/s
+  - 🇨🇦 CA 078 | ⬇️ 5.16MB/s
+  - 🇰🇷 KR 001 | ⚡ 495.00ms
+  - 🇬🇧 GB 001 | ⚡ 479.00ms
+  - 🇰🇷 KR 001 | ⚡ 631.00ms
+  - 🇨🇦 CA 011 | ⚡ 300.00ms
+  - 🇨🇦 CA 048 | ⚡ 264.00ms
+  - 🇨🇦 CA 050 | ⚡ 269.00ms
+  - 🇨🇦 CA 044 | ⚡ 251.00ms
+  - 🇺🇸 US 002 | ⚡ 131.00ms
+  - 🇸🇨 SC 001 | ⚡ 253.00ms
+  - 🇺🇸 US 003 | ⚡ 99.00ms
+  - 🇨🇦 CA 043 | ⚡ 248.00ms
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 50
 - name: 低延迟
   type: url-test
   proxies:
-  - 🇨🇦 CA 001 | ⬇️ 286.61MB/s
-  - 🇨🇦 CA 002 | ⬇️ 282.48MB/s
-  - 🇨🇦 CA 003 | ⬇️ 282.12MB/s
-  - 🇨🇦 CA 004 | ⬇️ 277.60MB/s
-  - 🇨🇦 CA 005 | ⬇️ 274.23MB/s
-  - 🇨🇦 CA 006 | ⬇️ 271.72MB/s
-  - 🇦🇪 AE 001 | ⬇️ 223.23MB/s
-  - 🇨🇦 CA 007 | ⬇️ 220.38MB/s
-  - 🏳️ IR 001 | ⬇️ 219.90MB/s
-  - 🇬🇧 GB 001 | ⬇️ 219.10MB/s
-  - 🇺🇸 US 001 | ⬇️ 210.95MB/s
-  - 🇨🇦 CA 008 | ⬇️ 202.45MB/s
-  - 🇨🇦 CA 009 | ⬇️ 202.10MB/s
-  - 🇺🇸 US 002 | ⬇️ 200.80MB/s
-  - 🇨🇦 CA 010 | ⬇️ 200.67MB/s
-  - 🇨🇦 CA 011 | ⬇️ 199.29MB/s
-  - 🇨🇦 CA 012 | ⬇️ 197.13MB/s
-  - 🇨🇦 CA 013 | ⬇️ 195.70MB/s
-  - 🇨🇦 CA 014 | ⬇️ 192.25MB/s
-  - 🇨🇦 CA 015 | ⬇️ 188.30MB/s
-  - 🇨🇦 CA 016 | ⬇️ 183.15MB/s
-  - 🇨🇦 CA 017 | ⬇️ 177.21MB/s
-  - 🇨🇦 CA 018 | ⬇️ 170.54MB/s
-  - 🇨🇦 CA 019 | ⬇️ 169.54MB/s
-  - 🇨🇦 CA 020 | ⬇️ 168.34MB/s
-  - 🇳🇱 NL 001 | ⬇️ 165.37MB/s
-  - 🇨🇦 CA 021 | ⬇️ 156.56MB/s
-  - 🇨🇦 CA 022 | ⬇️ 150.60MB/s
-  - 🇨🇦 CA 023 | ⬇️ 148.20MB/s
-  - 🇨🇦 CA 024 | ⬇️ 144.50MB/s
-  - 🇨🇦 CA 025 | ⬇️ 135.72MB/s
-  - 🇺🇸 US 003 | ⬇️ 132.33MB/s
-  - 🇺🇸 US 004 | ⬇️ 121.41MB/s
-  - 🇨🇦 CA 026 | ⬇️ 105.27MB/s
-  - 🇺🇸 US 005 | ⬇️ 101.06MB/s
-  - 🇺🇸 US 006 | ⬇️ 67.97MB/s
-  - 🇺🇸 US 007 | ⬇️ 52.57MB/s
-  - 🇨🇦 CA 027 | ⬇️ 50.38MB/s
-  - 🇺🇸 US 008 | ⬇️ 45.01MB/s
-  - 🇬🇧 GB 002 | ⬇️ 44.68MB/s
-  - 🇺🇸 US 009 | ⬇️ 44.36MB/s
-  - 🇺🇸 US 010 | ⬇️ 44.26MB/s
-  - 🇸🇨 SC 001 | ⬇️ 43.91MB/s
-  - 🇺🇸 US 011 | ⬇️ 43.34MB/s
-  - 🇺🇸 US 012 | ⬇️ 42.88MB/s
-  - 🇸🇨 SC 002 | ⬇️ 42.58MB/s
-  - 🇨🇦 CA 028 | ⬇️ 41.85MB/s
-  - 🇨🇦 CA 029 | ⬇️ 41.83MB/s
-  - 🇺🇸 US 013 | ⬇️ 41.78MB/s
-  - 🇸🇨 SC 003 | ⬇️ 41.20MB/s
-  - 🇪🇸 ES 001 | ⬇️ 41.16MB/s
-  - 🇨🇦 CA 030 | ⬇️ 41.08MB/s
-  - 🇨🇦 CA 031 | ⬇️ 40.37MB/s
-  - 🇸🇨 SC 004 | ⬇️ 40.32MB/s
-  - 🇺🇸 US 014 | ⬇️ 40.26MB/s
-  - 🇨🇦 CA 032 | ⬇️ 40.05MB/s
-  - 🇨🇦 CA 033 | ⬇️ 39.84MB/s
-  - 🇺🇸 US 015 | ⬇️ 39.74MB/s
-  - 🇨🇦 CA 034 | ⬇️ 39.67MB/s
-  - 🇨🇦 CA 035 | ⬇️ 39.51MB/s
-  - 🇨🇦 CA 036 | ⬇️ 39.47MB/s
-  - 🇨🇦 CA 037 | ⬇️ 39.36MB/s
-  - 🇨🇦 CA 038 | ⬇️ 39.06MB/s
-  - 🇨🇦 CA 039 | ⬇️ 39.03MB/s
-  - 🇨🇦 CA 040 | ⬇️ 38.88MB/s
-  - 🇨🇦 CA 041 | ⬇️ 38.76MB/s
-  - 🇨🇦 CA 042 | ⬇️ 38.68MB/s
-  - 🇨🇦 CA 043 | ⬇️ 38.58MB/s
-  - 🇨🇦 CA 044 | ⬇️ 38.53MB/s
-  - 🇨🇦 CA 045 | ⬇️ 38.47MB/s
-  - 🇺🇸 US 016 | ⬇️ 38.35MB/s
-  - 🇨🇦 CA 046 | ⬇️ 38.25MB/s
-  - 🇨🇦 CA 047 | ⬇️ 38.23MB/s
-  - 🇨🇦 CA 048 | ⬇️ 37.90MB/s
-  - 🇸🇨 SC 005 | ⬇️ 37.87MB/s
-  - 🇩🇪 DE 001 | ⬇️ 37.72MB/s
-  - 🇨🇦 CA 049 | ⬇️ 37.46MB/s
-  - 🇨🇦 CA 050 | ⬇️ 37.04MB/s
-  - 🇨🇦 CA 051 | ⬇️ 36.77MB/s
-  - 🇺🇸 US 017 | ⬇️ 36.16MB/s
-  - 🇨🇦 CA 052 | ⬇️ 36.07MB/s
-  - 🇨🇦 CA 053 | ⬇️ 35.90MB/s
-  - 🇨🇦 CA 054 | ⬇️ 35.74MB/s
-  - 🇨🇦 CA 055 | ⬇️ 35.69MB/s
-  - 🇺🇸 US 018 | ⬇️ 35.64MB/s
-  - 🇨🇦 CA 056 | ⬇️ 35.55MB/s
-  - 🇨🇦 CA 057 | ⬇️ 35.55MB/s
-  - 🇺🇸 US 019 | ⬇️ 35.45MB/s
-  - 🇨🇦 CA 058 | ⬇️ 35.07MB/s
-  - 🇨🇦 CA 059 | ⬇️ 35.00MB/s
-  - 🇫🇷 FR 001 | ⬇️ 34.61MB/s
-  - 🇨🇦 CA 060 | ⬇️ 34.53MB/s
-  - 🇺🇸 US 020 | ⬇️ 34.49MB/s
-  - 🇨🇦 CA 061 | ⬇️ 33.72MB/s
-  - 🇨🇦 CA 062 | ⬇️ 32.52MB/s
-  - 🇸🇨 SC 006 | ⬇️ 32.39MB/s
-  - 🇩🇪 DE 002 | ⬇️ 31.71MB/s
-  - 🇩🇪 DE 003 | ⬇️ 30.70MB/s
-  - 🇨🇷 CR 001 | ⬇️ 30.66MB/s
-  - 🇩🇪 DE 004 | ⬇️ 30.01MB/s
-  - 🇩🇪 DE 005 | ⬇️ 29.94MB/s
-  - 🇩🇪 DE 006 | ⬇️ 29.93MB/s
-  - 🇩🇪 DE 007 | ⬇️ 29.91MB/s
-  - 🇩🇪 DE 008 | ⬇️ 29.85MB/s
-  - 🇩🇪 DE 009 | ⬇️ 29.76MB/s
-  - 🇩🇪 DE 010 | ⬇️ 29.67MB/s
-  - 🇩🇪 DE 011 | ⬇️ 29.58MB/s
-  - 🇩🇪 DE 012 | ⬇️ 29.52MB/s
-  - 🇨🇦 CA 063 | ⬇️ 29.47MB/s
-  - 🇩🇪 DE 013 | ⬇️ 29.42MB/s
-  - 🇩🇪 DE 014 | ⬇️ 29.40MB/s
-  - 🇩🇪 DE 015 | ⬇️ 29.38MB/s
-  - 🇨🇦 CA 064 | ⬇️ 29.18MB/s
-  - 🇩🇪 DE 016 | ⬇️ 28.76MB/s
-  - 🇬🇧 GB 003 | ⬇️ 28.61MB/s
-  - 🇸🇨 SC 007 | ⬇️ 28.57MB/s
-  - 🇩🇪 DE 017 | ⬇️ 28.00MB/s
-  - 🇩🇪 DE 018 | ⬇️ 27.86MB/s
-  - 🇪🇸 ES 002 | ⬇️ 27.53MB/s
-  - 🇩🇪 DE 019 | ⬇️ 26.20MB/s
-  - 🇺🇸 US 021 | ⬇️ 22.52MB/s
-  - 🇺🇸 US 009 | ⚡ 401.00ms
-  - 🇯🇵 JP 004 | ⚡ 677.00ms
-  - 🇺🇸 US 006 | ⚡ 222.00ms
-  - 🇯🇵 JP 001 | ⬇️ 17.29MB/s
-  - 🇯🇵 JP 006 | ⚡ 722.00ms
-  - 🇸🇬 SG 001 | ⚡ 404.00ms
-  - 🇸🇬 SG 002 | ⚡ 429.00ms
-  - 🇯🇵 JP 005 | ⚡ 710.00ms
-  - 🇩🇪 DE 006 | ⚡ 641.00ms
-  - 🇩🇪 DE 020 | ⬇️ 12.93MB/s
-  - 🇲🇾 MY 001 | ⬇️ 12.86MB/s
-  - 🇨🇦 CA 065 | ⬇️ 11.48MB/s
-  - 🇯🇵 JP 007 | ⚡ 782.00ms
-  - 🇬🇧 GB 004 | ⬇️ 11.10MB/s
-  - 🇸🇨 SC 008 | ⬇️ 9.98MB/s
-  - 🇫🇷 FR 002 | ⬇️ 9.27MB/s
-  - 🇫🇷 FR 002 | ⚡ 353.00ms
-  - 🇯🇵 JP 001 | ⚡ 458.00ms
-  - 🇯🇵 JP 002 | ⬇️ 8.78MB/s
-  - 🇨🇦 CA 019 | ⚡ 256.00ms
-  - 🇻🇳 VN 001 | ⬇️ 6.27MB/s
-  - 🇨🇦 CA 066 | ⬇️ 5.84MB/s
-  - 🇺🇸 US 022 | ⬇️ 5.43MB/s
-  - 🇺🇸 US 023 | ⬇️ 5.43MB/s
-  - 🇰🇷 KR 001 | ⚡ 637.00ms
-  - 🇷🇺 RU 002 | ⚡ 2424.00ms
-  - 🇩🇪 DE 014 | ⚡ 5024.00ms
-  - 🇩🇪 DE 021 | ⬇️ 1.14MB/s
-  - 🇺🇸 US 011 | ⚡ 1654.00ms
+  - 🇨🇦 CA 001 | ⬇️ 237.04MB/s
+  - 🇨🇦 CA 002 | ⬇️ 226.51MB/s
+  - 🇨🇦 CA 003 | ⬇️ 226.18MB/s
+  - 🇨🇦 CA 004 | ⬇️ 225.18MB/s
+  - 🇨🇦 CA 005 | ⬇️ 217.96MB/s
+  - 🇵🇹 PT 001 | ⬇️ 217.25MB/s
+  - 🇨🇦 CA 006 | ⬇️ 213.66MB/s
+  - 🇨🇦 CA 007 | ⬇️ 210.82MB/s
+  - 🇨🇦 CA 008 | ⬇️ 206.13MB/s
+  - 🇨🇦 CA 009 | ⬇️ 204.41MB/s
+  - 🇨🇦 CA 010 | ⬇️ 202.65MB/s
+  - 🇺🇸 US 001 | ⬇️ 200.71MB/s
+  - 🇨🇦 CA 011 | ⬇️ 200.00MB/s
+  - 🇨🇦 CA 012 | ⬇️ 199.90MB/s
+  - 🇦🇪 AE 001 | ⬇️ 198.13MB/s
+  - 🇳🇱 NL 001 | ⬇️ 197.71MB/s
+  - 🇨🇦 CA 013 | ⬇️ 196.65MB/s
+  - 🇨🇦 CA 014 | ⬇️ 196.53MB/s
+  - 🇬🇧 GB 001 | ⬇️ 194.90MB/s
+  - 🇨🇦 CA 015 | ⬇️ 194.54MB/s
+  - 🇨🇦 CA 016 | ⬇️ 194.32MB/s
+  - 🇺🇸 US 002 | ⬇️ 192.79MB/s
+  - 🇨🇦 CA 017 | ⬇️ 189.87MB/s
+  - 🇨🇦 CA 018 | ⬇️ 181.58MB/s
+  - 🇨🇦 CA 019 | ⬇️ 180.46MB/s
+  - 🇨🇦 CA 020 | ⬇️ 179.21MB/s
+  - 🇨🇦 CA 021 | ⬇️ 177.24MB/s
+  - 🇨🇦 CA 022 | ⬇️ 174.70MB/s
+  - 🏳️ IR 001 | ⬇️ 173.19MB/s
+  - 🇨🇦 CA 023 | ⬇️ 170.56MB/s
+  - 🇨🇦 CA 024 | ⬇️ 166.42MB/s
+  - 🇨🇦 CA 025 | ⬇️ 166.18MB/s
+  - 🇨🇦 CA 026 | ⬇️ 162.48MB/s
+  - 🇨🇦 CA 027 | ⬇️ 159.91MB/s
+  - 🇨🇦 CA 028 | ⬇️ 159.25MB/s
+  - 🇬🇧 GB 002 | ⬇️ 156.96MB/s
+  - 🇨🇦 CA 029 | ⬇️ 156.78MB/s
+  - 🇨🇦 CA 030 | ⬇️ 155.58MB/s
+  - 🇨🇦 CA 031 | ⬇️ 155.47MB/s
+  - 🇨🇦 CA 032 | ⬇️ 150.78MB/s
+  - 🇨🇦 CA 033 | ⬇️ 150.76MB/s
+  - 🇨🇦 CA 034 | ⬇️ 150.46MB/s
+  - 🇨🇦 CA 035 | ⬇️ 149.79MB/s
+  - 🇨🇦 CA 036 | ⬇️ 148.81MB/s
+  - 🇨🇦 CA 037 | ⬇️ 148.60MB/s
+  - 🇨🇦 CA 038 | ⬇️ 147.76MB/s
+  - 🇨🇦 CA 039 | ⬇️ 147.60MB/s
+  - 🇨🇦 CA 040 | ⬇️ 145.13MB/s
+  - 🇺🇸 US 003 | ⬇️ 143.62MB/s
+  - 🇺🇸 US 004 | ⬇️ 143.41MB/s
+  - 🇨🇦 CA 041 | ⬇️ 143.18MB/s
+  - 🇨🇦 CA 042 | ⬇️ 136.71MB/s
+  - 🇨🇦 CA 043 | ⬇️ 136.29MB/s
+  - 🇨🇦 CA 044 | ⬇️ 135.21MB/s
+  - 🇨🇦 CA 045 | ⬇️ 134.91MB/s
+  - 🇨🇦 CA 046 | ⬇️ 134.66MB/s
+  - 🇨🇦 CA 047 | ⬇️ 125.91MB/s
+  - 🇨🇦 CA 048 | ⬇️ 122.29MB/s
+  - 🇨🇦 CA 049 | ⬇️ 121.00MB/s
+  - 🇨🇦 CA 050 | ⬇️ 119.19MB/s
+  - 🇵🇱 PL 001 | ⬇️ 114.06MB/s
+  - 🇨🇦 CA 051 | ⬇️ 111.80MB/s
+  - 🇨🇦 CA 052 | ⬇️ 111.23MB/s
+  - 🇨🇦 CA 053 | ⬇️ 99.81MB/s
+  - 🇨🇦 CA 054 | ⬇️ 76.47MB/s
+  - 🇺🇸 US 005 | ⬇️ 66.78MB/s
+  - 🇺🇸 US 006 | ⬇️ 59.22MB/s
+  - 🇺🇸 US 007 | ⬇️ 58.37MB/s
+  - 🇺🇸 US 008 | ⬇️ 51.61MB/s
+  - 🇺🇸 US 009 | ⬇️ 51.43MB/s
+  - 🇺🇸 US 010 | ⬇️ 51.22MB/s
+  - 🇺🇸 US 011 | ⬇️ 50.28MB/s
+  - 🇨🇦 CA 055 | ⬇️ 49.93MB/s
+  - 🇺🇸 US 012 | ⬇️ 46.18MB/s
+  - 🇨🇦 CA 056 | ⬇️ 45.47MB/s
+  - 🇨🇷 CR 001 | ⬇️ 44.32MB/s
+  - 🇸🇨 SC 001 | ⬇️ 42.87MB/s
+  - 🇨🇦 CA 057 | ⬇️ 42.42MB/s
+  - 🇨🇦 CA 058 | ⬇️ 42.12MB/s
+  - 🇨🇦 CA 059 | ⬇️ 41.96MB/s
+  - 🇨🇦 CA 060 | ⬇️ 41.71MB/s
+  - 🇸🇨 SC 002 | ⬇️ 40.76MB/s
+  - 🇺🇸 US 013 | ⬇️ 40.34MB/s
+  - 🇺🇸 US 014 | ⬇️ 38.92MB/s
+  - 🇺🇸 US 015 | ⬇️ 38.74MB/s
+  - 🇨🇦 CA 061 | ⬇️ 37.65MB/s
+  - 🇺🇸 US 016 | ⬇️ 37.59MB/s
+  - 🇨🇦 CA 062 | ⬇️ 37.43MB/s
+  - 🇺🇸 US 017 | ⬇️ 37.39MB/s
+  - 🇨🇦 CA 063 | ⬇️ 37.27MB/s
+  - 🇨🇦 CA 064 | ⬇️ 37.08MB/s
+  - 🇨🇦 CA 065 | ⬇️ 36.96MB/s
+  - 🇺🇸 US 018 | ⬇️ 36.54MB/s
+  - 🇨🇦 CA 066 | ⬇️ 36.39MB/s
+  - 🇺🇸 US 019 | ⬇️ 36.12MB/s
+  - 🇨🇦 CA 067 | ⬇️ 35.74MB/s
+  - 🇨🇦 CA 068 | ⬇️ 34.38MB/s
+  - 🇸🇨 SC 003 | ⬇️ 32.28MB/s
+  - 🇨🇦 CA 069 | ⬇️ 31.58MB/s
+  - 🇨🇦 CA 070 | ⬇️ 30.81MB/s
+  - 🇩🇪 DE 001 | ⬇️ 29.93MB/s
+  - 🇩🇪 DE 002 | ⬇️ 29.89MB/s
+  - 🇺🇸 US 020 | ⬇️ 29.89MB/s
+  - 🇸🇨 SC 004 | ⬇️ 29.42MB/s
+  - 🇩🇪 DE 003 | ⬇️ 29.29MB/s
+  - 🇺🇸 US 021 | ⬇️ 29.25MB/s
+  - 🇩🇪 DE 004 | ⬇️ 28.79MB/s
+  - 🇩🇪 DE 005 | ⬇️ 26.82MB/s
+  - 🇩🇪 DE 006 | ⬇️ 26.63MB/s
+  - 🇸🇨 SC 005 | ⬇️ 26.18MB/s
+  - 🇺🇸 US 022 | ⬇️ 26.16MB/s
+  - 🇩🇪 DE 007 | ⬇️ 25.76MB/s
+  - 🇩🇪 DE 008 | ⬇️ 25.00MB/s
+  - 🇪🇸 ES 001 | ⬇️ 24.71MB/s
+  - 🇩🇪 DE 009 | ⬇️ 24.54MB/s
+  - 🇨🇭 CH 001 | ⚡ 381.00ms
+  - 🇩🇪 DE 010 | ⬇️ 22.52MB/s
+  - 🇨🇦 CA 071 | ⬇️ 21.67MB/s
+  - 🇺🇸 US 023 | ⬇️ 21.57MB/s
+  - 🇩🇪 DE 011 | ⬇️ 20.53MB/s
+  - 🇩🇪 DE 012 | ⬇️ 19.53MB/s
+  - 🇩🇪 DE 013 | ⬇️ 19.40MB/s
+  - 🇯🇵 JP 001 | ⚡ 336.00ms
+  - 🇸🇬 SG 002 | ⚡ 453.00ms
+  - 🇸🇬 SG 003 | ⚡ 455.00ms
+  - 🇨🇦 CA 054 | ⚡ 276.00ms
+  - 🇨🇦 CA 072 | ⬇️ 12.91MB/s
+  - 🇯🇵 JP 001 | ⬇️ 12.59MB/s
+  - 🇨🇦 CA 073 | ⬇️ 11.49MB/s
+  - 🇨🇦 CA 074 | ⬇️ 11.43MB/s
+  - 🇨🇦 CA 075 | ⬇️ 11.37MB/s
+  - 🇺🇸 US 024 | ⬇️ 11.07MB/s
+  - 🇨🇦 CA 058 | ⚡ 280.00ms
+  - 🇺🇸 US 025 | ⬇️ 10.23MB/s
+  - 🇩🇪 DE 014 | ⬇️ 10.18MB/s
+  - 🇨🇦 CA 076 | ⬇️ 9.56MB/s
+  - 🇫🇷 FR 001 | ⬇️ 9.43MB/s
+  - 🇺🇸 US 010 | ⚡ 289.00ms
+  - 🇯🇵 JP 003 | ⚡ 353.00ms
+  - 🇨🇦 CA 012 | ⚡ 311.00ms
+  - 🇯🇵 JP 002 | ⚡ 343.00ms
+  - 🇰🇷 KR 001 | ⚡ 949.00ms
+  - 🇪🇸 ES 001 | ⚡ 271.00ms
+  - 🇫🇷 FR 002 | ⬇️ 6.70MB/s
+  - 🇨🇦 CA 077 | ⬇️ 6.50MB/s
+  - 🇨🇦 CA 070 | ⚡ 346.00ms
+  - 🇨🇦 CA 010 | ⚡ 299.00ms
+  - 🇸🇨 SC 002 | ⚡ 270.00ms
+  - 🇰🇷 KR 001 | ⬇️ 5.30MB/s
+  - 🇨🇦 CA 078 | ⬇️ 5.16MB/s
+  - 🇰🇷 KR 001 | ⚡ 495.00ms
+  - 🇬🇧 GB 001 | ⚡ 479.00ms
+  - 🇰🇷 KR 001 | ⚡ 631.00ms
+  - 🇨🇦 CA 011 | ⚡ 300.00ms
+  - 🇨🇦 CA 048 | ⚡ 264.00ms
+  - 🇨🇦 CA 050 | ⚡ 269.00ms
+  - 🇨🇦 CA 044 | ⚡ 251.00ms
+  - 🇺🇸 US 002 | ⚡ 131.00ms
+  - 🇸🇨 SC 001 | ⚡ 253.00ms
+  - 🇺🇸 US 003 | ⚡ 99.00ms
+  - 🇨🇦 CA 043 | ⚡ 248.00ms
   url: http://www.gstatic.com/generate_204
   interval: 180
   tolerance: 30
@@ -2176,156 +2503,167 @@ proxy-groups:
   type: load-balance
   strategy: consistent-hashing
   proxies:
-  - 🇨🇦 CA 001 | ⬇️ 286.61MB/s
-  - 🇨🇦 CA 002 | ⬇️ 282.48MB/s
-  - 🇨🇦 CA 003 | ⬇️ 282.12MB/s
-  - 🇨🇦 CA 004 | ⬇️ 277.60MB/s
-  - 🇨🇦 CA 005 | ⬇️ 274.23MB/s
-  - 🇨🇦 CA 006 | ⬇️ 271.72MB/s
-  - 🇦🇪 AE 001 | ⬇️ 223.23MB/s
-  - 🇨🇦 CA 007 | ⬇️ 220.38MB/s
-  - 🏳️ IR 001 | ⬇️ 219.90MB/s
-  - 🇬🇧 GB 001 | ⬇️ 219.10MB/s
-  - 🇺🇸 US 001 | ⬇️ 210.95MB/s
-  - 🇨🇦 CA 008 | ⬇️ 202.45MB/s
-  - 🇨🇦 CA 009 | ⬇️ 202.10MB/s
-  - 🇺🇸 US 002 | ⬇️ 200.80MB/s
-  - 🇨🇦 CA 010 | ⬇️ 200.67MB/s
-  - 🇨🇦 CA 011 | ⬇️ 199.29MB/s
-  - 🇨🇦 CA 012 | ⬇️ 197.13MB/s
-  - 🇨🇦 CA 013 | ⬇️ 195.70MB/s
-  - 🇨🇦 CA 014 | ⬇️ 192.25MB/s
-  - 🇨🇦 CA 015 | ⬇️ 188.30MB/s
-  - 🇨🇦 CA 016 | ⬇️ 183.15MB/s
-  - 🇨🇦 CA 017 | ⬇️ 177.21MB/s
-  - 🇨🇦 CA 018 | ⬇️ 170.54MB/s
-  - 🇨🇦 CA 019 | ⬇️ 169.54MB/s
-  - 🇨🇦 CA 020 | ⬇️ 168.34MB/s
-  - 🇳🇱 NL 001 | ⬇️ 165.37MB/s
-  - 🇨🇦 CA 021 | ⬇️ 156.56MB/s
-  - 🇨🇦 CA 022 | ⬇️ 150.60MB/s
-  - 🇨🇦 CA 023 | ⬇️ 148.20MB/s
-  - 🇨🇦 CA 024 | ⬇️ 144.50MB/s
-  - 🇨🇦 CA 025 | ⬇️ 135.72MB/s
-  - 🇺🇸 US 003 | ⬇️ 132.33MB/s
-  - 🇺🇸 US 004 | ⬇️ 121.41MB/s
-  - 🇨🇦 CA 026 | ⬇️ 105.27MB/s
-  - 🇺🇸 US 005 | ⬇️ 101.06MB/s
-  - 🇺🇸 US 006 | ⬇️ 67.97MB/s
-  - 🇺🇸 US 007 | ⬇️ 52.57MB/s
-  - 🇨🇦 CA 027 | ⬇️ 50.38MB/s
-  - 🇺🇸 US 008 | ⬇️ 45.01MB/s
-  - 🇬🇧 GB 002 | ⬇️ 44.68MB/s
-  - 🇺🇸 US 009 | ⬇️ 44.36MB/s
-  - 🇺🇸 US 010 | ⬇️ 44.26MB/s
-  - 🇸🇨 SC 001 | ⬇️ 43.91MB/s
-  - 🇺🇸 US 011 | ⬇️ 43.34MB/s
-  - 🇺🇸 US 012 | ⬇️ 42.88MB/s
-  - 🇸🇨 SC 002 | ⬇️ 42.58MB/s
-  - 🇨🇦 CA 028 | ⬇️ 41.85MB/s
-  - 🇨🇦 CA 029 | ⬇️ 41.83MB/s
-  - 🇺🇸 US 013 | ⬇️ 41.78MB/s
-  - 🇸🇨 SC 003 | ⬇️ 41.20MB/s
-  - 🇪🇸 ES 001 | ⬇️ 41.16MB/s
-  - 🇨🇦 CA 030 | ⬇️ 41.08MB/s
-  - 🇨🇦 CA 031 | ⬇️ 40.37MB/s
-  - 🇸🇨 SC 004 | ⬇️ 40.32MB/s
-  - 🇺🇸 US 014 | ⬇️ 40.26MB/s
-  - 🇨🇦 CA 032 | ⬇️ 40.05MB/s
-  - 🇨🇦 CA 033 | ⬇️ 39.84MB/s
-  - 🇺🇸 US 015 | ⬇️ 39.74MB/s
-  - 🇨🇦 CA 034 | ⬇️ 39.67MB/s
-  - 🇨🇦 CA 035 | ⬇️ 39.51MB/s
-  - 🇨🇦 CA 036 | ⬇️ 39.47MB/s
-  - 🇨🇦 CA 037 | ⬇️ 39.36MB/s
-  - 🇨🇦 CA 038 | ⬇️ 39.06MB/s
-  - 🇨🇦 CA 039 | ⬇️ 39.03MB/s
-  - 🇨🇦 CA 040 | ⬇️ 38.88MB/s
-  - 🇨🇦 CA 041 | ⬇️ 38.76MB/s
-  - 🇨🇦 CA 042 | ⬇️ 38.68MB/s
-  - 🇨🇦 CA 043 | ⬇️ 38.58MB/s
-  - 🇨🇦 CA 044 | ⬇️ 38.53MB/s
-  - 🇨🇦 CA 045 | ⬇️ 38.47MB/s
-  - 🇺🇸 US 016 | ⬇️ 38.35MB/s
-  - 🇨🇦 CA 046 | ⬇️ 38.25MB/s
-  - 🇨🇦 CA 047 | ⬇️ 38.23MB/s
-  - 🇨🇦 CA 048 | ⬇️ 37.90MB/s
-  - 🇸🇨 SC 005 | ⬇️ 37.87MB/s
-  - 🇩🇪 DE 001 | ⬇️ 37.72MB/s
-  - 🇨🇦 CA 049 | ⬇️ 37.46MB/s
-  - 🇨🇦 CA 050 | ⬇️ 37.04MB/s
-  - 🇨🇦 CA 051 | ⬇️ 36.77MB/s
-  - 🇺🇸 US 017 | ⬇️ 36.16MB/s
-  - 🇨🇦 CA 052 | ⬇️ 36.07MB/s
-  - 🇨🇦 CA 053 | ⬇️ 35.90MB/s
-  - 🇨🇦 CA 054 | ⬇️ 35.74MB/s
-  - 🇨🇦 CA 055 | ⬇️ 35.69MB/s
-  - 🇺🇸 US 018 | ⬇️ 35.64MB/s
-  - 🇨🇦 CA 056 | ⬇️ 35.55MB/s
-  - 🇨🇦 CA 057 | ⬇️ 35.55MB/s
-  - 🇺🇸 US 019 | ⬇️ 35.45MB/s
-  - 🇨🇦 CA 058 | ⬇️ 35.07MB/s
-  - 🇨🇦 CA 059 | ⬇️ 35.00MB/s
-  - 🇫🇷 FR 001 | ⬇️ 34.61MB/s
-  - 🇨🇦 CA 060 | ⬇️ 34.53MB/s
-  - 🇺🇸 US 020 | ⬇️ 34.49MB/s
-  - 🇨🇦 CA 061 | ⬇️ 33.72MB/s
-  - 🇨🇦 CA 062 | ⬇️ 32.52MB/s
-  - 🇸🇨 SC 006 | ⬇️ 32.39MB/s
-  - 🇩🇪 DE 002 | ⬇️ 31.71MB/s
-  - 🇩🇪 DE 003 | ⬇️ 30.70MB/s
-  - 🇨🇷 CR 001 | ⬇️ 30.66MB/s
-  - 🇩🇪 DE 004 | ⬇️ 30.01MB/s
-  - 🇩🇪 DE 005 | ⬇️ 29.94MB/s
-  - 🇩🇪 DE 006 | ⬇️ 29.93MB/s
-  - 🇩🇪 DE 007 | ⬇️ 29.91MB/s
-  - 🇩🇪 DE 008 | ⬇️ 29.85MB/s
-  - 🇩🇪 DE 009 | ⬇️ 29.76MB/s
-  - 🇩🇪 DE 010 | ⬇️ 29.67MB/s
-  - 🇩🇪 DE 011 | ⬇️ 29.58MB/s
-  - 🇩🇪 DE 012 | ⬇️ 29.52MB/s
-  - 🇨🇦 CA 063 | ⬇️ 29.47MB/s
-  - 🇩🇪 DE 013 | ⬇️ 29.42MB/s
-  - 🇩🇪 DE 014 | ⬇️ 29.40MB/s
-  - 🇩🇪 DE 015 | ⬇️ 29.38MB/s
-  - 🇨🇦 CA 064 | ⬇️ 29.18MB/s
-  - 🇩🇪 DE 016 | ⬇️ 28.76MB/s
-  - 🇬🇧 GB 003 | ⬇️ 28.61MB/s
-  - 🇸🇨 SC 007 | ⬇️ 28.57MB/s
-  - 🇩🇪 DE 017 | ⬇️ 28.00MB/s
-  - 🇩🇪 DE 018 | ⬇️ 27.86MB/s
-  - 🇪🇸 ES 002 | ⬇️ 27.53MB/s
-  - 🇩🇪 DE 019 | ⬇️ 26.20MB/s
-  - 🇺🇸 US 021 | ⬇️ 22.52MB/s
-  - 🇺🇸 US 009 | ⚡ 401.00ms
-  - 🇯🇵 JP 004 | ⚡ 677.00ms
-  - 🇺🇸 US 006 | ⚡ 222.00ms
-  - 🇯🇵 JP 001 | ⬇️ 17.29MB/s
-  - 🇯🇵 JP 006 | ⚡ 722.00ms
-  - 🇸🇬 SG 001 | ⚡ 404.00ms
-  - 🇸🇬 SG 002 | ⚡ 429.00ms
-  - 🇯🇵 JP 005 | ⚡ 710.00ms
-  - 🇩🇪 DE 006 | ⚡ 641.00ms
-  - 🇩🇪 DE 020 | ⬇️ 12.93MB/s
-  - 🇲🇾 MY 001 | ⬇️ 12.86MB/s
-  - 🇨🇦 CA 065 | ⬇️ 11.48MB/s
-  - 🇯🇵 JP 007 | ⚡ 782.00ms
-  - 🇬🇧 GB 004 | ⬇️ 11.10MB/s
-  - 🇸🇨 SC 008 | ⬇️ 9.98MB/s
-  - 🇫🇷 FR 002 | ⬇️ 9.27MB/s
-  - 🇫🇷 FR 002 | ⚡ 353.00ms
-  - 🇯🇵 JP 001 | ⚡ 458.00ms
-  - 🇯🇵 JP 002 | ⬇️ 8.78MB/s
-  - 🇨🇦 CA 019 | ⚡ 256.00ms
-  - 🇻🇳 VN 001 | ⬇️ 6.27MB/s
-  - 🇨🇦 CA 066 | ⬇️ 5.84MB/s
-  - 🇺🇸 US 022 | ⬇️ 5.43MB/s
-  - 🇺🇸 US 023 | ⬇️ 5.43MB/s
-  - 🇰🇷 KR 001 | ⚡ 637.00ms
-  - 🇷🇺 RU 002 | ⚡ 2424.00ms
-  - 🇩🇪 DE 014 | ⚡ 5024.00ms
-  - 🇩🇪 DE 021 | ⬇️ 1.14MB/s
-  - 🇺🇸 US 011 | ⚡ 1654.00ms
+  - 🇨🇦 CA 001 | ⬇️ 237.04MB/s
+  - 🇨🇦 CA 002 | ⬇️ 226.51MB/s
+  - 🇨🇦 CA 003 | ⬇️ 226.18MB/s
+  - 🇨🇦 CA 004 | ⬇️ 225.18MB/s
+  - 🇨🇦 CA 005 | ⬇️ 217.96MB/s
+  - 🇵🇹 PT 001 | ⬇️ 217.25MB/s
+  - 🇨🇦 CA 006 | ⬇️ 213.66MB/s
+  - 🇨🇦 CA 007 | ⬇️ 210.82MB/s
+  - 🇨🇦 CA 008 | ⬇️ 206.13MB/s
+  - 🇨🇦 CA 009 | ⬇️ 204.41MB/s
+  - 🇨🇦 CA 010 | ⬇️ 202.65MB/s
+  - 🇺🇸 US 001 | ⬇️ 200.71MB/s
+  - 🇨🇦 CA 011 | ⬇️ 200.00MB/s
+  - 🇨🇦 CA 012 | ⬇️ 199.90MB/s
+  - 🇦🇪 AE 001 | ⬇️ 198.13MB/s
+  - 🇳🇱 NL 001 | ⬇️ 197.71MB/s
+  - 🇨🇦 CA 013 | ⬇️ 196.65MB/s
+  - 🇨🇦 CA 014 | ⬇️ 196.53MB/s
+  - 🇬🇧 GB 001 | ⬇️ 194.90MB/s
+  - 🇨🇦 CA 015 | ⬇️ 194.54MB/s
+  - 🇨🇦 CA 016 | ⬇️ 194.32MB/s
+  - 🇺🇸 US 002 | ⬇️ 192.79MB/s
+  - 🇨🇦 CA 017 | ⬇️ 189.87MB/s
+  - 🇨🇦 CA 018 | ⬇️ 181.58MB/s
+  - 🇨🇦 CA 019 | ⬇️ 180.46MB/s
+  - 🇨🇦 CA 020 | ⬇️ 179.21MB/s
+  - 🇨🇦 CA 021 | ⬇️ 177.24MB/s
+  - 🇨🇦 CA 022 | ⬇️ 174.70MB/s
+  - 🏳️ IR 001 | ⬇️ 173.19MB/s
+  - 🇨🇦 CA 023 | ⬇️ 170.56MB/s
+  - 🇨🇦 CA 024 | ⬇️ 166.42MB/s
+  - 🇨🇦 CA 025 | ⬇️ 166.18MB/s
+  - 🇨🇦 CA 026 | ⬇️ 162.48MB/s
+  - 🇨🇦 CA 027 | ⬇️ 159.91MB/s
+  - 🇨🇦 CA 028 | ⬇️ 159.25MB/s
+  - 🇬🇧 GB 002 | ⬇️ 156.96MB/s
+  - 🇨🇦 CA 029 | ⬇️ 156.78MB/s
+  - 🇨🇦 CA 030 | ⬇️ 155.58MB/s
+  - 🇨🇦 CA 031 | ⬇️ 155.47MB/s
+  - 🇨🇦 CA 032 | ⬇️ 150.78MB/s
+  - 🇨🇦 CA 033 | ⬇️ 150.76MB/s
+  - 🇨🇦 CA 034 | ⬇️ 150.46MB/s
+  - 🇨🇦 CA 035 | ⬇️ 149.79MB/s
+  - 🇨🇦 CA 036 | ⬇️ 148.81MB/s
+  - 🇨🇦 CA 037 | ⬇️ 148.60MB/s
+  - 🇨🇦 CA 038 | ⬇️ 147.76MB/s
+  - 🇨🇦 CA 039 | ⬇️ 147.60MB/s
+  - 🇨🇦 CA 040 | ⬇️ 145.13MB/s
+  - 🇺🇸 US 003 | ⬇️ 143.62MB/s
+  - 🇺🇸 US 004 | ⬇️ 143.41MB/s
+  - 🇨🇦 CA 041 | ⬇️ 143.18MB/s
+  - 🇨🇦 CA 042 | ⬇️ 136.71MB/s
+  - 🇨🇦 CA 043 | ⬇️ 136.29MB/s
+  - 🇨🇦 CA 044 | ⬇️ 135.21MB/s
+  - 🇨🇦 CA 045 | ⬇️ 134.91MB/s
+  - 🇨🇦 CA 046 | ⬇️ 134.66MB/s
+  - 🇨🇦 CA 047 | ⬇️ 125.91MB/s
+  - 🇨🇦 CA 048 | ⬇️ 122.29MB/s
+  - 🇨🇦 CA 049 | ⬇️ 121.00MB/s
+  - 🇨🇦 CA 050 | ⬇️ 119.19MB/s
+  - 🇵🇱 PL 001 | ⬇️ 114.06MB/s
+  - 🇨🇦 CA 051 | ⬇️ 111.80MB/s
+  - 🇨🇦 CA 052 | ⬇️ 111.23MB/s
+  - 🇨🇦 CA 053 | ⬇️ 99.81MB/s
+  - 🇨🇦 CA 054 | ⬇️ 76.47MB/s
+  - 🇺🇸 US 005 | ⬇️ 66.78MB/s
+  - 🇺🇸 US 006 | ⬇️ 59.22MB/s
+  - 🇺🇸 US 007 | ⬇️ 58.37MB/s
+  - 🇺🇸 US 008 | ⬇️ 51.61MB/s
+  - 🇺🇸 US 009 | ⬇️ 51.43MB/s
+  - 🇺🇸 US 010 | ⬇️ 51.22MB/s
+  - 🇺🇸 US 011 | ⬇️ 50.28MB/s
+  - 🇨🇦 CA 055 | ⬇️ 49.93MB/s
+  - 🇺🇸 US 012 | ⬇️ 46.18MB/s
+  - 🇨🇦 CA 056 | ⬇️ 45.47MB/s
+  - 🇨🇷 CR 001 | ⬇️ 44.32MB/s
+  - 🇸🇨 SC 001 | ⬇️ 42.87MB/s
+  - 🇨🇦 CA 057 | ⬇️ 42.42MB/s
+  - 🇨🇦 CA 058 | ⬇️ 42.12MB/s
+  - 🇨🇦 CA 059 | ⬇️ 41.96MB/s
+  - 🇨🇦 CA 060 | ⬇️ 41.71MB/s
+  - 🇸🇨 SC 002 | ⬇️ 40.76MB/s
+  - 🇺🇸 US 013 | ⬇️ 40.34MB/s
+  - 🇺🇸 US 014 | ⬇️ 38.92MB/s
+  - 🇺🇸 US 015 | ⬇️ 38.74MB/s
+  - 🇨🇦 CA 061 | ⬇️ 37.65MB/s
+  - 🇺🇸 US 016 | ⬇️ 37.59MB/s
+  - 🇨🇦 CA 062 | ⬇️ 37.43MB/s
+  - 🇺🇸 US 017 | ⬇️ 37.39MB/s
+  - 🇨🇦 CA 063 | ⬇️ 37.27MB/s
+  - 🇨🇦 CA 064 | ⬇️ 37.08MB/s
+  - 🇨🇦 CA 065 | ⬇️ 36.96MB/s
+  - 🇺🇸 US 018 | ⬇️ 36.54MB/s
+  - 🇨🇦 CA 066 | ⬇️ 36.39MB/s
+  - 🇺🇸 US 019 | ⬇️ 36.12MB/s
+  - 🇨🇦 CA 067 | ⬇️ 35.74MB/s
+  - 🇨🇦 CA 068 | ⬇️ 34.38MB/s
+  - 🇸🇨 SC 003 | ⬇️ 32.28MB/s
+  - 🇨🇦 CA 069 | ⬇️ 31.58MB/s
+  - 🇨🇦 CA 070 | ⬇️ 30.81MB/s
+  - 🇩🇪 DE 001 | ⬇️ 29.93MB/s
+  - 🇩🇪 DE 002 | ⬇️ 29.89MB/s
+  - 🇺🇸 US 020 | ⬇️ 29.89MB/s
+  - 🇸🇨 SC 004 | ⬇️ 29.42MB/s
+  - 🇩🇪 DE 003 | ⬇️ 29.29MB/s
+  - 🇺🇸 US 021 | ⬇️ 29.25MB/s
+  - 🇩🇪 DE 004 | ⬇️ 28.79MB/s
+  - 🇩🇪 DE 005 | ⬇️ 26.82MB/s
+  - 🇩🇪 DE 006 | ⬇️ 26.63MB/s
+  - 🇸🇨 SC 005 | ⬇️ 26.18MB/s
+  - 🇺🇸 US 022 | ⬇️ 26.16MB/s
+  - 🇩🇪 DE 007 | ⬇️ 25.76MB/s
+  - 🇩🇪 DE 008 | ⬇️ 25.00MB/s
+  - 🇪🇸 ES 001 | ⬇️ 24.71MB/s
+  - 🇩🇪 DE 009 | ⬇️ 24.54MB/s
+  - 🇨🇭 CH 001 | ⚡ 381.00ms
+  - 🇩🇪 DE 010 | ⬇️ 22.52MB/s
+  - 🇨🇦 CA 071 | ⬇️ 21.67MB/s
+  - 🇺🇸 US 023 | ⬇️ 21.57MB/s
+  - 🇩🇪 DE 011 | ⬇️ 20.53MB/s
+  - 🇩🇪 DE 012 | ⬇️ 19.53MB/s
+  - 🇩🇪 DE 013 | ⬇️ 19.40MB/s
+  - 🇯🇵 JP 001 | ⚡ 336.00ms
+  - 🇸🇬 SG 002 | ⚡ 453.00ms
+  - 🇸🇬 SG 003 | ⚡ 455.00ms
+  - 🇨🇦 CA 054 | ⚡ 276.00ms
+  - 🇨🇦 CA 072 | ⬇️ 12.91MB/s
+  - 🇯🇵 JP 001 | ⬇️ 12.59MB/s
+  - 🇨🇦 CA 073 | ⬇️ 11.49MB/s
+  - 🇨🇦 CA 074 | ⬇️ 11.43MB/s
+  - 🇨🇦 CA 075 | ⬇️ 11.37MB/s
+  - 🇺🇸 US 024 | ⬇️ 11.07MB/s
+  - 🇨🇦 CA 058 | ⚡ 280.00ms
+  - 🇺🇸 US 025 | ⬇️ 10.23MB/s
+  - 🇩🇪 DE 014 | ⬇️ 10.18MB/s
+  - 🇨🇦 CA 076 | ⬇️ 9.56MB/s
+  - 🇫🇷 FR 001 | ⬇️ 9.43MB/s
+  - 🇺🇸 US 010 | ⚡ 289.00ms
+  - 🇯🇵 JP 003 | ⚡ 353.00ms
+  - 🇨🇦 CA 012 | ⚡ 311.00ms
+  - 🇯🇵 JP 002 | ⚡ 343.00ms
+  - 🇰🇷 KR 001 | ⚡ 949.00ms
+  - 🇪🇸 ES 001 | ⚡ 271.00ms
+  - 🇫🇷 FR 002 | ⬇️ 6.70MB/s
+  - 🇨🇦 CA 077 | ⬇️ 6.50MB/s
+  - 🇨🇦 CA 070 | ⚡ 346.00ms
+  - 🇨🇦 CA 010 | ⚡ 299.00ms
+  - 🇸🇨 SC 002 | ⚡ 270.00ms
+  - 🇰🇷 KR 001 | ⬇️ 5.30MB/s
+  - 🇨🇦 CA 078 | ⬇️ 5.16MB/s
+  - 🇰🇷 KR 001 | ⚡ 495.00ms
+  - 🇬🇧 GB 001 | ⚡ 479.00ms
+  - 🇰🇷 KR 001 | ⚡ 631.00ms
+  - 🇨🇦 CA 011 | ⚡ 300.00ms
+  - 🇨🇦 CA 048 | ⚡ 264.00ms
+  - 🇨🇦 CA 050 | ⚡ 269.00ms
+  - 🇨🇦 CA 044 | ⚡ 251.00ms
+  - 🇺🇸 US 002 | ⚡ 131.00ms
+  - 🇸🇨 SC 001 | ⚡ 253.00ms
+  - 🇺🇸 US 003 | ⚡ 99.00ms
+  - 🇨🇦 CA 043 | ⚡ 248.00ms
 - name: 故障转移
   type: fallback
   proxies:
@@ -2335,156 +2673,167 @@ proxy-groups:
 - name: 手动选择
   type: select
   proxies:
-  - 🇨🇦 CA 001 | ⬇️ 286.61MB/s
-  - 🇨🇦 CA 002 | ⬇️ 282.48MB/s
-  - 🇨🇦 CA 003 | ⬇️ 282.12MB/s
-  - 🇨🇦 CA 004 | ⬇️ 277.60MB/s
-  - 🇨🇦 CA 005 | ⬇️ 274.23MB/s
-  - 🇨🇦 CA 006 | ⬇️ 271.72MB/s
-  - 🇦🇪 AE 001 | ⬇️ 223.23MB/s
-  - 🇨🇦 CA 007 | ⬇️ 220.38MB/s
-  - 🏳️ IR 001 | ⬇️ 219.90MB/s
-  - 🇬🇧 GB 001 | ⬇️ 219.10MB/s
-  - 🇺🇸 US 001 | ⬇️ 210.95MB/s
-  - 🇨🇦 CA 008 | ⬇️ 202.45MB/s
-  - 🇨🇦 CA 009 | ⬇️ 202.10MB/s
-  - 🇺🇸 US 002 | ⬇️ 200.80MB/s
-  - 🇨🇦 CA 010 | ⬇️ 200.67MB/s
-  - 🇨🇦 CA 011 | ⬇️ 199.29MB/s
-  - 🇨🇦 CA 012 | ⬇️ 197.13MB/s
-  - 🇨🇦 CA 013 | ⬇️ 195.70MB/s
-  - 🇨🇦 CA 014 | ⬇️ 192.25MB/s
-  - 🇨🇦 CA 015 | ⬇️ 188.30MB/s
-  - 🇨🇦 CA 016 | ⬇️ 183.15MB/s
-  - 🇨🇦 CA 017 | ⬇️ 177.21MB/s
-  - 🇨🇦 CA 018 | ⬇️ 170.54MB/s
-  - 🇨🇦 CA 019 | ⬇️ 169.54MB/s
-  - 🇨🇦 CA 020 | ⬇️ 168.34MB/s
-  - 🇳🇱 NL 001 | ⬇️ 165.37MB/s
-  - 🇨🇦 CA 021 | ⬇️ 156.56MB/s
-  - 🇨🇦 CA 022 | ⬇️ 150.60MB/s
-  - 🇨🇦 CA 023 | ⬇️ 148.20MB/s
-  - 🇨🇦 CA 024 | ⬇️ 144.50MB/s
-  - 🇨🇦 CA 025 | ⬇️ 135.72MB/s
-  - 🇺🇸 US 003 | ⬇️ 132.33MB/s
-  - 🇺🇸 US 004 | ⬇️ 121.41MB/s
-  - 🇨🇦 CA 026 | ⬇️ 105.27MB/s
-  - 🇺🇸 US 005 | ⬇️ 101.06MB/s
-  - 🇺🇸 US 006 | ⬇️ 67.97MB/s
-  - 🇺🇸 US 007 | ⬇️ 52.57MB/s
-  - 🇨🇦 CA 027 | ⬇️ 50.38MB/s
-  - 🇺🇸 US 008 | ⬇️ 45.01MB/s
-  - 🇬🇧 GB 002 | ⬇️ 44.68MB/s
-  - 🇺🇸 US 009 | ⬇️ 44.36MB/s
-  - 🇺🇸 US 010 | ⬇️ 44.26MB/s
-  - 🇸🇨 SC 001 | ⬇️ 43.91MB/s
-  - 🇺🇸 US 011 | ⬇️ 43.34MB/s
-  - 🇺🇸 US 012 | ⬇️ 42.88MB/s
-  - 🇸🇨 SC 002 | ⬇️ 42.58MB/s
-  - 🇨🇦 CA 028 | ⬇️ 41.85MB/s
-  - 🇨🇦 CA 029 | ⬇️ 41.83MB/s
-  - 🇺🇸 US 013 | ⬇️ 41.78MB/s
-  - 🇸🇨 SC 003 | ⬇️ 41.20MB/s
-  - 🇪🇸 ES 001 | ⬇️ 41.16MB/s
-  - 🇨🇦 CA 030 | ⬇️ 41.08MB/s
-  - 🇨🇦 CA 031 | ⬇️ 40.37MB/s
-  - 🇸🇨 SC 004 | ⬇️ 40.32MB/s
-  - 🇺🇸 US 014 | ⬇️ 40.26MB/s
-  - 🇨🇦 CA 032 | ⬇️ 40.05MB/s
-  - 🇨🇦 CA 033 | ⬇️ 39.84MB/s
-  - 🇺🇸 US 015 | ⬇️ 39.74MB/s
-  - 🇨🇦 CA 034 | ⬇️ 39.67MB/s
-  - 🇨🇦 CA 035 | ⬇️ 39.51MB/s
-  - 🇨🇦 CA 036 | ⬇️ 39.47MB/s
-  - 🇨🇦 CA 037 | ⬇️ 39.36MB/s
-  - 🇨🇦 CA 038 | ⬇️ 39.06MB/s
-  - 🇨🇦 CA 039 | ⬇️ 39.03MB/s
-  - 🇨🇦 CA 040 | ⬇️ 38.88MB/s
-  - 🇨🇦 CA 041 | ⬇️ 38.76MB/s
-  - 🇨🇦 CA 042 | ⬇️ 38.68MB/s
-  - 🇨🇦 CA 043 | ⬇️ 38.58MB/s
-  - 🇨🇦 CA 044 | ⬇️ 38.53MB/s
-  - 🇨🇦 CA 045 | ⬇️ 38.47MB/s
-  - 🇺🇸 US 016 | ⬇️ 38.35MB/s
-  - 🇨🇦 CA 046 | ⬇️ 38.25MB/s
-  - 🇨🇦 CA 047 | ⬇️ 38.23MB/s
-  - 🇨🇦 CA 048 | ⬇️ 37.90MB/s
-  - 🇸🇨 SC 005 | ⬇️ 37.87MB/s
-  - 🇩🇪 DE 001 | ⬇️ 37.72MB/s
-  - 🇨🇦 CA 049 | ⬇️ 37.46MB/s
-  - 🇨🇦 CA 050 | ⬇️ 37.04MB/s
-  - 🇨🇦 CA 051 | ⬇️ 36.77MB/s
-  - 🇺🇸 US 017 | ⬇️ 36.16MB/s
-  - 🇨🇦 CA 052 | ⬇️ 36.07MB/s
-  - 🇨🇦 CA 053 | ⬇️ 35.90MB/s
-  - 🇨🇦 CA 054 | ⬇️ 35.74MB/s
-  - 🇨🇦 CA 055 | ⬇️ 35.69MB/s
-  - 🇺🇸 US 018 | ⬇️ 35.64MB/s
-  - 🇨🇦 CA 056 | ⬇️ 35.55MB/s
-  - 🇨🇦 CA 057 | ⬇️ 35.55MB/s
-  - 🇺🇸 US 019 | ⬇️ 35.45MB/s
-  - 🇨🇦 CA 058 | ⬇️ 35.07MB/s
-  - 🇨🇦 CA 059 | ⬇️ 35.00MB/s
-  - 🇫🇷 FR 001 | ⬇️ 34.61MB/s
-  - 🇨🇦 CA 060 | ⬇️ 34.53MB/s
-  - 🇺🇸 US 020 | ⬇️ 34.49MB/s
-  - 🇨🇦 CA 061 | ⬇️ 33.72MB/s
-  - 🇨🇦 CA 062 | ⬇️ 32.52MB/s
-  - 🇸🇨 SC 006 | ⬇️ 32.39MB/s
-  - 🇩🇪 DE 002 | ⬇️ 31.71MB/s
-  - 🇩🇪 DE 003 | ⬇️ 30.70MB/s
-  - 🇨🇷 CR 001 | ⬇️ 30.66MB/s
-  - 🇩🇪 DE 004 | ⬇️ 30.01MB/s
-  - 🇩🇪 DE 005 | ⬇️ 29.94MB/s
-  - 🇩🇪 DE 006 | ⬇️ 29.93MB/s
-  - 🇩🇪 DE 007 | ⬇️ 29.91MB/s
-  - 🇩🇪 DE 008 | ⬇️ 29.85MB/s
-  - 🇩🇪 DE 009 | ⬇️ 29.76MB/s
-  - 🇩🇪 DE 010 | ⬇️ 29.67MB/s
-  - 🇩🇪 DE 011 | ⬇️ 29.58MB/s
-  - 🇩🇪 DE 012 | ⬇️ 29.52MB/s
-  - 🇨🇦 CA 063 | ⬇️ 29.47MB/s
-  - 🇩🇪 DE 013 | ⬇️ 29.42MB/s
-  - 🇩🇪 DE 014 | ⬇️ 29.40MB/s
-  - 🇩🇪 DE 015 | ⬇️ 29.38MB/s
-  - 🇨🇦 CA 064 | ⬇️ 29.18MB/s
-  - 🇩🇪 DE 016 | ⬇️ 28.76MB/s
-  - 🇬🇧 GB 003 | ⬇️ 28.61MB/s
-  - 🇸🇨 SC 007 | ⬇️ 28.57MB/s
-  - 🇩🇪 DE 017 | ⬇️ 28.00MB/s
-  - 🇩🇪 DE 018 | ⬇️ 27.86MB/s
-  - 🇪🇸 ES 002 | ⬇️ 27.53MB/s
-  - 🇩🇪 DE 019 | ⬇️ 26.20MB/s
-  - 🇺🇸 US 021 | ⬇️ 22.52MB/s
-  - 🇺🇸 US 009 | ⚡ 401.00ms
-  - 🇯🇵 JP 004 | ⚡ 677.00ms
-  - 🇺🇸 US 006 | ⚡ 222.00ms
-  - 🇯🇵 JP 001 | ⬇️ 17.29MB/s
-  - 🇯🇵 JP 006 | ⚡ 722.00ms
-  - 🇸🇬 SG 001 | ⚡ 404.00ms
-  - 🇸🇬 SG 002 | ⚡ 429.00ms
-  - 🇯🇵 JP 005 | ⚡ 710.00ms
-  - 🇩🇪 DE 006 | ⚡ 641.00ms
-  - 🇩🇪 DE 020 | ⬇️ 12.93MB/s
-  - 🇲🇾 MY 001 | ⬇️ 12.86MB/s
-  - 🇨🇦 CA 065 | ⬇️ 11.48MB/s
-  - 🇯🇵 JP 007 | ⚡ 782.00ms
-  - 🇬🇧 GB 004 | ⬇️ 11.10MB/s
-  - 🇸🇨 SC 008 | ⬇️ 9.98MB/s
-  - 🇫🇷 FR 002 | ⬇️ 9.27MB/s
-  - 🇫🇷 FR 002 | ⚡ 353.00ms
-  - 🇯🇵 JP 001 | ⚡ 458.00ms
-  - 🇯🇵 JP 002 | ⬇️ 8.78MB/s
-  - 🇨🇦 CA 019 | ⚡ 256.00ms
-  - 🇻🇳 VN 001 | ⬇️ 6.27MB/s
-  - 🇨🇦 CA 066 | ⬇️ 5.84MB/s
-  - 🇺🇸 US 022 | ⬇️ 5.43MB/s
-  - 🇺🇸 US 023 | ⬇️ 5.43MB/s
-  - 🇰🇷 KR 001 | ⚡ 637.00ms
-  - 🇷🇺 RU 002 | ⚡ 2424.00ms
-  - 🇩🇪 DE 014 | ⚡ 5024.00ms
-  - 🇩🇪 DE 021 | ⬇️ 1.14MB/s
-  - 🇺🇸 US 011 | ⚡ 1654.00ms
+  - 🇨🇦 CA 001 | ⬇️ 237.04MB/s
+  - 🇨🇦 CA 002 | ⬇️ 226.51MB/s
+  - 🇨🇦 CA 003 | ⬇️ 226.18MB/s
+  - 🇨🇦 CA 004 | ⬇️ 225.18MB/s
+  - 🇨🇦 CA 005 | ⬇️ 217.96MB/s
+  - 🇵🇹 PT 001 | ⬇️ 217.25MB/s
+  - 🇨🇦 CA 006 | ⬇️ 213.66MB/s
+  - 🇨🇦 CA 007 | ⬇️ 210.82MB/s
+  - 🇨🇦 CA 008 | ⬇️ 206.13MB/s
+  - 🇨🇦 CA 009 | ⬇️ 204.41MB/s
+  - 🇨🇦 CA 010 | ⬇️ 202.65MB/s
+  - 🇺🇸 US 001 | ⬇️ 200.71MB/s
+  - 🇨🇦 CA 011 | ⬇️ 200.00MB/s
+  - 🇨🇦 CA 012 | ⬇️ 199.90MB/s
+  - 🇦🇪 AE 001 | ⬇️ 198.13MB/s
+  - 🇳🇱 NL 001 | ⬇️ 197.71MB/s
+  - 🇨🇦 CA 013 | ⬇️ 196.65MB/s
+  - 🇨🇦 CA 014 | ⬇️ 196.53MB/s
+  - 🇬🇧 GB 001 | ⬇️ 194.90MB/s
+  - 🇨🇦 CA 015 | ⬇️ 194.54MB/s
+  - 🇨🇦 CA 016 | ⬇️ 194.32MB/s
+  - 🇺🇸 US 002 | ⬇️ 192.79MB/s
+  - 🇨🇦 CA 017 | ⬇️ 189.87MB/s
+  - 🇨🇦 CA 018 | ⬇️ 181.58MB/s
+  - 🇨🇦 CA 019 | ⬇️ 180.46MB/s
+  - 🇨🇦 CA 020 | ⬇️ 179.21MB/s
+  - 🇨🇦 CA 021 | ⬇️ 177.24MB/s
+  - 🇨🇦 CA 022 | ⬇️ 174.70MB/s
+  - 🏳️ IR 001 | ⬇️ 173.19MB/s
+  - 🇨🇦 CA 023 | ⬇️ 170.56MB/s
+  - 🇨🇦 CA 024 | ⬇️ 166.42MB/s
+  - 🇨🇦 CA 025 | ⬇️ 166.18MB/s
+  - 🇨🇦 CA 026 | ⬇️ 162.48MB/s
+  - 🇨🇦 CA 027 | ⬇️ 159.91MB/s
+  - 🇨🇦 CA 028 | ⬇️ 159.25MB/s
+  - 🇬🇧 GB 002 | ⬇️ 156.96MB/s
+  - 🇨🇦 CA 029 | ⬇️ 156.78MB/s
+  - 🇨🇦 CA 030 | ⬇️ 155.58MB/s
+  - 🇨🇦 CA 031 | ⬇️ 155.47MB/s
+  - 🇨🇦 CA 032 | ⬇️ 150.78MB/s
+  - 🇨🇦 CA 033 | ⬇️ 150.76MB/s
+  - 🇨🇦 CA 034 | ⬇️ 150.46MB/s
+  - 🇨🇦 CA 035 | ⬇️ 149.79MB/s
+  - 🇨🇦 CA 036 | ⬇️ 148.81MB/s
+  - 🇨🇦 CA 037 | ⬇️ 148.60MB/s
+  - 🇨🇦 CA 038 | ⬇️ 147.76MB/s
+  - 🇨🇦 CA 039 | ⬇️ 147.60MB/s
+  - 🇨🇦 CA 040 | ⬇️ 145.13MB/s
+  - 🇺🇸 US 003 | ⬇️ 143.62MB/s
+  - 🇺🇸 US 004 | ⬇️ 143.41MB/s
+  - 🇨🇦 CA 041 | ⬇️ 143.18MB/s
+  - 🇨🇦 CA 042 | ⬇️ 136.71MB/s
+  - 🇨🇦 CA 043 | ⬇️ 136.29MB/s
+  - 🇨🇦 CA 044 | ⬇️ 135.21MB/s
+  - 🇨🇦 CA 045 | ⬇️ 134.91MB/s
+  - 🇨🇦 CA 046 | ⬇️ 134.66MB/s
+  - 🇨🇦 CA 047 | ⬇️ 125.91MB/s
+  - 🇨🇦 CA 048 | ⬇️ 122.29MB/s
+  - 🇨🇦 CA 049 | ⬇️ 121.00MB/s
+  - 🇨🇦 CA 050 | ⬇️ 119.19MB/s
+  - 🇵🇱 PL 001 | ⬇️ 114.06MB/s
+  - 🇨🇦 CA 051 | ⬇️ 111.80MB/s
+  - 🇨🇦 CA 052 | ⬇️ 111.23MB/s
+  - 🇨🇦 CA 053 | ⬇️ 99.81MB/s
+  - 🇨🇦 CA 054 | ⬇️ 76.47MB/s
+  - 🇺🇸 US 005 | ⬇️ 66.78MB/s
+  - 🇺🇸 US 006 | ⬇️ 59.22MB/s
+  - 🇺🇸 US 007 | ⬇️ 58.37MB/s
+  - 🇺🇸 US 008 | ⬇️ 51.61MB/s
+  - 🇺🇸 US 009 | ⬇️ 51.43MB/s
+  - 🇺🇸 US 010 | ⬇️ 51.22MB/s
+  - 🇺🇸 US 011 | ⬇️ 50.28MB/s
+  - 🇨🇦 CA 055 | ⬇️ 49.93MB/s
+  - 🇺🇸 US 012 | ⬇️ 46.18MB/s
+  - 🇨🇦 CA 056 | ⬇️ 45.47MB/s
+  - 🇨🇷 CR 001 | ⬇️ 44.32MB/s
+  - 🇸🇨 SC 001 | ⬇️ 42.87MB/s
+  - 🇨🇦 CA 057 | ⬇️ 42.42MB/s
+  - 🇨🇦 CA 058 | ⬇️ 42.12MB/s
+  - 🇨🇦 CA 059 | ⬇️ 41.96MB/s
+  - 🇨🇦 CA 060 | ⬇️ 41.71MB/s
+  - 🇸🇨 SC 002 | ⬇️ 40.76MB/s
+  - 🇺🇸 US 013 | ⬇️ 40.34MB/s
+  - 🇺🇸 US 014 | ⬇️ 38.92MB/s
+  - 🇺🇸 US 015 | ⬇️ 38.74MB/s
+  - 🇨🇦 CA 061 | ⬇️ 37.65MB/s
+  - 🇺🇸 US 016 | ⬇️ 37.59MB/s
+  - 🇨🇦 CA 062 | ⬇️ 37.43MB/s
+  - 🇺🇸 US 017 | ⬇️ 37.39MB/s
+  - 🇨🇦 CA 063 | ⬇️ 37.27MB/s
+  - 🇨🇦 CA 064 | ⬇️ 37.08MB/s
+  - 🇨🇦 CA 065 | ⬇️ 36.96MB/s
+  - 🇺🇸 US 018 | ⬇️ 36.54MB/s
+  - 🇨🇦 CA 066 | ⬇️ 36.39MB/s
+  - 🇺🇸 US 019 | ⬇️ 36.12MB/s
+  - 🇨🇦 CA 067 | ⬇️ 35.74MB/s
+  - 🇨🇦 CA 068 | ⬇️ 34.38MB/s
+  - 🇸🇨 SC 003 | ⬇️ 32.28MB/s
+  - 🇨🇦 CA 069 | ⬇️ 31.58MB/s
+  - 🇨🇦 CA 070 | ⬇️ 30.81MB/s
+  - 🇩🇪 DE 001 | ⬇️ 29.93MB/s
+  - 🇩🇪 DE 002 | ⬇️ 29.89MB/s
+  - 🇺🇸 US 020 | ⬇️ 29.89MB/s
+  - 🇸🇨 SC 004 | ⬇️ 29.42MB/s
+  - 🇩🇪 DE 003 | ⬇️ 29.29MB/s
+  - 🇺🇸 US 021 | ⬇️ 29.25MB/s
+  - 🇩🇪 DE 004 | ⬇️ 28.79MB/s
+  - 🇩🇪 DE 005 | ⬇️ 26.82MB/s
+  - 🇩🇪 DE 006 | ⬇️ 26.63MB/s
+  - 🇸🇨 SC 005 | ⬇️ 26.18MB/s
+  - 🇺🇸 US 022 | ⬇️ 26.16MB/s
+  - 🇩🇪 DE 007 | ⬇️ 25.76MB/s
+  - 🇩🇪 DE 008 | ⬇️ 25.00MB/s
+  - 🇪🇸 ES 001 | ⬇️ 24.71MB/s
+  - 🇩🇪 DE 009 | ⬇️ 24.54MB/s
+  - 🇨🇭 CH 001 | ⚡ 381.00ms
+  - 🇩🇪 DE 010 | ⬇️ 22.52MB/s
+  - 🇨🇦 CA 071 | ⬇️ 21.67MB/s
+  - 🇺🇸 US 023 | ⬇️ 21.57MB/s
+  - 🇩🇪 DE 011 | ⬇️ 20.53MB/s
+  - 🇩🇪 DE 012 | ⬇️ 19.53MB/s
+  - 🇩🇪 DE 013 | ⬇️ 19.40MB/s
+  - 🇯🇵 JP 001 | ⚡ 336.00ms
+  - 🇸🇬 SG 002 | ⚡ 453.00ms
+  - 🇸🇬 SG 003 | ⚡ 455.00ms
+  - 🇨🇦 CA 054 | ⚡ 276.00ms
+  - 🇨🇦 CA 072 | ⬇️ 12.91MB/s
+  - 🇯🇵 JP 001 | ⬇️ 12.59MB/s
+  - 🇨🇦 CA 073 | ⬇️ 11.49MB/s
+  - 🇨🇦 CA 074 | ⬇️ 11.43MB/s
+  - 🇨🇦 CA 075 | ⬇️ 11.37MB/s
+  - 🇺🇸 US 024 | ⬇️ 11.07MB/s
+  - 🇨🇦 CA 058 | ⚡ 280.00ms
+  - 🇺🇸 US 025 | ⬇️ 10.23MB/s
+  - 🇩🇪 DE 014 | ⬇️ 10.18MB/s
+  - 🇨🇦 CA 076 | ⬇️ 9.56MB/s
+  - 🇫🇷 FR 001 | ⬇️ 9.43MB/s
+  - 🇺🇸 US 010 | ⚡ 289.00ms
+  - 🇯🇵 JP 003 | ⚡ 353.00ms
+  - 🇨🇦 CA 012 | ⚡ 311.00ms
+  - 🇯🇵 JP 002 | ⚡ 343.00ms
+  - 🇰🇷 KR 001 | ⚡ 949.00ms
+  - 🇪🇸 ES 001 | ⚡ 271.00ms
+  - 🇫🇷 FR 002 | ⬇️ 6.70MB/s
+  - 🇨🇦 CA 077 | ⬇️ 6.50MB/s
+  - 🇨🇦 CA 070 | ⚡ 346.00ms
+  - 🇨🇦 CA 010 | ⚡ 299.00ms
+  - 🇸🇨 SC 002 | ⚡ 270.00ms
+  - 🇰🇷 KR 001 | ⬇️ 5.30MB/s
+  - 🇨🇦 CA 078 | ⬇️ 5.16MB/s
+  - 🇰🇷 KR 001 | ⚡ 495.00ms
+  - 🇬🇧 GB 001 | ⚡ 479.00ms
+  - 🇰🇷 KR 001 | ⚡ 631.00ms
+  - 🇨🇦 CA 011 | ⚡ 300.00ms
+  - 🇨🇦 CA 048 | ⚡ 264.00ms
+  - 🇨🇦 CA 050 | ⚡ 269.00ms
+  - 🇨🇦 CA 044 | ⚡ 251.00ms
+  - 🇺🇸 US 002 | ⚡ 131.00ms
+  - 🇸🇨 SC 001 | ⚡ 253.00ms
+  - 🇺🇸 US 003 | ⚡ 99.00ms
+  - 🇨🇦 CA 043 | ⚡ 248.00ms
 - name: 香港
   type: select
   proxies:
@@ -2492,47 +2841,46 @@ proxy-groups:
 - name: 日本
   type: select
   proxies:
-  - 🇯🇵 JP 004 | ⚡ 677.00ms
-  - 🇯🇵 JP 001 | ⬇️ 17.29MB/s
-  - 🇯🇵 JP 006 | ⚡ 722.00ms
-  - 🇯🇵 JP 005 | ⚡ 710.00ms
-  - 🇯🇵 JP 007 | ⚡ 782.00ms
-  - 🇯🇵 JP 001 | ⚡ 458.00ms
-  - 🇯🇵 JP 002 | ⬇️ 8.78MB/s
+  - 🇯🇵 JP 001 | ⚡ 336.00ms
+  - 🇯🇵 JP 001 | ⬇️ 12.59MB/s
+  - 🇯🇵 JP 003 | ⚡ 353.00ms
+  - 🇯🇵 JP 002 | ⚡ 343.00ms
 - name: 美国
   type: select
   proxies:
-  - 🇺🇸 US 001 | ⬇️ 210.95MB/s
-  - 🇺🇸 US 002 | ⬇️ 200.80MB/s
-  - 🇺🇸 US 003 | ⬇️ 132.33MB/s
-  - 🇺🇸 US 004 | ⬇️ 121.41MB/s
-  - 🇺🇸 US 005 | ⬇️ 101.06MB/s
-  - 🇺🇸 US 006 | ⬇️ 67.97MB/s
-  - 🇺🇸 US 007 | ⬇️ 52.57MB/s
-  - 🇺🇸 US 008 | ⬇️ 45.01MB/s
-  - 🇺🇸 US 009 | ⬇️ 44.36MB/s
-  - 🇺🇸 US 010 | ⬇️ 44.26MB/s
-  - 🇺🇸 US 011 | ⬇️ 43.34MB/s
-  - 🇺🇸 US 012 | ⬇️ 42.88MB/s
-  - 🇺🇸 US 013 | ⬇️ 41.78MB/s
-  - 🇺🇸 US 014 | ⬇️ 40.26MB/s
-  - 🇺🇸 US 015 | ⬇️ 39.74MB/s
-  - 🇺🇸 US 016 | ⬇️ 38.35MB/s
-  - 🇺🇸 US 017 | ⬇️ 36.16MB/s
-  - 🇺🇸 US 018 | ⬇️ 35.64MB/s
-  - 🇺🇸 US 019 | ⬇️ 35.45MB/s
-  - 🇺🇸 US 020 | ⬇️ 34.49MB/s
-  - 🇺🇸 US 021 | ⬇️ 22.52MB/s
-  - 🇺🇸 US 009 | ⚡ 401.00ms
-  - 🇺🇸 US 006 | ⚡ 222.00ms
-  - 🇺🇸 US 022 | ⬇️ 5.43MB/s
-  - 🇺🇸 US 023 | ⬇️ 5.43MB/s
-  - 🇺🇸 US 011 | ⚡ 1654.00ms
+  - 🇺🇸 US 001 | ⬇️ 200.71MB/s
+  - 🇺🇸 US 002 | ⬇️ 192.79MB/s
+  - 🇺🇸 US 003 | ⬇️ 143.62MB/s
+  - 🇺🇸 US 004 | ⬇️ 143.41MB/s
+  - 🇺🇸 US 005 | ⬇️ 66.78MB/s
+  - 🇺🇸 US 006 | ⬇️ 59.22MB/s
+  - 🇺🇸 US 007 | ⬇️ 58.37MB/s
+  - 🇺🇸 US 008 | ⬇️ 51.61MB/s
+  - 🇺🇸 US 009 | ⬇️ 51.43MB/s
+  - 🇺🇸 US 010 | ⬇️ 51.22MB/s
+  - 🇺🇸 US 011 | ⬇️ 50.28MB/s
+  - 🇺🇸 US 012 | ⬇️ 46.18MB/s
+  - 🇺🇸 US 013 | ⬇️ 40.34MB/s
+  - 🇺🇸 US 014 | ⬇️ 38.92MB/s
+  - 🇺🇸 US 015 | ⬇️ 38.74MB/s
+  - 🇺🇸 US 016 | ⬇️ 37.59MB/s
+  - 🇺🇸 US 017 | ⬇️ 37.39MB/s
+  - 🇺🇸 US 018 | ⬇️ 36.54MB/s
+  - 🇺🇸 US 019 | ⬇️ 36.12MB/s
+  - 🇺🇸 US 020 | ⬇️ 29.89MB/s
+  - 🇺🇸 US 021 | ⬇️ 29.25MB/s
+  - 🇺🇸 US 022 | ⬇️ 26.16MB/s
+  - 🇺🇸 US 023 | ⬇️ 21.57MB/s
+  - 🇺🇸 US 024 | ⬇️ 11.07MB/s
+  - 🇺🇸 US 025 | ⬇️ 10.23MB/s
+  - 🇺🇸 US 010 | ⚡ 289.00ms
+  - 🇺🇸 US 002 | ⚡ 131.00ms
+  - 🇺🇸 US 003 | ⚡ 99.00ms
 - name: 新加坡
   type: select
   proxies:
-  - 🇸🇬 SG 001 | ⚡ 404.00ms
-  - 🇸🇬 SG 002 | ⚡ 429.00ms
+  - 🇸🇬 SG 002 | ⚡ 453.00ms
+  - 🇸🇬 SG 003 | ⚡ 455.00ms
 - name: 台湾
   type: select
   proxies:
@@ -2540,7 +2888,10 @@ proxy-groups:
 - name: 韩国
   type: select
   proxies:
-  - 🇰🇷 KR 001 | ⚡ 637.00ms
+  - 🇰🇷 KR 001 | ⚡ 949.00ms
+  - 🇰🇷 KR 001 | ⬇️ 5.30MB/s
+  - 🇰🇷 KR 001 | ⚡ 495.00ms
+  - 🇰🇷 KR 001 | ⚡ 631.00ms
 - name: 色情
   type: select
   proxies:
