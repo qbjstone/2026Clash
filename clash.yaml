@@ -27,99 +27,179 @@ dns:
     - 172.16.0.0/12
     - 192.168.0.0/16
 proxies:
+- name: 🇯🇵 JP 001 | ⚡ 436.00ms
+  password: PI36027154
+  port: 443
+  server: large-baboon.rooster465.autos
+  type: trojan
+- name: 🇯🇵 JP 002 | ⚡ 444.00ms
+  password: T9qoEuuxUEa9Dk3KxnTWrs6J8ilng9sCIf
+  port: 443
+  server: 103.125.216.18
+  type: trojan
 - alterId: 0
   cipher: auto
-  name: 🇺🇸 US 001 | ⬇️ 339.19MB/s
-  port: 18000
-  server: 84.17.41.2
+  name: 🇰🇷 KR 001 | ⚡ 488.00ms
+  port: 8888
+  server: 146.56.112.110
   type: vmess
   udp: true
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-- name: 🇵🇹 PT 001 | ⬇️ 262.94MB/s
+  uuid: e7c302f3-90d6-42dd-9d7d-94a3683a3707
+- name: 🇯🇵 JP 003 | ⚡ 491.00ms
+  password: T9qoEuuxUEa9Dk3KxnTWrs6J8ilng9sCIf
+  port: 443
+  server: 103.125.216.68
+  type: trojan
+- name: 🇯🇵 JP 004 | ⚡ 533.00ms
+  password: T9qoEuuxUEa9Dk3KxnTWrs6J8ilng9sCIf
+  port: 443
+  server: 103.125.216.11
+  type: trojan
+- name: 🇨🇦 CA 001 | ⚡ 85.00ms
+  network: ws
+  port: 8880
+  server: 162.159.156.214
+  type: vless
+  udp: true
+  uuid: 565326ee-c588-4843-9472-a051578ab1ae
+  ws-opts:
+    headers:
+      Host: lucky-cell-e8c5.490-f12.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.90 Safari/537.36
+    path: /pyip=ProxyIP.KR.CMLiussss.net
+  xudp: true
+- client-fingerprint: chrome
+  name: 🇨🇦 CA 002 | ⚡ 86.00ms
   network: ws
   port: 8443
-  server: 156.243.83.52
-  servername: weathered-brook-18b6.alvlirm741.workers.dev
-  skip-cert-verify: false
+  server: 104.20.2.221
+  servername: bycf.lzjnb.shop
+  skip-cert-verify: true
   tfo: false
   tls: true
   type: vless
-  udp: true
-  uuid: 8525fe74-67e6-4a55-8a26-95f227bd1384
+  uuid: 6c7a6a6a-6a6a-4000-8000-000000000002
   ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: weathered-brook-18b6.alvlirm741.workers.dev
-    path: /proxyip=212.193.35.100,185.218.0.16,83.147.255.88,138.124.255.49,185.147.26.135,79.174.80.62,185.72.145.79,82.146.38.33
+      Host: bycf.lzjnb.shop
+    max-early-data: 2560
+    path: /
 - client-fingerprint: chrome
   encryption: none
-  name: 🇨🇦 CA 001 | ⬇️ 259.50MB/s
+  name: 🇨🇦 CA 003 | ⚡ 88.00ms
   network: ws
   port: 443
-  server: cf1.466688.xyz
-  servername: cfoo-146.pages.dev
+  server: 162.159.19.67
+  servername: nbhhh.mrcool.kdns.fr
   tls: true
   type: vless
   udp: true
-  uuid: b08562b0-dbc0-47d1-860d-9435133b25c9
+  uuid: 659a9075-d5ab-4fd2-bf34-b37043fae832
   ws-opts:
     headers:
-      Host: cfoo-146.pages.dev
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0; vivo 1606 Build/MMB29M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile Safari/537.36
-    path: /QiangLieTuiJian?ed=2560
+      Host: nbhhh.mrcool.kdns.fr
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/54.0.2840.71 Safari/537.36
+    path: /
   xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇨🇦 CA 002 | ⬇️ 239.38MB/s
+- name: 🇨🇦 CA 004 | ⚡ 90.00ms
   network: ws
-  port: 443
-  server: 172.67.195.229
-  servername: rapid-hat-441d.platovpn.workers.dev
-  tls: true
+  port: 8880
+  server: log.bpminecraft.com
   type: vless
   udp: true
-  uuid: 00e94078-bb1e-49aa-8567-e1b3b2843150
+  uuid: d25ba473-5b05-48bb-b048-e82844e2ae39
   ws-opts:
     headers:
-      Host: rapid-hat-441d.platovpn.workers.dev
+      Host: misty-recipe-be74.271.workers.dev
       User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/49.0.2623.112 Safari/537.36
-    path: /
+        Gecko) Chrome/53.0.2785.143 Safari/537.36
+    path: /pyip=ProxyIP.JP.CMLiussss.net
   xudp: true
-- name: 🇨🇦 CA 003 | ⬇️ 239.21MB/s
-  network: ws
-  port: 443
-  server: 173.245.59.35
-  servername: ld.235231.xyz
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 65d3f9b3-d289-4a8e-9c87-90bba156de30
-  ws-opts:
-    headers:
-      Host: ld.235231.xyz
-    path: /
-- client-fingerprint: chrome
-  name: 🇺🇸 US 002 | ⬇️ 232.06MB/s
-  network: ws
-  port: 2087
-  server: 147.185.161.152
-  servername: weathered-brook-18b6.alvlirm741.workers.dev
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8525fe74-67e6-4a55-8a26-95f227bd1384
-  ws-opts:
-    headers:
-      Host: weathered-brook-18b6.alvlirm741.workers.dev
-    path: /proxyip=212.193.35.100,185.218.0.16,83.147.255.88,138.124.255.49,185.147.26.135,79.174.80.62,185.72.145.79,82.146.38.33
 - client-fingerprint: chrome
   encryption: none
-  name: 🇨🇦 CA 004 | ⬇️ 226.68MB/s
+  name: 🇨🇦 CA 005 | ⚡ 96.00ms
+  network: ws
+  port: 443
+  server: 198.41.208.112
+  servername: support.zoom.us.yxls.eu.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
+  ws-opts:
+    headers:
+      Host: support.zoom.us.yxls.eu.cc
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/36.0.1985.125 Safari/537.36
+    path: /sg-melbi
+  xudp: true
+- name: 🇨🇦 CA 006 | ⚡ 97.00ms
+  network: ws
+  port: 443
+  server: 108.162.194.135
+  servername: nbhhh.mrcool.kdns.fr
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 659a9075-d5ab-4fd2-bf34-b37043fae832
+  ws-opts:
+    headers:
+      Host: nbhhh.mrcool.kdns.fr
+    path: /
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇨🇦 CA 007 | ⚡ 98.00ms
+  network: ws
+  port: 443
+  server: 104.17.112.113
+  servername: support.zoom.us.yxls.eu.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
+  ws-opts:
+    headers:
+      Host: support.zoom.us.yxls.eu.cc
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/51.0.2704.106 Safari/537.36
+    path: /sg-melbi
+  xudp: true
+- client-fingerprint: chrome
+  name: 🇨🇦 CA 008 | ⚡ 101.00ms
+  network: ws
+  password: 86957ec0-b213-433b-a43b-51f2175e0ec3
+  port: 443
+  server: 104.16.72.41
+  sni: space.byu.id.yxls.eu.cc
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: space.byu.id.yxls.eu.cc
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; CPH1607 Build/MMB29M; wv) AppleWebKit/537.36
+        (KHTML, like Gecko) Version/4.0 Chrome/63.0.3239.111 Mobile Safari/537.36
+    path: /au-do
+- name: 🇨🇦 CA 009 | ⚡ 102.00ms
+  network: ws
+  port: 8880
+  server: www.gov.ua
+  type: vless
+  udp: true
+  uuid: 8bcfe782-60c4-4c09-b46c-330f1aa3741c
+  ws-opts:
+    headers:
+      Host: snowy-lab-6cab.237-2da.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/46.0.2490.80 Safari/537.36
+    path: /pyip=ProxyIP.US.CMLiussss.net
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇨🇦 CA 010 | ⚡ 104.00ms
   network: ws
   port: 443
   server: 198.41.209.43
@@ -135,72 +215,26 @@ proxies:
         (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile Safari/537.36
     path: /sg-melbi
   xudp: true
-- name: 🇺🇸 US 003 | ⬇️ 223.09MB/s
-  network: ws
-  password: afbcd89a-5a90-4a44-a42a-be08f444aa3f
-  port: 443
-  server: blog.webex.com
-  skip-cert-verify: false
-  sni: unnes.ac.id.yxls.eu.cc
-  type: trojan
-  ws-opts:
-    headers:
-      Host: unnes.ac.id.yxls.eu.cc
-    path: /br-orcl
 - client-fingerprint: chrome
-  encryption: none
-  name: 🇨🇦 CA 005 | ⬇️ 217.14MB/s
+  name: 🇺🇸 US 001 | ⚡ 106.00ms
   network: ws
   port: 443
-  server: 104.16.72.101
-  servername: nbhhh.mrcool.kdns.fr
+  server: 162.159.38.25
+  servername: t1s1.rittbo.kdns.fr
   tls: true
   type: vless
   udp: true
-  uuid: 659a9075-d5ab-4fd2-bf34-b37043fae832
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
   ws-opts:
     headers:
-      Host: nbhhh.mrcool.kdns.fr
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.77 Safari/537.36
-    path: /proxyip
+      Host: t1s1.rittbo.kdns.fr
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; de-DE) AppleWebKit/534.17
+        (KHTML, like Gecko) Chrome/10.0.649.0 Safari/534.17
+    path: /fp=chrome
   xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: 🇨🇦 CA 006 | ⬇️ 213.58MB/s
-  network: ws
-  port: 443
-  server: 104.17.149.233
-  servername: support.zoom.us.yxls.eu.cc
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
-  ws-opts:
-    headers:
-      Host: support.zoom.us.yxls.eu.cc
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/46.0.2490.80 Safari/537.36
-    path: /sg-melbi
-  xudp: true
-- client-fingerprint: chrome
-  name: 🇨🇦 CA 007 | ⬇️ 212.87MB/s
-  network: ws
-  password: 86957ec0-b213-433b-a43b-51f2175e0ec3
-  port: 443
-  server: 104.16.72.41
-  sni: space.byu.id.yxls.eu.cc
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: space.byu.id.yxls.eu.cc
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; CPH1607 Build/MMB29M; wv) AppleWebKit/537.36
-        (KHTML, like Gecko) Version/4.0 Chrome/63.0.3239.111 Mobile Safari/537.36
-    path: /au-do
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇨🇦 CA 008 | ⬇️ 212.65MB/s
+  name: 🇨🇦 CA 011 | ⚡ 107.00ms
   network: ws
   port: 443
   server: 198.41.209.80
@@ -218,99 +252,8 @@ proxies:
     path: /sg-melbi
   xudp: true
 - client-fingerprint: chrome
-  name: 🇨🇦 CA 009 | ⬇️ 207.30MB/s
-  network: ws
-  port: 2096
-  server: 104.16.72.70
-  servername: sp.linuxdododo.ccwu.cc
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06b65903-406d-4a41-8400-6fd5c0ee7798
-  ws-opts:
-    headers:
-      Host: sp.linuxdododo.ccwu.cc
-    path: /proxyip
-- client-fingerprint: chrome
-  name: 🇨🇦 CA 010 | ⬇️ 205.67MB/s
-  network: ws
-  password: f922fa0f-3311-4368-85ff-cf65e727c854
-  port: 443
-  server: 104.16.72.2
-  sni: space.byu.id.yxls.eu.cc
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: space.byu.id.yxls.eu.cc
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.7
-        (KHTML, like Gecko) Chrome/7.0.517.44 Safari/534.7
-    path: /br-orcl
-- name: 🇨🇦 CA 011 | ⬇️ 202.81MB/s
-  network: ws
-  password: f922fa0f-3311-4368-85ff-cf65e727c854
-  port: 443
-  server: 104.18.153.10
-  skip-cert-verify: false
-  sni: space.byu.id.yxls.eu.cc
-  type: trojan
-  ws-opts:
-    headers:
-      Host: space.byu.id.yxls.eu.cc
-    path: /br-orcl
-- client-fingerprint: chrome
-  name: 🇨🇦 CA 012 | ⬇️ 201.99MB/s
-  network: ws
-  port: 2096
-  server: 104.18.153.10
-  servername: sp.linuxdododo.ccwu.cc
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06b65903-406d-4a41-8400-6fd5c0ee7798
-  ws-opts:
-    headers:
-      Host: sp.linuxdododo.ccwu.cc
-    path: /proxyip
-- client-fingerprint: chrome
-  name: 🇨🇦 CA 013 | ⬇️ 200.29MB/s
-  network: ws
-  port: 2096
-  server: 104.16.72.2
-  servername: sp.linuxdododo.ccwu.cc
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06b65903-406d-4a41-8400-6fd5c0ee7798
-  ws-opts:
-    headers:
-      Host: sp.linuxdododo.ccwu.cc
-    path: /proxyip
-- client-fingerprint: chrome
-  name: 🇨🇦 CA 014 | ⬇️ 198.52MB/s
-  network: ws
-  port: 2096
-  server: 104.16.72.101
-  servername: sp.linuxdododo.ccwu.cc
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06b65903-406d-4a41-8400-6fd5c0ee7798
-  ws-opts:
-    headers:
-      Host: sp.linuxdododo.ccwu.cc
-    path: /proxyip
-- client-fingerprint: chrome
   encryption: none
-  name: 🇨🇦 CA 015 | ⬇️ 195.50MB/s
+  name: 🇨🇦 CA 012 | ⚡ 127.00ms
   network: ws
   port: 443
   server: 172.66.3.133
@@ -326,138 +269,23 @@ proxies:
         like Gecko) Chrome/50.0.2661.102 Safari/537.36
     path: /sg-melbi
   xudp: true
-- client-fingerprint: chrome
-  name: 🇨🇦 CA 016 | ⬇️ 194.16MB/s
+- name: 🇨🇦 CA 013 | ⚡ 128.00ms
   network: ws
-  port: 2096
-  server: 104.18.47.140
-  servername: sp.linuxdododo.ccwu.cc
-  skip-cert-verify: false
-  tfo: false
-  tls: true
+  port: 8880
+  server: 104.16.8.66
   type: vless
   udp: true
-  uuid: 06b65903-406d-4a41-8400-6fd5c0ee7798
+  uuid: 2145ee90-d933-4975-b4fe-8fa5365937f0
   ws-opts:
     headers:
-      Host: sp.linuxdododo.ccwu.cc
-    path: /proxyip=ProxyIP.JP.cmliussss.netfp=chrome
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇨🇦 CA 017 | ⬇️ 194.13MB/s
-  network: ws
-  port: 443
-  server: 104.17.112.113
-  servername: support.zoom.us.yxls.eu.cc
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
-  ws-opts:
-    headers:
-      Host: support.zoom.us.yxls.eu.cc
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/51.0.2704.106 Safari/537.36
-    path: /sg-melbi
+      Host: long-breeze-5552.250-271.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/66.0.3359.181 Safari/537.36
+    path: /pyip=ProxyIP.US.CMLiussss.net
   xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: 🇨🇦 CA 018 | ⬇️ 194.09MB/s
-  network: ws
-  port: 443
-  server: 198.41.208.112
-  servername: support.zoom.us.yxls.eu.cc
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
-  ws-opts:
-    headers:
-      Host: support.zoom.us.yxls.eu.cc
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/36.0.1985.125 Safari/537.36
-    path: /sg-melbi
-  xudp: true
-- name: 🇺🇸 US 004 | ⬇️ 191.92MB/s
-  network: ws
-  password: f922fa0f-3311-4368-85ff-cf65e727c854
-  port: 443
-  server: 141.193.213.30
-  skip-cert-verify: false
-  sni: space.byu.id.yxls.eu.cc
-  type: trojan
-  ws-opts:
-    headers:
-      Host: space.byu.id.yxls.eu.cc
-    path: /br-orcl
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇨🇦 CA 019 | ⬇️ 173.24MB/s
-  network: ws
-  port: 443
-  server: 104.16.75.143
-  servername: unnes.ac.id.yxls.eu.cc
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0ac0a6f0-d3f0-47f1-8de4-ce785e515a5c
-  ws-opts:
-    headers:
-      Host: unnes.ac.id.yxls.eu.cc
-      User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.30 (KHTML, like Gecko)
-        Slackware/Chrome/12.0.742.100 Safari/534.30
-    path: /ca-cl
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇨🇦 CA 020 | ⬇️ 168.81MB/s
-  network: ws
-  port: 443
-  server: 104.17.121.98
-  servername: unnes.ac.id.yxls.eu.cc
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0ac0a6f0-d3f0-47f1-8de4-ce785e515a5c
-  ws-opts:
-    headers:
-      Host: unnes.ac.id.yxls.eu.cc
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.67 Safari/537.36
-    path: /ca-cl
-  xudp: true
-- client-fingerprint: chrome
-  name: 🇨🇦 CA 021 | ⬇️ 158.08MB/s
-  network: ws
-  port: 443
-  server: cf.090227.xyz
-  servername: t1s1.rittbo.kdns.fr
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-  ws-opts:
-    headers:
-      Host: t1s1.rittbo.kdns.fr
-    path: /
-- name: 🇨🇦 CA 022 | ⬇️ 150.35MB/s
-  network: ws
-  port: 443
-  server: 108.162.194.135
-  servername: nbhhh.mrcool.kdns.fr
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 659a9075-d5ab-4fd2-bf34-b37043fae832
-  ws-opts:
-    headers:
-      Host: nbhhh.mrcool.kdns.fr
-    path: /
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇨🇦 CA 023 | ⬇️ 149.80MB/s
+  name: 🇨🇦 CA 014 | ⚡ 137.00ms
   network: ws
   port: 443
   server: 162.159.13.71
@@ -473,592 +301,7 @@ proxies:
         (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
     path: /
   xudp: true
-- client-fingerprint: chrome
-  name: 🇨🇦 CA 024 | ⬇️ 146.41MB/s
-  network: ws
-  port: 2096
-  server: 162.159.40.181
-  servername: sp.linuxdododo.ccwu.cc
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06b65903-406d-4a41-8400-6fd5c0ee7798
-  ws-opts:
-    headers:
-      Host: sp.linuxdododo.ccwu.cc
-    path: /proxyip=ProxyIP.JP.cmliussss.net
-- name: 🇺🇸 US 005 | ⬇️ 131.01MB/s
-  password: PI36027154
-  port: 443
-  server: pro-tortoise.rooster465.autos
-  type: trojan
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇬🇧 GB 001 | ⬇️ 117.95MB/s
-  network: ws
-  port: 443
-  server: 91.193.58.77
-  servername: unnes.ac.id.yxls.eu.cc
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0ac0a6f0-d3f0-47f1-8de4-ce785e515a5c
-  ws-opts:
-    headers:
-      Host: unnes.ac.id.yxls.eu.cc
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/55.0.2883.87 Safari/537.36
-    path: /ca-cl
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇨🇦 CA 025 | ⬇️ 112.81MB/s
-  network: ws
-  port: 443
-  server: 162.159.19.67
-  servername: nbhhh.mrcool.kdns.fr
-  tls: true
-  type: vless
-  udp: true
-  uuid: 659a9075-d5ab-4fd2-bf34-b37043fae832
-  ws-opts:
-    headers:
-      Host: nbhhh.mrcool.kdns.fr
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/54.0.2840.71 Safari/537.36
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  name: 🇨🇦 CA 026 | ⬇️ 112.29MB/s
-  network: ws
-  port: 8443
-  server: 104.20.2.221
-  servername: bycf.lzjnb.shop
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 6c7a6a6a-6a6a-4000-8000-000000000002
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: bycf.lzjnb.shop
-    max-early-data: 2560
-    path: /
-- name: 🇵🇱 PL 001 | ⬇️ 110.54MB/s
-  network: ws
-  port: 8880
-  server: 185.193.30.30
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime09.workers.dev
-- client-fingerprint: chrome
-  name: 🇨🇦 CA 027 | ⬇️ 107.71MB/s
-  network: ws
-  port: 2096
-  server: 104.17.62.253
-  servername: shiny-waterfall-8ffa.alinejatidev.workers.dev
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8822e683-fdf3-43f2-870d-10d1945baba0
-  ws-opts:
-    headers:
-      Host: shiny-waterfall-8ffa.alinejatidev.workers.dev
-    path: /
-- client-fingerprint: chrome
-  flow: ''
-  name: 🇨🇦 CA 028 | ⬇️ 106.96MB/s
-  network: ws
-  port: 2096
-  server: courses.mftplus.qzz.io
-  servername: courses.mftplus.qzz.io
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: b9ede7a5-5b4b-4aee-ac37-2c307e587e47
-  ws-opts:
-    headers:
-      Host: courses.mftplus.qzz.io
-    path: /eyJqdW5rIjoidVkzQm1ROUg4dyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560
-- client-fingerprint: chrome
-  name: 🇨🇦 CA 029 | ⬇️ 98.07MB/s
-  network: ws
-  port: 443
-  server: server15.peekconf1-741.workers.dev
-  servername: server15.peekconf1-741.workers.dev
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 78b9ac78-ebdf-4e51-8114-f6b0cd6d2169
-  ws-opts:
-    headers:
-      Host: server15.peekconf1-741.workers.dev
-    path: /eyJqdW5rIjoiOUZIcXVMV3FlbnoiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByZWZpeCIsInBhbmVsSVBzIjpbIlsyYTAyOjg5ODoxNDY6NjQ6Ol0iLCJbMjYwMjpmYzU5OjExOjY0OjpdIiwiWzI2MDI6ZmM1OTpiMDo2NDo6XSJdfQ==?ed=2560
-- client-fingerprint: chrome
-  name: 🇨🇦 CA 030 | ⬇️ 94.58MB/s
-  network: ws
-  port: 2083
-  server: 104.16.43.192
-  servername: ez-2cb1f5.sabzipolobamahi9.workers.dev
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 88e32d76-b49f-44ee-a90a-1ad01d542d55
-  ws-opts:
-    headers:
-      Host: ez-2cb1f5.sabzipolobamahi9.workers.dev
-    path: /eyJqdW5rIjoiOWc3WUROOHZXemEiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119?ed=2560
-- client-fingerprint: randomized
-  name: 🇨🇦 CA 031 | ⬇️ 92.41MB/s
-  network: ws
-  port: 2095
-  server: itarmy.com.ua
-  servername: cnmfangbinxing.cnmfangbinxing-s.workers.dev
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: cnmfangbinxing.cnmfangbinxing-s.workers.dev
-    path: /
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇨🇦 CA 032 | ⬇️ 89.53MB/s
-  network: ws
-  port: 443
-  server: server3.pegibol940.workers.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5da16620-0386-4da3-a252-12a6380ed1a6
-  ws-opts:
-    headers:
-      Host: server3.pegibol940.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/70.0.3538.102 Safari/537.36
-    path: /eyJqdW5rIjoiUHRlMEpuSzRFY1EyeUUwIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMmEwMjo4OTg6MTQ2OjY0OjpdIiwiWzI2MDI6ZmM1OTpiMDo2NDo6XSIsIlsyNjAyOmZjNTk6MTE6NjQ6Ol0iXX0=
-  xudp: true
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 US 006 | ⬇️ 89.51MB/s
-  port: 180
-  server: 82.198.246.233
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 US 007 | ⬇️ 88.32MB/s
-  port: 180
-  server: 82.198.246.97
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 US 008 | ⬇️ 88.20MB/s
-  port: 180
-  server: 82.198.246.9
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 US 009 | ⬇️ 87.91MB/s
-  port: 180
-  server: 82.198.246.250
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 US 010 | ⬇️ 87.08MB/s
-  port: 180
-  server: 82.198.246.37
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 🇨🇦 CA 015 | ⚡ 102.00ms
-  network: ws
-  port: 8880
-  server: 162.159.156.214
-  type: vless
-  udp: true
-  uuid: 565326ee-c588-4843-9472-a051578ab1ae
-  ws-opts:
-    headers:
-      Host: lucky-cell-e8c5.490-f12.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.90 Safari/537.36
-    path: /pyip=ProxyIP.KR.CMLiussss.net
-  xudp: true
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 US 003 | ⚡ 198.00ms
-  network: tcp
-  port: 443
-  server: 165.140.216.141
-  skip-cert-verify: true
-  type: vmess
-  uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d
-- name: 🇨🇦 CA 005 | ⚡ 64.00ms
-  network: ws
-  port: 8880
-  server: 104.16.8.66
-  type: vless
-  udp: true
-  uuid: 2145ee90-d933-4975-b4fe-8fa5365937f0
-  ws-opts:
-    headers:
-      Host: long-breeze-5552.250-271.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/66.0.3359.181 Safari/537.36
-    path: /pyip=ProxyIP.US.CMLiussss.net
-  xudp: true
-- name: 🇨🇦 CA 005 | ⚡ 74.00ms
-  network: ws
-  port: 8880
-  server: 104.26.13.40
-  type: vless
-  udp: true
-  uuid: 9d45d137-9892-4a83-a04a-f30b4da28243
-  ws-opts:
-    headers:
-      Host: broken-wave-8a45.483.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/40.0.2214.111 Safari/537.36
-    path: /pyip=ProxyIP.SG.CMLiussss.net
-  xudp: true
-- client-fingerprint: randomized
-  name: 🇨🇦 CA 003 | ⚡ 104.00ms
-  network: ws
-  port: 2095
-  server: cloudflare-dns.com
-  servername: cnmfangbinxing.cnmfangbinxing-s.workers.dev
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: cnmfangbinxing.cnmfangbinxing-s.workers.dev
-    path: /
-- name: 🇨🇦 CA 011 | ⚡ 147.00ms
-  network: ws
-  port: 8880
-  server: www.gov.ua
-  type: vless
-  udp: true
-  uuid: 8bcfe782-60c4-4c09-b46c-330f1aa3741c
-  ws-opts:
-    headers:
-      Host: snowy-lab-6cab.237-2da.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/46.0.2490.80 Safari/537.36
-    path: /pyip=ProxyIP.US.CMLiussss.net
-  xudp: true
-- name: 🇨🇦 CA 001 | ⚡ 48.00ms
-  network: ws
-  port: 8880
-  server: 104.16.107.139
-  type: vless
-  udp: true
-  uuid: 9be3bb59-c281-4fee-ae3d-7cf6c4b47eb4
-  ws-opts:
-    headers:
-      Host: late-mountain-6801.355.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/66.0.3359.181 Safari/537.36
-    path: /pyip=ProxyIP.JP.CMLiussss.net
-  xudp: true
-- cc: -2
-  delay: 149
-  encryption: none
-  name: 🇨🇦 CA 011 | ⚡ 97.00ms
-  network: ws
-  port: 2086
-  server: www.speedtest.net
-  speed: 1.2
-  type: vless
-  udp: true
-  uuid: bba14c1d-f08c-4c9a-ac87-cf85d38d8aff
-  vv: 260624.1527
-  ws-opts:
-    headers:
-      Host: tight-thunder-ce8e.hamid-r-aliakbari1379-0f0.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/69.0.3497.100 Safari/537.36
-    path: /eyJqdW5rIjoiRGtvTEVIeGU4cXFaTVVZIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMmEwMjo4OTg6MTQ2OjY0OjpdIl19?ed=2560
-  xudp: true
-- client-fingerprint: randomized
-  name: 🇨🇦 CA 010 | ⚡ 639.00ms
-  network: ws
-  port: 2095
-  server: support.cloudflare.com
-  servername: cnmfangbinxing.cnmfangbinxing-s.workers.dev
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: cnmfangbinxing.cnmfangbinxing-s.workers.dev
-    path: /
-- client-fingerprint: randomized
-  name: 🇨🇦 CA 009 | ⚡ 118.00ms
-  network: ws
-  port: 2095
-  server: www.epicgames.com
-  servername: cnmfangbinxing.cnmfangbinxing-s.workers.dev
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: cnmfangbinxing.cnmfangbinxing-s.workers.dev
-    path: /
-- client-fingerprint: randomized
-  name: 🇨🇦 CA 006 | ⚡ 111.00ms
-  network: ws
-  port: 2095
-  server: developers.cloudflare.com
-  servername: cnmfangbinxing.cnmfangbinxing-s.workers.dev
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: cnmfangbinxing.cnmfangbinxing-s.workers.dev
-    path: /
-- name: 🇨🇦 CA 010 | ⚡ 87.00ms
-  network: ws
-  port: 80
-  server: www.speedtest.net
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 63f1ef69-92fd-427a-b3e4-98ffddf81ac6
-  ws-opts:
-    headers:
-      Host: young-rice-749e.heliy78750.workers.dev
-    path: /nPKoVRUdyuRZ6jpY/YnBiLnlvdXNlZi5pc2VnYXJvLmNvbSxwcm94eWlwLmNtbGl1c3Nzcy5uZXQsbmltYS5uc2NsLmlyLHR1cmsucmFkaWNhbGl6YXRpb24uaXI=?ed=2560
-- client-fingerprint: randomized
-  name: 🇨🇦 CA 005 | ⚡ 105.00ms
-  network: ws
-  port: 2095
-  server: blog.cloudflare.com
-  servername: cnmfangbinxing.cnmfangbinxing-s.workers.dev
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: cnmfangbinxing.cnmfangbinxing-s.workers.dev
-    path: /
-- client-fingerprint: randomized
-  name: 🇨🇦 CA 004 | ⚡ 104.00ms
-  network: ws
-  port: 2095
-  server: www.shopify.com
-  servername: cnmfangbinxing.cnmfangbinxing-s.workers.dev
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: cnmfangbinxing.cnmfangbinxing-s.workers.dev
-    path: /
-- client-fingerprint: randomized
-  name: 🇨🇦 CA 002 | ⚡ 102.00ms
-  network: ws
-  port: 2095
-  server: ns.cloudflare.com
-  servername: cnmfangbinxing.cnmfangbinxing-s.workers.dev
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: cnmfangbinxing.cnmfangbinxing-s.workers.dev
-    path: /
-- name: 🇨🇦 CA 017 | ⚡ 111.00ms
-  network: ws
-  port: 8880
-  server: www.baipiao.eu.org
-  type: vless
-  udp: true
-  uuid: d829cf8d-0a32-4e60-bcc3-a03fb4658ea4
-  ws-opts:
-    headers:
-      Host: shy-wind-a26f.182-104.workers.dev
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; Moto G (5) Build/NPPS25.137-93-14)
-        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /pyip=ProxyIP.KR.CMLiussss.net
-  xudp: true
-- name: 🇨🇦 CA 016 | ⚡ 102.00ms
-  network: ws
-  port: 8880
-  server: 104.17.21.32
-  type: vless
-  udp: true
-  uuid: d1eeb74f-e5ea-45eb-9934-5376bfeb5ba4
-  ws-opts:
-    headers:
-      Host: fragrant-shape-07a0.269-144.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.90 Safari/537.36
-    path: /pyip=ProxyIP.SG.CMLiussss.net
-  xudp: true
-- client-fingerprint: chrome
-  name: 🇨🇦 CA 005 | ⚡ 108.00ms
-  network: ws
-  port: 2096
-  server: zeus-panel-tln7ap.kingworkerr.workers.dev
-  servername: zeus-panel-tln7ap.kingworkerr.workers.dev
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: a045dd2b-db2e-4179-acd8-35067fd8ba0d
-  ws-opts:
-    headers:
-      Host: zeus-panel-tln7ap.kingworkerr.workers.dev
-    path: /
-- client-fingerprint: chrome
-  name: 🇨🇦 CA 008 | ⚡ 115.00ms
-  network: ws
-  port: 443
-  server: zeus-panel-tln7ap.kingworkerr.workers.dev
-  servername: zeus-panel-tln7ap.kingworkerr.workers.dev
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: a045dd2b-db2e-4179-acd8-35067fd8ba0d
-  ws-opts:
-    headers:
-      Host: zeus-panel-tln7ap.kingworkerr.workers.dev
-    path: /
-- client-fingerprint: chrome
-  name: 🇨🇦 CA 012 | ⚡ 98.00ms
-  network: ws
-  port: 443
-  security: tls
-  server: 172.64.146.116
-  servername: support.zoom.us.blackshadow.dpdns.org
-  tls: true
-  type: vless
-  uuid: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
-  ws-opts:
-    headers:
-      Host: support.zoom.us.blackshadow.dpdns.org
-    path: /44.209.52.7-443
-- client-fingerprint: randomized
-  name: 🇨🇦 CA 001 | ⚡ 98.00ms
-  network: ws
-  port: 2095
-  server: www.udemy.com
-  servername: cnmfangbinxing.cnmfangbinxing-s.workers.dev
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: cnmfangbinxing.cnmfangbinxing-s.workers.dev
-    path: /
-- name: 🇨🇦 CA 023 | ⚡ 111.00ms
-  network: ws
-  port: 8443
-  server: 172.67.75.194
-  servername: c7dabe95.proxy-978.pages.dev
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 767b6340-96dc-4aa0-8013-a8af7513d920
-  ws-opts:
-    headers:
-      Host: c7dabe95.proxy-978.pages.dev
-    path: /
-- name: 🇨🇦 CA 006 | ⚡ 75.00ms
-  network: ws
-  port: 8880
-  server: www.ipget.net
-  type: vless
-  udp: true
-  uuid: 65aed3c1-1999-46a1-a3f3-2e5eb119ec64
-  ws-opts:
-    headers:
-      Host: weathered-hat-76a5.380-d00.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/57.0.2987.133 Safari/537.36
-    path: /pyip=ProxyIP.KR.CMLiussss.net
-  xudp: true
-- name: 🇨🇦 CA 021 | ⚡ 107.00ms
-  network: ws
-  port: 8880
-  server: 104.16.100.66
-  type: vless
-  udp: true
-  uuid: 59a0424b-d36b-4685-bac5-89d50d8969a8
-  ws-opts:
-    headers:
-      Host: billowing-snowflake-f056.63-f14.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/67.0.3396.99 Safari/537.36
-    path: /pyip=ProxyIP.JP.CMLiussss.net
-  xudp: true
-- client-fingerprint: chrome
-  name: 🇺🇸 US 002 | ⚡ 108.00ms
-  network: ws
-  port: 443
-  server: 162.159.38.25
-  servername: t1s1.rittbo.kdns.fr
-  tls: true
-  type: vless
-  udp: true
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-  ws-opts:
-    headers:
-      Host: t1s1.rittbo.kdns.fr
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; de-DE) AppleWebKit/534.17
-        (KHTML, like Gecko) Chrome/10.0.649.0 Safari/534.17
-    path: /fp=chrome
-  xudp: true
-- name: 🇨🇦 CA 008 | ⚡ 72.00ms
+- name: 🇨🇦 CA 015 | ⚡ 144.00ms
   network: ws
   port: 8880
   server: skk.moe
@@ -1072,275 +315,273 @@ proxies:
         (KHTML, like Gecko) Chrome/63.0.3239.83 Mobile Safari/537.36
     path: /pyip=ProxyIP.SG.CMLiussss.net
   xudp: true
-- client-fingerprint: randomized
-  name: 🇨🇦 CA 008 | ⚡ 118.00ms
-  network: ws
-  port: 2095
-  server: www.npmjs.com
-  servername: cnmfangbinxing.cnmfangbinxing-s.workers.dev
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: cnmfangbinxing.cnmfangbinxing-s.workers.dev
-    path: /
-- name: 🇨🇦 CA 002 | ⚡ 59.00ms
-  network: ws
-  port: 8880
-  server: 172.64.88.168
-  type: vless
-  udp: true
-  uuid: 6f876b28-1b3e-4088-85c0-d299e56bfccd
-  ws-opts:
-    headers:
-      Host: throbbing-haze-fbde.388-6c4.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/36.0.1985.125 Safari/537.36
-    path: /pyip=ProxyIP.JP.CMLiussss.net
-  xudp: true
-- name: 🇨🇦 CA 009 | ⚡ 80.00ms
-  network: ws
-  port: 8880
-  server: 104.16.106.213
-  type: vless
-  udp: true
-  uuid: 7121d0be-40f5-4eda-b3d1-1556e71ea4fa
-  ws-opts:
-    headers:
-      Host: shrill-recipe-0c1d.404-a1d.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/54.0.2840.99 Safari/537.36
-    path: /pyip=ProxyIP.JP.CMLiussss.net
-  xudp: true
-- encryption: none
-  name: 🇨🇦 CA 033 | ⚡ 148.00ms
-  network: ws
-  port: 8080
-  server: 104.21.87.142
-  type: vless
-  udp: true
-  uuid: cad25dec-01c3-4c2b-8422-eedeefa9a73e
-  ws-opts:
-    headers:
-      Host: zeus-panel-2mp2ud.287et32e3o8ye78.workers.dev
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-J730GM Build/NRD90M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  name: 🇨🇦 CA 004 | ⚡ 106.00ms
-  network: ws
-  port: 2053
-  server: zeus-panel-tln7ap.kingworkerr.workers.dev
-  servername: zeus-panel-tln7ap.kingworkerr.workers.dev
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: a045dd2b-db2e-4179-acd8-35067fd8ba0d
-  ws-opts:
-    headers:
-      Host: zeus-panel-tln7ap.kingworkerr.workers.dev
-    path: /
-- encryption: none
-  name: 🇨🇦 CA 018 | ⚡ 104.00ms
-  network: ws
-  port: 8080
-  server: 104.21.29.89
-  type: vless
-  udp: true
-  uuid: 4bf5989f-ab5a-41c4-b43f-99320aa9e800
-  ws-opts:
-    headers:
-      Host: zeus-panel-yilj6d.zeus-fjo5h1.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/66.0.3359.139 Safari/537.36
-    path: /
-  xudp: true
-- name: 美国 056
-  network: ws
-  port: 8080
-  server: 141.193.213.21
-  type: vless
-  udp: true
-  uuid: d4951d91-23e0-4301-a1ea-5300e0b5ec67
-  ws-opts:
-    headers:
-      Host: free-server.techsonic.me
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/65.0.3325.181 Safari/537.36
-    path: /free-server.techsonic.me
-  xudp: true
-- client-fingerprint: chrome
-  name: 🇨🇦 CA 039 | ⚡ 285.00ms
-  network: ws
-  port: 2087
-  server: 104.19.151.124
-  servername: nova-mango-portal-254e.nova-fea1df.workers.dev
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 759732c5-3b2d-4e71-8e73-92224f16b27e
-  ws-opts:
-    headers:
-      Host: nova-mango-portal-254e.nova-fea1df.workers.dev
-    path: /?u=2924992ad8
-- name: 🇨🇦 CA 007 | ⚡ 69.00ms
-  network: ws
-  port: 8880
-  server: log.bpminecraft.com
-  type: vless
-  udp: true
-  uuid: d25ba473-5b05-48bb-b048-e82844e2ae39
-  ws-opts:
-    headers:
-      Host: misty-recipe-be74.271.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/53.0.2785.143 Safari/537.36
-    path: /pyip=ProxyIP.JP.CMLiussss.net
-  xudp: true
-- client-fingerprint: chrome
-  name: 🇨🇦 CA 007 | ⚡ 114.00ms
-  network: ws
-  port: 443
-  server: nahan-core.fatitelegram.workers.dev
-  servername: nahan-core.fatitelegram.workers.dev
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 73796e63-0000-4000-8000-000000000000
-  ws-opts:
-    headers:
-      Host: nahan-core.fatitelegram.workers.dev
-    path: /sync
-- client-fingerprint: chrome
-  name: 🇨🇦 CA 035 | ⚡ 162.00ms
-  network: ws
-  port: 2083
-  server: volexproxy.karjadidd.workers.dev
-  servername: volexproxy.karjadidd.workers.dev
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 766f6c65-0000-4000-8000-787000000002
-  ws-opts:
-    headers:
-      Host: volexproxy.karjadidd.workers.dev
-    path: /volexprosy
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 US 002 | ⚡ 146.00ms
-  port: 18000
-  server: 38.114.123.42
-  type: vmess
-  udp: true
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 US 005 | ⚡ 203.00ms
-  port: 18000
-  server: 38.110.1.246
-  type: vmess
-  udp: true
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-- client-fingerprint: chrome
-  name: 🇨🇦 CA 032 | ⚡ 145.00ms
-  network: ws
-  port: 443
-  server: 104.16.73.26
-  servername: parsa-panel-alypp.fafaavaf.workers.dev
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 666c7578-0000-4000-8000-000000000000
-  ws-opts:
-    headers:
-      Host: parsa-panel-alypp.fafaavaf.workers.dev
-    path: /flux
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 US 006 | ⚡ 205.00ms
-  port: 18000
-  server: 38.91.107.49
-  type: vmess
-  udp: true
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 US 008 | ⚡ 232.00ms
-  port: 18000
-  server: 67.220.95.3
-  type: vmess
-  udp: true
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 US 009 | ⚡ 270.00ms
-  port: 18000
-  server: 67.220.85.46
-  type: vmess
-  udp: true
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-- alterId: 0
-  cipher: auto
-  name: 🇨🇦 CA 001 | ⚡ 227.00ms
-  port: 18000
-  server: 134.195.196.211
-  type: vmess
-  udp: true
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-- encryption: none
-  name: 🇨🇦 CA 028 | ⚡ 127.00ms
-  network: ws
-  port: 8080
-  server: 104.17.122.62
-  servername: ez-9eb0c3.ezaccess131f845.workers.dev
-  type: vless
-  udp: true
-  uuid: 2a166c5e-6560-4cc0-a891-c3482f1379ea
-  ws-opts:
-    headers:
-      Host: ez-9eb0c3.ezaccess131f845.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.77 Safari/537.36
-    path: /
-  xudp: true
-- alterId: 1
-  cipher: auto
-  name: 🇯🇵 JP 001 | ⚡ 336.00ms
-  port: 22324
-  server: 172.104.80.66
-  type: vmess
-  udp: true
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- alterId: 0
-  cipher: auto
-  name: 🇨🇦 CA 002 | ⚡ 252.00ms
-  port: 18000
-  server: 23.162.200.198
-  type: vmess
-  udp: true
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-- name: 🇯🇵 JP 005 | ⚡ 422.00ms
-  password: PI36027154
-  port: 443
-  server: large-baboon.rooster465.autos
-  type: trojan
 - client-fingerprint: chrome
   encryption: none
-  name: 🇨🇦 CA 022 | ⚡ 367.00ms
+  name: 🇨🇦 CA 016 | ⚡ 145.00ms
+  network: ws
+  port: 443
+  server: 104.16.72.101
+  servername: nbhhh.mrcool.kdns.fr
+  tls: true
+  type: vless
+  udp: true
+  uuid: 659a9075-d5ab-4fd2-bf34-b37043fae832
+  ws-opts:
+    headers:
+      Host: nbhhh.mrcool.kdns.fr
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.77 Safari/537.36
+    path: /proxyip
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇨🇦 CA 017 | ⚡ 222.00ms
+  network: ws
+  port: 443
+  server: 104.17.149.233
+  servername: support.zoom.us.yxls.eu.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
+  ws-opts:
+    headers:
+      Host: support.zoom.us.yxls.eu.cc
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/46.0.2490.80 Safari/537.36
+    path: /sg-melbi
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇨🇦 CA 018 | ⚡ 239.00ms
+  network: ws
+  port: 443
+  server: cf1.466688.xyz
+  servername: cfoo-146.pages.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: b08562b0-dbc0-47d1-860d-9435133b25c9
+  ws-opts:
+    headers:
+      Host: cfoo-146.pages.dev
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0; vivo 1606 Build/MMB29M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile Safari/537.36
+    path: /QiangLieTuiJian?ed=2560
+  xudp: true
+- client-fingerprint: chrome
+  name: 🇨🇦 CA 019 | ⚡ 256.00ms
+  network: ws
+  port: 443
+  server: cf.090227.xyz
+  servername: t1s1.rittbo.kdns.fr
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  ws-opts:
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+    path: /
+- client-fingerprint: chrome
+  name: 🇨🇦 CA 020 | ⚡ 363.00ms
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.229
+  sni: www.calmloud.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.calmloud.com
+      User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/70.0.3538.67 Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
+  name: 🇨🇦 CA 021 | ⚡ 366.00ms
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.210
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/70.0.3538.67 Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇨🇦 CA 022 | ⚡ 373.00ms
+  network: ws
+  port: 443
+  server: 104.18.45.137
+  servername: amooaliii.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 72d1797c-cef8-410a-b8fd-db9104dc3cb0
+  ws-opts:
+    headers:
+      Host: amooaliii.net
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610F Build/NRD90M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
+    path: /jdhfyws
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇨🇦 CA 023 | ⚡ 373.00ms
+  network: ws
+  port: 443
+  server: 104.27.7.125
+  servername: amooaliii.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 72d1797c-cef8-410a-b8fd-db9104dc3cb0
+  ws-opts:
+    headers:
+      Host: amooaliii.net
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/61.0.3163.100 Safari/537.36
+    path: /jdhfyws
+  xudp: true
+- name: 🇨🇦 CA 024 | ⚡ 373.00ms
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.44
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇨🇦 CA 025 | ⚡ 375.00ms
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.208
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇨🇦 CA 026 | ⚡ 376.00ms
+  network: ws
+  port: 443
+  server: 172.64.32.75
+  servername: octopusss.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 073d1d50-8478-47bf-a828-7a1b381931d5
+  ws-opts:
+    headers:
+      Host: octopusss.net
+      User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.30 (KHTML, like Gecko)
+        Chrome/12.0.742.100 Safari/534.30
+    path: /odiyfws
+  xudp: true
+- name: 🇸🇨 SC 001 | ⚡ 376.00ms
+  network: ws
+  password: humanity
+  port: 443
+  server: 45.130.125.160
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.calmlunch.com
+    path: /assignment
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇨🇦 CA 027 | ⚡ 382.00ms
+  network: ws
+  port: 443
+  server: 188.114.97.6
+  servername: terazhediii.info
+  tls: true
+  type: vless
+  udp: true
+  uuid: b2f6aa3a-2550-4a1c-b2c0-1c94b1207217
+  ws-opts:
+    headers:
+      Host: terazhediii.info
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; Redmi 4A Build/MMB29M; wv) AppleWebKit/537.36
+        (KHTML, like Gecko) Version/4.0 Chrome/60.0.3112.116 Mobile Safari/537.36
+    path: /hdgrbws
+  xudp: true
+- client-fingerprint: chrome
+  name: 🇸🇨 SC 002 | ⚡ 383.00ms
+  network: ws
+  password: humanity
+  port: 443
+  server: 45.130.125.126
+  sni: www.calmlunch.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.calmlunch.com
+      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; FIG-LX3) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
+  name: 🇨🇦 CA 028 | ⚡ 385.00ms
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.19.208.184
+  sni: www.multiplydose.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.multiplydose.com
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/52.0.2743.116 Safari/537.36
+    path: /assignment
+- name: 🇨🇦 CA 029 | ⚡ 385.00ms
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.187
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- client-fingerprint: chrome
+  name: 🇨🇦 CA 030 | ⚡ 385.00ms
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.71
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/36.0.1985.143 Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇨🇦 CA 031 | ⚡ 385.00ms
   network: ws
   port: 443
   server: 172.67.74.2
@@ -1359,323 +600,7 @@ proxies:
     path: /rsedgws
   xudp: true
 - client-fingerprint: chrome
-  encryption: none
-  name: 🇨🇦 CA 019 | ⚡ 237.00ms
-  network: ws
-  port: 443
-  server: www.speedtest.net
-  servername: octopusss.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 073d1d50-8478-47bf-a828-7a1b381931d5
-  ws-opts:
-    headers:
-      Host: octopusss.net
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/37.0.2062.120 Safari/537.36
-    path: /odiyfws
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇨🇦 CA 029 | ⚡ 381.00ms
-  network: ws
-  port: 443
-  server: betty.ns.cloudflare.com
-  servername: amooaliii.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 72d1797c-cef8-410a-b8fd-db9104dc3cb0
-  ws-opts:
-    headers:
-      Host: amooaliii.net
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/62.0.3202.94 Safari/537.36
-    path: /jdhfyws
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇨🇦 CA 020 | ⚡ 366.00ms
-  network: ws
-  port: 443
-  server: 172.64.32.75
-  servername: octopusss.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 073d1d50-8478-47bf-a828-7a1b381931d5
-  ws-opts:
-    headers:
-      Host: octopusss.net
-      User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.30 (KHTML, like Gecko)
-        Chrome/12.0.742.100 Safari/534.30
-    path: /odiyfws
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇨🇦 CA 018 | ⚡ 361.00ms
-  network: ws
-  port: 443
-  server: 104.18.206.22
-  servername: amooaliii.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 72d1797c-cef8-410a-b8fd-db9104dc3cb0
-  ws-opts:
-    headers:
-      Host: amooaliii.net
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/46.0.2490.80 Safari/537.36
-    path: /jdhfyws
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇨🇦 CA 016 | ⚡ 353.00ms
-  network: ws
-  port: 443
-  server: 104.21.74.63
-  servername: amooaliii.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 72d1797c-cef8-410a-b8fd-db9104dc3cb0
-  ws-opts:
-    headers:
-      Host: amooaliii.net
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/55.0.2883.87 Safari/537.36
-    path: /jdhfyws
-  xudp: true
-- client-fingerprint: chrome
-  name: 🇨🇦 CA 038 | ⚡ 237.00ms
-  network: ws
-  port: 443
-  server: 104.27.61.92
-  servername: amooaliii.net
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 72d1797c-cef8-410a-b8fd-db9104dc3cb0
-  ws-opts:
-    headers:
-      Host: amooaliii.net
-    path: /jdhfyws
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇨🇦 CA 024 | ⚡ 369.00ms
-  network: ws
-  port: 443
-  server: 104.18.45.137
-  servername: amooaliii.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 72d1797c-cef8-410a-b8fd-db9104dc3cb0
-  ws-opts:
-    headers:
-      Host: amooaliii.net
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610F Build/NRD90M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
-    path: /jdhfyws
-  xudp: true
-- name: 🇨🇦 CA 023 | ⚡ 243.00ms
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.187
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇨🇦 CA 021 | ⚡ 367.00ms
-  network: ws
-  port: 443
-  server: 188.114.97.6
-  servername: terazhediii.info
-  tls: true
-  type: vless
-  udp: true
-  uuid: b2f6aa3a-2550-4a1c-b2c0-1c94b1207217
-  ws-opts:
-    headers:
-      Host: terazhediii.info
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; Redmi 4A Build/MMB29M; wv) AppleWebKit/537.36
-        (KHTML, like Gecko) Version/4.0 Chrome/60.0.3112.116 Mobile Safari/537.36
-    path: /hdgrbws
-  xudp: true
-- client-fingerprint: chrome
-  name: 🇨🇦 CA 032 | ⚡ 263.00ms
-  network: ws
-  password: humanity
-  port: 443
-  server: 172.67.180.92
-  sni: www.multiplydose.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.multiplydose.com
-      User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.30 (KHTML, like Gecko)
-        Slackware/Chrome/12.0.742.100 Safari/534.30
-    path: /assignment
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇺🇸 US 003 | ⚡ 245.00ms
-  network: ws
-  port: 443
-  server: 159.112.235.52
-  servername: octopusss.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 073d1d50-8478-47bf-a828-7a1b381931d5
-  ws-opts:
-    headers:
-      Host: octopusss.net
-      User-Agent: Mozilla/5.0 (X11; Datanyze; Linux x86_64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/65.0.3325.181 Safari/537.36
-    path: /odiyfws
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇨🇦 CA 018 | ⚡ 231.00ms
-  network: ws
-  port: 443
-  server: 104.27.7.125
-  servername: amooaliii.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 72d1797c-cef8-410a-b8fd-db9104dc3cb0
-  ws-opts:
-    headers:
-      Host: amooaliii.net
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/61.0.3163.100 Safari/537.36
-    path: /jdhfyws
-  xudp: true
-- client-fingerprint: chrome
-  name: 🇨🇦 CA 025 | ⚡ 248.00ms
-  network: ws
-  password: humanity
-  port: 443
-  server: 162.159.17.189
-  skip-cert-verify: true
-  sni: www.multiplydose.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.multiplydose.com
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532G Build/MMB29T) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/63.0.3239.83 Mobile Safari/537.36
-    path: /assignment
-- name: 🇨🇦 CA 027 | ⚡ 374.00ms
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.71.213
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.calmlunch.com
-    path: /assignment
-- client-fingerprint: chrome
-  name: 🇨🇦 CA 026 | ⚡ 251.00ms
-  network: ws
-  password: humanity
-  port: 443
-  server: 172.64.147.166
-  sni: www.multiplydose.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.multiplydose.com
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/41.0.2228.0 Safari/537.36
-    path: /assignment
-- client-fingerprint: chrome
-  name: 🇨🇦 CA 039 | ⚡ 275.00ms
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.19.208.184
-  sni: www.multiplydose.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.multiplydose.com
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/52.0.2743.116 Safari/537.36
-    path: /assignment
-- name: 🇨🇦 CA 035 | ⚡ 475.00ms
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.21.40.34
-  skip-cert-verify: false
-  sni: www.multiplydose.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.multiplydose.com
-    path: /assignment
-- name: 🇨🇦 CA 023 | ⚡ 368.00ms
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.17.121.43
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.calmlunch.com
-    path: /assignment
-- client-fingerprint: chrome
-  name: 🇨🇦 CA 034 | ⚡ 265.00ms
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.17.121.71
-  sni: www.multiplydose.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.multiplydose.com
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.31 (KHTML, like
-        Gecko) Chrome/26.0.1410.64 Safari/537.31
-    path: /assignment
-- client-fingerprint: chrome
-  name: 美国 101
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.19.229.21
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; Redmi 4A Build/MMB29M; wv) AppleWebKit/537.36
-        (KHTML, like Gecko) Version/4.0 Chrome/60.0.3112.116 Mobile Safari/537.36
-    path: /assignment
-- client-fingerprint: chrome
-  name: 🇪🇸 ES 001 | ⚡ 837.00ms
+  name: 🇪🇸 ES 001 | ⚡ 386.00ms
   network: ws
   password: humanity
   port: 443
@@ -1690,369 +615,9 @@ proxies:
       User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610M) AppleWebKit/537.36 (KHTML,
         like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
     path: /assignment
-- name: 🇨🇦 CA 027 | ⚡ 253.00ms
-  network: ws
-  password: humanity
-  port: 443
-  server: 172.66.47.69
-  skip-cert-verify: false
-  sni: www.multiplydose.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.multiplydose.com
-    path: /assignment
-- name: 🇨🇦 CA 025 | ⚡ 370.00ms
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.26.14.137
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 🇸🇨 SC 001 | ⚡ 253.00ms
-  network: ws
-  password: humanity
-  port: 443
-  server: 45.130.125.75
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.calmlunch.com
-    path: /assignment
-- name: 🇨🇦 CA 041 | ⚡ 282.00ms
-  network: ws
-  password: humanity
-  port: 443
-  server: 172.66.44.211
-  skip-cert-verify: false
-  sni: www.multiplydose.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.multiplydose.com
-    path: /assignment
-- name: 🇨🇦 CA 030 | ⚡ 258.00ms
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.12.149
-  skip-cert-verify: false
-  sni: www.multiplydose.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.multiplydose.com
-    path: /assignment
-- name: 🇨🇦 CA 017 | ⚡ 360.00ms
-  network: ws
-  password: humanity
-  port: 443
-  server: 188.114.96.3
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.calmlunch.com
-    path: /assignment
-- name: 🇸🇨 SC 003 | ⚡ 365.00ms
-  network: ws
-  password: humanity
-  port: 443
-  server: 45.130.125.160
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.calmlunch.com
-    path: /assignment
-- client-fingerprint: chrome
-  name: 🇨🇦 CA 035 | ⚡ 266.00ms
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.219
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/39.0.2171.95 Safari/537.36
-    path: /assignment
 - client-fingerprint: chrome
   encryption: none
-  name: 🇨🇦 CA 034 | ⚡ 440.00ms
-  network: ws
-  port: 443
-  server: 108.162.192.75
-  servername: amoosamiii.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4f013568-a58b-4b04-b5dd-4d52bf1c33a4
-  ws-opts:
-    headers:
-      Host: amoosamiii.net
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/66.0.3359.181 Safari/537.36
-    path: /poiuyws
-  xudp: true
-- client-fingerprint: chrome
-  name: 🇨🇦 CA 029 | ⚡ 257.00ms
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.174.71
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/36.0.1985.143 Safari/537.36
-    path: /assignment
-- client-fingerprint: chrome
-  name: 🇨🇦 CA 028 | ⚡ 254.00ms
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.17.131.88
-  sni: www.gossipglove.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.gossipglove.com
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/43.0.2357.65 Safari/537.36
-    path: /assignment
-- client-fingerprint: chrome
-  name: 🇨🇦 CA 040 | ⚡ 280.00ms
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.97
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/55.0.2883.87 Safari/537.36
-    path: /assignment
-- name: 🇨🇦 CA 019 | ⚡ 366.00ms
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.174.44
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- client-fingerprint: chrome
-  name: 🇨🇦 CA 046 | ⚡ 918.00ms
-  network: ws
-  password: humanity
-  port: 443
-  server: 188.114.98.0
-  sni: www.calmlunch.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.calmlunch.com
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532G Build/MMB29T) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/63.0.3239.83 Mobile Safari/537.36
-    path: /assignment
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇨🇦 CA 033 | ⚡ 423.00ms
-  network: ws
-  port: 443
-  server: celestara.biz
-  servername: octopusss5.info
-  tls: true
-  type: vless
-  udp: true
-  uuid: c35050ce-01ab-45a9-91b8-54cec637d0a8
-  ws-opts:
-    headers:
-      Host: octopusss5.info
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/68.0.3440.1805 Safari/537.36 MVisionPlayer/1.0.0.0
-    path: /udfyfws
-  xudp: true
-- client-fingerprint: chrome
-  name: 🇨🇦 CA 020 | ⚡ 238.00ms
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.174.46
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/49.0.2623.87 Safari/537.36
-    path: /assignment
-- name: 🇸🇨 SC 002 | ⚡ 364.00ms
-  network: ws
-  password: humanity
-  port: 443
-  server: 45.130.125.32
-  skip-cert-verify: false
-  sni: www.calmloud.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.calmloud.com
-    path: /assignment
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇨🇦 CA 030 | ⚡ 404.00ms
-  network: ws
-  port: 443
-  server: octopusss5.info
-  servername: octopusss5.info
-  tls: true
-  type: vless
-  udp: true
-  uuid: c35050ce-01ab-45a9-91b8-54cec637d0a8
-  ws-opts:
-    headers:
-      Host: octopusss5.info
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/66.0.3359.181 Safari/537.36
-    path: /udfyfws
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇺🇸 US 008 | ⚡ 414.00ms
-  network: ws
-  port: 443
-  server: news.microsoft.com
-  servername: amoosamiii.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4f013568-a58b-4b04-b5dd-4d52bf1c33a4
-  ws-opts:
-    headers:
-      Host: amoosamiii.net
-      User-Agent: Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/533.2 (KHTML,
-        like Gecko) Chrome/5.0.342.1 Safari/533.2
-    path: /poiuyws
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇨🇦 CA 028 | ⚡ 380.00ms
-  network: ws
-  port: 443
-  server: 173.245.59.162
-  servername: octopusss5.info
-  tls: true
-  type: vless
-  udp: true
-  uuid: c35050ce-01ab-45a9-91b8-54cec637d0a8
-  ws-opts:
-    headers:
-      Host: octopusss5.info
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/58.0.3029.110 Safari/537.36
-    path: /udfyfws
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇨🇦 CA 037 | ⚡ 271.00ms
-  network: ws
-  port: 443
-  server: 172.67.71.247
-  servername: octopusss5.info
-  tls: true
-  type: vless
-  udp: true
-  uuid: c35050ce-01ab-45a9-91b8-54cec637d0a8
-  ws-opts:
-    headers:
-      Host: octopusss5.info
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/65.0.3325.181 Safari/537.36
-    path: /udfyfws
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 美国 137
-  network: ws
-  port: 443
-  server: 104.26.15.137
-  servername: shegeftihaaa.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7e544a9d-7667-413b-bbb0-b3bb1aac6d77
-  ws-opts:
-    headers:
-      Host: shegeftihaaa.net
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/50.0.2661.102 Safari/537.36
-    path: /rsedgws
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇺🇸 US 010 | ⚡ 528.00ms
-  network: ws
-  port: 443
-  server: 162.159.38.119
-  servername: vangoghhh.info
-  tls: true
-  type: vless
-  udp: true
-  uuid: 14b59caf-a196-4ec2-8c70-c7b388062f5b
-  ws-opts:
-    headers:
-      Host: vangoghhh.info
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.31 (KHTML, like
-        Gecko) Chrome/26.0.1410.64 Safari/537.31
-    path: /rdfgtws
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇨🇦 CA 031 | ⚡ 408.00ms
-  network: ws
-  port: 443
-  server: 104.16.72.139
-  servername: vangoghhh.info
-  tls: true
-  type: vless
-  udp: true
-  uuid: 14b59caf-a196-4ec2-8c70-c7b388062f5b
-  ws-opts:
-    headers:
-      Host: vangoghhh.info
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/66.0.3359.181 Safari/537.36
-    path: /rdfgtws
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇸🇨 SC 002 | ⚡ 275.00ms
+  name: 🇸🇨 SC 003 | ⚡ 388.00ms
   network: ws
   port: 443
   server: 45.130.125.229
@@ -2070,43 +635,10 @@ proxies:
   xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: 🇺🇸 US 006 | ⚡ 404.00ms
+  name: 🇨🇦 CA 032 | ⚡ 389.00ms
   network: ws
   port: 443
-  server: 141.193.213.21
-  servername: amoosamiii.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4f013568-a58b-4b04-b5dd-4d52bf1c33a4
-  ws-opts:
-    headers:
-      Host: amoosamiii.net
-      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/55.0.2883.87 Safari/537.36
-    path: /poiuyws
-  xudp: true
-- client-fingerprint: chrome
-  name: 🇨🇦 CA 031 | ⚡ 262.00ms
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.229
-  sni: www.calmloud.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.calmloud.com
-      User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/70.0.3538.67 Safari/537.36
-    path: /assignment
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇺🇸 US 009 | ⚡ 421.00ms
-  network: ws
-  port: 443
-  server: 8.6.112.0
+  server: 104.26.15.137
   servername: shegeftihaaa.net
   tls: true
   type: vless
@@ -2115,64 +647,13 @@ proxies:
   ws-opts:
     headers:
       Host: shegeftihaaa.net
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/65.0.3325.162 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/50.0.2661.102 Safari/537.36
     path: /rsedgws
   xudp: true
-- name: 🇸🇨 SC 001 | ⚡ 291.00ms
-  network: ws
-  port: 443
-  server: 45.130.125.126
-  servername: vangoghhh.info
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 14b59caf-a196-4ec2-8c70-c7b388062f5b
-  ws-opts:
-    headers:
-      Host: vangoghhh.info
-    path: /rdfgtws
 - client-fingerprint: chrome
   encryption: none
-  name: 美国 134
-  network: ws
-  port: 443
-  server: 104.16.174.3
-  servername: JoinProxyVPN11.amoosamiii.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4f013568-a58b-4b04-b5dd-4d52bf1c33a4
-  ws-opts:
-    headers:
-      Host: amoosamiii.net
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/46.0.2490.80 Safari/537.36
-    path: /poiuyws
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇬🇧 GB 002 | ⚡ 282.00ms
-  network: ws
-  port: 443
-  server: 5.10.214.151
-  servername: octopusss5.info
-  tls: true
-  type: vless
-  udp: true
-  uuid: c35050ce-01ab-45a9-91b8-54cec637d0a8
-  ws-opts:
-    headers:
-      Host: octopusss5.info
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/41.0.2272.101 Safari/537.36
-    path: /udfyfws
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇺🇸 US 007 | ⚡ 409.00ms
+  name: 🇺🇸 US 002 | ⚡ 390.00ms
   network: ws
   port: 443
   server: 141.193.213.20
@@ -2190,7 +671,190 @@ proxies:
   xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: 🇨🇦 CA 043 | ⚡ 285.00ms
+  name: 🇨🇦 CA 033 | ⚡ 390.00ms
+  network: ws
+  port: 443
+  server: 104.18.206.22
+  servername: amooaliii.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 72d1797c-cef8-410a-b8fd-db9104dc3cb0
+  ws-opts:
+    headers:
+      Host: amooaliii.net
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/46.0.2490.80 Safari/537.36
+    path: /jdhfyws
+  xudp: true
+- client-fingerprint: chrome
+  name: 🇨🇦 CA 034 | ⚡ 393.00ms
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.97
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/55.0.2883.87 Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇨🇦 CA 035 | ⚡ 395.00ms
+  network: ws
+  port: 443
+  server: betty.ns.cloudflare.com
+  servername: amooaliii.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 72d1797c-cef8-410a-b8fd-db9104dc3cb0
+  ws-opts:
+    headers:
+      Host: amooaliii.net
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/62.0.3202.94 Safari/537.36
+    path: /jdhfyws
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇨🇦 CA 036 | ⚡ 395.00ms
+  network: ws
+  port: 443
+  server: 173.245.59.162
+  servername: octopusss5.info
+  tls: true
+  type: vless
+  udp: true
+  uuid: c35050ce-01ab-45a9-91b8-54cec637d0a8
+  ws-opts:
+    headers:
+      Host: octopusss5.info
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/58.0.3029.110 Safari/537.36
+    path: /udfyfws
+  xudp: true
+- client-fingerprint: chrome
+  name: 🇨🇦 CA 037 | ⚡ 396.00ms
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.117
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+      User-Agent: Mozilla/5.0 (Linux; Android 5.1; A37f Build/LMY47V) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/43.0.2357.93 Mobile Safari/537.36
+    path: /assignment
+- name: 🇨🇦 CA 038 | ⚡ 397.00ms
+  network: ws
+  password: humanity
+  port: 443
+  server: 188.114.96.3
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.calmlunch.com
+    path: /assignment
+- client-fingerprint: chrome
+  name: 🇨🇦 CA 039 | ⚡ 399.00ms
+  network: ws
+  password: humanity
+  port: 443
+  server: 172.67.180.92
+  sni: www.multiplydose.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.multiplydose.com
+      User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.30 (KHTML, like Gecko)
+        Slackware/Chrome/12.0.742.100 Safari/534.30
+    path: /assignment
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇨🇦 CA 040 | ⚡ 399.00ms
+  network: ws
+  port: 443
+  server: www.speedtest.net
+  servername: octopusss.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 073d1d50-8478-47bf-a828-7a1b381931d5
+  ws-opts:
+    headers:
+      Host: octopusss.net
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/37.0.2062.120 Safari/537.36
+    path: /odiyfws
+  xudp: true
+- name: 🇺🇸 US 003 | ⚡ 399.00ms
+  network: ws
+  password: humanity
+  port: 443
+  server: 8.6.112.0
+  skip-cert-verify: false
+  sni: www.multiplydose.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.multiplydose.com
+    path: /assignment
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇺🇸 US 004 | ⚡ 400.00ms
+  network: ws
+  port: 443
+  server: 159.112.235.52
+  servername: octopusss.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 073d1d50-8478-47bf-a828-7a1b381931d5
+  ws-opts:
+    headers:
+      Host: octopusss.net
+      User-Agent: Mozilla/5.0 (X11; Datanyze; Linux x86_64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/65.0.3325.181 Safari/537.36
+    path: /odiyfws
+  xudp: true
+- name: 🇨🇦 CA 041 | ⚡ 400.00ms
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.71.213
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.calmlunch.com
+    path: /assignment
+- name: 🇨🇦 CA 042 | ⚡ 402.00ms
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.26.14.137
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇨🇦 CA 043 | ⚡ 403.00ms
   network: ws
   port: 443
   server: 108.162.193.162
@@ -2206,40 +870,336 @@ proxies:
         like Gecko) Chrome/65.0.3325.181 Safari/537.36
     path: /udfyfws
   xudp: true
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬 SG 001 | ⚡ 494.00ms
-  port: 18000
-  server: 149.88.23.207
-  type: vmess
-  udp: true
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-- client-fingerprint: chrome
-  name: 🇨🇦 CA 045 | ⚡ 327.00ms
+- name: 🇸🇨 SC 004 | ⚡ 404.00ms
   network: ws
   password: humanity
   port: 443
-  server: 172.64.152.23
-  sni: www.creationlong.org
+  server: 45.130.125.96
+  skip-cert-verify: false
+  sni: www.calmloud.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.calmloud.com
+    path: /assignment
+- client-fingerprint: chrome
+  name: 🇨🇦 CA 044 | ⚡ 404.00ms
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.219
+  sni: www.ignitelimit.com
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: www.creationlong.org
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/61.0.3163.100 Safari/537.36
+      Host: www.ignitelimit.com
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/39.0.2171.95 Safari/537.36
     path: /assignment
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬 SG 002 | ⚡ 521.00ms
-  port: 18000
-  server: 149.88.23.202
-  type: vmess
-  udp: true
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+- name: 🇨🇦 CA 045 | ⚡ 405.00ms
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.21.40.34
+  skip-cert-verify: false
+  sni: www.multiplydose.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.multiplydose.com
+    path: /assignment
+- name: 🇨🇦 CA 046 | ⚡ 406.00ms
+  network: ws
+  password: humanity
+  port: 443
+  server: 172.66.47.69
+  skip-cert-verify: false
+  sni: www.multiplydose.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.multiplydose.com
+    path: /assignment
 - client-fingerprint: chrome
   encryption: none
-  name: 🇨🇦 CA 038 | ⚡ 272.00ms
+  name: 🇨🇦 CA 047 | ⚡ 408.00ms
+  network: ws
+  port: 443
+  server: 104.21.74.63
+  servername: amooaliii.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 72d1797c-cef8-410a-b8fd-db9104dc3cb0
+  ws-opts:
+    headers:
+      Host: amooaliii.net
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/55.0.2883.87 Safari/537.36
+    path: /jdhfyws
+  xudp: true
+- allowInsecure: '1'
+  name: 🇺🇸 US 005 | ⚡ 410.00ms
+  network: ws
+  password: humanity
+  port: 443
+  server: 141.193.213.11
+  skip-cert-verify: true
+  sni: www.calmloud.com
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.calmloud.com
+    path: /assignment
+- name: 🇸🇨 SC 005 | ⚡ 413.00ms
+  network: ws
+  password: humanity
+  port: 443
+  server: 45.130.125.75
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.calmlunch.com
+    path: /assignment
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇨🇦 CA 048 | ⚡ 418.00ms
+  network: ws
+  port: 443
+  server: 104.16.72.139
+  servername: vangoghhh.info
+  tls: true
+  type: vless
+  udp: true
+  uuid: 14b59caf-a196-4ec2-8c70-c7b388062f5b
+  ws-opts:
+    headers:
+      Host: vangoghhh.info
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/66.0.3359.181 Safari/537.36
+    path: /rdfgtws
+  xudp: true
+- client-fingerprint: chrome
+  name: 🇨🇦 CA 049 | ⚡ 418.00ms
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.17.121.71
+  sni: www.multiplydose.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.multiplydose.com
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.31 (KHTML, like
+        Gecko) Chrome/26.0.1410.64 Safari/537.31
+    path: /assignment
+- name: 🇨🇦 CA 050 | ⚡ 422.00ms
+  network: ws
+  password: humanity
+  port: 443
+  server: 172.66.44.211
+  skip-cert-verify: false
+  sni: www.multiplydose.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.multiplydose.com
+    path: /assignment
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇬🇧 GB 001 | ⚡ 422.00ms
+  network: ws
+  port: 443
+  server: 5.10.214.151
+  servername: octopusss5.info
+  tls: true
+  type: vless
+  udp: true
+  uuid: c35050ce-01ab-45a9-91b8-54cec637d0a8
+  ws-opts:
+    headers:
+      Host: octopusss5.info
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/41.0.2272.101 Safari/537.36
+    path: /udfyfws
+  xudp: true
+- name: 🇨🇦 CA 051 | ⚡ 422.00ms
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.20.6.134
+  skip-cert-verify: false
+  sni: www.calmloud.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.calmloud.com
+    path: /assignment
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇨🇦 CA 052 | ⚡ 422.00ms
+  network: ws
+  port: 443
+  server: 108.162.192.75
+  servername: amoosamiii.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4f013568-a58b-4b04-b5dd-4d52bf1c33a4
+  ws-opts:
+    headers:
+      Host: amoosamiii.net
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/66.0.3359.181 Safari/537.36
+    path: /poiuyws
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇺🇸 US 006 | ⚡ 424.00ms
+  network: ws
+  port: 443
+  server: 141.193.213.21
+  servername: amoosamiii.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4f013568-a58b-4b04-b5dd-4d52bf1c33a4
+  ws-opts:
+    headers:
+      Host: amoosamiii.net
+      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/55.0.2883.87 Safari/537.36
+    path: /poiuyws
+  xudp: true
+- client-fingerprint: chrome
+  name: 🇨🇦 CA 053 | ⚡ 424.00ms
+  network: ws
+  password: humanity
+  port: 443
+  server: 162.159.17.189
+  skip-cert-verify: true
+  sni: www.multiplydose.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.multiplydose.com
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532G Build/MMB29T) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/63.0.3239.83 Mobile Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇨🇦 CA 054 | ⚡ 424.00ms
+  network: ws
+  port: 443
+  server: 104.16.174.3
+  servername: JoinProxyVPN11.amoosamiii.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4f013568-a58b-4b04-b5dd-4d52bf1c33a4
+  ws-opts:
+    headers:
+      Host: amoosamiii.net
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/46.0.2490.80 Safari/537.36
+    path: /poiuyws
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇺🇸 US 007 | ⚡ 425.00ms
+  network: ws
+  port: 443
+  server: news.microsoft.com
+  servername: amoosamiii.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4f013568-a58b-4b04-b5dd-4d52bf1c33a4
+  ws-opts:
+    headers:
+      Host: amoosamiii.net
+      User-Agent: Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/533.2 (KHTML,
+        like Gecko) Chrome/5.0.342.1 Safari/533.2
+    path: /poiuyws
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇨🇦 CA 055 | ⚡ 426.00ms
+  network: ws
+  port: 443
+  server: 172.67.71.247
+  servername: octopusss5.info
+  tls: true
+  type: vless
+  udp: true
+  uuid: c35050ce-01ab-45a9-91b8-54cec637d0a8
+  ws-opts:
+    headers:
+      Host: octopusss5.info
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/65.0.3325.181 Safari/537.36
+    path: /udfyfws
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇨🇦 CA 056 | ⚡ 427.00ms
+  network: ws
+  port: 443
+  server: octopusss5.info
+  servername: octopusss5.info
+  tls: true
+  type: vless
+  udp: true
+  uuid: c35050ce-01ab-45a9-91b8-54cec637d0a8
+  ws-opts:
+    headers:
+      Host: octopusss5.info
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/66.0.3359.181 Safari/537.36
+    path: /udfyfws
+  xudp: true
+- client-fingerprint: chrome
+  name: 🇨🇦 CA 057 | ⚡ 428.00ms
+  network: ws
+  password: humanity
+  port: 443
+  server: 172.64.147.166
+  sni: www.multiplydose.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.multiplydose.com
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/41.0.2228.0 Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇺🇸 US 008 | ⚡ 430.00ms
+  network: ws
+  port: 443
+  server: 8.47.69.0
+  servername: shegeftihaaa.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7e544a9d-7667-413b-bbb0-b3bb1aac6d77
+  ws-opts:
+    headers:
+      Host: shegeftihaaa.net
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.67 Safari/537.36
+    path: /rsedgws
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇨🇦 CA 058 | ⚡ 457.00ms
   network: ws
   port: 443
   server: elliot.ns.cloudflare.com
@@ -2257,78 +1217,130 @@ proxies:
   xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: 🇺🇸 US 006 | ⚡ 291.00ms
+  name: 🇨🇦 CA 059 | ⚡ 457.00ms
   network: ws
   port: 443
-  server: 8.47.69.0
-  servername: shegeftihaaa.net
+  server: celestara.biz
+  servername: octopusss5.info
   tls: true
   type: vless
   udp: true
-  uuid: 7e544a9d-7667-413b-bbb0-b3bb1aac6d77
+  uuid: c35050ce-01ab-45a9-91b8-54cec637d0a8
   ws-opts:
     headers:
-      Host: shegeftihaaa.net
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.67 Safari/537.36
-    path: /rsedgws
+      Host: octopusss5.info
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/68.0.3440.1805 Safari/537.36 MVisionPlayer/1.0.0.0
+    path: /udfyfws
   xudp: true
-- name: 🇫🇷 FR 002 | ⚡ 280.00ms
-  password: PI36027154
+- client-fingerprint: chrome
+  name: 🇩🇪 DE 001 | ⚡ 475.00ms
+  network: ws
+  password: humanity
   port: 443
-  server: pumped-eft.rooster465.autos
+  server: 141.101.90.101
+  sni: www.ignitelimit.com
   type: trojan
-- name: 🇳🇱 NL 001 | ⚡ 444.00ms
-  password: LzMWgm6LaNWCm11bFTbynDPq2TqQj03t
-  port: 443
-  server: 5.255.102.165
-  skip-cert-verify: true
-  tls: true
-  type: hysteria2
-- name: 🇵🇱 PL 001 | ⚡ 468.00ms
-  password: nsKBtW4V7LPHG5.iSySU8_pNM88Gkxz7eE
-  port: 443
-  server: 64.176.74.241
-  type: trojan
-- name: 🇸🇬 SG 003 | ⚡ 570.00ms
-  password: PI36027154
-  port: 443
-  server: rich-mule.rooster465.autos
-  type: trojan
-- cipher: aes-256-cfb
-  name: 🇺🇸 US 004 | ⚡ 208.00ms
-  password: amazonskr05
-  port: '443'
-  server: 3.136.233.197
-  type: ss
   udp: true
-- name: 🇩🇪 DE 007 | ⚡ 343.00ms
-  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/56.0.2924.87 Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
+  name: 🇨🇦 CA 060 | ⚡ 501.00ms
+  network: ws
+  password: humanity
   port: 443
-  server: 185.137.157.156
+  server: 104.17.131.88
+  sni: www.gossipglove.com
   type: trojan
-- name: kr|072c|puddincat07@Telegram
-  password: d5m-5bGOsVbFgRlxsEyO3pCF
-  port: 55020
-  server: 140.245.74.46
-  skip-cert-verify: true
-  type: hysteria2
   udp: true
+  ws-opts:
+    headers:
+      Host: www.gossipglove.com
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/43.0.2357.65 Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
+  name: 🇨🇦 CA 061 | ⚡ 509.00ms
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.46
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/49.0.2623.87 Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
+  name: 🇨🇦 CA 062 | ⚡ 526.00ms
+  network: ws
+  password: humanity
+  port: 443
+  server: 172.64.152.23
+  sni: www.creationlong.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.creationlong.org
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/61.0.3163.100 Safari/537.36
+    path: /assignment
 - client-fingerprint: chrome
   encryption: none
-  grpc-opts:
-    grpc-service-name: grpc-api
-  name: 🇬🇧 GB 002 | ⚡ 403.00ms
-  network: grpc
+  name: 美国 098
+  network: ws
   port: 443
-  server: gbos2.osvp.online
-  servername: gbos2.osvp.online
+  server: 162.159.38.119
+  servername: vangoghhh.info
   tls: true
   type: vless
   udp: true
-  uuid: 367ff772-a8f4-4895-8e99-3702a868f0c6
+  uuid: 14b59caf-a196-4ec2-8c70-c7b388062f5b
+  ws-opts:
+    headers:
+      Host: vangoghhh.info
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.31 (KHTML, like
+        Gecko) Chrome/26.0.1410.64 Safari/537.31
+    path: /rdfgtws
   xudp: true
-- name: xx|f463|puddincat07@Telegram
+- name: 🇺🇸 US 009 | ⚡ 570.00ms
+  network: ws
+  port: 8080
+  server: 141.193.213.21
+  type: vless
+  udp: true
+  uuid: d4951d91-23e0-4301-a1ea-5300e0b5ec67
+  ws-opts:
+    headers:
+      Host: free-server.techsonic.me
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/65.0.3325.181 Safari/537.36
+    path: /free-server.techsonic.me
+  xudp: true
+- client-fingerprint: chrome
+  name: 🇨🇦 CA 063 | ⚡ 609.00ms
+  network: ws
+  password: humanity
+  port: 443
+  server: 188.114.98.0
+  sni: www.calmlunch.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.calmlunch.com
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532G Build/MMB29T) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/63.0.3239.83 Mobile Safari/537.36
+    path: /assignment
+- name: 美国 048
   network: ws
   password: dfdse334053vuohm
   port: 443
@@ -2341,73 +1353,19 @@ proxies:
     headers:
       Host: alternative.mhjstudio.ir
     path: /
-- name: 🇫🇮 FI 001 | ⚡ 332.00ms
-  password: 00dcd873-9211-4d61-ad35-87999906e5c8
-  port: 443
-  server: fta.fontanvpn.com
-  skip-cert-verify: true
-  tls: true
-  type: hysteria2
-- alterId: 0
-  cipher: auto
-  name: 🇹🇷 TR 001 | ⚡ 443.00ms
-  port: 22324
-  server: 5.188.190.252
-  type: vmess
-  udp: true
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- name: 🇯🇵 JP 006 | ⚡ 445.00ms
-  password: T9qoEuuxUEa9Dk3KxnTWrs6J8ilng9sCIf
-  port: 443
-  server: 103.125.216.18
-  type: trojan
-- name: 🇫🇷 FR 001 | ⚡ 262.00ms
-  network: tcp
-  port: 8443
-  server: 137.74.119.18
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 9479aaaf-3057-4bac-ad58-efa2a6abff73
-- allowInsecure: '1'
-  name: 🇺🇸 US 004 | ⚡ 275.00ms
+- name: 🇨🇦 CA 064 | ⚡ 707.00ms
   network: ws
   password: humanity
   port: 443
-  server: 141.193.213.11
-  skip-cert-verify: true
-  sni: www.calmloud.com
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.calmloud.com
-    path: /assignment
-- name: 荷兰 009
-  network: ws
-  password: humanity
-  port: 443
-  server: 45.130.125.96
+  server: 104.18.12.149
   skip-cert-verify: false
-  sni: www.calmloud.com
+  sni: www.multiplydose.com
   type: trojan
   ws-opts:
     headers:
-      Host: www.calmloud.com
+      Host: www.multiplydose.com
     path: /assignment
-- name: 🇨🇦 CA 033 | ⚡ 264.00ms
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.20.6.134
-  skip-cert-verify: false
-  sni: www.calmloud.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.calmloud.com
-    path: /assignment
-- name: 🇨🇦 CA 026 | ⚡ 371.00ms
+- name: 🇨🇦 CA 065 | ⚡ 736.00ms
   network: ws
   password: humanity
   port: 443
@@ -2420,91 +1378,7 @@ proxies:
       Host: www.ignitelimit.com
     path: /assignment
 - client-fingerprint: chrome
-  name: 🇨🇦 CA 024 | ⚡ 248.00ms
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.210
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/70.0.3538.67 Safari/537.36
-    path: /assignment
-- client-fingerprint: chrome
-  name: 🇨🇦 CA 021 | ⚡ 240.00ms
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.174.117
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-      User-Agent: Mozilla/5.0 (Linux; Android 5.1; A37f Build/LMY47V) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/43.0.2357.93 Mobile Safari/537.36
-    path: /assignment
-- alterId: 0
-  cipher: auto
-  name: 🇯🇵 JP 002 | ⚡ 348.00ms
-  port: 49803
-  server: 153.121.73.175
-  type: vmess
-  udp: true
-  uuid: cd3dacbc-2b7b-4718-83ad-ab870f87e12e
-- alterId: 0
-  cipher: auto
-  name: 🇯🇵 JP 003 | ⚡ 356.00ms
-  port: 32221
-  server: 153.121.73.175
-  type: vmess
-  udp: true
-  uuid: b06054ae-f249-438e-998a-8e67bd8df653
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 US 010 | ⚡ 273.00ms
-  port: 22324
-  server: 216.106.183.35
-  type: vmess
-  udp: true
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- alterId: 0
-  cipher: auto
-  name: 🇨🇦 CA 032 | ⚡ 413.00ms
-  network: ws
-  port: 80
-  server: 104.17.124.179
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: f8975871-a7a0-4906-8835-a23c1258ca1e
-  ws-opts:
-    headers:
-      Host: google.whatsapp.snapp.torob.basalam.zula.uplaod-music.ir.
-    path: /
-- name: 🇫🇷 FR 003 | ⚡ 289.00ms
-  password: hCunaKqdEJDBO+3jCrJUSMevXOw9Q_r4Ey
-  port: 443
-  server: 38.60.136.156
-  type: trojan
-- name: 🇫🇷 FR 004 | ⚡ 601.00ms
-  password: Lw_DP4+W.J5K33MD2Jy5zQVuT5n71+=BcD
-  port: 443
-  server: 38.60.168.129
-  type: trojan
-- name: 🇯🇵 JP 004 | ⚡ 421.00ms
-  password: T9qoEuuxUEa9Dk3KxnTWrs6J8ilng9sCIf
-  port: 443
-  server: 103.125.216.11
-  type: trojan
-- client-fingerprint: chrome
-  name: 🇨🇦 CA 036 | ⚡ 266.00ms
+  name: 🇨🇦 CA 066 | ⚡ 902.00ms
   network: ws
   password: humanity
   port: 443
@@ -2518,42 +1392,6 @@ proxies:
       User-Agent: Mozilla/5.0 (Linux; Android 5.1; A37f Build/LMY47V) AppleWebKit/537.36
         (KHTML, like Gecko) Chrome/43.0.2357.93 Mobile Safari/537.36
     path: /assignment
-- name: 🇨🇦 CA 022 | ⚡ 242.00ms
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.208
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 US 004 | ⚡ 180.00ms
-  port: 22324
-  server: 216.106.185.141
-  type: vmess
-  udp: true
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 US 003 | ⚡ 162.00ms
-  port: 48111
-  server: 129.146.143.80
-  type: vmess
-  udp: true
-  uuid: d4603cc2-e0ee-4651-83f5-1db5b7168177
-- alterId: 0
-  cipher: auto
-  name: 🇰🇷 KR 001 | ⚡ 509.00ms
-  port: 8888
-  server: 146.56.112.110
-  type: vmess
-  udp: true
-  uuid: e7c302f3-90d6-42dd-9d7d-94a3683a3707
 - name: 美国 123
   network: ws
   password: humanity
@@ -2566,9 +1404,495 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: /assignment
+- name: 🇨🇦 CA 067 | ⚡ 929.00ms
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.17.121.43
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.calmlunch.com
+    path: /assignment
+- client-fingerprint: chrome
+  name: 美国 101
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.19.229.21
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; Redmi 4A Build/MMB29M; wv) AppleWebKit/537.36
+        (KHTML, like Gecko) Version/4.0 Chrome/60.0.3112.116 Mobile Safari/537.36
+    path: /assignment
+- name: 荷兰 012
+  network: ws
+  password: humanity
+  port: 443
+  server: 45.130.125.32
+  skip-cert-verify: false
+  sni: www.calmloud.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.calmloud.com
+    path: /assignment
 - alterId: 0
   cipher: auto
-  name: 🇰🇷 KR 001 | ⚡ 510.00ms
+  name: 美国 053
+  network: ws
+  port: 80
+  server: 104.17.124.179
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: f8975871-a7a0-4906-8835-a23c1258ca1e
+  ws-opts:
+    headers:
+      Host: google.whatsapp.snapp.torob.basalam.zula.uplaod-music.ir.
+    path: /
+- encryption: none
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 🇫🇮 FI 001 | ⚡ 5986.00ms
+  network: http
+  port: 8882
+  server: gr1.fifapes.monster
+  type: vless
+  udp: true
+  uuid: eab915bc-d2df-73d1-47d0-6eb240497055
+  xudp: true
+- name: 🇨🇦 CA 001 | ⚡ 112.00ms
+  network: ws
+  port: 443
+  server: 173.245.59.35
+  servername: ld.235231.xyz
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 65d3f9b3-d289-4a8e-9c87-90bba156de30
+  ws-opts:
+    headers:
+      Host: ld.235231.xyz
+    path: /
+- client-fingerprint: chrome
+  name: 🇨🇦 CA 002 | ⚡ 213.00ms
+  network: ws
+  port: 443
+  server: nahan-core.fatitelegram.workers.dev
+  servername: nahan-core.fatitelegram.workers.dev
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 73796e63-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: nahan-core.fatitelegram.workers.dev
+    path: /sync
+- client-fingerprint: chrome
+  name: 🇨🇦 CA 003 | ⚡ 511.00ms
+  network: ws
+  port: 2053
+  server: po.fastbrokencompony.com
+  servername: po.fastbrokencompony.com
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e7961655-9674-4cbd-a36f-ec0d5d7d660c
+  ws-opts:
+    headers:
+      Host: po.fastbrokencompony.com
+    path: /
+- name: 🇸🇨 SC 001 | ⚡ 561.00ms
+  network: ws
+  port: 2053
+  server: 45.130.125.158
+  servername: po.fastbrokencompony.com
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e7961655-9674-4cbd-a36f-ec0d5d7d660c
+  ws-opts:
+    headers:
+      Host: po.fastbrokencompony.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇯🇵 JP 001 | ⚡ 467.00ms
+  port: 49803
+  server: 153.121.73.175
+  type: vmess
+  udp: true
+  uuid: cd3dacbc-2b7b-4718-83ad-ab870f87e12e
+- alterId: 1
+  cipher: auto
+  name: 🇯🇵 JP 002 | ⚡ 471.00ms
+  port: 22324
+  server: 172.104.80.66
+  type: vmess
+  udp: true
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- alterId: 0
+  cipher: auto
+  name: 🇯🇵 JP 003 | ⚡ 471.00ms
+  port: 32221
+  server: 153.121.73.175
+  type: vmess
+  udp: true
+  uuid: b06054ae-f249-438e-998a-8e67bd8df653
+- name: 🇬🇧 GB 001 | ⚡ 593.00ms
+  network: tcp
+  port: 443
+  server: 186.190.211.188
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+- name: 🇭🇰 HK 001 | ⚡ 659.00ms
+  password: PI36027154
+  port: 443
+  server: moved-osprey.rooster465.autos
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 🏳️ IR 001 | ⚡ 666.00ms
+  port: 1020
+  server: nlt.reata.ir
+  type: vmess
+  udp: true
+  uuid: 6244c41a-f4c1-4733-a654-c38f7729b13c
+- name: 🇮🇩 ID 001 | ⚡ 1061.00ms
+  password: tUtK5TKdjxsPnOyritLtv8OQWHAK8f8yNR
+  port: 443
+  server: 130.94.94.15
+  type: trojan
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰 HK 002 | ⚡ 3654.00ms
+  port: 30807
+  server: v10.zgtfqs.click
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰 HK 003 | ⚡ 4297.00ms
+  port: 30807
+  server: v10.hdacd.com
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 US 001 | ⚡ 87.00ms
+  password: G5p6ww4o67HB
+  port: 8388
+  server: 108.181.118.10
+  type: ss
+- name: 🇺🇸 US 002 | ⚡ 133.00ms
+  password: PI36027154
+  port: 443
+  server: pro-tortoise.rooster465.autos
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 US 003 | ⚡ 167.00ms
+  port: 18000
+  server: 38.91.107.49
+  type: vmess
+  udp: true
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 US 004 | ⚡ 222.00ms
+  port: 18000
+  server: 67.220.95.3
+  type: vmess
+  udp: true
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+- name: 🇺🇸 US 005 | ⚡ 223.00ms
+  password: 13d29042-ab82-4195-9cd4-2bafc518e201
+  port: 52625
+  server: 147.90.235.195
+  skip-cert-verify: true
+  sni: apps.apple.com
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 US 006 | ⚡ 255.00ms
+  password: hbGrpfvNrJsUmKmPbR3iY2
+  port: 443
+  server: tinkered-pennies-puppies.freesocks.work
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 US 007 | ⚡ 263.00ms
+  port: 18000
+  server: 67.220.85.46
+  type: vmess
+  udp: true
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 US 008 | ⚡ 292.00ms
+  port: 22324
+  server: 216.106.183.35
+  type: vmess
+  udp: true
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- cipher: aes-256-cfb
+  name: 🇫🇷 FR 001 | ⚡ 333.00ms
+  password: amazonskr05
+  port: '443'
+  server: 35.180.229.83
+  type: ss
+  udp: true
+- name: 🇰🇷 KR 001 | ⚡ 513.00ms
+  password: d5m-5bGOsVbFgRlxsEyO3pCF
+  port: 55020
+  server: 140.245.74.46
+  skip-cert-verify: true
+  type: hysteria2
+  udp: true
+- name: 🇷🇺 RU 001 | ⚡ 531.00ms
+  password: a8a5b34d-fe46-487d-bd6a-d9f3101525fd
+  port: 51385
+  server: 46.17.40.117
+  skip-cert-verify: true
+  sni: music.apple.com
+  type: hysteria2
+  udp: true
+- alpn:
+  - h3
+  disable-sni: false
+  name: 🇫🇷 FR 002 | ⚡ 541.00ms
+  password: dongtaiwang.com
+  port: 33888
+  server: 62.210.24.143
+  skip-cert-verify: true
+  sni: bing.com
+  type: tuic
+  udp: true
+  udp-relay-mode: native
+  uuid: 9adb384a-0f16-4501-a8f3-b6b2556fce87
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 US 009 | ⚡ 595.00ms
+  port: 22324
+  server: 216.106.185.141
+  type: vmess
+  udp: true
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- name: 🇦🇪 AE 001 | ⚡ 947.00ms
+  password: ZfhGKkAmGl.hxRfIUI0LUU.MuK3hkQdxed
+  port: 443
+  server: 38.60.202.163
+  type: trojan
+- name: 🇿🇦 ZA 001 | ⚡ 1023.00ms
+  password: ks3og6wZ9kH8UJv1bmpvwXbfgDNNaTd1Lk
+  port: 443
+  server: 38.54.64.247
+  type: trojan
+- name: 🇺🇸 US 010 | ⚡ 1034.00ms
+  password: cb887032-0447-4216-be3c-7333ecdcda9a
+  port: 52738
+  server: 172.96.141.4
+  skip-cert-verify: true
+  sni: api.push.apple.com
+  type: hysteria2
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬 SG 001 | ⚡ 560.00ms
+  port: 18000
+  server: 149.88.23.202
+  type: vmess
+  udp: true
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬 SG 002 | ⚡ 577.00ms
+  port: 18000
+  server: 149.88.23.207
+  type: vmess
+  udp: true
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+- name: 🇩🇪 DE 001 | ⚡ 443.00ms
+  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
+  port: 443
+  server: 185.137.157.138
+  type: trojan
+- name: 🇩🇪 DE 002 | ⚡ 462.00ms
+  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
+  port: 443
+  server: 185.137.157.142
+  type: trojan
+- name: 🇩🇪 DE 003 | ⚡ 476.00ms
+  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
+  port: 443
+  server: 185.137.157.135
+  type: trojan
+- name: 🇩🇪 DE 004 | ⚡ 481.00ms
+  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
+  port: 443
+  server: 185.137.157.140
+  type: trojan
+- name: 🇩🇪 DE 005 | ⚡ 488.00ms
+  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
+  port: 443
+  server: 185.137.157.128
+  type: trojan
+- name: 🇩🇪 DE 006 | ⚡ 560.00ms
+  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
+  port: 443
+  server: 185.137.157.149
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 🇳🇱 NL 001 | ⚡ 352.00ms
+  port: 18339
+  server: c87s5.portablesubmarines.com
+  type: vmess
+  udp: true
+  uuid: 3cd9077d-76f7-4104-bd82-eb6916b89d43
+- name: 🇳🇱 NL 002 | ⚡ 409.00ms
+  password: LzMWgm6LaNWCm11bFTbynDPq2TqQj03t
+  port: 443
+  server: 5.255.102.165
+  skip-cert-verify: true
+  tls: true
+  type: hysteria2
+- name: 🇵🇱 PL 001 | ⚡ 452.00ms
+  password: nsKBtW4V7LPHG5.iSySU8_pNM88Gkxz7eE
+  port: 443
+  server: 64.176.74.241
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 🇲🇾 MY 001 | ⚡ 1388.00ms
+  port: 10000
+  server: 47.250.135.244
+  type: vmess
+  udp: true
+  uuid: aedc66b8-99d7-4a21-8310-61870e7f870d
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 US 001 | ⚡ 122.00ms
+  port: 180
+  server: 82.198.246.233
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 US 002 | ⚡ 124.00ms
+  port: 180
+  server: 82.198.246.97
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 US 003 | ⚡ 125.00ms
+  port: 180
+  server: 82.198.246.250
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 US 004 | ⚡ 125.00ms
+  port: 180
+  server: 82.198.246.9
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 US 005 | ⚡ 127.00ms
+  port: 180
+  server: 82.198.246.37
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: 🇨🇦 CA 001 | ⚡ 206.00ms
+  port: 18000
+  server: 23.162.200.198
+  type: vmess
+  udp: true
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+- alterId: 0
+  cipher: auto
+  name: 🇨🇦 CA 002 | ⚡ 272.00ms
+  port: 18000
+  server: 134.195.196.211
+  type: vmess
+  udp: true
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+- name: 🇩🇪 DE 001 | ⚡ 398.00ms
+  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
+  port: 443
+  server: 185.137.157.151
+  type: trojan
+- name: 🇩🇪 DE 002 | ⚡ 429.00ms
+  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
+  port: 443
+  server: 185.137.157.156
+  type: trojan
+- name: 🇩🇪 DE 003 | ⚡ 456.00ms
+  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
+  port: 443
+  server: 185.137.157.145
+  type: trojan
+- name: 🇦🇺 AU 001 | ⚡ 911.00ms
+  password: PI36027154
+  port: 443
+  server: tight-possum.rooster465.autos
+  type: trojan
+- name: 🇵🇱 PL 001 | ⚡ 64.00ms
+  network: ws
+  port: 8880
+  server: 185.193.30.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime09.workers.dev
+- name: 🇨🇦 CA 001 | ⚡ 90.00ms
+  network: ws
+  port: 80
+  server: 104.25.118.238
+  type: vless
+  udp: true
+  uuid: 6cd78ec7-b715-471c-92b4-0c3842caea4b
+  ws-opts:
+    headers:
+      Host: billowing-cloud-d339.sospanel.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/48.0.2564.109 Safari/537.36
+    path: /eyJqdW5rIjoiOFRwTjlPWHgiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByZWZpeCIsInBhbmVsSVBzIjpbIlsyNjAyOmZjNTk6YjA6NjQ6Ol0iXX0=?ed=2560
+  xudp: true
+- alterId: 0
+  cipher: auto
+  name: 🇰🇷 KR 001 | ⚡ 673.00ms
   network: ws
   port: 443
   server: 152.67.218.38
@@ -2580,14 +1904,470 @@ proxies:
     headers:
       Host: 152.67.218.38
     path: /
-- name: 🇯🇵 JP 001 | ⬇️ 4.35MB/s
-  password: T9qoEuuxUEa9Dk3KxnTWrs6J8ilng9sCIf
+- name: 🏳️ PK 001 | ⚡ 1504.00ms
+  password: S.ibYdZshHTF-ne.M+.Fznp_-hyFFnCSix
   port: 443
-  server: 103.125.216.68
+  server: 149.104.104.58
+  type: trojan
+- client-fingerprint: randomized
+  name: 🇨🇦 CA 001 | ⚡ 90.00ms
+  network: ws
+  port: 2095
+  server: www.npmjs.com
+  servername: cnmfangbinxing.cnmfangbinxing-s.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: cnmfangbinxing.cnmfangbinxing-s.workers.dev
+    path: /
+- client-fingerprint: randomized
+  name: 🇨🇦 CA 002 | ⚡ 90.00ms
+  network: ws
+  port: 2095
+  server: support.cloudflare.com
+  servername: cnmfangbinxing.cnmfangbinxing-s.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: cnmfangbinxing.cnmfangbinxing-s.workers.dev
+    path: /
+- client-fingerprint: randomized
+  name: 🇨🇦 CA 003 | ⚡ 108.00ms
+  network: ws
+  port: 2095
+  server: www.epicgames.com
+  servername: cnmfangbinxing.cnmfangbinxing-s.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: cnmfangbinxing.cnmfangbinxing-s.workers.dev
+    path: /
+- client-fingerprint: randomized
+  name: 🇨🇦 CA 004 | ⚡ 115.00ms
+  network: ws
+  port: 2095
+  server: www.shopify.com
+  servername: cnmfangbinxing.cnmfangbinxing-s.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: cnmfangbinxing.cnmfangbinxing-s.workers.dev
+    path: /
+- client-fingerprint: randomized
+  name: 🇨🇦 CA 005 | ⚡ 118.00ms
+  network: ws
+  port: 2095
+  server: ns.cloudflare.com
+  servername: cnmfangbinxing.cnmfangbinxing-s.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: cnmfangbinxing.cnmfangbinxing-s.workers.dev
+    path: /
+- client-fingerprint: randomized
+  name: 🇨🇦 CA 006 | ⚡ 129.00ms
+  network: ws
+  port: 2095
+  server: itarmy.com.ua
+  servername: cnmfangbinxing.cnmfangbinxing-s.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: cnmfangbinxing.cnmfangbinxing-s.workers.dev
+    path: /
+- client-fingerprint: randomized
+  name: 🇨🇦 CA 007 | ⚡ 134.00ms
+  network: ws
+  port: 2095
+  server: developers.cloudflare.com
+  servername: cnmfangbinxing.cnmfangbinxing-s.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: cnmfangbinxing.cnmfangbinxing-s.workers.dev
+    path: /
+- client-fingerprint: randomized
+  name: 🇨🇦 CA 008 | ⚡ 137.00ms
+  network: ws
+  port: 2095
+  server: blog.cloudflare.com
+  servername: cnmfangbinxing.cnmfangbinxing-s.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: cnmfangbinxing.cnmfangbinxing-s.workers.dev
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 US 001 | ⚡ 118.00ms
+  port: 18000
+  server: 38.110.1.246
+  type: vmess
+  udp: true
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 US 002 | ⚡ 192.00ms
+  port: 18000
+  server: 84.17.41.2
+  type: vmess
+  udp: true
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 US 003 | ⚡ 236.00ms
+  port: 18000
+  server: 38.114.123.42
+  type: vmess
+  udp: true
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 US 004 | ⚡ 364.00ms
+  port: 48111
+  server: 129.146.143.80
+  type: vmess
+  udp: true
+  uuid: d4603cc2-e0ee-4651-83f5-1db5b7168177
+- alterId: 0
+  cipher: auto
+  name: 🇹🇷 TR 001 | ⚡ 394.00ms
+  port: 22324
+  server: 5.188.190.252
+  type: vmess
+  udp: true
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- alterId: 0
+  cipher: auto
+  name: 🇨🇳 TW 001 | ⚡ 500.00ms
+  port: 35034
+  server: 165.154.195.38
+  type: vmess
+  udp: true
+  uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
+- name: 🇸🇬 SG 001 | ⚡ 619.00ms
+  password: PI36027154
+  port: 443
+  server: rich-mule.rooster465.autos
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 🇨🇦 CA 033 | ⬇️ 4.20MB/s
+  name: 🇺🇸 US 005 | ⚡ 705.00ms
+  port: 22324
+  server: 67.220.72.237
+  type: vmess
+  udp: true
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 US 006 | ⚡ 797.00ms
+  port: 10086
+  server: 57.151.100.27
+  type: vmess
+  udp: true
+  uuid: 550e8400-e29b-41d4-a716-446655440000
+- name: 🇫🇷 FR 001 | ⚡ 388.00ms
+  password: PI36027154
+  port: 443
+  server: pumped-eft.rooster465.autos
+  type: trojan
+- name: 🇫🇷 FR 002 | ⚡ 399.00ms
+  network: tcp
+  port: 8443
+  server: 137.74.119.18
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 9479aaaf-3057-4bac-ad58-efa2a6abff73
+- name: 🇫🇷 FR 003 | ⚡ 413.00ms
+  password: hCunaKqdEJDBO+3jCrJUSMevXOw9Q_r4Ey
+  port: 443
+  server: 38.60.136.156
+  type: trojan
+- name: 🇫🇷 FR 004 | ⚡ 416.00ms
+  network: tcp
+  port: 8443
+  server: cdg-1.fromblancwithlove.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 55f7d143-a594-4a91-b030-f227039f85ef
+- name: 🇫🇮 FI 001 | ⚡ 443.00ms
+  password: 00dcd873-9211-4d61-ad35-87999906e5c8
+  port: 443
+  server: fta.fontanvpn.com
+  skip-cert-verify: true
+  tls: true
+  type: hysteria2
+- alterId: 0
+  cipher: auto
+  name: 🇪🇸 ES 001 | ⚡ 447.00ms
+  port: 22324
+  server: 85.90.217.42
+  type: vmess
+  udp: true
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- name: 🇫🇮 FI 002 | ⚡ 451.00ms
+  network: tcp
+  port: 443
+  server: bot.sobhanpor.ir
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 0acf7a94-bc59-4a9a-914f-040d08a09d2d
+- name: 🇫🇷 FR 005 | ⚡ 506.00ms
+  password: Lw_DP4+W.J5K33MD2Jy5zQVuT5n71+=BcD
+  port: 443
+  server: 38.60.168.129
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 🇬🇧 GB 001 | ⚡ 866.00ms
+  port: 22324
+  server: 66.163.117.58
+  type: vmess
+  udp: true
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- client-fingerprint: chrome
+  flow: ''
+  name: 🇨🇦 CA 001 | ⚡ 66.00ms
+  network: ws
+  port: 2096
+  server: courses.mftplus.qzz.io
+  servername: courses.mftplus.qzz.io
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b9ede7a5-5b4b-4aee-ac37-2c307e587e47
+  ws-opts:
+    headers:
+      Host: courses.mftplus.qzz.io
+    path: /eyJqdW5rIjoidVkzQm1ROUg4dyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560
+- name: 🇨🇦 CA 002 | ⚡ 67.00ms
+  network: ws
+  port: 8443
+  server: 172.67.75.194
+  servername: c7dabe95.proxy-978.pages.dev
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 767b6340-96dc-4aa0-8013-a8af7513d920
+  ws-opts:
+    headers:
+      Host: c7dabe95.proxy-978.pages.dev
+    path: /
+- client-fingerprint: chrome
+  name: 🇨🇦 CA 003 | ⚡ 68.00ms
+  network: ws
+  port: 443
+  server: server15.peekconf1-741.workers.dev
+  servername: server15.peekconf1-741.workers.dev
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 78b9ac78-ebdf-4e51-8114-f6b0cd6d2169
+  ws-opts:
+    headers:
+      Host: server15.peekconf1-741.workers.dev
+    path: /eyJqdW5rIjoiOUZIcXVMV3FlbnoiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByZWZpeCIsInBhbmVsSVBzIjpbIlsyYTAyOjg5ODoxNDY6NjQ6Ol0iLCJbMjYwMjpmYzU5OjExOjY0OjpdIiwiWzI2MDI6ZmM1OTpiMDo2NDo6XSJdfQ==?ed=2560
+- name: 🇨🇦 CA 004 | ⚡ 69.00ms
+  network: ws
+  port: 8880
+  server: www.ipget.net
+  type: vless
+  udp: true
+  uuid: 65aed3c1-1999-46a1-a3f3-2e5eb119ec64
+  ws-opts:
+    headers:
+      Host: weathered-hat-76a5.380-d00.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/57.0.2987.133 Safari/537.36
+    path: /pyip=ProxyIP.KR.CMLiussss.net
+  xudp: true
+- name: 🇨🇦 CA 005 | ⚡ 69.00ms
+  network: ws
+  port: 8880
+  server: 172.64.88.168
+  type: vless
+  udp: true
+  uuid: 6f876b28-1b3e-4088-85c0-d299e56bfccd
+  ws-opts:
+    headers:
+      Host: throbbing-haze-fbde.388-6c4.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/36.0.1985.125 Safari/537.36
+    path: /pyip=ProxyIP.JP.CMLiussss.net
+  xudp: true
+- client-fingerprint: chrome
+  name: 🇨🇦 CA 006 | ⚡ 88.00ms
+  network: ws
+  port: 2096
+  server: 104.16.72.70
+  servername: sp.linuxdododo.ccwu.cc
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06b65903-406d-4a41-8400-6fd5c0ee7798
+  ws-opts:
+    headers:
+      Host: sp.linuxdododo.ccwu.cc
+    path: /proxyip
+- client-fingerprint: chrome
+  name: 🇨🇦 CA 007 | ⚡ 90.00ms
+  network: ws
+  port: 2096
+  server: 104.18.47.140
+  servername: sp.linuxdododo.ccwu.cc
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06b65903-406d-4a41-8400-6fd5c0ee7798
+  ws-opts:
+    headers:
+      Host: sp.linuxdododo.ccwu.cc
+    path: /proxyip=ProxyIP.JP.cmliussss.netfp=chrome
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 US 001 | ⚡ 95.00ms
+  network: tcp
+  port: 443
+  server: 165.140.216.141
+  skip-cert-verify: true
+  type: vmess
+  uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d
+- client-fingerprint: chrome
+  name: 🇨🇦 CA 008 | ⚡ 111.00ms
+  network: ws
+  port: 2096
+  server: 104.16.72.101
+  servername: sp.linuxdododo.ccwu.cc
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06b65903-406d-4a41-8400-6fd5c0ee7798
+  ws-opts:
+    headers:
+      Host: sp.linuxdododo.ccwu.cc
+    path: /proxyip
+- client-fingerprint: chrome
+  name: 🇨🇦 CA 009 | ⚡ 113.00ms
+  network: ws
+  port: 2096
+  server: 104.17.62.253
+  servername: shiny-waterfall-8ffa.alinejatidev.workers.dev
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8822e683-fdf3-43f2-870d-10d1945baba0
+  ws-opts:
+    headers:
+      Host: shiny-waterfall-8ffa.alinejatidev.workers.dev
+    path: /
+- client-fingerprint: chrome
+  name: 🇨🇦 CA 010 | ⚡ 207.00ms
+  network: ws
+  port: 443
+  server: 104.16.73.26
+  servername: parsa-panel-alypp.fafaavaf.workers.dev
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 666c7578-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: parsa-panel-alypp.fafaavaf.workers.dev
+    path: /flux
+- client-fingerprint: chrome
+  name: 🇨🇦 CA 011 | ⚡ 419.00ms
+  network: ws
+  port: 443
+  server: 104.27.61.92
+  servername: amooaliii.net
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 72d1797c-cef8-410a-b8fd-db9104dc3cb0
+  ws-opts:
+    headers:
+      Host: amooaliii.net
+    path: /jdhfyws
+- alterId: 0
+  cipher: auto
+  name: 🇰🇷 KR 001 | ⚡ 461.00ms
+  network: tcp
+  port: 443
+  server: 140.238.2.250
+  skip-cert-verify: true
+  type: vmess
+  uuid: 41a7089a-040b-4538-8b8d-010902405bde
+- flow: ''
+  name: 🇮🇹 IT 001 | ⚡ 579.00ms
+  network: ws
+  port: 8443
+  server: ov-italy1.09vpn.com
+  servername: ov-italy1.09vpn.com
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: dc0d0eda-2293-4001-aa03-bd6c9431ed24
+  ws-opts:
+    headers:
+      Host: ov-italy1.09vpn.com
+    path: /vless/
+- alterId: 0
+  cipher: auto
+  name: 🇨🇦 CA 012 | ⚡ 735.00ms
   network: ws
   port: 80
   server: yg2.ygkkk.dpdns.org
@@ -2598,36 +2378,39 @@ proxies:
     headers:
       Host: google.whatsapp.snapp.torob.basalam.zula.uplaod-music.ir.
     path: /
-- name: 🇿🇦 ZA 001 | ⬇️ 4.17MB/s
-  password: ks3og6wZ9kH8UJv1bmpvwXbfgDNNaTd1Lk
+- client-fingerprint: chrome
+  name: 🇨🇦 CA 013 | ⚡ 2350.00ms
+  network: ws
   port: 443
-  server: 38.54.64.247
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: 🇰🇷 KR 001 | ⬇️ 4.02MB/s
-  network: tcp
-  port: 443
-  server: 140.238.2.250
-  skip-cert-verify: true
-  type: vmess
-  uuid: 41a7089a-040b-4538-8b8d-010902405bde
-- alterId: 0
-  cipher: auto
-  name: 🇨🇳 TW 001 | ⬇️ 2.18MB/s
-  port: 35034
-  server: 165.154.195.38
-  type: vmess
+  server: fbi.gov
+  servername: c.downloadphysics.ir
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
   udp: true
-  uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
-- name: 🇮🇩 ID 001 | ⬇️ 0.69MB/s
-  password: tUtK5TKdjxsPnOyritLtv8OQWHAK8f8yNR
-  port: 443
-  server: 130.94.94.15
-  type: trojan
+  uuid: 1c0abb34-4313-4acb-993d-62bf52eace71
+  ws-opts:
+    headers:
+      Host: c.downloadphysics.ir
+    path: /
 - alterId: 0
   cipher: auto
-  name: 🇨🇦 CA 034 | ⬇️ 0.49MB/s
+  name: 🇨🇦 CA 014 | ⚡ 3004.00ms
+  network: ws
+  port: 8443
+  server: 104.17.77.77
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  ws-opts:
+    headers:
+      Host: v2ray1.dozapp.xyz
+    path: /lMnsZUN4/
+- alterId: 0
+  cipher: auto
+  name: 🇨🇦 CA 015 | ⚡ 4036.00ms
   network: ws
   port: 443
   server: hl112.cowjump.site
@@ -2639,413 +2422,408 @@ proxies:
     headers:
       Host: hl112.cowjump.site
     path: /
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 US 011 | ⬇️ 0.40MB/s
-  password: hbGrpfvNrJsUmKmPbR3iY2
-  port: 443
-  server: tinkered-pennies-puppies.freesocks.work
-  skip-cert-verify: true
-  tls: true
-  type: ss
 proxy-groups:
 - name: 自动选择
   type: url-test
   proxies:
-  - 🇺🇸 US 001 | ⬇️ 339.19MB/s
-  - 🇵🇹 PT 001 | ⬇️ 262.94MB/s
-  - 🇨🇦 CA 001 | ⬇️ 259.50MB/s
-  - 🇨🇦 CA 002 | ⬇️ 239.38MB/s
-  - 🇨🇦 CA 003 | ⬇️ 239.21MB/s
-  - 🇺🇸 US 002 | ⬇️ 232.06MB/s
-  - 🇨🇦 CA 004 | ⬇️ 226.68MB/s
-  - 🇺🇸 US 003 | ⬇️ 223.09MB/s
-  - 🇨🇦 CA 005 | ⬇️ 217.14MB/s
-  - 🇨🇦 CA 006 | ⬇️ 213.58MB/s
-  - 🇨🇦 CA 007 | ⬇️ 212.87MB/s
-  - 🇨🇦 CA 008 | ⬇️ 212.65MB/s
-  - 🇨🇦 CA 009 | ⬇️ 207.30MB/s
-  - 🇨🇦 CA 010 | ⬇️ 205.67MB/s
-  - 🇨🇦 CA 011 | ⬇️ 202.81MB/s
-  - 🇨🇦 CA 012 | ⬇️ 201.99MB/s
-  - 🇨🇦 CA 013 | ⬇️ 200.29MB/s
-  - 🇨🇦 CA 014 | ⬇️ 198.52MB/s
-  - 🇨🇦 CA 015 | ⬇️ 195.50MB/s
-  - 🇨🇦 CA 016 | ⬇️ 194.16MB/s
-  - 🇨🇦 CA 017 | ⬇️ 194.13MB/s
-  - 🇨🇦 CA 018 | ⬇️ 194.09MB/s
-  - 🇺🇸 US 004 | ⬇️ 191.92MB/s
-  - 🇨🇦 CA 019 | ⬇️ 173.24MB/s
-  - 🇨🇦 CA 020 | ⬇️ 168.81MB/s
-  - 🇨🇦 CA 021 | ⬇️ 158.08MB/s
-  - 🇨🇦 CA 022 | ⬇️ 150.35MB/s
-  - 🇨🇦 CA 023 | ⬇️ 149.80MB/s
-  - 🇨🇦 CA 024 | ⬇️ 146.41MB/s
-  - 🇺🇸 US 005 | ⬇️ 131.01MB/s
-  - 🇬🇧 GB 001 | ⬇️ 117.95MB/s
-  - 🇨🇦 CA 025 | ⬇️ 112.81MB/s
-  - 🇨🇦 CA 026 | ⬇️ 112.29MB/s
-  - 🇵🇱 PL 001 | ⬇️ 110.54MB/s
-  - 🇨🇦 CA 027 | ⬇️ 107.71MB/s
-  - 🇨🇦 CA 028 | ⬇️ 106.96MB/s
-  - 🇨🇦 CA 029 | ⬇️ 98.07MB/s
-  - 🇨🇦 CA 030 | ⬇️ 94.58MB/s
-  - 🇨🇦 CA 031 | ⬇️ 92.41MB/s
-  - 🇨🇦 CA 032 | ⬇️ 89.53MB/s
-  - 🇺🇸 US 006 | ⬇️ 89.51MB/s
-  - 🇺🇸 US 007 | ⬇️ 88.32MB/s
-  - 🇺🇸 US 008 | ⬇️ 88.20MB/s
-  - 🇺🇸 US 009 | ⬇️ 87.91MB/s
-  - 🇺🇸 US 010 | ⬇️ 87.08MB/s
-  - 🇨🇦 CA 015 | ⚡ 102.00ms
-  - 🇺🇸 US 003 | ⚡ 198.00ms
-  - 🇨🇦 CA 005 | ⚡ 64.00ms
-  - 🇨🇦 CA 005 | ⚡ 74.00ms
-  - 🇨🇦 CA 003 | ⚡ 104.00ms
-  - 🇨🇦 CA 011 | ⚡ 147.00ms
-  - 🇨🇦 CA 001 | ⚡ 48.00ms
-  - 🇨🇦 CA 011 | ⚡ 97.00ms
-  - 🇨🇦 CA 010 | ⚡ 639.00ms
-  - 🇨🇦 CA 009 | ⚡ 118.00ms
-  - 🇨🇦 CA 006 | ⚡ 111.00ms
-  - 🇨🇦 CA 010 | ⚡ 87.00ms
-  - 🇨🇦 CA 005 | ⚡ 105.00ms
-  - 🇨🇦 CA 004 | ⚡ 104.00ms
-  - 🇨🇦 CA 002 | ⚡ 102.00ms
-  - 🇨🇦 CA 017 | ⚡ 111.00ms
-  - 🇨🇦 CA 016 | ⚡ 102.00ms
-  - 🇨🇦 CA 005 | ⚡ 108.00ms
-  - 🇨🇦 CA 008 | ⚡ 115.00ms
-  - 🇨🇦 CA 012 | ⚡ 98.00ms
-  - 🇨🇦 CA 001 | ⚡ 98.00ms
-  - 🇨🇦 CA 023 | ⚡ 111.00ms
-  - 🇨🇦 CA 006 | ⚡ 75.00ms
-  - 🇨🇦 CA 021 | ⚡ 107.00ms
-  - 🇺🇸 US 002 | ⚡ 108.00ms
-  - 🇨🇦 CA 008 | ⚡ 72.00ms
-  - 🇨🇦 CA 008 | ⚡ 118.00ms
-  - 🇨🇦 CA 002 | ⚡ 59.00ms
-  - 🇨🇦 CA 009 | ⚡ 80.00ms
-  - 🇨🇦 CA 033 | ⚡ 148.00ms
-  - 🇨🇦 CA 004 | ⚡ 106.00ms
-  - 🇨🇦 CA 018 | ⚡ 104.00ms
-  - 美国 056
-  - 🇨🇦 CA 039 | ⚡ 285.00ms
-  - 🇨🇦 CA 007 | ⚡ 69.00ms
-  - 🇨🇦 CA 007 | ⚡ 114.00ms
-  - 🇨🇦 CA 035 | ⚡ 162.00ms
-  - 🇺🇸 US 002 | ⚡ 146.00ms
-  - 🇺🇸 US 005 | ⚡ 203.00ms
-  - 🇨🇦 CA 032 | ⚡ 145.00ms
-  - 🇺🇸 US 006 | ⚡ 205.00ms
-  - 🇺🇸 US 008 | ⚡ 232.00ms
-  - 🇺🇸 US 009 | ⚡ 270.00ms
-  - 🇨🇦 CA 001 | ⚡ 227.00ms
-  - 🇨🇦 CA 028 | ⚡ 127.00ms
-  - 🇯🇵 JP 001 | ⚡ 336.00ms
-  - 🇨🇦 CA 002 | ⚡ 252.00ms
-  - 🇯🇵 JP 005 | ⚡ 422.00ms
-  - 🇨🇦 CA 022 | ⚡ 367.00ms
-  - 🇨🇦 CA 019 | ⚡ 237.00ms
-  - 🇨🇦 CA 029 | ⚡ 381.00ms
-  - 🇨🇦 CA 020 | ⚡ 366.00ms
-  - 🇨🇦 CA 018 | ⚡ 361.00ms
-  - 🇨🇦 CA 016 | ⚡ 353.00ms
-  - 🇨🇦 CA 038 | ⚡ 237.00ms
-  - 🇨🇦 CA 024 | ⚡ 369.00ms
-  - 🇨🇦 CA 023 | ⚡ 243.00ms
-  - 🇨🇦 CA 021 | ⚡ 367.00ms
-  - 🇨🇦 CA 032 | ⚡ 263.00ms
-  - 🇺🇸 US 003 | ⚡ 245.00ms
-  - 🇨🇦 CA 018 | ⚡ 231.00ms
-  - 🇨🇦 CA 025 | ⚡ 248.00ms
-  - 🇨🇦 CA 027 | ⚡ 374.00ms
-  - 🇨🇦 CA 026 | ⚡ 251.00ms
-  - 🇨🇦 CA 039 | ⚡ 275.00ms
-  - 🇨🇦 CA 035 | ⚡ 475.00ms
-  - 🇨🇦 CA 023 | ⚡ 368.00ms
-  - 🇨🇦 CA 034 | ⚡ 265.00ms
-  - 美国 101
-  - 🇪🇸 ES 001 | ⚡ 837.00ms
-  - 🇨🇦 CA 027 | ⚡ 253.00ms
-  - 🇨🇦 CA 025 | ⚡ 370.00ms
-  - 🇸🇨 SC 001 | ⚡ 253.00ms
-  - 🇨🇦 CA 041 | ⚡ 282.00ms
-  - 🇨🇦 CA 030 | ⚡ 258.00ms
-  - 🇨🇦 CA 017 | ⚡ 360.00ms
-  - 🇸🇨 SC 003 | ⚡ 365.00ms
-  - 🇨🇦 CA 035 | ⚡ 266.00ms
-  - 🇨🇦 CA 034 | ⚡ 440.00ms
-  - 🇨🇦 CA 029 | ⚡ 257.00ms
-  - 🇨🇦 CA 028 | ⚡ 254.00ms
-  - 🇨🇦 CA 040 | ⚡ 280.00ms
-  - 🇨🇦 CA 019 | ⚡ 366.00ms
-  - 🇨🇦 CA 046 | ⚡ 918.00ms
-  - 🇨🇦 CA 033 | ⚡ 423.00ms
-  - 🇨🇦 CA 020 | ⚡ 238.00ms
-  - 🇸🇨 SC 002 | ⚡ 364.00ms
-  - 🇨🇦 CA 030 | ⚡ 404.00ms
-  - 🇺🇸 US 008 | ⚡ 414.00ms
-  - 🇨🇦 CA 028 | ⚡ 380.00ms
-  - 🇨🇦 CA 037 | ⚡ 271.00ms
-  - 美国 137
-  - 🇺🇸 US 010 | ⚡ 528.00ms
-  - 🇨🇦 CA 031 | ⚡ 408.00ms
-  - 🇸🇨 SC 002 | ⚡ 275.00ms
-  - 🇺🇸 US 006 | ⚡ 404.00ms
-  - 🇨🇦 CA 031 | ⚡ 262.00ms
-  - 🇺🇸 US 009 | ⚡ 421.00ms
-  - 🇸🇨 SC 001 | ⚡ 291.00ms
-  - 美国 134
-  - 🇬🇧 GB 002 | ⚡ 282.00ms
-  - 🇺🇸 US 007 | ⚡ 409.00ms
-  - 🇨🇦 CA 043 | ⚡ 285.00ms
-  - 🇸🇬 SG 001 | ⚡ 494.00ms
-  - 🇨🇦 CA 045 | ⚡ 327.00ms
-  - 🇸🇬 SG 002 | ⚡ 521.00ms
-  - 🇨🇦 CA 038 | ⚡ 272.00ms
-  - 🇺🇸 US 006 | ⚡ 291.00ms
-  - 🇫🇷 FR 002 | ⚡ 280.00ms
-  - 🇳🇱 NL 001 | ⚡ 444.00ms
-  - 🇵🇱 PL 001 | ⚡ 468.00ms
-  - 🇸🇬 SG 003 | ⚡ 570.00ms
-  - 🇺🇸 US 004 | ⚡ 208.00ms
-  - 🇩🇪 DE 007 | ⚡ 343.00ms
-  - kr|072c|puddincat07@Telegram
-  - 🇬🇧 GB 002 | ⚡ 403.00ms
-  - xx|f463|puddincat07@Telegram
-  - 🇫🇮 FI 001 | ⚡ 332.00ms
-  - 🇹🇷 TR 001 | ⚡ 443.00ms
-  - 🇯🇵 JP 006 | ⚡ 445.00ms
-  - 🇫🇷 FR 001 | ⚡ 262.00ms
-  - 🇺🇸 US 004 | ⚡ 275.00ms
-  - 荷兰 009
-  - 🇨🇦 CA 033 | ⚡ 264.00ms
-  - 🇨🇦 CA 026 | ⚡ 371.00ms
-  - 🇨🇦 CA 024 | ⚡ 248.00ms
-  - 🇨🇦 CA 021 | ⚡ 240.00ms
-  - 🇯🇵 JP 002 | ⚡ 348.00ms
-  - 🇯🇵 JP 003 | ⚡ 356.00ms
-  - 🇺🇸 US 010 | ⚡ 273.00ms
-  - 🇨🇦 CA 032 | ⚡ 413.00ms
-  - 🇫🇷 FR 003 | ⚡ 289.00ms
-  - 🇫🇷 FR 004 | ⚡ 601.00ms
-  - 🇯🇵 JP 004 | ⚡ 421.00ms
-  - 🇨🇦 CA 036 | ⚡ 266.00ms
-  - 🇨🇦 CA 022 | ⚡ 242.00ms
-  - 🇺🇸 US 004 | ⚡ 180.00ms
-  - 🇺🇸 US 003 | ⚡ 162.00ms
-  - 🇰🇷 KR 001 | ⚡ 509.00ms
+  - 🇯🇵 JP 001 | ⚡ 436.00ms
+  - 🇯🇵 JP 002 | ⚡ 444.00ms
+  - 🇰🇷 KR 001 | ⚡ 488.00ms
+  - 🇯🇵 JP 003 | ⚡ 491.00ms
+  - 🇯🇵 JP 004 | ⚡ 533.00ms
+  - 🇨🇦 CA 001 | ⚡ 85.00ms
+  - 🇨🇦 CA 002 | ⚡ 86.00ms
+  - 🇨🇦 CA 003 | ⚡ 88.00ms
+  - 🇨🇦 CA 004 | ⚡ 90.00ms
+  - 🇨🇦 CA 005 | ⚡ 96.00ms
+  - 🇨🇦 CA 006 | ⚡ 97.00ms
+  - 🇨🇦 CA 007 | ⚡ 98.00ms
+  - 🇨🇦 CA 008 | ⚡ 101.00ms
+  - 🇨🇦 CA 009 | ⚡ 102.00ms
+  - 🇨🇦 CA 010 | ⚡ 104.00ms
+  - 🇺🇸 US 001 | ⚡ 106.00ms
+  - 🇨🇦 CA 011 | ⚡ 107.00ms
+  - 🇨🇦 CA 012 | ⚡ 127.00ms
+  - 🇨🇦 CA 013 | ⚡ 128.00ms
+  - 🇨🇦 CA 014 | ⚡ 137.00ms
+  - 🇨🇦 CA 015 | ⚡ 144.00ms
+  - 🇨🇦 CA 016 | ⚡ 145.00ms
+  - 🇨🇦 CA 017 | ⚡ 222.00ms
+  - 🇨🇦 CA 018 | ⚡ 239.00ms
+  - 🇨🇦 CA 019 | ⚡ 256.00ms
+  - 🇨🇦 CA 020 | ⚡ 363.00ms
+  - 🇨🇦 CA 021 | ⚡ 366.00ms
+  - 🇨🇦 CA 022 | ⚡ 373.00ms
+  - 🇨🇦 CA 023 | ⚡ 373.00ms
+  - 🇨🇦 CA 024 | ⚡ 373.00ms
+  - 🇨🇦 CA 025 | ⚡ 375.00ms
+  - 🇨🇦 CA 026 | ⚡ 376.00ms
+  - 🇸🇨 SC 001 | ⚡ 376.00ms
+  - 🇨🇦 CA 027 | ⚡ 382.00ms
+  - 🇸🇨 SC 002 | ⚡ 383.00ms
+  - 🇨🇦 CA 028 | ⚡ 385.00ms
+  - 🇨🇦 CA 029 | ⚡ 385.00ms
+  - 🇨🇦 CA 030 | ⚡ 385.00ms
+  - 🇨🇦 CA 031 | ⚡ 385.00ms
+  - 🇪🇸 ES 001 | ⚡ 386.00ms
+  - 🇸🇨 SC 003 | ⚡ 388.00ms
+  - 🇨🇦 CA 032 | ⚡ 389.00ms
+  - 🇺🇸 US 002 | ⚡ 390.00ms
+  - 🇨🇦 CA 033 | ⚡ 390.00ms
+  - 🇨🇦 CA 034 | ⚡ 393.00ms
+  - 🇨🇦 CA 035 | ⚡ 395.00ms
+  - 🇨🇦 CA 036 | ⚡ 395.00ms
+  - 🇨🇦 CA 037 | ⚡ 396.00ms
+  - 🇨🇦 CA 038 | ⚡ 397.00ms
+  - 🇨🇦 CA 039 | ⚡ 399.00ms
+  - 🇨🇦 CA 040 | ⚡ 399.00ms
+  - 🇺🇸 US 003 | ⚡ 399.00ms
+  - 🇺🇸 US 004 | ⚡ 400.00ms
+  - 🇨🇦 CA 041 | ⚡ 400.00ms
+  - 🇨🇦 CA 042 | ⚡ 402.00ms
+  - 🇨🇦 CA 043 | ⚡ 403.00ms
+  - 🇸🇨 SC 004 | ⚡ 404.00ms
+  - 🇨🇦 CA 044 | ⚡ 404.00ms
+  - 🇨🇦 CA 045 | ⚡ 405.00ms
+  - 🇨🇦 CA 046 | ⚡ 406.00ms
+  - 🇨🇦 CA 047 | ⚡ 408.00ms
+  - 🇺🇸 US 005 | ⚡ 410.00ms
+  - 🇸🇨 SC 005 | ⚡ 413.00ms
+  - 🇨🇦 CA 048 | ⚡ 418.00ms
+  - 🇨🇦 CA 049 | ⚡ 418.00ms
+  - 🇨🇦 CA 050 | ⚡ 422.00ms
+  - 🇬🇧 GB 001 | ⚡ 422.00ms
+  - 🇨🇦 CA 051 | ⚡ 422.00ms
+  - 🇨🇦 CA 052 | ⚡ 422.00ms
+  - 🇺🇸 US 006 | ⚡ 424.00ms
+  - 🇨🇦 CA 053 | ⚡ 424.00ms
+  - 🇨🇦 CA 054 | ⚡ 424.00ms
+  - 🇺🇸 US 007 | ⚡ 425.00ms
+  - 🇨🇦 CA 055 | ⚡ 426.00ms
+  - 🇨🇦 CA 056 | ⚡ 427.00ms
+  - 🇨🇦 CA 057 | ⚡ 428.00ms
+  - 🇺🇸 US 008 | ⚡ 430.00ms
+  - 🇨🇦 CA 058 | ⚡ 457.00ms
+  - 🇨🇦 CA 059 | ⚡ 457.00ms
+  - 🇩🇪 DE 001 | ⚡ 475.00ms
+  - 🇨🇦 CA 060 | ⚡ 501.00ms
+  - 🇨🇦 CA 061 | ⚡ 509.00ms
+  - 🇨🇦 CA 062 | ⚡ 526.00ms
+  - 美国 098
+  - 🇺🇸 US 009 | ⚡ 570.00ms
+  - 🇨🇦 CA 063 | ⚡ 609.00ms
+  - 美国 048
+  - 🇨🇦 CA 064 | ⚡ 707.00ms
+  - 🇨🇦 CA 065 | ⚡ 736.00ms
+  - 🇨🇦 CA 066 | ⚡ 902.00ms
   - 美国 123
-  - 🇰🇷 KR 001 | ⚡ 510.00ms
-  - 🇯🇵 JP 001 | ⬇️ 4.35MB/s
-  - 🇨🇦 CA 033 | ⬇️ 4.20MB/s
-  - 🇿🇦 ZA 001 | ⬇️ 4.17MB/s
-  - 🇰🇷 KR 001 | ⬇️ 4.02MB/s
-  - 🇨🇳 TW 001 | ⬇️ 2.18MB/s
-  - 🇮🇩 ID 001 | ⬇️ 0.69MB/s
-  - 🇨🇦 CA 034 | ⬇️ 0.49MB/s
-  - 🇺🇸 US 011 | ⬇️ 0.40MB/s
+  - 🇨🇦 CA 067 | ⚡ 929.00ms
+  - 美国 101
+  - 荷兰 012
+  - 美国 053
+  - 🇫🇮 FI 001 | ⚡ 5986.00ms
+  - 🇨🇦 CA 001 | ⚡ 112.00ms
+  - 🇨🇦 CA 002 | ⚡ 213.00ms
+  - 🇨🇦 CA 003 | ⚡ 511.00ms
+  - 🇸🇨 SC 001 | ⚡ 561.00ms
+  - 🇯🇵 JP 001 | ⚡ 467.00ms
+  - 🇯🇵 JP 002 | ⚡ 471.00ms
+  - 🇯🇵 JP 003 | ⚡ 471.00ms
+  - 🇬🇧 GB 001 | ⚡ 593.00ms
+  - 🇭🇰 HK 001 | ⚡ 659.00ms
+  - 🏳️ IR 001 | ⚡ 666.00ms
+  - 🇮🇩 ID 001 | ⚡ 1061.00ms
+  - 🇭🇰 HK 002 | ⚡ 3654.00ms
+  - 🇭🇰 HK 003 | ⚡ 4297.00ms
+  - 🇺🇸 US 001 | ⚡ 87.00ms
+  - 🇺🇸 US 002 | ⚡ 133.00ms
+  - 🇺🇸 US 003 | ⚡ 167.00ms
+  - 🇺🇸 US 004 | ⚡ 222.00ms
+  - 🇺🇸 US 005 | ⚡ 223.00ms
+  - 🇺🇸 US 006 | ⚡ 255.00ms
+  - 🇺🇸 US 007 | ⚡ 263.00ms
+  - 🇺🇸 US 008 | ⚡ 292.00ms
+  - 🇫🇷 FR 001 | ⚡ 333.00ms
+  - 🇰🇷 KR 001 | ⚡ 513.00ms
+  - 🇷🇺 RU 001 | ⚡ 531.00ms
+  - 🇫🇷 FR 002 | ⚡ 541.00ms
+  - 🇺🇸 US 009 | ⚡ 595.00ms
+  - 🇦🇪 AE 001 | ⚡ 947.00ms
+  - 🇿🇦 ZA 001 | ⚡ 1023.00ms
+  - 🇺🇸 US 010 | ⚡ 1034.00ms
+  - 🇸🇬 SG 001 | ⚡ 560.00ms
+  - 🇸🇬 SG 002 | ⚡ 577.00ms
+  - 🇩🇪 DE 001 | ⚡ 443.00ms
+  - 🇩🇪 DE 002 | ⚡ 462.00ms
+  - 🇩🇪 DE 003 | ⚡ 476.00ms
+  - 🇩🇪 DE 004 | ⚡ 481.00ms
+  - 🇩🇪 DE 005 | ⚡ 488.00ms
+  - 🇩🇪 DE 006 | ⚡ 560.00ms
+  - 🇳🇱 NL 001 | ⚡ 352.00ms
+  - 🇳🇱 NL 002 | ⚡ 409.00ms
+  - 🇵🇱 PL 001 | ⚡ 452.00ms
+  - 🇲🇾 MY 001 | ⚡ 1388.00ms
+  - 🇺🇸 US 001 | ⚡ 122.00ms
+  - 🇺🇸 US 002 | ⚡ 124.00ms
+  - 🇺🇸 US 003 | ⚡ 125.00ms
+  - 🇺🇸 US 004 | ⚡ 125.00ms
+  - 🇺🇸 US 005 | ⚡ 127.00ms
+  - 🇨🇦 CA 001 | ⚡ 206.00ms
+  - 🇨🇦 CA 002 | ⚡ 272.00ms
+  - 🇩🇪 DE 001 | ⚡ 398.00ms
+  - 🇩🇪 DE 002 | ⚡ 429.00ms
+  - 🇩🇪 DE 003 | ⚡ 456.00ms
+  - 🇦🇺 AU 001 | ⚡ 911.00ms
+  - 🇵🇱 PL 001 | ⚡ 64.00ms
+  - 🇨🇦 CA 001 | ⚡ 90.00ms
+  - 🇰🇷 KR 001 | ⚡ 673.00ms
+  - 🏳️ PK 001 | ⚡ 1504.00ms
+  - 🇨🇦 CA 001 | ⚡ 90.00ms
+  - 🇨🇦 CA 002 | ⚡ 90.00ms
+  - 🇨🇦 CA 003 | ⚡ 108.00ms
+  - 🇨🇦 CA 004 | ⚡ 115.00ms
+  - 🇨🇦 CA 005 | ⚡ 118.00ms
+  - 🇨🇦 CA 006 | ⚡ 129.00ms
+  - 🇨🇦 CA 007 | ⚡ 134.00ms
+  - 🇨🇦 CA 008 | ⚡ 137.00ms
+  - 🇺🇸 US 001 | ⚡ 118.00ms
+  - 🇺🇸 US 002 | ⚡ 192.00ms
+  - 🇺🇸 US 003 | ⚡ 236.00ms
+  - 🇺🇸 US 004 | ⚡ 364.00ms
+  - 🇹🇷 TR 001 | ⚡ 394.00ms
+  - 🇨🇳 TW 001 | ⚡ 500.00ms
+  - 🇸🇬 SG 001 | ⚡ 619.00ms
+  - 🇺🇸 US 005 | ⚡ 705.00ms
+  - 🇺🇸 US 006 | ⚡ 797.00ms
+  - 🇫🇷 FR 001 | ⚡ 388.00ms
+  - 🇫🇷 FR 002 | ⚡ 399.00ms
+  - 🇫🇷 FR 003 | ⚡ 413.00ms
+  - 🇫🇷 FR 004 | ⚡ 416.00ms
+  - 🇫🇮 FI 001 | ⚡ 443.00ms
+  - 🇪🇸 ES 001 | ⚡ 447.00ms
+  - 🇫🇮 FI 002 | ⚡ 451.00ms
+  - 🇫🇷 FR 005 | ⚡ 506.00ms
+  - 🇬🇧 GB 001 | ⚡ 866.00ms
+  - 🇨🇦 CA 001 | ⚡ 66.00ms
+  - 🇨🇦 CA 002 | ⚡ 67.00ms
+  - 🇨🇦 CA 003 | ⚡ 68.00ms
+  - 🇨🇦 CA 004 | ⚡ 69.00ms
+  - 🇨🇦 CA 005 | ⚡ 69.00ms
+  - 🇨🇦 CA 006 | ⚡ 88.00ms
+  - 🇨🇦 CA 007 | ⚡ 90.00ms
+  - 🇺🇸 US 001 | ⚡ 95.00ms
+  - 🇨🇦 CA 008 | ⚡ 111.00ms
+  - 🇨🇦 CA 009 | ⚡ 113.00ms
+  - 🇨🇦 CA 010 | ⚡ 207.00ms
+  - 🇨🇦 CA 011 | ⚡ 419.00ms
+  - 🇰🇷 KR 001 | ⚡ 461.00ms
+  - 🇮🇹 IT 001 | ⚡ 579.00ms
+  - 🇨🇦 CA 012 | ⚡ 735.00ms
+  - 🇨🇦 CA 013 | ⚡ 2350.00ms
+  - 🇨🇦 CA 014 | ⚡ 3004.00ms
+  - 🇨🇦 CA 015 | ⚡ 4036.00ms
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 50
 - name: 低延迟
   type: url-test
   proxies:
-  - 🇺🇸 US 001 | ⬇️ 339.19MB/s
-  - 🇵🇹 PT 001 | ⬇️ 262.94MB/s
-  - 🇨🇦 CA 001 | ⬇️ 259.50MB/s
-  - 🇨🇦 CA 002 | ⬇️ 239.38MB/s
-  - 🇨🇦 CA 003 | ⬇️ 239.21MB/s
-  - 🇺🇸 US 002 | ⬇️ 232.06MB/s
-  - 🇨🇦 CA 004 | ⬇️ 226.68MB/s
-  - 🇺🇸 US 003 | ⬇️ 223.09MB/s
-  - 🇨🇦 CA 005 | ⬇️ 217.14MB/s
-  - 🇨🇦 CA 006 | ⬇️ 213.58MB/s
-  - 🇨🇦 CA 007 | ⬇️ 212.87MB/s
-  - 🇨🇦 CA 008 | ⬇️ 212.65MB/s
-  - 🇨🇦 CA 009 | ⬇️ 207.30MB/s
-  - 🇨🇦 CA 010 | ⬇️ 205.67MB/s
-  - 🇨🇦 CA 011 | ⬇️ 202.81MB/s
-  - 🇨🇦 CA 012 | ⬇️ 201.99MB/s
-  - 🇨🇦 CA 013 | ⬇️ 200.29MB/s
-  - 🇨🇦 CA 014 | ⬇️ 198.52MB/s
-  - 🇨🇦 CA 015 | ⬇️ 195.50MB/s
-  - 🇨🇦 CA 016 | ⬇️ 194.16MB/s
-  - 🇨🇦 CA 017 | ⬇️ 194.13MB/s
-  - 🇨🇦 CA 018 | ⬇️ 194.09MB/s
-  - 🇺🇸 US 004 | ⬇️ 191.92MB/s
-  - 🇨🇦 CA 019 | ⬇️ 173.24MB/s
-  - 🇨🇦 CA 020 | ⬇️ 168.81MB/s
-  - 🇨🇦 CA 021 | ⬇️ 158.08MB/s
-  - 🇨🇦 CA 022 | ⬇️ 150.35MB/s
-  - 🇨🇦 CA 023 | ⬇️ 149.80MB/s
-  - 🇨🇦 CA 024 | ⬇️ 146.41MB/s
-  - 🇺🇸 US 005 | ⬇️ 131.01MB/s
-  - 🇬🇧 GB 001 | ⬇️ 117.95MB/s
-  - 🇨🇦 CA 025 | ⬇️ 112.81MB/s
-  - 🇨🇦 CA 026 | ⬇️ 112.29MB/s
-  - 🇵🇱 PL 001 | ⬇️ 110.54MB/s
-  - 🇨🇦 CA 027 | ⬇️ 107.71MB/s
-  - 🇨🇦 CA 028 | ⬇️ 106.96MB/s
-  - 🇨🇦 CA 029 | ⬇️ 98.07MB/s
-  - 🇨🇦 CA 030 | ⬇️ 94.58MB/s
-  - 🇨🇦 CA 031 | ⬇️ 92.41MB/s
-  - 🇨🇦 CA 032 | ⬇️ 89.53MB/s
-  - 🇺🇸 US 006 | ⬇️ 89.51MB/s
-  - 🇺🇸 US 007 | ⬇️ 88.32MB/s
-  - 🇺🇸 US 008 | ⬇️ 88.20MB/s
-  - 🇺🇸 US 009 | ⬇️ 87.91MB/s
-  - 🇺🇸 US 010 | ⬇️ 87.08MB/s
-  - 🇨🇦 CA 015 | ⚡ 102.00ms
-  - 🇺🇸 US 003 | ⚡ 198.00ms
-  - 🇨🇦 CA 005 | ⚡ 64.00ms
-  - 🇨🇦 CA 005 | ⚡ 74.00ms
-  - 🇨🇦 CA 003 | ⚡ 104.00ms
-  - 🇨🇦 CA 011 | ⚡ 147.00ms
-  - 🇨🇦 CA 001 | ⚡ 48.00ms
-  - 🇨🇦 CA 011 | ⚡ 97.00ms
-  - 🇨🇦 CA 010 | ⚡ 639.00ms
-  - 🇨🇦 CA 009 | ⚡ 118.00ms
-  - 🇨🇦 CA 006 | ⚡ 111.00ms
-  - 🇨🇦 CA 010 | ⚡ 87.00ms
-  - 🇨🇦 CA 005 | ⚡ 105.00ms
-  - 🇨🇦 CA 004 | ⚡ 104.00ms
-  - 🇨🇦 CA 002 | ⚡ 102.00ms
-  - 🇨🇦 CA 017 | ⚡ 111.00ms
-  - 🇨🇦 CA 016 | ⚡ 102.00ms
-  - 🇨🇦 CA 005 | ⚡ 108.00ms
-  - 🇨🇦 CA 008 | ⚡ 115.00ms
-  - 🇨🇦 CA 012 | ⚡ 98.00ms
-  - 🇨🇦 CA 001 | ⚡ 98.00ms
-  - 🇨🇦 CA 023 | ⚡ 111.00ms
-  - 🇨🇦 CA 006 | ⚡ 75.00ms
-  - 🇨🇦 CA 021 | ⚡ 107.00ms
-  - 🇺🇸 US 002 | ⚡ 108.00ms
-  - 🇨🇦 CA 008 | ⚡ 72.00ms
-  - 🇨🇦 CA 008 | ⚡ 118.00ms
-  - 🇨🇦 CA 002 | ⚡ 59.00ms
-  - 🇨🇦 CA 009 | ⚡ 80.00ms
-  - 🇨🇦 CA 033 | ⚡ 148.00ms
-  - 🇨🇦 CA 004 | ⚡ 106.00ms
-  - 🇨🇦 CA 018 | ⚡ 104.00ms
-  - 美国 056
-  - 🇨🇦 CA 039 | ⚡ 285.00ms
-  - 🇨🇦 CA 007 | ⚡ 69.00ms
-  - 🇨🇦 CA 007 | ⚡ 114.00ms
-  - 🇨🇦 CA 035 | ⚡ 162.00ms
-  - 🇺🇸 US 002 | ⚡ 146.00ms
-  - 🇺🇸 US 005 | ⚡ 203.00ms
-  - 🇨🇦 CA 032 | ⚡ 145.00ms
-  - 🇺🇸 US 006 | ⚡ 205.00ms
-  - 🇺🇸 US 008 | ⚡ 232.00ms
-  - 🇺🇸 US 009 | ⚡ 270.00ms
-  - 🇨🇦 CA 001 | ⚡ 227.00ms
-  - 🇨🇦 CA 028 | ⚡ 127.00ms
-  - 🇯🇵 JP 001 | ⚡ 336.00ms
-  - 🇨🇦 CA 002 | ⚡ 252.00ms
-  - 🇯🇵 JP 005 | ⚡ 422.00ms
-  - 🇨🇦 CA 022 | ⚡ 367.00ms
-  - 🇨🇦 CA 019 | ⚡ 237.00ms
-  - 🇨🇦 CA 029 | ⚡ 381.00ms
-  - 🇨🇦 CA 020 | ⚡ 366.00ms
-  - 🇨🇦 CA 018 | ⚡ 361.00ms
-  - 🇨🇦 CA 016 | ⚡ 353.00ms
-  - 🇨🇦 CA 038 | ⚡ 237.00ms
-  - 🇨🇦 CA 024 | ⚡ 369.00ms
-  - 🇨🇦 CA 023 | ⚡ 243.00ms
-  - 🇨🇦 CA 021 | ⚡ 367.00ms
-  - 🇨🇦 CA 032 | ⚡ 263.00ms
-  - 🇺🇸 US 003 | ⚡ 245.00ms
-  - 🇨🇦 CA 018 | ⚡ 231.00ms
-  - 🇨🇦 CA 025 | ⚡ 248.00ms
-  - 🇨🇦 CA 027 | ⚡ 374.00ms
-  - 🇨🇦 CA 026 | ⚡ 251.00ms
-  - 🇨🇦 CA 039 | ⚡ 275.00ms
-  - 🇨🇦 CA 035 | ⚡ 475.00ms
-  - 🇨🇦 CA 023 | ⚡ 368.00ms
-  - 🇨🇦 CA 034 | ⚡ 265.00ms
-  - 美国 101
-  - 🇪🇸 ES 001 | ⚡ 837.00ms
-  - 🇨🇦 CA 027 | ⚡ 253.00ms
-  - 🇨🇦 CA 025 | ⚡ 370.00ms
-  - 🇸🇨 SC 001 | ⚡ 253.00ms
-  - 🇨🇦 CA 041 | ⚡ 282.00ms
-  - 🇨🇦 CA 030 | ⚡ 258.00ms
-  - 🇨🇦 CA 017 | ⚡ 360.00ms
-  - 🇸🇨 SC 003 | ⚡ 365.00ms
-  - 🇨🇦 CA 035 | ⚡ 266.00ms
-  - 🇨🇦 CA 034 | ⚡ 440.00ms
-  - 🇨🇦 CA 029 | ⚡ 257.00ms
-  - 🇨🇦 CA 028 | ⚡ 254.00ms
-  - 🇨🇦 CA 040 | ⚡ 280.00ms
-  - 🇨🇦 CA 019 | ⚡ 366.00ms
-  - 🇨🇦 CA 046 | ⚡ 918.00ms
-  - 🇨🇦 CA 033 | ⚡ 423.00ms
-  - 🇨🇦 CA 020 | ⚡ 238.00ms
-  - 🇸🇨 SC 002 | ⚡ 364.00ms
-  - 🇨🇦 CA 030 | ⚡ 404.00ms
-  - 🇺🇸 US 008 | ⚡ 414.00ms
-  - 🇨🇦 CA 028 | ⚡ 380.00ms
-  - 🇨🇦 CA 037 | ⚡ 271.00ms
-  - 美国 137
-  - 🇺🇸 US 010 | ⚡ 528.00ms
-  - 🇨🇦 CA 031 | ⚡ 408.00ms
-  - 🇸🇨 SC 002 | ⚡ 275.00ms
-  - 🇺🇸 US 006 | ⚡ 404.00ms
-  - 🇨🇦 CA 031 | ⚡ 262.00ms
-  - 🇺🇸 US 009 | ⚡ 421.00ms
-  - 🇸🇨 SC 001 | ⚡ 291.00ms
-  - 美国 134
-  - 🇬🇧 GB 002 | ⚡ 282.00ms
-  - 🇺🇸 US 007 | ⚡ 409.00ms
-  - 🇨🇦 CA 043 | ⚡ 285.00ms
-  - 🇸🇬 SG 001 | ⚡ 494.00ms
-  - 🇨🇦 CA 045 | ⚡ 327.00ms
-  - 🇸🇬 SG 002 | ⚡ 521.00ms
-  - 🇨🇦 CA 038 | ⚡ 272.00ms
-  - 🇺🇸 US 006 | ⚡ 291.00ms
-  - 🇫🇷 FR 002 | ⚡ 280.00ms
-  - 🇳🇱 NL 001 | ⚡ 444.00ms
-  - 🇵🇱 PL 001 | ⚡ 468.00ms
-  - 🇸🇬 SG 003 | ⚡ 570.00ms
-  - 🇺🇸 US 004 | ⚡ 208.00ms
-  - 🇩🇪 DE 007 | ⚡ 343.00ms
-  - kr|072c|puddincat07@Telegram
-  - 🇬🇧 GB 002 | ⚡ 403.00ms
-  - xx|f463|puddincat07@Telegram
-  - 🇫🇮 FI 001 | ⚡ 332.00ms
-  - 🇹🇷 TR 001 | ⚡ 443.00ms
-  - 🇯🇵 JP 006 | ⚡ 445.00ms
-  - 🇫🇷 FR 001 | ⚡ 262.00ms
-  - 🇺🇸 US 004 | ⚡ 275.00ms
-  - 荷兰 009
-  - 🇨🇦 CA 033 | ⚡ 264.00ms
-  - 🇨🇦 CA 026 | ⚡ 371.00ms
-  - 🇨🇦 CA 024 | ⚡ 248.00ms
-  - 🇨🇦 CA 021 | ⚡ 240.00ms
-  - 🇯🇵 JP 002 | ⚡ 348.00ms
-  - 🇯🇵 JP 003 | ⚡ 356.00ms
-  - 🇺🇸 US 010 | ⚡ 273.00ms
-  - 🇨🇦 CA 032 | ⚡ 413.00ms
-  - 🇫🇷 FR 003 | ⚡ 289.00ms
-  - 🇫🇷 FR 004 | ⚡ 601.00ms
-  - 🇯🇵 JP 004 | ⚡ 421.00ms
-  - 🇨🇦 CA 036 | ⚡ 266.00ms
-  - 🇨🇦 CA 022 | ⚡ 242.00ms
-  - 🇺🇸 US 004 | ⚡ 180.00ms
-  - 🇺🇸 US 003 | ⚡ 162.00ms
-  - 🇰🇷 KR 001 | ⚡ 509.00ms
+  - 🇯🇵 JP 001 | ⚡ 436.00ms
+  - 🇯🇵 JP 002 | ⚡ 444.00ms
+  - 🇰🇷 KR 001 | ⚡ 488.00ms
+  - 🇯🇵 JP 003 | ⚡ 491.00ms
+  - 🇯🇵 JP 004 | ⚡ 533.00ms
+  - 🇨🇦 CA 001 | ⚡ 85.00ms
+  - 🇨🇦 CA 002 | ⚡ 86.00ms
+  - 🇨🇦 CA 003 | ⚡ 88.00ms
+  - 🇨🇦 CA 004 | ⚡ 90.00ms
+  - 🇨🇦 CA 005 | ⚡ 96.00ms
+  - 🇨🇦 CA 006 | ⚡ 97.00ms
+  - 🇨🇦 CA 007 | ⚡ 98.00ms
+  - 🇨🇦 CA 008 | ⚡ 101.00ms
+  - 🇨🇦 CA 009 | ⚡ 102.00ms
+  - 🇨🇦 CA 010 | ⚡ 104.00ms
+  - 🇺🇸 US 001 | ⚡ 106.00ms
+  - 🇨🇦 CA 011 | ⚡ 107.00ms
+  - 🇨🇦 CA 012 | ⚡ 127.00ms
+  - 🇨🇦 CA 013 | ⚡ 128.00ms
+  - 🇨🇦 CA 014 | ⚡ 137.00ms
+  - 🇨🇦 CA 015 | ⚡ 144.00ms
+  - 🇨🇦 CA 016 | ⚡ 145.00ms
+  - 🇨🇦 CA 017 | ⚡ 222.00ms
+  - 🇨🇦 CA 018 | ⚡ 239.00ms
+  - 🇨🇦 CA 019 | ⚡ 256.00ms
+  - 🇨🇦 CA 020 | ⚡ 363.00ms
+  - 🇨🇦 CA 021 | ⚡ 366.00ms
+  - 🇨🇦 CA 022 | ⚡ 373.00ms
+  - 🇨🇦 CA 023 | ⚡ 373.00ms
+  - 🇨🇦 CA 024 | ⚡ 373.00ms
+  - 🇨🇦 CA 025 | ⚡ 375.00ms
+  - 🇨🇦 CA 026 | ⚡ 376.00ms
+  - 🇸🇨 SC 001 | ⚡ 376.00ms
+  - 🇨🇦 CA 027 | ⚡ 382.00ms
+  - 🇸🇨 SC 002 | ⚡ 383.00ms
+  - 🇨🇦 CA 028 | ⚡ 385.00ms
+  - 🇨🇦 CA 029 | ⚡ 385.00ms
+  - 🇨🇦 CA 030 | ⚡ 385.00ms
+  - 🇨🇦 CA 031 | ⚡ 385.00ms
+  - 🇪🇸 ES 001 | ⚡ 386.00ms
+  - 🇸🇨 SC 003 | ⚡ 388.00ms
+  - 🇨🇦 CA 032 | ⚡ 389.00ms
+  - 🇺🇸 US 002 | ⚡ 390.00ms
+  - 🇨🇦 CA 033 | ⚡ 390.00ms
+  - 🇨🇦 CA 034 | ⚡ 393.00ms
+  - 🇨🇦 CA 035 | ⚡ 395.00ms
+  - 🇨🇦 CA 036 | ⚡ 395.00ms
+  - 🇨🇦 CA 037 | ⚡ 396.00ms
+  - 🇨🇦 CA 038 | ⚡ 397.00ms
+  - 🇨🇦 CA 039 | ⚡ 399.00ms
+  - 🇨🇦 CA 040 | ⚡ 399.00ms
+  - 🇺🇸 US 003 | ⚡ 399.00ms
+  - 🇺🇸 US 004 | ⚡ 400.00ms
+  - 🇨🇦 CA 041 | ⚡ 400.00ms
+  - 🇨🇦 CA 042 | ⚡ 402.00ms
+  - 🇨🇦 CA 043 | ⚡ 403.00ms
+  - 🇸🇨 SC 004 | ⚡ 404.00ms
+  - 🇨🇦 CA 044 | ⚡ 404.00ms
+  - 🇨🇦 CA 045 | ⚡ 405.00ms
+  - 🇨🇦 CA 046 | ⚡ 406.00ms
+  - 🇨🇦 CA 047 | ⚡ 408.00ms
+  - 🇺🇸 US 005 | ⚡ 410.00ms
+  - 🇸🇨 SC 005 | ⚡ 413.00ms
+  - 🇨🇦 CA 048 | ⚡ 418.00ms
+  - 🇨🇦 CA 049 | ⚡ 418.00ms
+  - 🇨🇦 CA 050 | ⚡ 422.00ms
+  - 🇬🇧 GB 001 | ⚡ 422.00ms
+  - 🇨🇦 CA 051 | ⚡ 422.00ms
+  - 🇨🇦 CA 052 | ⚡ 422.00ms
+  - 🇺🇸 US 006 | ⚡ 424.00ms
+  - 🇨🇦 CA 053 | ⚡ 424.00ms
+  - 🇨🇦 CA 054 | ⚡ 424.00ms
+  - 🇺🇸 US 007 | ⚡ 425.00ms
+  - 🇨🇦 CA 055 | ⚡ 426.00ms
+  - 🇨🇦 CA 056 | ⚡ 427.00ms
+  - 🇨🇦 CA 057 | ⚡ 428.00ms
+  - 🇺🇸 US 008 | ⚡ 430.00ms
+  - 🇨🇦 CA 058 | ⚡ 457.00ms
+  - 🇨🇦 CA 059 | ⚡ 457.00ms
+  - 🇩🇪 DE 001 | ⚡ 475.00ms
+  - 🇨🇦 CA 060 | ⚡ 501.00ms
+  - 🇨🇦 CA 061 | ⚡ 509.00ms
+  - 🇨🇦 CA 062 | ⚡ 526.00ms
+  - 美国 098
+  - 🇺🇸 US 009 | ⚡ 570.00ms
+  - 🇨🇦 CA 063 | ⚡ 609.00ms
+  - 美国 048
+  - 🇨🇦 CA 064 | ⚡ 707.00ms
+  - 🇨🇦 CA 065 | ⚡ 736.00ms
+  - 🇨🇦 CA 066 | ⚡ 902.00ms
   - 美国 123
-  - 🇰🇷 KR 001 | ⚡ 510.00ms
-  - 🇯🇵 JP 001 | ⬇️ 4.35MB/s
-  - 🇨🇦 CA 033 | ⬇️ 4.20MB/s
-  - 🇿🇦 ZA 001 | ⬇️ 4.17MB/s
-  - 🇰🇷 KR 001 | ⬇️ 4.02MB/s
-  - 🇨🇳 TW 001 | ⬇️ 2.18MB/s
-  - 🇮🇩 ID 001 | ⬇️ 0.69MB/s
-  - 🇨🇦 CA 034 | ⬇️ 0.49MB/s
-  - 🇺🇸 US 011 | ⬇️ 0.40MB/s
+  - 🇨🇦 CA 067 | ⚡ 929.00ms
+  - 美国 101
+  - 荷兰 012
+  - 美国 053
+  - 🇫🇮 FI 001 | ⚡ 5986.00ms
+  - 🇨🇦 CA 001 | ⚡ 112.00ms
+  - 🇨🇦 CA 002 | ⚡ 213.00ms
+  - 🇨🇦 CA 003 | ⚡ 511.00ms
+  - 🇸🇨 SC 001 | ⚡ 561.00ms
+  - 🇯🇵 JP 001 | ⚡ 467.00ms
+  - 🇯🇵 JP 002 | ⚡ 471.00ms
+  - 🇯🇵 JP 003 | ⚡ 471.00ms
+  - 🇬🇧 GB 001 | ⚡ 593.00ms
+  - 🇭🇰 HK 001 | ⚡ 659.00ms
+  - 🏳️ IR 001 | ⚡ 666.00ms
+  - 🇮🇩 ID 001 | ⚡ 1061.00ms
+  - 🇭🇰 HK 002 | ⚡ 3654.00ms
+  - 🇭🇰 HK 003 | ⚡ 4297.00ms
+  - 🇺🇸 US 001 | ⚡ 87.00ms
+  - 🇺🇸 US 002 | ⚡ 133.00ms
+  - 🇺🇸 US 003 | ⚡ 167.00ms
+  - 🇺🇸 US 004 | ⚡ 222.00ms
+  - 🇺🇸 US 005 | ⚡ 223.00ms
+  - 🇺🇸 US 006 | ⚡ 255.00ms
+  - 🇺🇸 US 007 | ⚡ 263.00ms
+  - 🇺🇸 US 008 | ⚡ 292.00ms
+  - 🇫🇷 FR 001 | ⚡ 333.00ms
+  - 🇰🇷 KR 001 | ⚡ 513.00ms
+  - 🇷🇺 RU 001 | ⚡ 531.00ms
+  - 🇫🇷 FR 002 | ⚡ 541.00ms
+  - 🇺🇸 US 009 | ⚡ 595.00ms
+  - 🇦🇪 AE 001 | ⚡ 947.00ms
+  - 🇿🇦 ZA 001 | ⚡ 1023.00ms
+  - 🇺🇸 US 010 | ⚡ 1034.00ms
+  - 🇸🇬 SG 001 | ⚡ 560.00ms
+  - 🇸🇬 SG 002 | ⚡ 577.00ms
+  - 🇩🇪 DE 001 | ⚡ 443.00ms
+  - 🇩🇪 DE 002 | ⚡ 462.00ms
+  - 🇩🇪 DE 003 | ⚡ 476.00ms
+  - 🇩🇪 DE 004 | ⚡ 481.00ms
+  - 🇩🇪 DE 005 | ⚡ 488.00ms
+  - 🇩🇪 DE 006 | ⚡ 560.00ms
+  - 🇳🇱 NL 001 | ⚡ 352.00ms
+  - 🇳🇱 NL 002 | ⚡ 409.00ms
+  - 🇵🇱 PL 001 | ⚡ 452.00ms
+  - 🇲🇾 MY 001 | ⚡ 1388.00ms
+  - 🇺🇸 US 001 | ⚡ 122.00ms
+  - 🇺🇸 US 002 | ⚡ 124.00ms
+  - 🇺🇸 US 003 | ⚡ 125.00ms
+  - 🇺🇸 US 004 | ⚡ 125.00ms
+  - 🇺🇸 US 005 | ⚡ 127.00ms
+  - 🇨🇦 CA 001 | ⚡ 206.00ms
+  - 🇨🇦 CA 002 | ⚡ 272.00ms
+  - 🇩🇪 DE 001 | ⚡ 398.00ms
+  - 🇩🇪 DE 002 | ⚡ 429.00ms
+  - 🇩🇪 DE 003 | ⚡ 456.00ms
+  - 🇦🇺 AU 001 | ⚡ 911.00ms
+  - 🇵🇱 PL 001 | ⚡ 64.00ms
+  - 🇨🇦 CA 001 | ⚡ 90.00ms
+  - 🇰🇷 KR 001 | ⚡ 673.00ms
+  - 🏳️ PK 001 | ⚡ 1504.00ms
+  - 🇨🇦 CA 001 | ⚡ 90.00ms
+  - 🇨🇦 CA 002 | ⚡ 90.00ms
+  - 🇨🇦 CA 003 | ⚡ 108.00ms
+  - 🇨🇦 CA 004 | ⚡ 115.00ms
+  - 🇨🇦 CA 005 | ⚡ 118.00ms
+  - 🇨🇦 CA 006 | ⚡ 129.00ms
+  - 🇨🇦 CA 007 | ⚡ 134.00ms
+  - 🇨🇦 CA 008 | ⚡ 137.00ms
+  - 🇺🇸 US 001 | ⚡ 118.00ms
+  - 🇺🇸 US 002 | ⚡ 192.00ms
+  - 🇺🇸 US 003 | ⚡ 236.00ms
+  - 🇺🇸 US 004 | ⚡ 364.00ms
+  - 🇹🇷 TR 001 | ⚡ 394.00ms
+  - 🇨🇳 TW 001 | ⚡ 500.00ms
+  - 🇸🇬 SG 001 | ⚡ 619.00ms
+  - 🇺🇸 US 005 | ⚡ 705.00ms
+  - 🇺🇸 US 006 | ⚡ 797.00ms
+  - 🇫🇷 FR 001 | ⚡ 388.00ms
+  - 🇫🇷 FR 002 | ⚡ 399.00ms
+  - 🇫🇷 FR 003 | ⚡ 413.00ms
+  - 🇫🇷 FR 004 | ⚡ 416.00ms
+  - 🇫🇮 FI 001 | ⚡ 443.00ms
+  - 🇪🇸 ES 001 | ⚡ 447.00ms
+  - 🇫🇮 FI 002 | ⚡ 451.00ms
+  - 🇫🇷 FR 005 | ⚡ 506.00ms
+  - 🇬🇧 GB 001 | ⚡ 866.00ms
+  - 🇨🇦 CA 001 | ⚡ 66.00ms
+  - 🇨🇦 CA 002 | ⚡ 67.00ms
+  - 🇨🇦 CA 003 | ⚡ 68.00ms
+  - 🇨🇦 CA 004 | ⚡ 69.00ms
+  - 🇨🇦 CA 005 | ⚡ 69.00ms
+  - 🇨🇦 CA 006 | ⚡ 88.00ms
+  - 🇨🇦 CA 007 | ⚡ 90.00ms
+  - 🇺🇸 US 001 | ⚡ 95.00ms
+  - 🇨🇦 CA 008 | ⚡ 111.00ms
+  - 🇨🇦 CA 009 | ⚡ 113.00ms
+  - 🇨🇦 CA 010 | ⚡ 207.00ms
+  - 🇨🇦 CA 011 | ⚡ 419.00ms
+  - 🇰🇷 KR 001 | ⚡ 461.00ms
+  - 🇮🇹 IT 001 | ⚡ 579.00ms
+  - 🇨🇦 CA 012 | ⚡ 735.00ms
+  - 🇨🇦 CA 013 | ⚡ 2350.00ms
+  - 🇨🇦 CA 014 | ⚡ 3004.00ms
+  - 🇨🇦 CA 015 | ⚡ 4036.00ms
   url: http://www.gstatic.com/generate_204
   interval: 180
   tolerance: 30
@@ -3053,200 +2831,202 @@ proxy-groups:
   type: load-balance
   strategy: consistent-hashing
   proxies:
-  - 🇺🇸 US 001 | ⬇️ 339.19MB/s
-  - 🇵🇹 PT 001 | ⬇️ 262.94MB/s
-  - 🇨🇦 CA 001 | ⬇️ 259.50MB/s
-  - 🇨🇦 CA 002 | ⬇️ 239.38MB/s
-  - 🇨🇦 CA 003 | ⬇️ 239.21MB/s
-  - 🇺🇸 US 002 | ⬇️ 232.06MB/s
-  - 🇨🇦 CA 004 | ⬇️ 226.68MB/s
-  - 🇺🇸 US 003 | ⬇️ 223.09MB/s
-  - 🇨🇦 CA 005 | ⬇️ 217.14MB/s
-  - 🇨🇦 CA 006 | ⬇️ 213.58MB/s
-  - 🇨🇦 CA 007 | ⬇️ 212.87MB/s
-  - 🇨🇦 CA 008 | ⬇️ 212.65MB/s
-  - 🇨🇦 CA 009 | ⬇️ 207.30MB/s
-  - 🇨🇦 CA 010 | ⬇️ 205.67MB/s
-  - 🇨🇦 CA 011 | ⬇️ 202.81MB/s
-  - 🇨🇦 CA 012 | ⬇️ 201.99MB/s
-  - 🇨🇦 CA 013 | ⬇️ 200.29MB/s
-  - 🇨🇦 CA 014 | ⬇️ 198.52MB/s
-  - 🇨🇦 CA 015 | ⬇️ 195.50MB/s
-  - 🇨🇦 CA 016 | ⬇️ 194.16MB/s
-  - 🇨🇦 CA 017 | ⬇️ 194.13MB/s
-  - 🇨🇦 CA 018 | ⬇️ 194.09MB/s
-  - 🇺🇸 US 004 | ⬇️ 191.92MB/s
-  - 🇨🇦 CA 019 | ⬇️ 173.24MB/s
-  - 🇨🇦 CA 020 | ⬇️ 168.81MB/s
-  - 🇨🇦 CA 021 | ⬇️ 158.08MB/s
-  - 🇨🇦 CA 022 | ⬇️ 150.35MB/s
-  - 🇨🇦 CA 023 | ⬇️ 149.80MB/s
-  - 🇨🇦 CA 024 | ⬇️ 146.41MB/s
-  - 🇺🇸 US 005 | ⬇️ 131.01MB/s
-  - 🇬🇧 GB 001 | ⬇️ 117.95MB/s
-  - 🇨🇦 CA 025 | ⬇️ 112.81MB/s
-  - 🇨🇦 CA 026 | ⬇️ 112.29MB/s
-  - 🇵🇱 PL 001 | ⬇️ 110.54MB/s
-  - 🇨🇦 CA 027 | ⬇️ 107.71MB/s
-  - 🇨🇦 CA 028 | ⬇️ 106.96MB/s
-  - 🇨🇦 CA 029 | ⬇️ 98.07MB/s
-  - 🇨🇦 CA 030 | ⬇️ 94.58MB/s
-  - 🇨🇦 CA 031 | ⬇️ 92.41MB/s
-  - 🇨🇦 CA 032 | ⬇️ 89.53MB/s
-  - 🇺🇸 US 006 | ⬇️ 89.51MB/s
-  - 🇺🇸 US 007 | ⬇️ 88.32MB/s
-  - 🇺🇸 US 008 | ⬇️ 88.20MB/s
-  - 🇺🇸 US 009 | ⬇️ 87.91MB/s
-  - 🇺🇸 US 010 | ⬇️ 87.08MB/s
-  - 🇨🇦 CA 015 | ⚡ 102.00ms
-  - 🇺🇸 US 003 | ⚡ 198.00ms
-  - 🇨🇦 CA 005 | ⚡ 64.00ms
-  - 🇨🇦 CA 005 | ⚡ 74.00ms
-  - 🇨🇦 CA 003 | ⚡ 104.00ms
-  - 🇨🇦 CA 011 | ⚡ 147.00ms
-  - 🇨🇦 CA 001 | ⚡ 48.00ms
-  - 🇨🇦 CA 011 | ⚡ 97.00ms
-  - 🇨🇦 CA 010 | ⚡ 639.00ms
-  - 🇨🇦 CA 009 | ⚡ 118.00ms
-  - 🇨🇦 CA 006 | ⚡ 111.00ms
-  - 🇨🇦 CA 010 | ⚡ 87.00ms
-  - 🇨🇦 CA 005 | ⚡ 105.00ms
-  - 🇨🇦 CA 004 | ⚡ 104.00ms
-  - 🇨🇦 CA 002 | ⚡ 102.00ms
-  - 🇨🇦 CA 017 | ⚡ 111.00ms
-  - 🇨🇦 CA 016 | ⚡ 102.00ms
-  - 🇨🇦 CA 005 | ⚡ 108.00ms
-  - 🇨🇦 CA 008 | ⚡ 115.00ms
-  - 🇨🇦 CA 012 | ⚡ 98.00ms
-  - 🇨🇦 CA 001 | ⚡ 98.00ms
-  - 🇨🇦 CA 023 | ⚡ 111.00ms
-  - 🇨🇦 CA 006 | ⚡ 75.00ms
-  - 🇨🇦 CA 021 | ⚡ 107.00ms
-  - 🇺🇸 US 002 | ⚡ 108.00ms
-  - 🇨🇦 CA 008 | ⚡ 72.00ms
-  - 🇨🇦 CA 008 | ⚡ 118.00ms
-  - 🇨🇦 CA 002 | ⚡ 59.00ms
-  - 🇨🇦 CA 009 | ⚡ 80.00ms
-  - 🇨🇦 CA 033 | ⚡ 148.00ms
-  - 🇨🇦 CA 004 | ⚡ 106.00ms
-  - 🇨🇦 CA 018 | ⚡ 104.00ms
-  - 美国 056
-  - 🇨🇦 CA 039 | ⚡ 285.00ms
-  - 🇨🇦 CA 007 | ⚡ 69.00ms
-  - 🇨🇦 CA 007 | ⚡ 114.00ms
-  - 🇨🇦 CA 035 | ⚡ 162.00ms
-  - 🇺🇸 US 002 | ⚡ 146.00ms
-  - 🇺🇸 US 005 | ⚡ 203.00ms
-  - 🇨🇦 CA 032 | ⚡ 145.00ms
-  - 🇺🇸 US 006 | ⚡ 205.00ms
-  - 🇺🇸 US 008 | ⚡ 232.00ms
-  - 🇺🇸 US 009 | ⚡ 270.00ms
-  - 🇨🇦 CA 001 | ⚡ 227.00ms
-  - 🇨🇦 CA 028 | ⚡ 127.00ms
-  - 🇯🇵 JP 001 | ⚡ 336.00ms
-  - 🇨🇦 CA 002 | ⚡ 252.00ms
-  - 🇯🇵 JP 005 | ⚡ 422.00ms
-  - 🇨🇦 CA 022 | ⚡ 367.00ms
-  - 🇨🇦 CA 019 | ⚡ 237.00ms
-  - 🇨🇦 CA 029 | ⚡ 381.00ms
-  - 🇨🇦 CA 020 | ⚡ 366.00ms
-  - 🇨🇦 CA 018 | ⚡ 361.00ms
-  - 🇨🇦 CA 016 | ⚡ 353.00ms
-  - 🇨🇦 CA 038 | ⚡ 237.00ms
-  - 🇨🇦 CA 024 | ⚡ 369.00ms
-  - 🇨🇦 CA 023 | ⚡ 243.00ms
-  - 🇨🇦 CA 021 | ⚡ 367.00ms
-  - 🇨🇦 CA 032 | ⚡ 263.00ms
-  - 🇺🇸 US 003 | ⚡ 245.00ms
-  - 🇨🇦 CA 018 | ⚡ 231.00ms
-  - 🇨🇦 CA 025 | ⚡ 248.00ms
-  - 🇨🇦 CA 027 | ⚡ 374.00ms
-  - 🇨🇦 CA 026 | ⚡ 251.00ms
-  - 🇨🇦 CA 039 | ⚡ 275.00ms
-  - 🇨🇦 CA 035 | ⚡ 475.00ms
-  - 🇨🇦 CA 023 | ⚡ 368.00ms
-  - 🇨🇦 CA 034 | ⚡ 265.00ms
-  - 美国 101
-  - 🇪🇸 ES 001 | ⚡ 837.00ms
-  - 🇨🇦 CA 027 | ⚡ 253.00ms
-  - 🇨🇦 CA 025 | ⚡ 370.00ms
-  - 🇸🇨 SC 001 | ⚡ 253.00ms
-  - 🇨🇦 CA 041 | ⚡ 282.00ms
-  - 🇨🇦 CA 030 | ⚡ 258.00ms
-  - 🇨🇦 CA 017 | ⚡ 360.00ms
-  - 🇸🇨 SC 003 | ⚡ 365.00ms
-  - 🇨🇦 CA 035 | ⚡ 266.00ms
-  - 🇨🇦 CA 034 | ⚡ 440.00ms
-  - 🇨🇦 CA 029 | ⚡ 257.00ms
-  - 🇨🇦 CA 028 | ⚡ 254.00ms
-  - 🇨🇦 CA 040 | ⚡ 280.00ms
-  - 🇨🇦 CA 019 | ⚡ 366.00ms
-  - 🇨🇦 CA 046 | ⚡ 918.00ms
-  - 🇨🇦 CA 033 | ⚡ 423.00ms
-  - 🇨🇦 CA 020 | ⚡ 238.00ms
-  - 🇸🇨 SC 002 | ⚡ 364.00ms
-  - 🇨🇦 CA 030 | ⚡ 404.00ms
-  - 🇺🇸 US 008 | ⚡ 414.00ms
-  - 🇨🇦 CA 028 | ⚡ 380.00ms
-  - 🇨🇦 CA 037 | ⚡ 271.00ms
-  - 美国 137
-  - 🇺🇸 US 010 | ⚡ 528.00ms
-  - 🇨🇦 CA 031 | ⚡ 408.00ms
-  - 🇸🇨 SC 002 | ⚡ 275.00ms
-  - 🇺🇸 US 006 | ⚡ 404.00ms
-  - 🇨🇦 CA 031 | ⚡ 262.00ms
-  - 🇺🇸 US 009 | ⚡ 421.00ms
-  - 🇸🇨 SC 001 | ⚡ 291.00ms
-  - 美国 134
-  - 🇬🇧 GB 002 | ⚡ 282.00ms
-  - 🇺🇸 US 007 | ⚡ 409.00ms
-  - 🇨🇦 CA 043 | ⚡ 285.00ms
-  - 🇸🇬 SG 001 | ⚡ 494.00ms
-  - 🇨🇦 CA 045 | ⚡ 327.00ms
-  - 🇸🇬 SG 002 | ⚡ 521.00ms
-  - 🇨🇦 CA 038 | ⚡ 272.00ms
-  - 🇺🇸 US 006 | ⚡ 291.00ms
-  - 🇫🇷 FR 002 | ⚡ 280.00ms
-  - 🇳🇱 NL 001 | ⚡ 444.00ms
-  - 🇵🇱 PL 001 | ⚡ 468.00ms
-  - 🇸🇬 SG 003 | ⚡ 570.00ms
-  - 🇺🇸 US 004 | ⚡ 208.00ms
-  - 🇩🇪 DE 007 | ⚡ 343.00ms
-  - kr|072c|puddincat07@Telegram
-  - 🇬🇧 GB 002 | ⚡ 403.00ms
-  - xx|f463|puddincat07@Telegram
-  - 🇫🇮 FI 001 | ⚡ 332.00ms
-  - 🇹🇷 TR 001 | ⚡ 443.00ms
-  - 🇯🇵 JP 006 | ⚡ 445.00ms
-  - 🇫🇷 FR 001 | ⚡ 262.00ms
-  - 🇺🇸 US 004 | ⚡ 275.00ms
-  - 荷兰 009
-  - 🇨🇦 CA 033 | ⚡ 264.00ms
-  - 🇨🇦 CA 026 | ⚡ 371.00ms
-  - 🇨🇦 CA 024 | ⚡ 248.00ms
-  - 🇨🇦 CA 021 | ⚡ 240.00ms
-  - 🇯🇵 JP 002 | ⚡ 348.00ms
-  - 🇯🇵 JP 003 | ⚡ 356.00ms
-  - 🇺🇸 US 010 | ⚡ 273.00ms
-  - 🇨🇦 CA 032 | ⚡ 413.00ms
-  - 🇫🇷 FR 003 | ⚡ 289.00ms
-  - 🇫🇷 FR 004 | ⚡ 601.00ms
-  - 🇯🇵 JP 004 | ⚡ 421.00ms
-  - 🇨🇦 CA 036 | ⚡ 266.00ms
-  - 🇨🇦 CA 022 | ⚡ 242.00ms
-  - 🇺🇸 US 004 | ⚡ 180.00ms
-  - 🇺🇸 US 003 | ⚡ 162.00ms
-  - 🇰🇷 KR 001 | ⚡ 509.00ms
+  - 🇯🇵 JP 001 | ⚡ 436.00ms
+  - 🇯🇵 JP 002 | ⚡ 444.00ms
+  - 🇰🇷 KR 001 | ⚡ 488.00ms
+  - 🇯🇵 JP 003 | ⚡ 491.00ms
+  - 🇯🇵 JP 004 | ⚡ 533.00ms
+  - 🇨🇦 CA 001 | ⚡ 85.00ms
+  - 🇨🇦 CA 002 | ⚡ 86.00ms
+  - 🇨🇦 CA 003 | ⚡ 88.00ms
+  - 🇨🇦 CA 004 | ⚡ 90.00ms
+  - 🇨🇦 CA 005 | ⚡ 96.00ms
+  - 🇨🇦 CA 006 | ⚡ 97.00ms
+  - 🇨🇦 CA 007 | ⚡ 98.00ms
+  - 🇨🇦 CA 008 | ⚡ 101.00ms
+  - 🇨🇦 CA 009 | ⚡ 102.00ms
+  - 🇨🇦 CA 010 | ⚡ 104.00ms
+  - 🇺🇸 US 001 | ⚡ 106.00ms
+  - 🇨🇦 CA 011 | ⚡ 107.00ms
+  - 🇨🇦 CA 012 | ⚡ 127.00ms
+  - 🇨🇦 CA 013 | ⚡ 128.00ms
+  - 🇨🇦 CA 014 | ⚡ 137.00ms
+  - 🇨🇦 CA 015 | ⚡ 144.00ms
+  - 🇨🇦 CA 016 | ⚡ 145.00ms
+  - 🇨🇦 CA 017 | ⚡ 222.00ms
+  - 🇨🇦 CA 018 | ⚡ 239.00ms
+  - 🇨🇦 CA 019 | ⚡ 256.00ms
+  - 🇨🇦 CA 020 | ⚡ 363.00ms
+  - 🇨🇦 CA 021 | ⚡ 366.00ms
+  - 🇨🇦 CA 022 | ⚡ 373.00ms
+  - 🇨🇦 CA 023 | ⚡ 373.00ms
+  - 🇨🇦 CA 024 | ⚡ 373.00ms
+  - 🇨🇦 CA 025 | ⚡ 375.00ms
+  - 🇨🇦 CA 026 | ⚡ 376.00ms
+  - 🇸🇨 SC 001 | ⚡ 376.00ms
+  - 🇨🇦 CA 027 | ⚡ 382.00ms
+  - 🇸🇨 SC 002 | ⚡ 383.00ms
+  - 🇨🇦 CA 028 | ⚡ 385.00ms
+  - 🇨🇦 CA 029 | ⚡ 385.00ms
+  - 🇨🇦 CA 030 | ⚡ 385.00ms
+  - 🇨🇦 CA 031 | ⚡ 385.00ms
+  - 🇪🇸 ES 001 | ⚡ 386.00ms
+  - 🇸🇨 SC 003 | ⚡ 388.00ms
+  - 🇨🇦 CA 032 | ⚡ 389.00ms
+  - 🇺🇸 US 002 | ⚡ 390.00ms
+  - 🇨🇦 CA 033 | ⚡ 390.00ms
+  - 🇨🇦 CA 034 | ⚡ 393.00ms
+  - 🇨🇦 CA 035 | ⚡ 395.00ms
+  - 🇨🇦 CA 036 | ⚡ 395.00ms
+  - 🇨🇦 CA 037 | ⚡ 396.00ms
+  - 🇨🇦 CA 038 | ⚡ 397.00ms
+  - 🇨🇦 CA 039 | ⚡ 399.00ms
+  - 🇨🇦 CA 040 | ⚡ 399.00ms
+  - 🇺🇸 US 003 | ⚡ 399.00ms
+  - 🇺🇸 US 004 | ⚡ 400.00ms
+  - 🇨🇦 CA 041 | ⚡ 400.00ms
+  - 🇨🇦 CA 042 | ⚡ 402.00ms
+  - 🇨🇦 CA 043 | ⚡ 403.00ms
+  - 🇸🇨 SC 004 | ⚡ 404.00ms
+  - 🇨🇦 CA 044 | ⚡ 404.00ms
+  - 🇨🇦 CA 045 | ⚡ 405.00ms
+  - 🇨🇦 CA 046 | ⚡ 406.00ms
+  - 🇨🇦 CA 047 | ⚡ 408.00ms
+  - 🇺🇸 US 005 | ⚡ 410.00ms
+  - 🇸🇨 SC 005 | ⚡ 413.00ms
+  - 🇨🇦 CA 048 | ⚡ 418.00ms
+  - 🇨🇦 CA 049 | ⚡ 418.00ms
+  - 🇨🇦 CA 050 | ⚡ 422.00ms
+  - 🇬🇧 GB 001 | ⚡ 422.00ms
+  - 🇨🇦 CA 051 | ⚡ 422.00ms
+  - 🇨🇦 CA 052 | ⚡ 422.00ms
+  - 🇺🇸 US 006 | ⚡ 424.00ms
+  - 🇨🇦 CA 053 | ⚡ 424.00ms
+  - 🇨🇦 CA 054 | ⚡ 424.00ms
+  - 🇺🇸 US 007 | ⚡ 425.00ms
+  - 🇨🇦 CA 055 | ⚡ 426.00ms
+  - 🇨🇦 CA 056 | ⚡ 427.00ms
+  - 🇨🇦 CA 057 | ⚡ 428.00ms
+  - 🇺🇸 US 008 | ⚡ 430.00ms
+  - 🇨🇦 CA 058 | ⚡ 457.00ms
+  - 🇨🇦 CA 059 | ⚡ 457.00ms
+  - 🇩🇪 DE 001 | ⚡ 475.00ms
+  - 🇨🇦 CA 060 | ⚡ 501.00ms
+  - 🇨🇦 CA 061 | ⚡ 509.00ms
+  - 🇨🇦 CA 062 | ⚡ 526.00ms
+  - 美国 098
+  - 🇺🇸 US 009 | ⚡ 570.00ms
+  - 🇨🇦 CA 063 | ⚡ 609.00ms
+  - 美国 048
+  - 🇨🇦 CA 064 | ⚡ 707.00ms
+  - 🇨🇦 CA 065 | ⚡ 736.00ms
+  - 🇨🇦 CA 066 | ⚡ 902.00ms
   - 美国 123
-  - 🇰🇷 KR 001 | ⚡ 510.00ms
-  - 🇯🇵 JP 001 | ⬇️ 4.35MB/s
-  - 🇨🇦 CA 033 | ⬇️ 4.20MB/s
-  - 🇿🇦 ZA 001 | ⬇️ 4.17MB/s
-  - 🇰🇷 KR 001 | ⬇️ 4.02MB/s
-  - 🇨🇳 TW 001 | ⬇️ 2.18MB/s
-  - 🇮🇩 ID 001 | ⬇️ 0.69MB/s
-  - 🇨🇦 CA 034 | ⬇️ 0.49MB/s
-  - 🇺🇸 US 011 | ⬇️ 0.40MB/s
+  - 🇨🇦 CA 067 | ⚡ 929.00ms
+  - 美国 101
+  - 荷兰 012
+  - 美国 053
+  - 🇫🇮 FI 001 | ⚡ 5986.00ms
+  - 🇨🇦 CA 001 | ⚡ 112.00ms
+  - 🇨🇦 CA 002 | ⚡ 213.00ms
+  - 🇨🇦 CA 003 | ⚡ 511.00ms
+  - 🇸🇨 SC 001 | ⚡ 561.00ms
+  - 🇯🇵 JP 001 | ⚡ 467.00ms
+  - 🇯🇵 JP 002 | ⚡ 471.00ms
+  - 🇯🇵 JP 003 | ⚡ 471.00ms
+  - 🇬🇧 GB 001 | ⚡ 593.00ms
+  - 🇭🇰 HK 001 | ⚡ 659.00ms
+  - 🏳️ IR 001 | ⚡ 666.00ms
+  - 🇮🇩 ID 001 | ⚡ 1061.00ms
+  - 🇭🇰 HK 002 | ⚡ 3654.00ms
+  - 🇭🇰 HK 003 | ⚡ 4297.00ms
+  - 🇺🇸 US 001 | ⚡ 87.00ms
+  - 🇺🇸 US 002 | ⚡ 133.00ms
+  - 🇺🇸 US 003 | ⚡ 167.00ms
+  - 🇺🇸 US 004 | ⚡ 222.00ms
+  - 🇺🇸 US 005 | ⚡ 223.00ms
+  - 🇺🇸 US 006 | ⚡ 255.00ms
+  - 🇺🇸 US 007 | ⚡ 263.00ms
+  - 🇺🇸 US 008 | ⚡ 292.00ms
+  - 🇫🇷 FR 001 | ⚡ 333.00ms
+  - 🇰🇷 KR 001 | ⚡ 513.00ms
+  - 🇷🇺 RU 001 | ⚡ 531.00ms
+  - 🇫🇷 FR 002 | ⚡ 541.00ms
+  - 🇺🇸 US 009 | ⚡ 595.00ms
+  - 🇦🇪 AE 001 | ⚡ 947.00ms
+  - 🇿🇦 ZA 001 | ⚡ 1023.00ms
+  - 🇺🇸 US 010 | ⚡ 1034.00ms
+  - 🇸🇬 SG 001 | ⚡ 560.00ms
+  - 🇸🇬 SG 002 | ⚡ 577.00ms
+  - 🇩🇪 DE 001 | ⚡ 443.00ms
+  - 🇩🇪 DE 002 | ⚡ 462.00ms
+  - 🇩🇪 DE 003 | ⚡ 476.00ms
+  - 🇩🇪 DE 004 | ⚡ 481.00ms
+  - 🇩🇪 DE 005 | ⚡ 488.00ms
+  - 🇩🇪 DE 006 | ⚡ 560.00ms
+  - 🇳🇱 NL 001 | ⚡ 352.00ms
+  - 🇳🇱 NL 002 | ⚡ 409.00ms
+  - 🇵🇱 PL 001 | ⚡ 452.00ms
+  - 🇲🇾 MY 001 | ⚡ 1388.00ms
+  - 🇺🇸 US 001 | ⚡ 122.00ms
+  - 🇺🇸 US 002 | ⚡ 124.00ms
+  - 🇺🇸 US 003 | ⚡ 125.00ms
+  - 🇺🇸 US 004 | ⚡ 125.00ms
+  - 🇺🇸 US 005 | ⚡ 127.00ms
+  - 🇨🇦 CA 001 | ⚡ 206.00ms
+  - 🇨🇦 CA 002 | ⚡ 272.00ms
+  - 🇩🇪 DE 001 | ⚡ 398.00ms
+  - 🇩🇪 DE 002 | ⚡ 429.00ms
+  - 🇩🇪 DE 003 | ⚡ 456.00ms
+  - 🇦🇺 AU 001 | ⚡ 911.00ms
+  - 🇵🇱 PL 001 | ⚡ 64.00ms
+  - 🇨🇦 CA 001 | ⚡ 90.00ms
+  - 🇰🇷 KR 001 | ⚡ 673.00ms
+  - 🏳️ PK 001 | ⚡ 1504.00ms
+  - 🇨🇦 CA 001 | ⚡ 90.00ms
+  - 🇨🇦 CA 002 | ⚡ 90.00ms
+  - 🇨🇦 CA 003 | ⚡ 108.00ms
+  - 🇨🇦 CA 004 | ⚡ 115.00ms
+  - 🇨🇦 CA 005 | ⚡ 118.00ms
+  - 🇨🇦 CA 006 | ⚡ 129.00ms
+  - 🇨🇦 CA 007 | ⚡ 134.00ms
+  - 🇨🇦 CA 008 | ⚡ 137.00ms
+  - 🇺🇸 US 001 | ⚡ 118.00ms
+  - 🇺🇸 US 002 | ⚡ 192.00ms
+  - 🇺🇸 US 003 | ⚡ 236.00ms
+  - 🇺🇸 US 004 | ⚡ 364.00ms
+  - 🇹🇷 TR 001 | ⚡ 394.00ms
+  - 🇨🇳 TW 001 | ⚡ 500.00ms
+  - 🇸🇬 SG 001 | ⚡ 619.00ms
+  - 🇺🇸 US 005 | ⚡ 705.00ms
+  - 🇺🇸 US 006 | ⚡ 797.00ms
+  - 🇫🇷 FR 001 | ⚡ 388.00ms
+  - 🇫🇷 FR 002 | ⚡ 399.00ms
+  - 🇫🇷 FR 003 | ⚡ 413.00ms
+  - 🇫🇷 FR 004 | ⚡ 416.00ms
+  - 🇫🇮 FI 001 | ⚡ 443.00ms
+  - 🇪🇸 ES 001 | ⚡ 447.00ms
+  - 🇫🇮 FI 002 | ⚡ 451.00ms
+  - 🇫🇷 FR 005 | ⚡ 506.00ms
+  - 🇬🇧 GB 001 | ⚡ 866.00ms
+  - 🇨🇦 CA 001 | ⚡ 66.00ms
+  - 🇨🇦 CA 002 | ⚡ 67.00ms
+  - 🇨🇦 CA 003 | ⚡ 68.00ms
+  - 🇨🇦 CA 004 | ⚡ 69.00ms
+  - 🇨🇦 CA 005 | ⚡ 69.00ms
+  - 🇨🇦 CA 006 | ⚡ 88.00ms
+  - 🇨🇦 CA 007 | ⚡ 90.00ms
+  - 🇺🇸 US 001 | ⚡ 95.00ms
+  - 🇨🇦 CA 008 | ⚡ 111.00ms
+  - 🇨🇦 CA 009 | ⚡ 113.00ms
+  - 🇨🇦 CA 010 | ⚡ 207.00ms
+  - 🇨🇦 CA 011 | ⚡ 419.00ms
+  - 🇰🇷 KR 001 | ⚡ 461.00ms
+  - 🇮🇹 IT 001 | ⚡ 579.00ms
+  - 🇨🇦 CA 012 | ⚡ 735.00ms
+  - 🇨🇦 CA 013 | ⚡ 2350.00ms
+  - 🇨🇦 CA 014 | ⚡ 3004.00ms
+  - 🇨🇦 CA 015 | ⚡ 4036.00ms
 - name: 故障转移
   type: fallback
   proxies:
@@ -3256,268 +3036,274 @@ proxy-groups:
 - name: 手动选择
   type: select
   proxies:
-  - 🇺🇸 US 001 | ⬇️ 339.19MB/s
-  - 🇵🇹 PT 001 | ⬇️ 262.94MB/s
-  - 🇨🇦 CA 001 | ⬇️ 259.50MB/s
-  - 🇨🇦 CA 002 | ⬇️ 239.38MB/s
-  - 🇨🇦 CA 003 | ⬇️ 239.21MB/s
-  - 🇺🇸 US 002 | ⬇️ 232.06MB/s
-  - 🇨🇦 CA 004 | ⬇️ 226.68MB/s
-  - 🇺🇸 US 003 | ⬇️ 223.09MB/s
-  - 🇨🇦 CA 005 | ⬇️ 217.14MB/s
-  - 🇨🇦 CA 006 | ⬇️ 213.58MB/s
-  - 🇨🇦 CA 007 | ⬇️ 212.87MB/s
-  - 🇨🇦 CA 008 | ⬇️ 212.65MB/s
-  - 🇨🇦 CA 009 | ⬇️ 207.30MB/s
-  - 🇨🇦 CA 010 | ⬇️ 205.67MB/s
-  - 🇨🇦 CA 011 | ⬇️ 202.81MB/s
-  - 🇨🇦 CA 012 | ⬇️ 201.99MB/s
-  - 🇨🇦 CA 013 | ⬇️ 200.29MB/s
-  - 🇨🇦 CA 014 | ⬇️ 198.52MB/s
-  - 🇨🇦 CA 015 | ⬇️ 195.50MB/s
-  - 🇨🇦 CA 016 | ⬇️ 194.16MB/s
-  - 🇨🇦 CA 017 | ⬇️ 194.13MB/s
-  - 🇨🇦 CA 018 | ⬇️ 194.09MB/s
-  - 🇺🇸 US 004 | ⬇️ 191.92MB/s
-  - 🇨🇦 CA 019 | ⬇️ 173.24MB/s
-  - 🇨🇦 CA 020 | ⬇️ 168.81MB/s
-  - 🇨🇦 CA 021 | ⬇️ 158.08MB/s
-  - 🇨🇦 CA 022 | ⬇️ 150.35MB/s
-  - 🇨🇦 CA 023 | ⬇️ 149.80MB/s
-  - 🇨🇦 CA 024 | ⬇️ 146.41MB/s
-  - 🇺🇸 US 005 | ⬇️ 131.01MB/s
-  - 🇬🇧 GB 001 | ⬇️ 117.95MB/s
-  - 🇨🇦 CA 025 | ⬇️ 112.81MB/s
-  - 🇨🇦 CA 026 | ⬇️ 112.29MB/s
-  - 🇵🇱 PL 001 | ⬇️ 110.54MB/s
-  - 🇨🇦 CA 027 | ⬇️ 107.71MB/s
-  - 🇨🇦 CA 028 | ⬇️ 106.96MB/s
-  - 🇨🇦 CA 029 | ⬇️ 98.07MB/s
-  - 🇨🇦 CA 030 | ⬇️ 94.58MB/s
-  - 🇨🇦 CA 031 | ⬇️ 92.41MB/s
-  - 🇨🇦 CA 032 | ⬇️ 89.53MB/s
-  - 🇺🇸 US 006 | ⬇️ 89.51MB/s
-  - 🇺🇸 US 007 | ⬇️ 88.32MB/s
-  - 🇺🇸 US 008 | ⬇️ 88.20MB/s
-  - 🇺🇸 US 009 | ⬇️ 87.91MB/s
-  - 🇺🇸 US 010 | ⬇️ 87.08MB/s
-  - 🇨🇦 CA 015 | ⚡ 102.00ms
-  - 🇺🇸 US 003 | ⚡ 198.00ms
-  - 🇨🇦 CA 005 | ⚡ 64.00ms
-  - 🇨🇦 CA 005 | ⚡ 74.00ms
-  - 🇨🇦 CA 003 | ⚡ 104.00ms
-  - 🇨🇦 CA 011 | ⚡ 147.00ms
-  - 🇨🇦 CA 001 | ⚡ 48.00ms
-  - 🇨🇦 CA 011 | ⚡ 97.00ms
-  - 🇨🇦 CA 010 | ⚡ 639.00ms
-  - 🇨🇦 CA 009 | ⚡ 118.00ms
-  - 🇨🇦 CA 006 | ⚡ 111.00ms
-  - 🇨🇦 CA 010 | ⚡ 87.00ms
-  - 🇨🇦 CA 005 | ⚡ 105.00ms
-  - 🇨🇦 CA 004 | ⚡ 104.00ms
-  - 🇨🇦 CA 002 | ⚡ 102.00ms
-  - 🇨🇦 CA 017 | ⚡ 111.00ms
-  - 🇨🇦 CA 016 | ⚡ 102.00ms
-  - 🇨🇦 CA 005 | ⚡ 108.00ms
-  - 🇨🇦 CA 008 | ⚡ 115.00ms
-  - 🇨🇦 CA 012 | ⚡ 98.00ms
-  - 🇨🇦 CA 001 | ⚡ 98.00ms
-  - 🇨🇦 CA 023 | ⚡ 111.00ms
-  - 🇨🇦 CA 006 | ⚡ 75.00ms
-  - 🇨🇦 CA 021 | ⚡ 107.00ms
-  - 🇺🇸 US 002 | ⚡ 108.00ms
-  - 🇨🇦 CA 008 | ⚡ 72.00ms
-  - 🇨🇦 CA 008 | ⚡ 118.00ms
-  - 🇨🇦 CA 002 | ⚡ 59.00ms
-  - 🇨🇦 CA 009 | ⚡ 80.00ms
-  - 🇨🇦 CA 033 | ⚡ 148.00ms
-  - 🇨🇦 CA 004 | ⚡ 106.00ms
-  - 🇨🇦 CA 018 | ⚡ 104.00ms
-  - 美国 056
-  - 🇨🇦 CA 039 | ⚡ 285.00ms
-  - 🇨🇦 CA 007 | ⚡ 69.00ms
-  - 🇨🇦 CA 007 | ⚡ 114.00ms
-  - 🇨🇦 CA 035 | ⚡ 162.00ms
-  - 🇺🇸 US 002 | ⚡ 146.00ms
-  - 🇺🇸 US 005 | ⚡ 203.00ms
-  - 🇨🇦 CA 032 | ⚡ 145.00ms
-  - 🇺🇸 US 006 | ⚡ 205.00ms
-  - 🇺🇸 US 008 | ⚡ 232.00ms
-  - 🇺🇸 US 009 | ⚡ 270.00ms
-  - 🇨🇦 CA 001 | ⚡ 227.00ms
-  - 🇨🇦 CA 028 | ⚡ 127.00ms
-  - 🇯🇵 JP 001 | ⚡ 336.00ms
-  - 🇨🇦 CA 002 | ⚡ 252.00ms
-  - 🇯🇵 JP 005 | ⚡ 422.00ms
-  - 🇨🇦 CA 022 | ⚡ 367.00ms
-  - 🇨🇦 CA 019 | ⚡ 237.00ms
-  - 🇨🇦 CA 029 | ⚡ 381.00ms
-  - 🇨🇦 CA 020 | ⚡ 366.00ms
-  - 🇨🇦 CA 018 | ⚡ 361.00ms
-  - 🇨🇦 CA 016 | ⚡ 353.00ms
-  - 🇨🇦 CA 038 | ⚡ 237.00ms
-  - 🇨🇦 CA 024 | ⚡ 369.00ms
-  - 🇨🇦 CA 023 | ⚡ 243.00ms
-  - 🇨🇦 CA 021 | ⚡ 367.00ms
-  - 🇨🇦 CA 032 | ⚡ 263.00ms
-  - 🇺🇸 US 003 | ⚡ 245.00ms
-  - 🇨🇦 CA 018 | ⚡ 231.00ms
-  - 🇨🇦 CA 025 | ⚡ 248.00ms
-  - 🇨🇦 CA 027 | ⚡ 374.00ms
-  - 🇨🇦 CA 026 | ⚡ 251.00ms
-  - 🇨🇦 CA 039 | ⚡ 275.00ms
-  - 🇨🇦 CA 035 | ⚡ 475.00ms
-  - 🇨🇦 CA 023 | ⚡ 368.00ms
-  - 🇨🇦 CA 034 | ⚡ 265.00ms
-  - 美国 101
-  - 🇪🇸 ES 001 | ⚡ 837.00ms
-  - 🇨🇦 CA 027 | ⚡ 253.00ms
-  - 🇨🇦 CA 025 | ⚡ 370.00ms
-  - 🇸🇨 SC 001 | ⚡ 253.00ms
-  - 🇨🇦 CA 041 | ⚡ 282.00ms
-  - 🇨🇦 CA 030 | ⚡ 258.00ms
-  - 🇨🇦 CA 017 | ⚡ 360.00ms
-  - 🇸🇨 SC 003 | ⚡ 365.00ms
-  - 🇨🇦 CA 035 | ⚡ 266.00ms
-  - 🇨🇦 CA 034 | ⚡ 440.00ms
-  - 🇨🇦 CA 029 | ⚡ 257.00ms
-  - 🇨🇦 CA 028 | ⚡ 254.00ms
-  - 🇨🇦 CA 040 | ⚡ 280.00ms
-  - 🇨🇦 CA 019 | ⚡ 366.00ms
-  - 🇨🇦 CA 046 | ⚡ 918.00ms
-  - 🇨🇦 CA 033 | ⚡ 423.00ms
-  - 🇨🇦 CA 020 | ⚡ 238.00ms
-  - 🇸🇨 SC 002 | ⚡ 364.00ms
-  - 🇨🇦 CA 030 | ⚡ 404.00ms
-  - 🇺🇸 US 008 | ⚡ 414.00ms
-  - 🇨🇦 CA 028 | ⚡ 380.00ms
-  - 🇨🇦 CA 037 | ⚡ 271.00ms
-  - 美国 137
-  - 🇺🇸 US 010 | ⚡ 528.00ms
-  - 🇨🇦 CA 031 | ⚡ 408.00ms
-  - 🇸🇨 SC 002 | ⚡ 275.00ms
-  - 🇺🇸 US 006 | ⚡ 404.00ms
-  - 🇨🇦 CA 031 | ⚡ 262.00ms
-  - 🇺🇸 US 009 | ⚡ 421.00ms
-  - 🇸🇨 SC 001 | ⚡ 291.00ms
-  - 美国 134
-  - 🇬🇧 GB 002 | ⚡ 282.00ms
-  - 🇺🇸 US 007 | ⚡ 409.00ms
-  - 🇨🇦 CA 043 | ⚡ 285.00ms
-  - 🇸🇬 SG 001 | ⚡ 494.00ms
-  - 🇨🇦 CA 045 | ⚡ 327.00ms
-  - 🇸🇬 SG 002 | ⚡ 521.00ms
-  - 🇨🇦 CA 038 | ⚡ 272.00ms
-  - 🇺🇸 US 006 | ⚡ 291.00ms
-  - 🇫🇷 FR 002 | ⚡ 280.00ms
-  - 🇳🇱 NL 001 | ⚡ 444.00ms
-  - 🇵🇱 PL 001 | ⚡ 468.00ms
-  - 🇸🇬 SG 003 | ⚡ 570.00ms
-  - 🇺🇸 US 004 | ⚡ 208.00ms
-  - 🇩🇪 DE 007 | ⚡ 343.00ms
-  - kr|072c|puddincat07@Telegram
-  - 🇬🇧 GB 002 | ⚡ 403.00ms
-  - xx|f463|puddincat07@Telegram
-  - 🇫🇮 FI 001 | ⚡ 332.00ms
-  - 🇹🇷 TR 001 | ⚡ 443.00ms
-  - 🇯🇵 JP 006 | ⚡ 445.00ms
-  - 🇫🇷 FR 001 | ⚡ 262.00ms
-  - 🇺🇸 US 004 | ⚡ 275.00ms
-  - 荷兰 009
-  - 🇨🇦 CA 033 | ⚡ 264.00ms
-  - 🇨🇦 CA 026 | ⚡ 371.00ms
-  - 🇨🇦 CA 024 | ⚡ 248.00ms
-  - 🇨🇦 CA 021 | ⚡ 240.00ms
-  - 🇯🇵 JP 002 | ⚡ 348.00ms
-  - 🇯🇵 JP 003 | ⚡ 356.00ms
-  - 🇺🇸 US 010 | ⚡ 273.00ms
-  - 🇨🇦 CA 032 | ⚡ 413.00ms
-  - 🇫🇷 FR 003 | ⚡ 289.00ms
-  - 🇫🇷 FR 004 | ⚡ 601.00ms
-  - 🇯🇵 JP 004 | ⚡ 421.00ms
-  - 🇨🇦 CA 036 | ⚡ 266.00ms
-  - 🇨🇦 CA 022 | ⚡ 242.00ms
-  - 🇺🇸 US 004 | ⚡ 180.00ms
-  - 🇺🇸 US 003 | ⚡ 162.00ms
-  - 🇰🇷 KR 001 | ⚡ 509.00ms
+  - 🇯🇵 JP 001 | ⚡ 436.00ms
+  - 🇯🇵 JP 002 | ⚡ 444.00ms
+  - 🇰🇷 KR 001 | ⚡ 488.00ms
+  - 🇯🇵 JP 003 | ⚡ 491.00ms
+  - 🇯🇵 JP 004 | ⚡ 533.00ms
+  - 🇨🇦 CA 001 | ⚡ 85.00ms
+  - 🇨🇦 CA 002 | ⚡ 86.00ms
+  - 🇨🇦 CA 003 | ⚡ 88.00ms
+  - 🇨🇦 CA 004 | ⚡ 90.00ms
+  - 🇨🇦 CA 005 | ⚡ 96.00ms
+  - 🇨🇦 CA 006 | ⚡ 97.00ms
+  - 🇨🇦 CA 007 | ⚡ 98.00ms
+  - 🇨🇦 CA 008 | ⚡ 101.00ms
+  - 🇨🇦 CA 009 | ⚡ 102.00ms
+  - 🇨🇦 CA 010 | ⚡ 104.00ms
+  - 🇺🇸 US 001 | ⚡ 106.00ms
+  - 🇨🇦 CA 011 | ⚡ 107.00ms
+  - 🇨🇦 CA 012 | ⚡ 127.00ms
+  - 🇨🇦 CA 013 | ⚡ 128.00ms
+  - 🇨🇦 CA 014 | ⚡ 137.00ms
+  - 🇨🇦 CA 015 | ⚡ 144.00ms
+  - 🇨🇦 CA 016 | ⚡ 145.00ms
+  - 🇨🇦 CA 017 | ⚡ 222.00ms
+  - 🇨🇦 CA 018 | ⚡ 239.00ms
+  - 🇨🇦 CA 019 | ⚡ 256.00ms
+  - 🇨🇦 CA 020 | ⚡ 363.00ms
+  - 🇨🇦 CA 021 | ⚡ 366.00ms
+  - 🇨🇦 CA 022 | ⚡ 373.00ms
+  - 🇨🇦 CA 023 | ⚡ 373.00ms
+  - 🇨🇦 CA 024 | ⚡ 373.00ms
+  - 🇨🇦 CA 025 | ⚡ 375.00ms
+  - 🇨🇦 CA 026 | ⚡ 376.00ms
+  - 🇸🇨 SC 001 | ⚡ 376.00ms
+  - 🇨🇦 CA 027 | ⚡ 382.00ms
+  - 🇸🇨 SC 002 | ⚡ 383.00ms
+  - 🇨🇦 CA 028 | ⚡ 385.00ms
+  - 🇨🇦 CA 029 | ⚡ 385.00ms
+  - 🇨🇦 CA 030 | ⚡ 385.00ms
+  - 🇨🇦 CA 031 | ⚡ 385.00ms
+  - 🇪🇸 ES 001 | ⚡ 386.00ms
+  - 🇸🇨 SC 003 | ⚡ 388.00ms
+  - 🇨🇦 CA 032 | ⚡ 389.00ms
+  - 🇺🇸 US 002 | ⚡ 390.00ms
+  - 🇨🇦 CA 033 | ⚡ 390.00ms
+  - 🇨🇦 CA 034 | ⚡ 393.00ms
+  - 🇨🇦 CA 035 | ⚡ 395.00ms
+  - 🇨🇦 CA 036 | ⚡ 395.00ms
+  - 🇨🇦 CA 037 | ⚡ 396.00ms
+  - 🇨🇦 CA 038 | ⚡ 397.00ms
+  - 🇨🇦 CA 039 | ⚡ 399.00ms
+  - 🇨🇦 CA 040 | ⚡ 399.00ms
+  - 🇺🇸 US 003 | ⚡ 399.00ms
+  - 🇺🇸 US 004 | ⚡ 400.00ms
+  - 🇨🇦 CA 041 | ⚡ 400.00ms
+  - 🇨🇦 CA 042 | ⚡ 402.00ms
+  - 🇨🇦 CA 043 | ⚡ 403.00ms
+  - 🇸🇨 SC 004 | ⚡ 404.00ms
+  - 🇨🇦 CA 044 | ⚡ 404.00ms
+  - 🇨🇦 CA 045 | ⚡ 405.00ms
+  - 🇨🇦 CA 046 | ⚡ 406.00ms
+  - 🇨🇦 CA 047 | ⚡ 408.00ms
+  - 🇺🇸 US 005 | ⚡ 410.00ms
+  - 🇸🇨 SC 005 | ⚡ 413.00ms
+  - 🇨🇦 CA 048 | ⚡ 418.00ms
+  - 🇨🇦 CA 049 | ⚡ 418.00ms
+  - 🇨🇦 CA 050 | ⚡ 422.00ms
+  - 🇬🇧 GB 001 | ⚡ 422.00ms
+  - 🇨🇦 CA 051 | ⚡ 422.00ms
+  - 🇨🇦 CA 052 | ⚡ 422.00ms
+  - 🇺🇸 US 006 | ⚡ 424.00ms
+  - 🇨🇦 CA 053 | ⚡ 424.00ms
+  - 🇨🇦 CA 054 | ⚡ 424.00ms
+  - 🇺🇸 US 007 | ⚡ 425.00ms
+  - 🇨🇦 CA 055 | ⚡ 426.00ms
+  - 🇨🇦 CA 056 | ⚡ 427.00ms
+  - 🇨🇦 CA 057 | ⚡ 428.00ms
+  - 🇺🇸 US 008 | ⚡ 430.00ms
+  - 🇨🇦 CA 058 | ⚡ 457.00ms
+  - 🇨🇦 CA 059 | ⚡ 457.00ms
+  - 🇩🇪 DE 001 | ⚡ 475.00ms
+  - 🇨🇦 CA 060 | ⚡ 501.00ms
+  - 🇨🇦 CA 061 | ⚡ 509.00ms
+  - 🇨🇦 CA 062 | ⚡ 526.00ms
+  - 美国 098
+  - 🇺🇸 US 009 | ⚡ 570.00ms
+  - 🇨🇦 CA 063 | ⚡ 609.00ms
+  - 美国 048
+  - 🇨🇦 CA 064 | ⚡ 707.00ms
+  - 🇨🇦 CA 065 | ⚡ 736.00ms
+  - 🇨🇦 CA 066 | ⚡ 902.00ms
   - 美国 123
-  - 🇰🇷 KR 001 | ⚡ 510.00ms
-  - 🇯🇵 JP 001 | ⬇️ 4.35MB/s
-  - 🇨🇦 CA 033 | ⬇️ 4.20MB/s
-  - 🇿🇦 ZA 001 | ⬇️ 4.17MB/s
-  - 🇰🇷 KR 001 | ⬇️ 4.02MB/s
-  - 🇨🇳 TW 001 | ⬇️ 2.18MB/s
-  - 🇮🇩 ID 001 | ⬇️ 0.69MB/s
-  - 🇨🇦 CA 034 | ⬇️ 0.49MB/s
-  - 🇺🇸 US 011 | ⬇️ 0.40MB/s
+  - 🇨🇦 CA 067 | ⚡ 929.00ms
+  - 美国 101
+  - 荷兰 012
+  - 美国 053
+  - 🇫🇮 FI 001 | ⚡ 5986.00ms
+  - 🇨🇦 CA 001 | ⚡ 112.00ms
+  - 🇨🇦 CA 002 | ⚡ 213.00ms
+  - 🇨🇦 CA 003 | ⚡ 511.00ms
+  - 🇸🇨 SC 001 | ⚡ 561.00ms
+  - 🇯🇵 JP 001 | ⚡ 467.00ms
+  - 🇯🇵 JP 002 | ⚡ 471.00ms
+  - 🇯🇵 JP 003 | ⚡ 471.00ms
+  - 🇬🇧 GB 001 | ⚡ 593.00ms
+  - 🇭🇰 HK 001 | ⚡ 659.00ms
+  - 🏳️ IR 001 | ⚡ 666.00ms
+  - 🇮🇩 ID 001 | ⚡ 1061.00ms
+  - 🇭🇰 HK 002 | ⚡ 3654.00ms
+  - 🇭🇰 HK 003 | ⚡ 4297.00ms
+  - 🇺🇸 US 001 | ⚡ 87.00ms
+  - 🇺🇸 US 002 | ⚡ 133.00ms
+  - 🇺🇸 US 003 | ⚡ 167.00ms
+  - 🇺🇸 US 004 | ⚡ 222.00ms
+  - 🇺🇸 US 005 | ⚡ 223.00ms
+  - 🇺🇸 US 006 | ⚡ 255.00ms
+  - 🇺🇸 US 007 | ⚡ 263.00ms
+  - 🇺🇸 US 008 | ⚡ 292.00ms
+  - 🇫🇷 FR 001 | ⚡ 333.00ms
+  - 🇰🇷 KR 001 | ⚡ 513.00ms
+  - 🇷🇺 RU 001 | ⚡ 531.00ms
+  - 🇫🇷 FR 002 | ⚡ 541.00ms
+  - 🇺🇸 US 009 | ⚡ 595.00ms
+  - 🇦🇪 AE 001 | ⚡ 947.00ms
+  - 🇿🇦 ZA 001 | ⚡ 1023.00ms
+  - 🇺🇸 US 010 | ⚡ 1034.00ms
+  - 🇸🇬 SG 001 | ⚡ 560.00ms
+  - 🇸🇬 SG 002 | ⚡ 577.00ms
+  - 🇩🇪 DE 001 | ⚡ 443.00ms
+  - 🇩🇪 DE 002 | ⚡ 462.00ms
+  - 🇩🇪 DE 003 | ⚡ 476.00ms
+  - 🇩🇪 DE 004 | ⚡ 481.00ms
+  - 🇩🇪 DE 005 | ⚡ 488.00ms
+  - 🇩🇪 DE 006 | ⚡ 560.00ms
+  - 🇳🇱 NL 001 | ⚡ 352.00ms
+  - 🇳🇱 NL 002 | ⚡ 409.00ms
+  - 🇵🇱 PL 001 | ⚡ 452.00ms
+  - 🇲🇾 MY 001 | ⚡ 1388.00ms
+  - 🇺🇸 US 001 | ⚡ 122.00ms
+  - 🇺🇸 US 002 | ⚡ 124.00ms
+  - 🇺🇸 US 003 | ⚡ 125.00ms
+  - 🇺🇸 US 004 | ⚡ 125.00ms
+  - 🇺🇸 US 005 | ⚡ 127.00ms
+  - 🇨🇦 CA 001 | ⚡ 206.00ms
+  - 🇨🇦 CA 002 | ⚡ 272.00ms
+  - 🇩🇪 DE 001 | ⚡ 398.00ms
+  - 🇩🇪 DE 002 | ⚡ 429.00ms
+  - 🇩🇪 DE 003 | ⚡ 456.00ms
+  - 🇦🇺 AU 001 | ⚡ 911.00ms
+  - 🇵🇱 PL 001 | ⚡ 64.00ms
+  - 🇨🇦 CA 001 | ⚡ 90.00ms
+  - 🇰🇷 KR 001 | ⚡ 673.00ms
+  - 🏳️ PK 001 | ⚡ 1504.00ms
+  - 🇨🇦 CA 001 | ⚡ 90.00ms
+  - 🇨🇦 CA 002 | ⚡ 90.00ms
+  - 🇨🇦 CA 003 | ⚡ 108.00ms
+  - 🇨🇦 CA 004 | ⚡ 115.00ms
+  - 🇨🇦 CA 005 | ⚡ 118.00ms
+  - 🇨🇦 CA 006 | ⚡ 129.00ms
+  - 🇨🇦 CA 007 | ⚡ 134.00ms
+  - 🇨🇦 CA 008 | ⚡ 137.00ms
+  - 🇺🇸 US 001 | ⚡ 118.00ms
+  - 🇺🇸 US 002 | ⚡ 192.00ms
+  - 🇺🇸 US 003 | ⚡ 236.00ms
+  - 🇺🇸 US 004 | ⚡ 364.00ms
+  - 🇹🇷 TR 001 | ⚡ 394.00ms
+  - 🇨🇳 TW 001 | ⚡ 500.00ms
+  - 🇸🇬 SG 001 | ⚡ 619.00ms
+  - 🇺🇸 US 005 | ⚡ 705.00ms
+  - 🇺🇸 US 006 | ⚡ 797.00ms
+  - 🇫🇷 FR 001 | ⚡ 388.00ms
+  - 🇫🇷 FR 002 | ⚡ 399.00ms
+  - 🇫🇷 FR 003 | ⚡ 413.00ms
+  - 🇫🇷 FR 004 | ⚡ 416.00ms
+  - 🇫🇮 FI 001 | ⚡ 443.00ms
+  - 🇪🇸 ES 001 | ⚡ 447.00ms
+  - 🇫🇮 FI 002 | ⚡ 451.00ms
+  - 🇫🇷 FR 005 | ⚡ 506.00ms
+  - 🇬🇧 GB 001 | ⚡ 866.00ms
+  - 🇨🇦 CA 001 | ⚡ 66.00ms
+  - 🇨🇦 CA 002 | ⚡ 67.00ms
+  - 🇨🇦 CA 003 | ⚡ 68.00ms
+  - 🇨🇦 CA 004 | ⚡ 69.00ms
+  - 🇨🇦 CA 005 | ⚡ 69.00ms
+  - 🇨🇦 CA 006 | ⚡ 88.00ms
+  - 🇨🇦 CA 007 | ⚡ 90.00ms
+  - 🇺🇸 US 001 | ⚡ 95.00ms
+  - 🇨🇦 CA 008 | ⚡ 111.00ms
+  - 🇨🇦 CA 009 | ⚡ 113.00ms
+  - 🇨🇦 CA 010 | ⚡ 207.00ms
+  - 🇨🇦 CA 011 | ⚡ 419.00ms
+  - 🇰🇷 KR 001 | ⚡ 461.00ms
+  - 🇮🇹 IT 001 | ⚡ 579.00ms
+  - 🇨🇦 CA 012 | ⚡ 735.00ms
+  - 🇨🇦 CA 013 | ⚡ 2350.00ms
+  - 🇨🇦 CA 014 | ⚡ 3004.00ms
+  - 🇨🇦 CA 015 | ⚡ 4036.00ms
 - name: 香港
   type: select
   proxies:
-  - DIRECT
+  - 🇭🇰 HK 001 | ⚡ 659.00ms
+  - 🇭🇰 HK 002 | ⚡ 3654.00ms
+  - 🇭🇰 HK 003 | ⚡ 4297.00ms
 - name: 日本
   type: select
   proxies:
-  - 🇯🇵 JP 001 | ⚡ 336.00ms
-  - 🇯🇵 JP 005 | ⚡ 422.00ms
-  - 🇯🇵 JP 006 | ⚡ 445.00ms
-  - 🇯🇵 JP 002 | ⚡ 348.00ms
-  - 🇯🇵 JP 003 | ⚡ 356.00ms
-  - 🇯🇵 JP 004 | ⚡ 421.00ms
-  - 🇯🇵 JP 001 | ⬇️ 4.35MB/s
+  - 🇯🇵 JP 001 | ⚡ 436.00ms
+  - 🇯🇵 JP 002 | ⚡ 444.00ms
+  - 🇯🇵 JP 003 | ⚡ 491.00ms
+  - 🇯🇵 JP 004 | ⚡ 533.00ms
+  - 🇯🇵 JP 001 | ⚡ 467.00ms
+  - 🇯🇵 JP 002 | ⚡ 471.00ms
+  - 🇯🇵 JP 003 | ⚡ 471.00ms
 - name: 美国
   type: select
   proxies:
-  - 🇺🇸 US 001 | ⬇️ 339.19MB/s
-  - 🇺🇸 US 002 | ⬇️ 232.06MB/s
-  - 🇺🇸 US 003 | ⬇️ 223.09MB/s
-  - 🇺🇸 US 004 | ⬇️ 191.92MB/s
-  - 🇺🇸 US 005 | ⬇️ 131.01MB/s
-  - 🇺🇸 US 006 | ⬇️ 89.51MB/s
-  - 🇺🇸 US 007 | ⬇️ 88.32MB/s
-  - 🇺🇸 US 008 | ⬇️ 88.20MB/s
-  - 🇺🇸 US 009 | ⬇️ 87.91MB/s
-  - 🇺🇸 US 010 | ⬇️ 87.08MB/s
-  - 🇺🇸 US 003 | ⚡ 198.00ms
-  - 🇺🇸 US 002 | ⚡ 108.00ms
-  - 美国 056
-  - 🇺🇸 US 002 | ⚡ 146.00ms
-  - 🇺🇸 US 005 | ⚡ 203.00ms
-  - 🇺🇸 US 006 | ⚡ 205.00ms
-  - 🇺🇸 US 008 | ⚡ 232.00ms
-  - 🇺🇸 US 009 | ⚡ 270.00ms
-  - 🇺🇸 US 003 | ⚡ 245.00ms
-  - 美国 101
-  - 🇺🇸 US 008 | ⚡ 414.00ms
-  - 美国 137
-  - 🇺🇸 US 010 | ⚡ 528.00ms
-  - 🇺🇸 US 006 | ⚡ 404.00ms
-  - 🇺🇸 US 009 | ⚡ 421.00ms
-  - 美国 134
-  - 🇺🇸 US 007 | ⚡ 409.00ms
-  - 🇺🇸 US 006 | ⚡ 291.00ms
-  - 🇺🇸 US 004 | ⚡ 208.00ms
-  - 🇺🇸 US 004 | ⚡ 275.00ms
-  - 🇺🇸 US 010 | ⚡ 273.00ms
-  - 🇺🇸 US 004 | ⚡ 180.00ms
-  - 🇺🇸 US 003 | ⚡ 162.00ms
+  - 🇺🇸 US 001 | ⚡ 106.00ms
+  - 🇺🇸 US 002 | ⚡ 390.00ms
+  - 🇺🇸 US 003 | ⚡ 399.00ms
+  - 🇺🇸 US 004 | ⚡ 400.00ms
+  - 🇺🇸 US 005 | ⚡ 410.00ms
+  - 🇺🇸 US 006 | ⚡ 424.00ms
+  - 🇺🇸 US 007 | ⚡ 425.00ms
+  - 🇺🇸 US 008 | ⚡ 430.00ms
+  - 美国 098
+  - 🇺🇸 US 009 | ⚡ 570.00ms
+  - 美国 048
   - 美国 123
-  - 🇺🇸 US 011 | ⬇️ 0.40MB/s
+  - 美国 101
+  - 美国 053
+  - 🇺🇸 US 001 | ⚡ 87.00ms
+  - 🇺🇸 US 002 | ⚡ 133.00ms
+  - 🇺🇸 US 003 | ⚡ 167.00ms
+  - 🇺🇸 US 004 | ⚡ 222.00ms
+  - 🇺🇸 US 005 | ⚡ 223.00ms
+  - 🇺🇸 US 006 | ⚡ 255.00ms
+  - 🇺🇸 US 007 | ⚡ 263.00ms
+  - 🇺🇸 US 008 | ⚡ 292.00ms
+  - 🇺🇸 US 009 | ⚡ 595.00ms
+  - 🇺🇸 US 010 | ⚡ 1034.00ms
+  - 🇺🇸 US 001 | ⚡ 122.00ms
+  - 🇺🇸 US 002 | ⚡ 124.00ms
+  - 🇺🇸 US 003 | ⚡ 125.00ms
+  - 🇺🇸 US 004 | ⚡ 125.00ms
+  - 🇺🇸 US 005 | ⚡ 127.00ms
+  - 🇺🇸 US 001 | ⚡ 118.00ms
+  - 🇺🇸 US 002 | ⚡ 192.00ms
+  - 🇺🇸 US 003 | ⚡ 236.00ms
+  - 🇺🇸 US 004 | ⚡ 364.00ms
+  - 🇺🇸 US 005 | ⚡ 705.00ms
+  - 🇺🇸 US 006 | ⚡ 797.00ms
+  - 🇺🇸 US 001 | ⚡ 95.00ms
 - name: 新加坡
   type: select
   proxies:
-  - 🇸🇬 SG 001 | ⚡ 494.00ms
-  - 🇸🇬 SG 002 | ⚡ 521.00ms
-  - 🇸🇬 SG 003 | ⚡ 570.00ms
+  - 🇸🇬 SG 001 | ⚡ 560.00ms
+  - 🇸🇬 SG 002 | ⚡ 577.00ms
+  - 🇸🇬 SG 001 | ⚡ 619.00ms
 - name: 台湾
   type: select
   proxies:
-  - 🇨🇳 TW 001 | ⬇️ 2.18MB/s
+  - 🇨🇳 TW 001 | ⚡ 500.00ms
 - name: 韩国
   type: select
   proxies:
-  - 🇰🇷 KR 001 | ⚡ 509.00ms
-  - 🇰🇷 KR 001 | ⚡ 510.00ms
-  - 🇰🇷 KR 001 | ⬇️ 4.02MB/s
+  - 🇰🇷 KR 001 | ⚡ 488.00ms
+  - 🇰🇷 KR 001 | ⚡ 513.00ms
+  - 🇰🇷 KR 001 | ⚡ 673.00ms
+  - 🇰🇷 KR 001 | ⚡ 461.00ms
 - name: 色情
   type: select
   proxies:
